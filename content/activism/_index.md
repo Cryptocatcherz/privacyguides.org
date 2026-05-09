@@ -6,6 +6,8 @@ hide:
   - toc
   - footer
 cover: activism/banner-activism.webp
+cascade:
+  type: docs
 ---
 The **Guides and Tools for Privacy Activists** project from [*Privacy Guides*](../about.md) offers a new way to empower the digital rights community.
 
