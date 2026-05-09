@@ -63,15 +63,19 @@ menu:
       name: About
       pageRef: /about
       parent: more
+    - identifier: glossary
+      name: Glossary
+      pageRef: /glossary
+      parent: more
     - name: Search
       weight: 7
       params:
         type: search
-    - name: GitHub
+    - name: Donate
       weight: 8
-      url: "https://github.com/privacyguides/privacyguides.org"
+      pageRef: donate
       params:
-        icon: github
+        icon: heart
 
 params:
   navbar:
@@ -97,19 +101,16 @@ params:
     enable: true
     base: "https://github.com/privacyguides/privacyguides.org/edit/main/content"
 
+  rss:
+    sections: 
+      - docs
+
 enableGitInfo: true
 
 outputs:
-  home:
-    - html
-    - llms
-  page:
-    - html
-    - markdown
-  section:
-    - html
-    - markdown
-    - rss
+  home: [HTML, RSS]
+  page: [HTML, markdown, RSS]
+  section: [HTML, RSS]
 
 defaultContentLanguage: en
 languages:

@@ -3,7 +3,7 @@ title: "Why Privacy Matters"
 weight: 10
 description: In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not.
 ---
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. <mark>Your privacy is up for grabs</mark>, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
 
 Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
 
@@ -11,12 +11,10 @@ Privacy is ultimately about human information, and this is important because we 
 
 Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security){ .md-button }
-
 <!-- markdownlint-disable-next-line -->
 **Privacy**
 
-:   ==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+:   <mark>Privacy is the assurance that your data is only seen by the parties you intend to view it.</mark> In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
 
 <!-- markdownlint-disable-next-line -->
 **Security**
