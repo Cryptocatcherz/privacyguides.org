@@ -98,3 +98,21 @@ params:
     base: "https://github.com/privacyguides/privacyguides.org/edit/main/content"
 
 enableGitInfo: true
+
+outputs:
+  home:
+    - html
+    - llms
+  page:
+    - html
+    - markdown
+  section:
+    - html
+    - markdown
+    - rss
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1

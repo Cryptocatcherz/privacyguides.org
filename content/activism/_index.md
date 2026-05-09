@@ -6,6 +6,7 @@ hide:
   - toc
   - footer
 cover: activism/banner-activism.webp
+breadcrumbs: false
 cascade:
   type: docs
 ---
