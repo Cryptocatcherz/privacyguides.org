@@ -3,7 +3,7 @@ title: Self-Hosting
 meta_title: "Self-Hosting Software and Services - Privacy Guides"
 description: For our more technical readers, self-hosting software and services can provide additional privacy assurances since you have maximum control over your data.
 cover: router.webp
-weight: 3
+weight: 40
 ---
 <small>Protects against the following threat(s):</small>
 

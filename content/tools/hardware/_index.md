@@ -1,4 +1,4 @@
 ---
 title: Hardware
-weight: 4
+weight: 50
 ---
