@@ -34,12 +34,9 @@ menu:
     - name: Activism
       pageRef: /activism
       weight: 3
-    - name: Forum  ↗
-      url: "https://discuss.privacyguides.net"
-      weight: 4
     - identifier: updates
       name: Updates
-      weight: 5
+      weight: 4
     - identifier: articles
       name: Articles
       pageRef: /posts/tag/articles/
@@ -52,6 +49,9 @@ menu:
       name: News
       pageRef: /news/
       parent: updates
+    - name: Forum  ↗
+      url: "https://discuss.privacyguides.net"
+      weight: 5
     - identifier: more
       name: More
       weight: 6
@@ -75,13 +75,26 @@ menu:
 
 params:
   navbar:
-    displayTitle: true
-    displayLogo: false
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: "brand/logos/svg/logo/privacy-guides-logo.svg"
+      dark: "brand/logos/svg/logo/privacy-guides-logo-dark.svg"
+      link: "/"
+      width: 185
+      height: 24
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+  # Display the author of the last modification
+  displayUpdatedAuthor: true
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
 
   editURL:
     enable: true
     base: "https://github.com/privacyguides/privacyguides.org/edit/main/content"
+
+enableGitInfo: true

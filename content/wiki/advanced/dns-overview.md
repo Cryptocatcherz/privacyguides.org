@@ -1,6 +1,6 @@
 ---
 title: "DNS Overview"
-icon: material/dns
+weight: 10
 description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
 ---
 

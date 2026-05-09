@@ -1,6 +1,6 @@
 ---
 title: Introduction to Passwords
-icon: material/form-textbox-password
+weight: 70
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 

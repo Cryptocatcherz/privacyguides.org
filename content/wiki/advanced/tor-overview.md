@@ -1,6 +1,6 @@
 ---
 title: "Tor Overview"
-icon: 'simple/torproject'
+weight: 20
 description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
 ---
 

@@ -1,7 +1,7 @@
 ---
 meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
 title: "Account Creation"
-icon: 'material/account-plus'
+weight: 50
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 

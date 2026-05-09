@@ -40,9 +40,7 @@ If you're looking for a specific solution to something, these are the hardware a
 
 #### DNS Providers
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
-
-[Learn more :material-arrow-right-drop-circle:](dns.md)
+We [**recommend**](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
 #### Encrypted DNS Proxies
 
@@ -285,19 +283,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
   {{< card link="../software/pastebins/#paaster" title="Paaster" image="../software/pastebins/paaster.svg" subtitle="Paaster is a self-hosted, open-source pastebin service that allows you to share text and code snippets securely with end-to-end encryption." >}}
 {{< /cards >}}
 
-### Real-Time Communication
-
-{{< cards >}}
-  {{< card link="../software/real-time-communication/#signal" title="Signal" image="../software/real-time-communication/signal.svg" subtitle="Signal is a cross-platform, end-to-end encrypted messaging app that offers secure text messaging, voice calls, and video calls." >}}
-  {{< card link="../software/real-time-communication/#briar" title="Briar" image="../software/real-time-communication/briar.svg" subtitle="Briar is an open-source, peer-to-peer messaging app for Android that uses the Tor network for secure communication." >}}
-  {{< card link="../software/real-time-communication/#simplex-chat" title="SimpleX Chat" image="../software/real-time-communication/simplex.svg" subtitle="SimpleX Chat is a cross-platform, end-to-end encrypted messaging app that offers secure text messaging and file sharing." >}}
-{{< /cards >}}
-
 ### Social Networks
 
 {{< cards >}}
-  {{< card link="../services/social-networks/#mastodon" title="Mastodon" image="../services/social-networks/mastodon.svg" subtitle="Mastodon is a decentralized, open-source social network that allows users to create and join communities called instances." >}}
-  {{< card link="../services/social-networks/#element" title="Element" image="../services/social-networks/element.svg" subtitle="Element is a cross-platform, open-source messaging app that serves as a client for the Matrix protocol, which can be used for real-time communication and social networking." >}}
+  {{< card link="../software/social-networks/#mastodon" title="Mastodon" image="../software/social-networks/mastodon.svg" subtitle="Mastodon is a decentralized, open-source social network that allows users to create and join communities called instances." >}}
+  {{< card link="../software/social-networks/#element" title="Element" image="../software/social-networks/element.svg" subtitle="Element is a cross-platform, open-source messaging app that serves as a client for the Matrix protocol, which can be used for real-time communication and social networking." >}}
 {{< /cards >}}
 
 ## Hardware

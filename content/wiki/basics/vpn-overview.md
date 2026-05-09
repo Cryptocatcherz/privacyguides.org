@@ -1,7 +1,7 @@
 ---
 meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
 title: VPN Overview
-icon: material/vpn
+weight: 110
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 

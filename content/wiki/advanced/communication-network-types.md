@@ -1,6 +1,6 @@
 ---
 title: "Types of Communication Networks"
-icon: 'material/transit-connection-variant'
+weight: 40
 description: An overview of several network architectures commonly used by instant messaging applications.
 ---
 
