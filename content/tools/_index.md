@@ -715,7 +715,7 @@ These tools may provide utility for certain individuals. They provide functional
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](alternative-networks.md)
+[Learn more :material-arrow-right-drop-circle:](advanced/alternative-networks/_index.md)
 
 ### Device Integrity Verification
 
