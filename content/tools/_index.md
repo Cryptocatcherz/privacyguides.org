@@ -31,7 +31,7 @@ For more details about each project, why they were chosen, and additional tips o
   {{< card link="services/email/" title="Email Providers" icon="inbox" >}}
   {{< card link="services/financial-services/" title="Financial Services" icon="currency-dollar" >}}
   {{< card link="services/messengers/" title="Instant Messengers" icon="chat" >}}
-  {{< card link="services/photo-management/" title="Photo Organization Tools" icon="photograph" >}}
+  {{< card link="services/photo-backups/" title="Photo Backups" icon="photograph" >}}
   {{< card link="services/search-engines/" title="Search Engines" icon="search" >}}
   {{< card link="services/vpn/" title="VPN Providers" icon="globe" >}}
 {{< /cards >}}

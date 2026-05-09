@@ -10,6 +10,8 @@ weight: 10
 }
 </style>
 
+If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our **recommended privacy tools** are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
+
 ## Service Providers
 
 ### Calendar Sync
@@ -31,7 +33,7 @@ weight: 10
 
 {{< cards >}}
   {{< card link="../services/data-broker-removals/#easyoptouts" title="EasyOptOuts" image="../services/data-broker-removals/easyoptouts.svg" subtitle="EasyOptOuts is a paid data removal service that removes your information from data brokers and people search sites." >}}
-  {{< card link="../services/data-broker-removals/#google-results-about-you" title="Google *Results about you*" image="../services/data-broker-removals/google.svg" subtitle="Google's *Results about you* is a free data removal service that allows you to request the removal of certain personal information from Google Search results." >}}
+  {{< card link="../services/data-broker-removals/#google-results-about-you" title="Results about you" image="../services/data-broker-removals/google.svg" subtitle="Google's *Results about you* is a free data removal service that allows you to request the removal of certain personal information from Google Search results." >}}
 {{< /cards >}}
 
 ### DNS
@@ -49,6 +51,21 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
   {{< card link="../services/dns/#dnscrypt-proxy" title="DNSCrypt-Proxy" image="../services/dns/dnscrypt-proxy.svg" subtitle="DNSCrypt-Proxy is a cross-platform encrypted DNS proxy that supports DNS-over-HTTPS, DNS-over-TLS, and DNSCrypt." >}}
 {{< /cards >}}
 
+### Email Aliasing Services
+
+{{< cards >}}
+  {{< card link="../services/email-aliasing/#addy" title="Addy" image="../services/email-aliasing/addy.svg" subtitle="Addy is a privacy-focused email aliasing service that allows you to create and manage email aliases to protect your real email address." >}}
+  {{< card link="../services/email-aliasing/#simplelogin" title="SimpleLogin" image="../services/email-aliasing/simplelogin.svg" subtitle="SimpleLogin is a privacy-focused email aliasing service that allows you to create and manage email aliases to protect your real email address." >}}
+{{< /cards >}}
+
+### Email Providers
+
+{{< cards >}}
+  {{< card link="../services/email/#proton-mail" title="Proton Mail" image="../services/email/protonmail.svg" subtitle="Proton Mail is a privacy-focused email provider developed by the makers of Proton VPN." >}}
+  {{< card link="../services/email/#mailbox-mail" title="Mailbox" image="../services/email/mailbox-mail.svg" subtitle="Mailbox is a privacy-focused email provider that offers end-to-end encryption and a suite of collaboration tools." >}}
+  {{< card link="../services/email/#tutanota" title="Tuta" image="../services/email/tuta.svg" subtitle="Tutanota is a privacy-focused email provider that offers end-to-end encryption and a user-friendly interface." >}}
+{{< /cards >}}
+
 ### Financial Services
 
 #### Payment Masking Services
@@ -62,6 +79,20 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 {{< cards >}}
   {{< card link="../services/financial-services/#coincards" title="Coincards" image="../services/financial-services/coincards.svg" subtitle="Coincards is a Canadian online gift card marketplace that allows you to buy and sell gift cards for various retailers." >}}
+{{< /cards >}}
+
+### Instant Messengers
+
+{{< cards >}}
+  {{< card link="../services/messengers/#signal" title="Signal" image="../services/messengers/signal.svg" subtitle="Signal is a cross-platform, open-source instant messenger that offers end-to-end encryption for secure communication." >}}
+  {{< card link="../services/messengers/#simplex-chat" title="SimpleX Chat" image="../services/messengers/simplex.svg" subtitle="SimpleX Chat is a cross-platform, open-source instant messenger that offers end-to-end encryption for secure communication." >}}
+  {{< card link="../services/messengers/#briar" title="Briar" image="../services/messengers/briar.svg" subtitle="Briar is a cross-platform, open-source instant messenger that offers end-to-end encryption for secure communication." >}}
+{{< /cards >}}
+
+### Photo Backups
+
+{{< cards >}}
+  {{< card link="../services/photo-backups/#ente-photos" title="Ente Photos" image="../services/photo-backups/ente.svg" subtitle="Ente Photos is a self-hosted, open-source photo management service that allows you to store, organize, and share your photos securely." >}}
 {{< /cards >}}
 
 ### Password Managers
@@ -89,6 +120,14 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
   {{< card link="../services/search-engines/#duckduckgo" title="DuckDuckGo" image="../services/search-engines/duckduckgo.svg" subtitle="DuckDuckGo is a privacy-focused search engine that does not track its users." >}}
   {{< card link="../services/search-engines/#searxng" title="SearXNG" image="../services/search-engines/searxng.svg" subtitle="SearXNG is a free and open-source metasearch engine that aggregates results from various search engines while respecting user privacy." >}}
   {{< card link="../services/search-engines/#startpage" title="Startpage" image="../services/search-engines/startpage.svg#only-light" image-dark="../services/search-engines/startpage-dark.svg#only-dark" subtitle="Startpage is a privacy-focused search engine that serves Google search results without tracking its users." >}}
+{{< /cards >}}
+
+### VPN Providers
+
+{{< cards >}}
+  {{< card link="../services/vpn/#mullvad" title="Mullvad" image="../services/vpn/mullvad.svg" subtitle="Mullvad is a Swedish VPN provider that offers strong privacy features and a strict no-logs policy." >}}
+  {{< card link="../services/vpn/#proton-vpn" title="Proton VPN" image="../services/vpn/protonvpn.svg" subtitle="Proton VPN is a Swiss VPN provider developed by the makers of Proton Mail." >}}
+  {{< card link="../services/vpn/#ivpn" title="IVPN" image="../services/vpn/ivpn-mini.svg" subtitle="IVPN is a British VPN provider that offers strong privacy features and a strict no-logs policy." >}}
 {{< /cards >}}
 
 ## Software
