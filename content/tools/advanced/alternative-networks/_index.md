@@ -18,7 +18,7 @@ When it comes to anonymizing networks, we want to specially note that [Tor](adva
 
 <div class="admonition recommendation" markdown>
 
-![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](tor.svg){ align=right }
 
 The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
