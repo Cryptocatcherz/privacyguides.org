@@ -9,6 +9,9 @@ module:
 markup:
   # allow raw html
   goldmark:
+    renderHooks:
+      link:
+        useEmbedded: auto
     renderer:
       unsafe: true
     parser:

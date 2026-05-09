@@ -2,9 +2,9 @@
 meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
 title: "Privacy Tools"
 icon: material/tools
-hide:
-  - toc
 description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
+cascade:
+  type: docs
 ---
 
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
@@ -27,7 +27,7 @@ If you're looking for a specific solution to something, these are the hardware a
 
 <div class="admonition info" markdown>
 
-[Self-hosting recommendations](self-hosting/index.md) have been moved to their own category.
+[Self-hosting recommendations](self-hosting/_index.md) have been moved to their own category.
 
 </div>
 
