@@ -11,215 +11,66 @@ weight: 40
 
 Self-hosting your own solutions requires advanced technical knowledge and a deep understanding of the associated risks. By becoming the host for yourself and possibly others, you take on responsibilities you might not otherwise have. Self-hosting privacy software improperly can leave you worse off than using e.g. an end-to-end encrypted service provider, so it is best avoided if you are not already comfortable doing so.
 
-## :material-dns: DNS Filtering
+## DNS Filtering
 
-<div class="grid cards" markdown>
-
-- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
-- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](dns-filtering.md)
-
-## :material-email: Email Servers
-
-<div class="grid cards" markdown>
-
-- ![Stalwart logo](../assets/img/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
-- ![Mailcow logo](../assets/img/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
-- ![Mail-in-a-Box logo](../assets/img/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](email-servers.md)
-
-## :material-file-multiple-outline: File Management
-
-<div class="grid cards" markdown>
-
-- ![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
-- ![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
-- ![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](file-management.md)
-
-## :material-form-textbox-password: Password Management
-
-### Vaultwarden
-
-**Vaultwarden** is an alternative implementation of [Bitwarden](../services/passwords/_index.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, [official service](https://github.com/bitwarden/server) might not be ideal.
-
+<div class="pg-card-logos">
 {{< cards >}}
-  {{< card link="https://github.com/dani-garcia/vaultwarden#readme" title="Repository" icon="code" >}}
-  {{< card link="https://github.com/dani-garcia/vaultwarden/wiki" title="Documentation" icon="document-text" >}}
+  {{< card link="dns-filtering/_index.md#adguard-home" title="AdGuard Home" image="dns-filtering/adguard-home.svg" subtitle="AdGuard Home is an open-source DNS sinkhole which features a polished web interface to view insights and manage blocked content." >}}
+  {{< card link="dns-filtering/_index.md#pi-hole" title="Pi-hole" image="dns-filtering/pi-hole.svg" subtitle="Pi-hole is an open-source DNS sinkhole which features a friendly web interface to view insights and manage blocked content. Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware." >}}
 {{< /cards >}}
-
-## :material-account-supervisor-circle-outline: Social Networks
-
-Self-hosting your own instance of a social network software can help circumvent potential [censorship on a server level](../social-networks.md#censorship-resistance) by a public server's administrator or admin team.
-
-### Mastodon
-
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
-
-{{< cards >}}
-  {{< card link="https://joinmastodon.org" title="Homepage" icon="home" >}}
-  {{< card link="https://docs.joinmastodon.org/admin/prerequisites" title="Admin documentation" icon="document-text" >}}
-{{< /cards >}}
-
-Mastodon [integrates with the Tor network](https://docs.joinmastodon.org/admin/optional/tor) for more extreme scenarios where even your underlying hosting provider is subject to censorship, but this may limit who can access your content to only other servers which integrate with Tor (like most other hidden services).
-
-Mastodon benefits greatly from a large and active self-hosting community, and its administration is comprehensively documented. While many other ActivityPub platforms can require extensive technical knowledge to run and troubleshoot, Mastodon has very stable and tested releases, and it can generally be run securely without issue by anyone who can use the Linux command line and follow step-by-step instructions.
-
-### Element
-
-**Element** is the flagship client for the **:simple-matrix: Matrix** protocol, an open standard that enables decentralized communication by way of federated chat rooms.
-
-{{< cards >}}
-  {{< card link="https://element.io" title="Homepage" icon="home" >}}
-  {{< card link="https://element-hq.github.io/synapse/latest" title="Admin documentation" icon="document-text" >}}
-{{< /cards >}}
-
-## :material-flip-to-front: Frontends
-
-Self-hosting your own instance of a web-based frontend can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
-
-<div class="grid cards" markdown>
-
-- ![Redlib logo](../assets/img/frontends/redlib.svg){ .lg .middle .twemoji } [**Redlib (Reddit)**](../frontends.md#redlib)
-
-    ---
-
-    [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
-
-- ![ProxiTok logo](../assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } [**ProxiTok (TikTok)**](../frontends.md#proxitok)
-
-    ---
-
-    [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
-
-- ![Invidious logo](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
-
-    ---
-
-    [:octicons-home-16:](https://invidious.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
-
-- ![Piped logo](../assets/img/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
-
-    ---
-
-    [:octicons-info-16:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
-
 </div>
 
-## More Tools...
+## Email Servers
 
-Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this if you are confident in your ability to host the software after reading their documentation.
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="email-servers/_index.md#stalwart" title="Stalwart" image="email-servers/stalwart.svg" subtitle="Stalwart is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security and features, making it easy to use immediately." >}}
+  {{< card link="email-servers/_index.md#mailcow" title="Mailcow" image="email-servers/mailcow.svg" subtitle="Mailcow is an advanced mail server perfect for those with Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support." >}}
+  {{< card link="email-servers/_index.md#mail-in-a-box" title="Mail-in-a-Box" image="email-servers/mail-in-a-box.svg" subtitle="Mail-in-a-Box is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server." >}}
+{{< /cards >}}
+</div>
 
-<div class="grid cards" markdown>
+## File Management
 
-- ![Peergos logo](../assets/img/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="file-management/_index.md#photoprism" title="PhotoPrism" image="file-management/photoprism.svg" subtitle="PhotoPrism is a platform for managing photos. It supports album syncing and sharing as well as a variety of other features. It does not include end-to-end encryption, so it’s best hosted on a server that you trust and is under your control." >}}
+  {{< card link="file-management/_index.md#freedombox" title="FreedomBox" image="file-management/freedombox.svg" subtitle="FreedomBox is an operating system designed to be run on a single-board computer (SBC). The purpose is to make it easy to set up server applications for use cases like sharing files." >}}
+  {{< card link="file-management/_index.md#nextcloud" title="Nextcloud" image="file-management/nextcloud.svg" subtitle="Nextcloud is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control." >}}
+{{< /cards >}}
+</div>
 
-    ---
+## Password Sync
 
-    [:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="passwords/_index.md#vaultwarden" title="Vaultwarden" image="passwords/vaultwarden.svg" subtitle="Vaultwarden is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, official service might not be ideal." >}}
+{{< /cards >}}
+</div>
 
-- ![Addy.io logo](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
+## More Tools
 
-    ---
+These recommendations live in other tools categories (software and services) but also support self-hosting when you are comfortable operating them yourself.
 
-    [:octicons-home-16:](https://addy.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-
-- ![SimpleLogin logo](../assets/img/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
-
-    ---
-
-    [:octicons-home-16:](https://addy.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-- ![Ente logo](../assets/img/photo-backups/ente.svg){ .twemoji } [**Ente Photos**](../photo-backups/_index.md#ente-photos)
-
-    ---
-
-    [:octicons-home-16:](https://ente.com){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://ente.com/help/self-hosting/){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
-
-- ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
-
-    ---
-
-    [:octicons-home-16:](https://cryptpad.fr){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-
-- ![Send logo](../assets/img/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
-
-    ---
-
-    [:octicons-home-16:](https://send.vis.ee){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-
-- ![LibreTranslate logo](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
-
-    ---
-
-    [:octicons-home-16:](https://libretranslate.com){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
-
-- ![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
-
-    ---
-
-    [:octicons-home-16:](https://miniflux.app){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
-
-- ![Standard Notes logo](../assets/img/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
-
-    ---
-
-    [:octicons-home-16:](https://standardnotes.com){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
-
-- ![PrivateBin logo](../assets/img/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
-
-    ---
-
-    [:octicons-home-16:](https://privatebin.info){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
-- ![Paaster logo](../assets/img/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
-
-    ---
-
-    [:octicons-home-16:](https://paaster.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
-
-- ![SimpleX Chat logo](../assets/img/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
-
-    ---
-
-    [:octicons-home-16:](https://simplex.chat){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
-
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="../services/cloud/_index.md#peergos" title="Peergos" image="../services/cloud/peergos.svg" subtitle="Peergos is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc." >}}
+  {{< card link="../services/email-aliasing/_index.md#addyio" title="Addy.io" image="../services/email-aliasing/addy.svg" subtitle="Addy.io lets you create 10 domain aliases on a shared domain for free, or unlimited standard aliases. The number of shared aliases (which end in a shared domain like @addy.io) that you can create depends on the plan you are subscribed to." >}}
+  {{< card link="../services/email-aliasing/_index.md#simplelogin" title="SimpleLogin" image="../services/email-aliasing/simplelogin.svg" subtitle="SimpleLogin is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains." >}}
+  {{< card link="../services/messengers/_index.md#simplex-chat" title="SimpleX Chat" image="../services/messengers/simplex.svg" subtitle="SimpleX Chat is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against censorship." >}}
+  {{< card link="../services/photo-backups/_index.md#ente-photos" title="Ente Photos" image="../services/photo-backups/ente.svg" subtitle="Ente Photos is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open source, both on the client side and on the server side." >}}
+  {{< card link="../software/document-collaboration/_index.md#cryptpad" title="CryptPad" image="../software/document-collaboration/cryptpad.svg" subtitle="CryptPad is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily." >}}
+  {{< card link="../software/file-sharing/_index.md#send" title="Send" image="../software/file-sharing/send.svg" subtitle="Send is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well." >}}
+  {{< card link="../software/frontends/_index.md#invidious" title="Invidious" image="../software/frontends/invidious.svg" subtitle="Invidious is a free and open-source frontend for YouTube that is also self-hostable." >}}
+  {{< card link="../software/frontends/_index.md#piped" title="Piped" image="../software/frontends/piped.svg" subtitle="Piped is a free and open-source frontend for YouTube that is also self-hostable." >}}
+  {{< card link="../software/frontends/_index.md#proxitok" title="ProxiTok" image="../software/frontends/proxitok.svg" subtitle="ProxiTok is an open-source frontend to the TikTok website that is also self-hostable." >}}
+  {{< card link="../software/frontends/_index.md#redlib" title="Redlib" image="../software/frontends/redlib.svg" subtitle="Redlib is an open-source frontend to the Reddit website that is also self-hostable. You can access Redlib through a number of public instances." >}}
+  {{< card link="../software/language-tools/_index.md#libretranslate" title="LibreTranslate" image="../software/language-tools/libretranslate.png" subtitle="LibreTranslate is a free and open-source machine translation web interface and API server. It uses Argos Translate models on the backend for translations." >}}
+  {{< card link="../software/news-aggregators/_index.md#miniflux" title="Miniflux" image="../software/news-aggregators/miniflux.svg" subtitle="Miniflux is a web-based news aggregator that you can self-host." >}}
+  {{< card link="../software/notebooks/_index.md#standard-notes" title="Standard Notes" image="../software/notebooks/standard-notes.svg" subtitle="Standard Notes is a simple and private notes app that features cross-platform sync for seamless use. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors." >}}
+  {{< card link="../software/pastebins/_index.md#paaster" title="Paaster" image="../software/pastebins/paaster.svg" subtitle="Paaster is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible." >}}
+  {{< card link="../software/pastebins/_index.md#privatebin" title="PrivateBin" image="../software/pastebins/privatebin.svg" subtitle="PrivateBin is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. Data is encrypted/decrypted in the browser using 256-bit AES." >}}
+  {{< card link="../software/social-networks/_index.md#element" title="Element" image="../software/social-networks/element.svg" subtitle="Element is the flagship client for the Matrix protocol, an open standard that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other." >}}
+  {{< card link="../software/social-networks/_index.md#mastodon" title="Mastodon" image="../software/social-networks/mastodon.svg" subtitle="Mastodon is a social network based on open web protocols and free, open-source software. It uses the ActivityPub protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other." >}}
+{{< /cards >}}
 </div>
