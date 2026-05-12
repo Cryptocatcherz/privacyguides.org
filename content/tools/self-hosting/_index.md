@@ -1,7 +1,7 @@
 ---
 title: Self-Hosting
 description: For our more technical readers, self-hosting software and services can provide additional privacy assurances since you have maximum control over your data.
-weight: 40
+weight: 60
 ---
 <small>Protects against the following threat(s):</small>
 

@@ -25,7 +25,7 @@ markup:
 
 menu:
   main:
-    - name: Recommendations
+    - name: Tools
       pageRef: /tools
       weight: 1
     - name: Wiki

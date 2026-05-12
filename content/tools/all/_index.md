@@ -414,8 +414,8 @@ We [**recommend**](services/dns/#recommended-providers) a number of encrypted DN
 ### DNS Filtering
 
 {{< cards >}}
-  {{< card link="../self-hosting/dns-filtering/#pi-hole" title="Pi-hole" image="../self-hosting/dns-filtering/pi-hole.svg" subtitle="Pi-hole is an open-source DNS sinkhole which features a friendly web interface to view insights and manage blocked content. Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware." >}}
   {{< card link="../self-hosting/dns-filtering/#adguard-home" title="AdGuard Home" image="../self-hosting/dns-filtering/adguard-home.svg" subtitle="AdGuard Home is an open-source DNS sinkhole which features a polished web interface to view insights and manage blocked content." >}}
+  {{< card link="../self-hosting/dns-filtering/#pi-hole" title="Pi-hole" image="../self-hosting/dns-filtering/pi-hole.svg" subtitle="Pi-hole is an open-source DNS sinkhole which features a friendly web interface to view insights and manage blocked content. Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware." >}}
 {{< /cards >}}
 
 ### Email Servers
@@ -432,4 +432,10 @@ We [**recommend**](services/dns/#recommended-providers) a number of encrypted DN
   {{< card link="../self-hosting/file-management/#photoprism" title="PhotoPrism" image="../self-hosting/file-management/photoprism.svg" subtitle="PhotoPrism is a platform for managing photos. It supports album syncing and sharing as well as a variety of other features. It does not include end-to-end encryption, so it’s best hosted on a server that you trust and is under your control." >}}
   {{< card link="../self-hosting/file-management/#freedombox" title="FreedomBox" image="../self-hosting/file-management/freedombox.svg" subtitle="FreedomBox is an operating system designed to be run on a single-board computer (SBC). The purpose is to make it easy to set up server applications for use cases like sharing files." >}}
   {{< card link="../self-hosting/file-management/#nextcloud" title="Nextcloud" image="../self-hosting/file-management/nextcloud.svg" subtitle="Nextcloud is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control." >}}
+{{< /cards >}}
+
+### Password Sync
+
+{{< cards >}}
+  {{< card link="../self-hosting/passwords/#vaultwarden" title="Vaultwarden" image="../self-hosting/passwords/vaultwarden.svg" subtitle="Vaultwarden is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, official service might not be ideal." >}}
 {{< /cards >}}
