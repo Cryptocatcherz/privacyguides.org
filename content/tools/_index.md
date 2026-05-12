@@ -10,6 +10,11 @@ cascade:
 ---
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
 
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net)!
+
+For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page. **Want a list of every tool we recommend? Check out our [all tools](./all.md) cheatsheet!**
+
+<div class="pg-unstyled-cards">
 {{< cards >}}
   {{< card title="Ad-Free Recommendations" icon="badge-check" >}}
   {{< card title="Frequent Updates" icon="badge-check" >}}
@@ -18,10 +23,7 @@ If you're looking for a specific solution to something, these are the hardware a
   {{< card title="Open-Source Contributions" icon="badge-check" >}}
   {{< card title="Trusted by Journalists" icon="badge-check" >}}
 {{< /cards >}}
-
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net)!
-
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page. **Want a list of every tool we recommend? Check out our [all tools](./all.md) cheatsheet!**
+</div>
 
 ## Service Providers
 

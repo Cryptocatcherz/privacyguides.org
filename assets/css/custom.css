@@ -200,6 +200,15 @@ a.footnote-ref {
 }
 
 .pg-card-logos img {
-width: 100px;
-padding: 16px;
+  width: 100px;
+  padding: 16px;
+}
+
+.pg-unstyled-cards .hextra-card {
+  border: none;
+  box-shadow: none;
+}
+
+.pg-unstyled-cards .hextra-card:hover {
+  background-color: inherit;
 }
