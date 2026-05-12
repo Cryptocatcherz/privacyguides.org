@@ -1,5 +1,5 @@
 ---
-title: All Tools
+title: All Privacy Tools
 weight: 10
 ---
 

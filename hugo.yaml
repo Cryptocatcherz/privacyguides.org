@@ -11,7 +11,7 @@ markup:
   goldmark:
     renderHooks:
       link:
-        useEmbedded: auto
+        useEmbedded: always
     renderer:
       unsafe: true
     parser:
@@ -91,7 +91,7 @@ params:
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
   # Display the author of the last modification
-  displayUpdatedAuthor: true
+  displayUpdatedAuthor: false
 
   footer:
     displayCopyright: false

@@ -87,6 +87,15 @@ layout: pg-home
     style="background: radial-gradient(ellipse at 50% 80%,rgba(183, 59, 221, 0.15),hsla(0,0%,100%,0));"
     link="news"
   >}}
+{{< /hextra/feature-grid >}}
+
+<div class="hx:mt-12"></div>
+
+{{< hextra/hero-section style="text-align: center; width: 100%; margin-bottom: 1em;" >}}
+  More Resources:
+{{< /hextra/hero-section >}}
+
+{{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="Newsletter"
     subtitle="Subscribe to our newsletter and never miss an update on the latest in the consumer digital privacy world."

@@ -1,5 +1,5 @@
 ---
-title: "Privacy Tools"
+title: "Recommended Privacy Tools"
 description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 toc: false
 breadcrumbs: false
@@ -11,17 +11,18 @@ cascade:
 
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+{{< cards >}}
+  {{< card title="Ad-Free Recommendations" icon="badge-check" >}}
+  {{< card title="Frequent Updates" icon="badge-check" >}}
+  {{< card title="Trusted by Readers" icon="badge-check" >}}
+  {{< card title="Complete Editorial Independence" icon="badge-check" >}}
+  {{< card title="Open-Source Contributions" icon="badge-check" >}}
+  {{< card title="Trusted by Journalists" icon="badge-check" >}}
+{{< /cards >}}
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net)!
 
-- [x] **Ad-Free Recommendations**
-- [x] **Frequent Updates**
-- [x] **Trusted by Readers**
-
-- [x] **Complete Editorial Independence**
-- [x] **Open-Source Contributions**
-- [x] **Trusted by Journalists**
+For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page. **Want a list of every tool we recommend? Check out our [all tools](./all.md) cheatsheet!**
 
 ## Service Providers
 
@@ -78,9 +79,10 @@ For more details about each project, why they were chosen, and additional tips o
 
 ## Advanced Tools
 
+> [!TIP]
+> These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+
 {{< cards >}}
   {{< card link="advanced/alternative-networks/" title="Alternative Networks" icon="link" >}}
   {{< card link="advanced/device-integrity/" title="Device Integrity Verification" icon="shield-check" >}}
 {{< /cards >}}
-
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
