@@ -34,19 +34,13 @@ When you are using an instance run by someone else, make sure to read the privac
   {{< card link="https://github.com/redlib-org/redlib-instances/blob/main/instances.md" title="Public Instances" icon="server" >}}
 {{< /cards >}}
 
-<div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+> [!NOTE]
+> The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](../tor/_index.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
 
-The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](../tor/_index.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
 
-</div>
+> [!TIP]
+> Redlib is useful if you want to disable JavaScript in your browser, such as [Tor Browser](../tor/_index.md#tor-browser) on the Safest security level.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
-
-Redlib is useful if you want to disable JavaScript in your browser, such as [Tor Browser](../tor/_index.md#tor-browser) on the Safest security level.
-
-</div>
 
 ## TikTok
 
@@ -61,12 +55,9 @@ There are a number of public instances, with some that offer a [Tor](../tor/_ind
   {{< card link="https://github.com/pablouser1/ProxiTok/wiki/Public-instances" title="Public Instances" icon="server" >}}
 {{< /cards >}}
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+> [!TIP]
+> ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](../tor/_index.md#tor-browser) on the Safest security level.
 
-ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](../tor/_index.md#tor-browser) on the Safest security level.
-
-</div>
 
 ## YouTube
 
@@ -83,19 +74,13 @@ There are a number of public instances, with some that offer a [Tor](../tor/_ind
   {{< card link="https://docs.invidious.io/instances" title="Public Instances" icon="server" >}}
 {{< /cards >}}
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
 
-Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
 
-</div>
+> [!TIP]
+> Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](../tor/_index.md#tor-browser) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
-
-Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](../tor/_index.md#tor-browser) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
-
-</div>
 
 ### Piped
 
@@ -108,12 +93,9 @@ Piped requires JavaScript in order to function and there are a number of public 
   {{< card link="https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md" title="Public Instances" icon="server" >}}
 {{< /cards >}}
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+> [!TIP]
+> Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
-Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
-
-</div>
 
 ### FreeTube
 
@@ -131,12 +113,9 @@ When using FreeTube, your subscription list, playlists, watch history and search
 [{{< badge content="Windows" color="red" >}}](https://freetubeapp.io/#download)
 [{{< badge content="Flathub" >}}](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address.
 
-When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address.
-
-</div>
 
 By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
@@ -153,12 +132,9 @@ Your subscription list and playlists are saved locally on your Android device.
 
 [{{< badge content="GitHub" >}}](https://github.com/libre-tube/LibreTube/releases)
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> When using LibreTube, your IP address will be visible to YouTube, [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address.
 
-When using LibreTube, your IP address will be visible to YouTube, [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address.
-
-</div>
 
 By default, LibreTube blocks all YouTube advertisements. Additionally, LibreTube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely. There is also a button on the video player itself to disable it for a specific video if desired.
 
@@ -177,12 +153,9 @@ Your subscription list and playlists are saved locally on your Android device.
 
 1. The default instance is [FramaTube](https://framatube.org), however more can be added via **Settings** → **Content** → **PeerTube instances**.
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address.
 
-When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address.
-
-</div>
 
 ## Criteria
 

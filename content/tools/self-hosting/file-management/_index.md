@@ -53,9 +53,5 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 [{{< badge content="macOS" color="indigo" >}}](https://nextcloud.com/install/#install-clients)
 [{{< badge content="Linux" color="yellow" >}}](https://nextcloud.com/install/#install-clients)
 
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
-
-</div>
+> [!WARNING]
+> We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.

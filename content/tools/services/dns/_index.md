@@ -129,12 +129,9 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 [{{< badge content="macOS" color="indigo" >}}](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
 [{{< badge content="Windows" color="red" >}}](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> The anonymized DNS feature does [not](../../../wiki/advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
 
-The anonymized DNS feature does [not](../../../wiki/advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
-
-</div>
 
 ## Criteria
 

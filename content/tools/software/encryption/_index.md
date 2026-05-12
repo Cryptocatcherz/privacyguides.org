@@ -141,16 +141,12 @@ udisksctl unlock -b /dev/loop0
 
 </details>
 
-<div class="admonition note" markdown>
-<p class="admonition-title">Remember to back up volume headers</p>
-
-We recommend you always [back up your LUKS headers](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in case of partial drive failure. This can be done with:
-
-```bash
-cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
-```
-
-</div>
+> [!IMPORTANT]
+> We recommend you always [back up your LUKS headers](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in case of partial drive failure. This can be done with:
+>
+>```bash
+>cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
+>```
 
 ## Command-line
 
@@ -192,16 +188,12 @@ OpenPGP is sometimes needed for specific tasks such as digitally signing and enc
 
 When encrypting with PGP, you have the option to configure different options in your `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Use future defaults when generating a key</p>
-
-When [generating keys](https://gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to):
-
-```bash
-gpg --quick-gen-key alice@example.com future-default
-```
-
-</div>
+> [!TIP]
+> When [generating keys](https://gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to):
+>
+>```bash
+>gpg --quick-gen-key alice@example.com future-default
+>```
 
 ### GNU Privacy Guard
 

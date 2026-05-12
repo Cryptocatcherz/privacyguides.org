@@ -23,12 +23,8 @@ Making payments online is one of the biggest challenges to privacy. These servic
 
 There are a number of services which provide "virtual debit cards" which you can use with online merchants without revealing your actual banking or billing information in most cases. It's important to note that these financial services are **not** anonymous and are subject to "Know Your Customer" (KYC) laws and may require your ID or other identifying information. These services are primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft; and **not** for making a purchase completely anonymously.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Check your current bank</p>
-
-Many banks and credit card providers offer native virtual card functionality. If you use one which provides this option already, you should use it over the following recommendations in most cases. That way, you are not trusting multiple parties with your personal information.
-
-</div>
+> [!TIP]
+> Check your current bank: Many banks and credit card providers offer native virtual card functionality. If you use one which provides this option already, you should use it over the following recommendations in most cases. That way, you are not trusting multiple parties with your personal information.
 
 ### Privacy.com (US)
 
@@ -88,9 +84,5 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 - Accepts payment in [a recommended cryptocurrency](../../software/cryptocurrency/_index.md).
 - No ID requirement.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
-
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../../../about/notices.md).
-
-</div>
+> [!NOTE]
+> The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../../../about/notices.md).

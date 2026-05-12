@@ -15,16 +15,12 @@ description: The best VPN services for protecting your privacy and security onli
 
 If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
 
-<div class="admonition danger" markdown>
-<p class="admonition-title">VPNs do not provide anonymity</p>
-
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
-
-If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
-
-[Introduction to the Tor Browser](../../software/tor/_index.md#tor-browser) · [Tor Myths & FAQ](../../../wiki/advanced/tor-overview.md)
-
-</div>
+> [!CAUTION]
+> Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+>
+> If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+>
+> [Introduction to the Tor Browser](../../software/tor/_index.md#tor-browser) · [Tor Myths & FAQ](../../../wiki/advanced/tor-overview.md)
 
 [Detailed VPN Overview](../../../wiki/basics/vpn-overview.md)
 
@@ -102,14 +98,8 @@ Unfortunately, it does not work very well in countries where sophisticated filte
 
 Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">How to opt out of sharing telemetry</p>
-
-On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu.
-
-We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
-
-</div>
+> [!TIP]
+> On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu. We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
 
 #### :material-alert-outline:{ .pg-orange } Additional Notes
 
@@ -256,12 +246,8 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 ## Criteria
 
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
-
-</div>
+> [!CAUTION]
+> It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
 
 **Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
 

@@ -106,9 +106,5 @@ Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https:/
 
 The [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid) repositories are home to countless apps, so they can be useful places to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgment when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
 
-<div class="admonition note" markdown>
-<p class="admonition-title">F-Droid Basic</p>
-
-In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](../../software/health-and-wellness/_index.md#gadgetbridge) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
-
-</div>
+> [!NOTE]
+> In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](../../software/health-and-wellness/_index.md#gadgetbridge) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).

@@ -42,16 +42,13 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 </div>
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](../../../wiki/basics/email-security.md#email-metadata-overview).
+> 
+> OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+> 
+> - [How do I protect my private keys?](../../../wiki/basics/email-security.md#how-do-i-protect-my-private-keys)
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](../../../wiki/basics/email-security.md#email-metadata-overview).
-
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
-
-- [How do I protect my private keys?](../../../wiki/basics/email-security.md#how-do-i-protect-my-private-keys)
-
-</div>
 
 ### Proton Mail
 

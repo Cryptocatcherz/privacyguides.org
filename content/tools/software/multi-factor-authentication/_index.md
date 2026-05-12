@@ -5,12 +5,8 @@ description: These tools assist you with securing your internet accounts with mu
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 
-<div class="admonition note" markdown>
-<p class="admonition-title">Hardware Keys</p>
-
-[Hardware security key recommendations](../../hardware/security-keys/_index.md) have been moved to their own category.
-
-</div>
+> [!NOTE]
+> [Hardware security key recommendations](../../hardware/security-keys/_index.md) have been moved to their own category.
 
 **Multifactor authentication apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
 

@@ -7,12 +7,9 @@ description: Use these tools to remove metadata like GPS location and other iden
 
 When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
 
-You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
-
-</div>
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -93,14 +90,11 @@ It is often a component of other Exif removal applications and in most Linux dis
 [{{< badge content="macOS" color="indigo" >}}](https://exiftool.org)
 [{{< badge content="Windows" color="red" >}}](https://exiftool.org)
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Deleting data from a directory of files</p>
-
-```bash
-exiftool -all= *.file_extension
-```
-
-</div>
+> [!TIP]
+> To delete data from a directory of files, you can run this command inside the directory, replacing `file_extension` with the file type of the files you want to process (e.g. `jpg` or `png`):
+> ```bash
+> exiftool -all= *.file_extension
+> ```
 
 ## Criteria
 

@@ -5,12 +5,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
 
-<div class="admonition note" markdown>
-<p class="admonition-title">This is an advanced topic</p>
-
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
-
-</div>
+> [!IMPORTANT]
+> These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -56,16 +52,12 @@ These tools provide analysis based on the information they have the ability to a
 
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
-
-Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
-
-Such support is available to civil society through [Amnesty International's Security Lab](https://amnesty.org/en/tech) or [Access Now’s Digital Security Helpline](https://accessnow.org/help).
-
-</div>
+> [!CAUTION]
+> Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
+> 
+> Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
+> 
+> Such support is available to civil society through [Amnesty International's Security Lab](https://amnesty.org/en/tech) or [Access Now’s Digital Security Helpline](https://accessnow.org/help).
 
 These tools can trigger false-positives. If any of these tools finds indicators of compromise, you need to dig deeper to determine your actual risk. Some reports may be false positives based on websites you've visited in the past, and findings which are many years old are likely either false-positives or indicate previous (and no longer active) compromise.
 
@@ -81,12 +73,9 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 [{{< badge content="macOS" color="indigo" >}}](https://docs.mvt.re/en/latest/install)
 [{{< badge content="Linux" color="yellow" >}}](https://docs.mvt.re/en/latest/install)
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> Using MVT is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
 
-Using MVT is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
-
-</div>
 
 MVT is *most* useful for scanning iOS devices. Android stores very little diagnostic information useful to triage potential compromises, and because of this, `mvt-android` capabilities are limited as well. On the other hand, encrypted iOS iTunes backups provide a large enough subset of files stored on the device to detect suspicious artifacts in many cases. This being said, MVT does still provide fairly useful tools for both iOS and Android analysis.
 
@@ -123,12 +112,9 @@ iMazing automates and interactively guides you through the process of using [MVT
 
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
 
-Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
-
-</div>
 
 ### Auditor (Android)
 

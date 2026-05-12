@@ -14,12 +14,9 @@ description: Protect your internet browsing from prying eyes by using the Tor ne
 [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor)
 { .md-button }
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+> [!TIP]
+> Before connecting to Tor, please ensure you've read our [overview](../../../wiki/advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](../../services/vpn/_index.md), but you have to do so **properly** to avoid decreasing your anonymity.
 
-Before connecting to Tor, please ensure you've read our [overview](../../../wiki/advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](../../services/vpn/_index.md), but you have to do so **properly** to avoid decreasing your anonymity.
-
-</div>
 
 There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } browsing for desktop computers and Android.
 
@@ -49,12 +46,8 @@ If more complete anonymity is paramount to your situation, you should **only** b
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 [{{< badge content="Android" >}}](https://torproject.org/download/#android)
 
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
-
-</div>
+> [!WARNING]
+> You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 

@@ -50,12 +50,9 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 [{{< badge content="GitHub" >}}](https://github.com/thunderbird/thunderbird-android/releases)
 [{{< badge content="Flathub" >}}](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> When replying to someone on a mailing list in Thunderbird Mobile, the "reply" option may also include the mailing list. For more information see [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738).
 
-When replying to someone on a mailing list in Thunderbird Mobile, the "reply" option may also include the mailing list. For more information see [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738).
-
-</div>
 
 #### Recommended Configuration
 
@@ -92,13 +89,6 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
   {{< card link="https://support.apple.com/guide/mail/welcome/mac" title="Homepage" icon="home" >}}
   {{< card link="https://apple.com/legal/privacy/en-ww" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
-
-<div class="admonition info" markdown>
-<p class="admonition-title">For those using macOS Sonoma</p>
-
-Currently, GPG Suite does [not yet](https://gpgtools.com/sonoma) have a stable release for macOS Sonoma.
-
-</div>
 
 Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 

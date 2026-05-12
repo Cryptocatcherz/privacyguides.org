@@ -75,12 +75,8 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 [{{< badge content="macOS" color="indigo" >}}](https://github.com/LostRuins/koboldcpp/releases)
 [{{< badge content="Windows" color="red" >}}](https://github.com/LostRuins/koboldcpp/releases)
 
-<div class="admonition info" markdown>
-<p class="admonition-title">Compatibility Issues</p>
-
-Kobold.cpp might not run on computers without AVX/AVX2 support.
-
-</div>
+> [!NOTE]
+> Kobold.cpp might not run on computers without AVX/AVX2 support.
 
 Kobold.cpp allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. It also supports creating a network tunnel to access AI models from other devices such as your phone.
 

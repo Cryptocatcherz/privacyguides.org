@@ -28,12 +28,9 @@ Shelter supports blocking contact search cross profiles and sharing files across
   {{< card link="https://patreon.com/PeterCxy" title="Contribute" icon="heart" >}}
 {{< /cards >}}
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
 
-When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
-
-</div>
 
 Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
 
@@ -59,14 +56,11 @@ Main privacy features include:
 - Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
 - Microphone permission not required unless you want to record sound
 
-<div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+> [!NOTE]
+> Metadata is not currently deleted from video files, but that is planned.
+> 
+> The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../../software/data-redaction/_index.md#exiferaser-android).
 
-Metadata is not currently deleted from video files, but that is planned.
-
-The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../../software/data-redaction/_index.md#exiferaser-android).
-
-</div>
 
 ## Secure PDF Viewer
 

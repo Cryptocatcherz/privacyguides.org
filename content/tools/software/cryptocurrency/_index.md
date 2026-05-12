@@ -17,12 +17,8 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 [Making Private Payments](../../../wiki/advanced/payments.md)
 { .md-button }
 
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
-
-</div>
+> [!CAUTION]
+> Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
 
 ## Monero
 
@@ -78,12 +74,8 @@ There are numerous centralized exchanges (CEX) as well as P2P marketplaces where
 
 - Cryptocurrency must provide private/untraceable transactions by default.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
-
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../../../about/notices.md).
-
-</div>
+> [!NOTE]
+> The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../../../about/notices.md).
 
 [^1]: You may refer to the following pages for up-to-date information on countries in which Kraken does **not** allow the purchase of Monero: [Where is Kraken licensed or regulated?](https://support.kraken.com/hc/en-us/articles/where-is-kraken-licensed-or-regulated) and [Support for Monero (XMR) in Europe](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe).
 [^2]: You may refer to the following pages for up-to-date information on countries in which Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through third-party providers): [Which countries are served by DFX?](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx) and [What are the supported countries/regions? (Guardarian)](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions-).

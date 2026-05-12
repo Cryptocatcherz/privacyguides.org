@@ -19,12 +19,8 @@ description: Our recommended methods for removing your personal information from
 
 Counterintuitively, removing your personal data on these sites from the internet generally requires *providing* these companies with your personal data for them to comply with the request. Unfortunately, in most cases it is still worth doing so to minimize the amount of personal data about you which is publicly accessible.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Try it out</p>
-
-Use your favorite [search engine](../search-engines/_index.md) to see if your data is trivially exposed by searching for your name in quotes, plus your general location. For example, search for `"Jane Smith" Chicago IL`. In many cases, you may find your personal information makes up many of the first results. Even if results about you aren't readily available though, you may still be affected. The list of data brokers linked below will provide more places to check whether your data is in any public databases.
-
-</div>
+> [!TIP]
+> Use your favorite [search engine](../search-engines/_index.md) to see if your data is trivially exposed by searching for your name in quotes, plus your general location. For example, search for `"Jane Smith" Chicago IL`. In many cases, you may find your personal information makes up many of the first results. Even if results about you aren't readily available though, you may still be affected. The list of data brokers linked below will provide more places to check whether your data is in any public databases.
 
 ## Manual Opt-Outs <small>Free</small>
 
@@ -46,16 +42,12 @@ You should search for your information on these sites first, and submit an opt-o
 - USPhonebook ([Search and Opt-Out](https://usphonebook.com/opt-out))
 - Whitepages ([Search](https://whitepages.com), [Opt-Out](https://whitepages.com/suppression_requests))
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">A tip on opt-out strategy</p>
-
-Be sure to avoid burning out or becoming overwhelmed with this process. Unless you're in immediate danger, you can take breaks and avoid doing them all at once.[^1]
-
-One strategy could be to look at a single website from the list above every week, starting from the top. Next week you move on to the following website on the list, and so on. When you reach the end of the list, you can start again from the beginning.
-
-This sets you up on a nice schedule to re-review each website approximately every 3-4 months, and breaks down the process into simple 5 minute tasks you can easily add to your weekly routine.
-
-</div>
+> [!TIP]
+> Be sure to avoid burning out or becoming overwhelmed with this process. Unless you're in immediate danger, you can take breaks and avoid doing them all at once.[^1]
+>
+> One strategy could be to look at a single website from the list above every week, starting from the top. Next week you move on to the following website on the list, and so on. When you reach the end of the list, you can start again from the beginning.
+>
+> This sets you up on a nice schedule to re-review each website approximately every 3-4 months, and breaks down the process into simple 5 minute tasks you can easily add to your weekly routine.
 
 Once you have opted-out of all of these sites for the first time, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use a web crawler like [Google's *Results about you*](#google-results-about-you-free) tool to help find any data that remains on the internet.
 
@@ -78,26 +70,18 @@ Some websites supported by EasyOptOuts are publicly searchable. In those cases E
 
 Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
 
-<div class="admonition failure" markdown>
-<p class="admonition-title">High priority sites not supported by EasyOptOuts</p>
-
-EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
-
-- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
-
-</div>
+> [!CAUTION]
+> EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
+> 
+> - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
+> - PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 
 ## Google *Results About You* <small>Free</small>
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Google is a data collector themselves</p>
-
-This method will require you to submit your personal information to Google for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
-
-While Google is not a data broker themselves *per se*, as they don't sell or share your data with outside parties, some may find this relationship unacceptable. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
-
-</div>
+> [!WARNING]
+> This method will require you to submit your personal information to Google for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
+> 
+> While Google is not a data broker themselves *per se*, as they don't sell or share your data with outside parties, some may find this relationship unacceptable. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
 
 **Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appears in Google search results. If any personal information is found, you can request its removal.
 

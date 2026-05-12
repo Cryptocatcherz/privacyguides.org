@@ -47,16 +47,11 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/us/app/id934850257)
 [{{< badge content="Android" >}}](https://osmand.net/docs/versions/free-versions)
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Unique User Identifier</p>
-
 OsmAnd generates a [unique user identifier (UUID)](https://osmand.net/docs/legal/terms-of-use/#6-unique-user-indentifier) for each app install that rotates every three months and is used for internal reports and statistics. The UUID is also sent to OsmAnd's servers when downloading maps. On Android, there is a setting that controls whether the UUID is sent with each download request. From the home screen, go to :material-menu: → :gear: **Settings** → :gear: **OsmAnd settings** → :material-web: **Identifiers**.
 
 - [ ] Uncheck **Send Unique User Identifier (UUID)**
 
 This setting is not available on the iOS app.
-
-</div>
 
 The app also includes a setting for sharing anonymous data about your downloaded maps and the features you use. This setting is disabled by default on Android, but enabled by default on iOS. To disable it in the iOS app, tap the :material-menu: on the home screen to find the :gear: **Settings** menu. Select that, then select :gear: **OsmAnd settings**.
 
