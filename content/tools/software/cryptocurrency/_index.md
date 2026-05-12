@@ -3,7 +3,6 @@ description: Unlike most cryptocurrencies, these ones provide transaction privac
 title: Cryptocurrency
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)
 [{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats.md#avoiding-censorship)
 

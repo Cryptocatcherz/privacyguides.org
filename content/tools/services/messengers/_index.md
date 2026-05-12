@@ -3,7 +3,6 @@ title: Instant Messengers
 description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 [{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)

@@ -3,7 +3,6 @@ title: Mobile Browsers
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
 <div class="pg-card-logos">

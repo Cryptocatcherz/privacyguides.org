@@ -3,7 +3,6 @@ title: "Email Clients"
 description: These email clients are privacy-respecting and support OpenPGP email encryption.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 

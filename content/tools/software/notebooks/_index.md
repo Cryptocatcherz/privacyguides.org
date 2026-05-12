@@ -3,7 +3,6 @@ title: "Notebooks"
 description: These encrypted note-taking apps let you keep track of your notes without giving them to a third party.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 Keep track of your notes and journals without giving them to a third party.

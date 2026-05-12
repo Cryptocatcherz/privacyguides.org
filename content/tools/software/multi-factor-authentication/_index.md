@@ -3,7 +3,6 @@ title: Multifactor Authentication
 description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third party.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 
 <div class="admonition note" markdown>

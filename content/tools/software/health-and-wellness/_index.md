@@ -3,7 +3,6 @@ title: "Health and Wellness"
 description: These applications are what we currently recommend for all health- and fitness-related activites on your phone.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 Keep track of your health and fitness-related goals with these apps. Unlike their mainstream alternatives, your personal health information will be kept private.

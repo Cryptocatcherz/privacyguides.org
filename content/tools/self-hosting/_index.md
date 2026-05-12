@@ -4,7 +4,6 @@ description: For our more technical readers, self-hosting software and services 
 weight: 60
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Service Providers" color="indigo" >}}](../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 **Self-hosting** software and services can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. By self-hosting, we mean hosting applications and data on your own hardware.

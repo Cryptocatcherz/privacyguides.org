@@ -3,7 +3,6 @@ title: Password Managers
 description: Password managers allow you to securely store and manage passwords and other credentials.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)

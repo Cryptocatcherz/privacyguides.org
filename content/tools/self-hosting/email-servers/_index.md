@@ -3,7 +3,6 @@ title: Email Servers
 description: For our more technical readers, self-hosting your own email can provide additional privacy assurances by having maximum control over your data.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 Advanced system administrators may consider setting up their own **email server**. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:

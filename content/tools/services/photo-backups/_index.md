@@ -4,7 +4,6 @@ description: These photo backup tools keep your personal photos safe from the pr
 ---
 
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 

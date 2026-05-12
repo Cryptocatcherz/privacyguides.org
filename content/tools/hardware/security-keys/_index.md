@@ -3,7 +3,6 @@ title: Security Keys
 description: These security keys provide a form of phishing-immune authentication for accounts that support it.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 

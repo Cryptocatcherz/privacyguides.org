@@ -3,7 +3,6 @@ title: "Tor Browser"
 description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 [{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)
 [{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats.md#avoiding-censorship)

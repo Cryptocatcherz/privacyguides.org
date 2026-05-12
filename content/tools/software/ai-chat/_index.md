@@ -3,7 +3,6 @@ title: "AI Chat"
 description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 [{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats.md#avoiding-censorship)

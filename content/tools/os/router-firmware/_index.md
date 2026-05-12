@@ -3,7 +3,6 @@ title: "Router Firmware"
 description: Alternative operating systems for securing your router or Wi-Fi access point.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 

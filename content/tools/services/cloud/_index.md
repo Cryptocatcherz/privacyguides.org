@@ -3,7 +3,6 @@ title: Cloud Storage
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 

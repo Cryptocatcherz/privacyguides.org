@@ -3,7 +3,6 @@ title: "Frontends"
 description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
 Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to circumvent these restrictions.

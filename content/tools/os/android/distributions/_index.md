@@ -3,7 +3,6 @@ title: Alternative Distributions
 description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 

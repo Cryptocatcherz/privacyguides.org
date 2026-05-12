@@ -3,7 +3,6 @@ title: DNS Resolvers
 description: We recommend choosing these encrypted DNS providers to replace your ISP's default configuration.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
 <div class="pg-card-logos">

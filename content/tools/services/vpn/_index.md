@@ -3,7 +3,6 @@ title: VPN Services
 description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
 <div class="pg-card-logos">

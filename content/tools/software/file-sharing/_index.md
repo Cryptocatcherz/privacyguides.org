@@ -3,7 +3,6 @@ title: File Sharing and Sync
 description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
 ---
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 Discover how to privately share your files between your devices, with your friends and family, or anonymously online.

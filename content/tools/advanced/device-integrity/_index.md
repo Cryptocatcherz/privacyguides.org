@@ -52,7 +52,6 @@ These tools provide analysis based on the information they have the ability to a
 ## External Verification Tools
 
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
@@ -119,7 +118,6 @@ iMazing automates and interactively guides you through the process of using [MVT
 ## On-Device Verification
 
 <small>Protects against the following threat(s):</small>
-
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 
