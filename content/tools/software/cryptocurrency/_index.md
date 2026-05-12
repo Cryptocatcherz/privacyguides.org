@@ -7,9 +7,16 @@ title: Cryptocurrency
 [{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)
 [{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats.md#avoiding-censorship)
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#monero" title="Monero" image="./monero.svg" subtitle="Monero uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve Anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices." >}}
+{{< /cards >}}
+</div>
+
 Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
 
-[Making Private Payments :material-arrow-right-drop-circle:](../../../wiki/advanced/payments.md){ .md-button }
+[Making Private Payments](../../../wiki/advanced/payments.md)
+{ .md-button }
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
@@ -20,20 +27,12 @@ Many if not most cryptocurrency projects are scams. Make transactions carefully 
 
 ## Monero
 
-<div class="admonition recommendation" markdown>
-
-![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
-
 **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
 
-[:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://getmonero.org/get-started/contributing){ .card-link title=Contribute }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://getmonero.org" title="Homepage" icon="home" >}}
+  {{< card link="https://getmonero.org/resources/user-guides" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 With Monero, outside observers cannot decipher addresses trading Monero, transaction amounts, address balances, or transaction histories.
 
@@ -60,11 +59,12 @@ For optimal privacy, make sure to use a self-custody wallet where the [view key]
 
 ### Monero nodes
 
-For maximum privacy (even with a self-custody wallet), you should run your own Monero node called the [Monero daemon](https://docs.getmonero.org/interacting/monerod-reference), which is included in the [CLI wallet](https://getmonero.org/downloads/#cli). Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over [Tor](alternative-networks.md#tor), [I2P](alternative-networks.md#i2p-the-invisible-internet-project), or a [VPN](vpn.md).
+For maximum privacy (even with a self-custody wallet), you should run your own Monero node called the [Monero daemon](https://docs.getmonero.org/interacting/monerod-reference), which is included in the [CLI wallet](https://getmonero.org/downloads/#cli). Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over [Tor](../../advanced/alternative-networks/_index.md#tor), [I2P](../../advanced/alternative-networks/_index.md#i2p-the-invisible-internet-project), or a [VPN](../../services/vpn/_index.md).
 
 ### Buying Monero
 
-[General tips for acquiring Monero](../../../wiki/advanced/payments.md#acquisition){ .md-button }
+[General tips for acquiring Monero](../../../wiki/advanced/payments.md#acquisition)
+{ .md-button }
 
 There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is *that* you bought Monero, but not how much you own or where you spend it (after it leaves the exchange). Some reputable places to buy Monero include:
 
@@ -75,16 +75,16 @@ There are numerous centralized exchanges (CEX) as well as P2P marketplaces where
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Cryptocurrency must provide private/untraceable transactions by default.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Important notices</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../../../about/notices.md).
 
 </div>
 
 [^1]: You may refer to the following pages for up-to-date information on countries in which Kraken does **not** allow the purchase of Monero: [Where is Kraken licensed or regulated?](https://support.kraken.com/hc/en-us/articles/where-is-kraken-licensed-or-regulated) and [Support for Monero (XMR) in Europe](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe).
-[^2]: You may refer to the following pages for up-to-date information on countries in which Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through third-party providers): [Which countries are served by DFX?](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx) and [What are the supported countries/regions? (Guardarian)](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions).
+[^2]: You may refer to the following pages for up-to-date information on countries in which Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through third-party providers): [Which countries are served by DFX?](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx) and [What are the supported countries/regions? (Guardarian)](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions-).

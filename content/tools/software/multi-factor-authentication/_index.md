@@ -9,7 +9,7 @@ description: These tools assist you with securing your internet accounts with mu
 <div class="admonition note" markdown>
 <p class="admonition-title">Hardware Keys</p>
 
-[Hardware security key recommendations](security-keys.md) have been moved to their own category.
+[Hardware security key recommendations](../../hardware/security-keys/_index.md) have been moved to their own category.
 
 </div>
 
@@ -17,59 +17,44 @@ description: These tools assist you with securing your internet accounts with mu
 
 We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#ente-auth" title="Ente Auth" image="./ente-auth.svg" subtitle="Ente Auth is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion." >}}
+  {{< card link="#aegis-authenticator-android" title="Aegis Authenticator" image="./aegis.png" subtitle="Aegis Authenticator is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives." >}}
+{{< /cards >}}
+</div>
+
 ## Ente Auth
-
-<div class="admonition recommendation" markdown>
-
-![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
 
-[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://ente.com/auth" title="Homepage" icon="home" >}}
+  {{< card link="https://ente.com/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
-- [:octicons-browser-16: Web](https://auth.ente.io)
-
-</details>
-
-</div>
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=io.ente.auth)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id6444121398)
+[{{< badge content="GitHub" >}}](https://github.com/ente-io/ente/releases?q=auth)
+[{{< badge content="Web" >}}](https://auth.ente.io)
 
 The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.com/blog/cern-audit) in October 2025.
 
 ## Aegis Authenticator (Android)
 
-<div class="admonition recommendation" markdown>
-
-![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
-
 **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
 
-[:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://getaegis.app" title="Homepage" icon="home" >}}
+  {{< card link="https://getaegis.app/aegis/privacy.html" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-- [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
-
-</details>
-
-</div>
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
+[{{< badge content="GitHub" >}}](https://github.com/beemdevelopment/Aegis/releases)
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Source code must be publicly available.
 - Must not require internet connectivity.

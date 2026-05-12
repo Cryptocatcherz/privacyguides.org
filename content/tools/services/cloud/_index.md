@@ -9,7 +9,7 @@ description: Many cloud storage providers require your trust that they will not 
 
 <div class="pg-card-logos">
 {{< cards >}}
-  {{< card link="#proton-drive" title="Proton Drive" image="./protondrive.svg" subtitle="Proton Drive is an encrypted cloud storage provider from the popular encrypted email provider Proton Mail." >}}
+  {{< card link="#proton-drive" title="Proton Drive" image="./protondrive.svg" subtitle="Proton Drive is an encrypted cloud storage provider from the popular encrypted email provider Proton Mail. The initial free storage is limited to 2 GB, but with the completion of certain steps, additional storage can be obtained up to 5 GB." >}}
   {{< card link="#tresorit" title="Tresorit" image="./tresorit.svg" subtitle="Tresorit is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland." >}}
   {{< card link="#peergos" title="Peergos" image="./peergos.svg" subtitle="Peergos is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc." >}}
 {{< /cards >}}
@@ -49,7 +49,7 @@ The Proton Drive web application has been independently audited by Securitum in 
   {{< card link="https://tresorit.com/legal/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
-[{{< badge content="Linux" color="amber" >}}](https://tresorit.com/download)
+[{{< badge content="Linux" color="yellow" >}}](https://tresorit.com/download)
 [{{< badge content="macOS" color="indigo" >}}](https://tresorit.com/download)
 [{{< badge content="Windows" color="red" >}}](https://tresorit.com/download)
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
@@ -81,12 +81,12 @@ Peergos secures your files with quantum-resistant E2EE and ensures all data abou
   {{< card link="https://peergos.net/privacy.html" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
-[{{< badge content="Linux" color="amber" >}}](https://peergos.org/download#linux)
-[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=net.peergos.android)
+[{{< badge content="Linux" color="yellow" >}}](https://peergos.org/download#linux)
 [{{< badge content="macOS" color="indigo" >}}](https://peergos.org/download#macos)
 [{{< badge content="Windows" color="red" >}}](https://peergos.org/download#windows)
-[{{< badge content="Web" color="gray" >}}](https://peergos.net)
-[{{< badge content="GitHub" color="gray" >}}](https://github.com/Peergos/web-ui/releases)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=net.peergos.android)
+[{{< badge content="GitHub" >}}](https://github.com/Peergos/web-ui/releases)
+[{{< badge content="Web" >}}](https://peergos.net)
 
 Peergos is built on top of the [InterPlanetary File System (IPFS)](https://ipfs.tech), a peer-to-peer architecture that protects against [Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship).
 

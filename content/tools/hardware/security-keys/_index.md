@@ -7,25 +7,24 @@ description: These security keys provide a form of phishing-immune authenticatio
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 
-A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](multi-factor-authentication.md), the [FIDO2](../../../wiki/basics/multi-factor-authentication.md#fido-fast-identity-online) security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](../../software/multi-factor-authentication/_index.md), the [FIDO2](../../../wiki/basics/multi-factor-authentication.md#fido-fast-identity-online) security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#yubico-security-key" title="Yubico Security Key" image="./yubico-security-key.webp" subtitle="The Yubico Security Key series is the most cost-effective hardware security key with FIDO Level 2 certification. It supports FIDO2/WebAuthn and FIDO Universal 2nd Factor (U2F), and works out of the box with most services that support a security key as a second factor, as well as many password managers." >}}
+  {{< card link="#yubikey" title="YubiKey" image="./yubikey.png" subtitle="The YubiKey series from Yubico are among the most popular security keys with FIDO Level 2 Certification. The YubiKey 5 Series has a wide range of features such as FIDO2/WebAuthn and FIDO U2F, TOTP and HOTP authentication, Personal Identity Verification (PIV), and OpenPGP." >}}
+  {{< card link="#nitrokey" title="Nitrokey" image="./nitrokey-square.svg" subtitle="Nitrokey has a cost-effective security key capable of FIDO2/WebAuthn and FIDO U2F called the Nitrokey Passkey. For support for features such as PIV, OpenPGP, and TOTP and HOTP authentication, you need to purchase one of their other keys like the Nitrokey 3. Currently, only the Nitrokey 3A Mini has FIDO Level 1 Certification." >}}
+{{< /cards >}}
+</div>
 
 ## Yubico Security Key
 
-<div class="admonition recommendation" markdown>
-
-<figure markdown="span">
-  ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
-</figure>
-
 The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification[^1]. It supports FIDO2/WebAuthn and FIDO Universal 2nd Factor (U2F), and works out of the box with most services that support a security key as a second factor, as well as many password managers.
 
-[:octicons-home-16: Homepage](https://yubico.com/products/security-key){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com){ .card-link title="Documentation" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://yubico.com/products/security-key" title="Homepage" icon="home" >}}
+  {{< card link="https://yubico.com/support/terms-conditions/privacy-notice" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
 These keys are available in both USB-C and USB-A variants, and both options support NFC for use with a mobile device as well.
 
@@ -46,21 +45,12 @@ The firmware of Yubico's Security Keys is not updatable. If you want features in
 
 ## YubiKey
 
-<div class="admonition recommendation" markdown>
-
-<figure markdown="span">
-  ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }
-</figure>
-
 The **YubiKey** series from Yubico are among the most popular security keys with FIDO Level 2 Certification[^1]. The **YubiKey 5 Series** has a wide range of features such as FIDO2/WebAuthn and FIDO U2F, [TOTP and HOTP](https://developers.yubico.com/OATH) authentication, [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), and [OpenPGP](https://developers.yubico.com/PGP).
 
-[:octicons-home-16: Homepage](https://yubico.com/products/yubikey-5-overview){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com){ .card-link title="Documentation" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://yubico.com/products/yubikey-5-overview" title="Homepage" icon="home" >}}
+  {{< card link="https://yubico.com/support/terms-conditions/privacy-notice" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
 The [comparison table](https://yubico.com/store/compare) shows how the YubiKeys compare to each other and to Yubico's [Security Key](#yubico-security-key) series in terms of features and other specifications. One of the benefits of the YubiKey series is that one key can do almost everything you could expect from a hardware security key. We encourage you to take their [quiz](https://yubico.com/quiz) before purchasing in order to make sure you choose the right security key.
 
@@ -77,21 +67,12 @@ The firmware of YubiKey is not updatable. If you want features in newer firmware
 
 ## Nitrokey
 
-<div class="admonition recommendation" markdown>
-
-<figure markdown="span">
-  ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
-</figure>
-
 **Nitrokey** has a cost-effective security key capable of FIDO2/WebAuthn and FIDO U2F called the **Nitrokey Passkey**. For support for features such as PIV, OpenPGP, and TOTP and HOTP authentication, you need to purchase one of their other keys like the **Nitrokey 3**. Currently, only the **Nitrokey 3A Mini** has [FIDO Level 1 Certification](https://nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification).
 
-[:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title="Documentation" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://nitrokey.com" title="Homepage" icon="home" >}}
+  {{< card link="https://nitrokey.com/data-privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
 The [comparison table](https://nitrokey.com/products/nitrokeys#:~:text=The%20Nitrokey%20Family) shows how the different Nitrokey models compare to each other in terms of features and other specifications. Refer to Nitrokey's [documentation](https://docs.nitrokey.com/nitrokeys/features) for more details about the features available on your Nitrokey.
 
@@ -106,7 +87,7 @@ Excluding the Nitrokey 3, Nitrokeys which support HOTP and TOTP do not have encr
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 

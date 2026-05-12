@@ -6,9 +6,17 @@ description: These email providers offer a great place to store your emails secu
 
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#proton-mail" title="Proton Mail" image="./protonmail.svg" subtitle="Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland." >}}
+  {{< card link="#mailbox-mail" title="Mailbox Mail" image="./mailbox-mail.svg" subtitle="Mailbox Mail (formerly Mailbox.org) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox Mail is based in Berlin, Germany." >}}
+  {{< card link="#tuta" title="Tuta" image="./tuta.svg" subtitle="Tuta (formerly Tutanota) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany." >}}
+{{< /cards >}}
+</div>
+
 Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
 
-[Recommended Instant Messengers](../messengers/_index.md){ .md-button }
+[Recommended Instant Messengers](../messengers/_index.md)
 
 ## Recommended Providers
 
@@ -30,8 +38,8 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Proton Mail logo](./protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](./mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -48,34 +56,22 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 ### Proton Mail
 
-<div class="admonition recommendation" markdown>
-
-![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
-
 **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
 
 The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://proton.me/mail" title="Homepage" icon="home" >}}
+  {{< card link="https://proton.me/mail/privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
-- [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
-- [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-- [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Web](https://mail.proton.me)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://proton.me/mail/bridge#download)
+[{{< badge content="macOS" color="indigo" >}}](https://proton.me/mail/bridge#download)
+[{{< badge content="Windows" color="red" >}}](https://proton.me/mail/bridge#download)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id979659905)
+[{{< badge content="GitHub" >}}](https://github.com/ProtonMail/android-mail/releases)
+[{{< badge content="Web" >}}](https://mail.proton.me)
 
 Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](../../software/email-clients/_index.md) such as Thunderbird. Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](../email-aliasing/_index.md#simplelogin) Premium.
 
@@ -103,7 +99,7 @@ Paid Proton Mail subscribers can use their own domain with the service or a [cat
 
 #### :material-check:{ .pg-green } Private Payment Methods
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](../../../wiki/advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments. Additionally, you can use [**Monero**](../cryptocurrency/_index.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](../../../wiki/advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments. Additionally, you can use [**Monero**](../../software/cryptocurrency/_index.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Account Security
 
@@ -131,26 +127,16 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ### Mailbox Mail
 
-<div class="admonition recommendation" markdown>
-
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
-
 **Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox Mail is based in Berlin, Germany.
 
 Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+{{< cards >}}
+  {{< card link="https://mailbox.org" title="Homepage" icon="home" >}}
+  {{< card link="https://mailbox.org/en/data-protection-privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:octicons-browser-16: Web](https://login.mailbox.org)
-
-</details>
-
-</div>
+[{{< badge content="Web" >}}](https://login.mailbox.org)
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
@@ -194,41 +180,28 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![Tuta logo](./tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](./tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
 ### Tuta
 
-<div class="admonition recommendation" markdown>
-
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
-
 **Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
 
 Free accounts start with 1 GB of storage.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://tuta.com" title="Homepage" icon="home" >}}
+  {{< card link="https://tuta.com/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
-- [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-- [:fontawesome-brands-windows: Windows](https://tuta.com/#download)
-- [:simple-apple: macOS](https://tuta.com/#download)
-- [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://tuta.com/#download)
+[{{< badge content="macOS" color="indigo" >}}](https://tuta.com/#download)
+[{{< badge content="Windows" color="red" >}}](https://tuta.com/#download)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id922429609)
+[{{< badge content="GitHub" >}}](https://github.com/tutao/tutanota/releases)
+[{{< badge content="Web" >}}](https://app.tuta.com)
 
 Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](../../software/email-clients/_index.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
@@ -238,7 +211,7 @@ Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and u
 
 #### :material-information-outline:{ .pg-blue } Private Payment Methods
 
-Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](../cryptocurrency/_index.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](../../software/cryptocurrency/_index.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Account Security
 
@@ -262,7 +235,7 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 ## Criteria
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 
 ### Technology
 
@@ -299,7 +272,7 @@ We prefer our recommended providers to collect as little data as possible.
 
 **Best Case:**
 
-- Should accept [anonymous payment options](../../../wiki/advanced/payments.md) ([cryptocurrency](../cryptocurrency/_index.md), cash, gift cards, etc.)
+- Should accept [anonymous payment options](../../../wiki/advanced/payments.md) ([cryptocurrency](../../software/cryptocurrency/_index.md), cash, gift cards, etc.)
 - Should be hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Security

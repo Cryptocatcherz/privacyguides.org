@@ -2,11 +2,19 @@
 title: "Android"
 description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
 ---
-![Android logo](../assets/img/android/android.svg){ align=right }
+<style>
+  .pg-width-120 {
+    width: 120px;
+  }
+</style>
+
+![Android logo](./android.svg)
+{ .pg-width-120}
 
 The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
 
-[General Android Overview :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
+[General Android Overview](../os/android-overview.md)
+{ .md-button .md-button--primary }
 
 ## Our Advice
 
@@ -14,11 +22,13 @@ The **Android Open Source Project** (AOSP) is an open-source mobile operating sy
 
 There are many methods of obtaining apps on Android while avoiding Google Play. Whenever possible, try using one of these methods before getting your apps from non-private sources:
 
-[Obtaining Applications :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
+[Obtaining Applications](obtaining-apps.md)
+{ .md-button }
 
 There are also many private alternatives to the apps that come pre-installed on your phone, such as the camera app. Besides the Android apps we recommend throughout this site in general, we've created a list of system utilities specific to Android which you might find useful.
 
-[General App Recommendations :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
+[General App Recommendations](general-apps.md)
+{ .md-button }
 
 ### Install a Custom Distribution
 
@@ -28,7 +38,8 @@ This problem could be solved by using an alternative Android distribution, commo
 
 Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
 
-[Recommended Distributions :material-arrow-right-drop-circle:](distributions.md){ .md-button }
+[Recommended Distributions](distributions.md)
+{ .md-button }
 
 ### Avoid Root
 

@@ -4,6 +4,22 @@ description: Encryption of data is the only way to control who can access it. Th
 ---
 **Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#cryptomator-cloud" title="Cryptomator" image="./cryptomator.svg" subtitle="Cryptomator is an encryption solution designed for privately saving files to any cloud Service Provider, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider." >}}
+  {{< card link="#veracrypt-disk" title="VeraCrypt" image="./veracrypt.svg" subtitle="VeraCrypt is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication." >}}
+  {{< card link="#bitlocker" title="BitLocker" image="./bitlocker.png" subtitle="BitLocker is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module (TPM) for hardware-based security." >}}
+  {{< card link="#filevault" title="FileVault" image="./filevault.png" subtitle="FileVault is the on-the-fly volume encryption solution built into macOS. FileVault takes advantage of the hardware security capabilities present on an Apple Silicon SoC or T2 Security Chip." >}}
+  {{< card link="#linux-unified-key-setup" title="LUKS" image="./luks.png" subtitle="LUKS is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers." >}}
+  {{< card link="#kryptor" title="Kryptor" image="./kryptor.png" subtitle="Kryptor is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of age and Minisign to provide a simple, easier alternative to GPG." >}}
+  {{< card link="#tomb" title="Tomb" image="./tomb.png" subtitle="Tomb is a command-line shell wrapper for LUKS. It supports steganography via third-party tools." >}}
+  {{< card link="#gnu-privacy-guard" title="GnuPG" image="./gnupg.svg" subtitle="GnuPG is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF specification of OpenPGP." >}}
+  {{< card link="#gpg4win" title="GPG4win" image="./gpg4win.svg" subtitle="GPG4win is a package for Windows from Intevation and g10 Code. It includes various tools that can assist you in using GPG on Microsoft Windows." >}}
+  {{< card link="#gpg-suite" title="GPG Suite" image="./gpgsuite.png" subtitle="GPG Suite provides OpenPGP support for Apple Mail and other email clients on macOS." >}}
+  {{< card link="#openkeychain" title="OpenKeychain" image="./openkeychain.svg" subtitle="OpenKeychain is an implementation of GnuPG for Android. It's commonly required by mail clients such as Thunderbird, FairEmail, and other Android apps to provide encryption support." >}}
+{{< /cards >}}
+</div>
+
 ## Multi-platform
 
 The options listed here are available on multiple platforms and great for creating encrypted backups of your data.
@@ -14,32 +30,20 @@ The options listed here are available on multiple platforms and great for creati
 
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 
-<div class="admonition recommendation" markdown>
-
-![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
-
 **Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](../../../wiki/basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
 
-[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.cryptomator.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://cryptomator.org" title="Homepage" icon="home" >}}
+  {{< card link="https://cryptomator.org/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1560822163)
-- [:simple-android: Android](https://cryptomator.org/android)
-- [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
-- [:simple-apple: macOS](https://cryptomator.org/downloads)
-- [:simple-linux: Linux](https://cryptomator.org/downloads)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://cryptomator.org/downloads)
+[{{< badge content="macOS" color="indigo" >}}](https://cryptomator.org/downloads)
+[{{< badge content="Windows" color="red" >}}](https://cryptomator.org/downloads)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=org.cryptomator)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1560822163)
+[{{< badge content="Android" >}}](https://cryptomator.org/android)
+[{{< badge content="Flathub" >}}](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
 
 Cryptomator uses AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
 
@@ -55,28 +59,16 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 
-<div class="admonition recommendation" markdown>
-
-![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
-
 **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
 
-[:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
-[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://veracrypt.fr/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://veracrypt.fr" title="Homepage" icon="home" >}}
+  {{< card link="https://veracrypt.fr/en/Documentation.html" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://veracrypt.fr/en/Downloads.html)
-- [:simple-apple: macOS](https://veracrypt.fr/en/Downloads.html)
-- [:simple-linux: Linux](https://veracrypt.fr/en/Downloads.html)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://veracrypt.fr/en/Downloads.html)
+[{{< badge content="macOS" color="indigo" >}}](https://veracrypt.fr/en/Downloads.html)
+[{{< badge content="Windows" color="red" >}}](https://veracrypt.fr/en/Downloads.html)
 
 VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
 
@@ -102,55 +94,36 @@ Powering off your devices when they’re not in use provides the highest level o
 
 ### BitLocker
 
-<div class="admonition recommendation" markdown>
-
-![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
-
 **BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
-[:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="Documentation" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf" title="Overview" icon="home" >}}
+  {{< card link="https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 BitLocker is [officially supported](https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf) on the Pro, Enterprise, and Education editions of Windows. The Home edition only supports automatic [Device Encryption](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-cf7e2b6f-3e70-4882-9532-18633605b7df) and must meet specific hardware requirements. If you’re using the Home edition, we recommend [upgrading to Pro](https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818), which can be done without reinstalling Windows or losing your files.
 
-Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key) feature, configured through the appropriate [group policy](os/windows/group-policies.md#bitlocker-drive-encryption) settings. The PIN is rate limited and the TPM will panic and lock access to the encryption key either permanently or for a period of time if someone attempts to brute force access.
-
-</details>
+Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key) feature, configured through the appropriate [group policy](../../os/windows/group-policies.md#bitlocker-drive-encryption) settings. The PIN is rate limited and the TPM will panic and lock access to the encryption key either permanently or for a period of time if someone attempts to brute force access.
 
 ### FileVault
 
-<div class="admonition recommendation" markdown>
+**FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault takes advantage of the [hardware security capabilities](../../os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
-![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
-
-**FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
-
-[:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Documentation" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac" title="Documentation" icon="document-text" >}}
+  {{< card link="https://support.apple.com/guide/security/welcome/web" title="Platform Security" icon="home" >}}
+{{< /cards >}}
 
 We advise against using your iCloud account for recovery; instead, you should securely store a local recovery key on a separate storage device.
 
 ### Linux Unified Key Setup
 
-<div class="admonition recommendation" markdown>
-
-![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
-
 **LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
 
-[:octicons-repo-16: Repository](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Source Code" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://gitlab.com/cryptsetup/cryptsetup" title="Repository" icon="code" >}}
+  {{< card link="https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 <details class="example" markdown>
 <summary>Creating and opening encrypted containers</summary>
@@ -192,45 +165,25 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 ### Kryptor
 
-<div class="admonition recommendation" markdown>
-
-![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
-
 **Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
 
-[:octicons-home-16: Homepage](https://kryptor.co.uk){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kryptor.co.uk/tutorial){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kryptor.co.uk/#donate){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://kryptor.co.uk" title="Homepage" icon="home" >}}
+  {{< card link="https://kryptor.co.uk/features#privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://kryptor.co.uk)
-- [:simple-apple: macOS](https://kryptor.co.uk)
-- [:simple-linux: Linux](https://kryptor.co.uk)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://kryptor.co.uk)
+[{{< badge content="macOS" color="indigo" >}}](https://kryptor.co.uk)
+[{{< badge content="Windows" color="red" >}}](https://kryptor.co.uk)
 
 ### Tomb
 
-<div class="admonition recommendation" markdown>
-
-![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
-
 **Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
-[:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://dyne.org/donate){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://dyne.org/software/tomb" title="Homepage" icon="home" >}}
+  {{< card link="https://github.com/dyne/Tomb/wiki" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 ## OpenPGP
 
@@ -257,105 +210,59 @@ gpg --quick-gen-key alice@example.com future-default
 
 ### GNU Privacy Guard
 
-<div class="admonition recommendation" markdown>
-
-![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
-
 **GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
 
-[:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://gnupg.org" title="Homepage" icon="home" >}}
+  {{< card link="https://gnupg.org/privacy-policy.html" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
-- [:simple-apple: macOS](https://gpgtools.org)
-- [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://gnupg.org/download/index.html#binary)
+[{{< badge content="macOS" color="indigo" >}}](https://gpgtools.org)
+[{{< badge content="Windows" color="red" >}}](https://gpg4win.org/download.html)
 
 ### GPG4win
 
-<div class="admonition recommendation" markdown>
-
-![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
-
 **GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that can assist you in using GPG on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
 
-[:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://gpg4win.org" title="Homepage" icon="home" >}}
+  {{< card link="https://gpg4win.org/privacy-policy.html" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
-
-</details>
-
-</div>
+[{{< badge content="Windows" color="red" >}}](https://gpg4win.org/download.html)
 
 ### GPG Suite
 
-<div class="admonition recommendation" markdown>
-
-![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
-
-**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
+**GPG Suite** provides OpenPGP support for [Apple Mail](../email-clients/_index.md#apple-mail-macos) and other email clients on macOS.
 
 We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge Base](https://gpgtools.tenderapp.com/kb) for support.
 
-[:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://gpgtools.org" title="Homepage" icon="home" >}}
+  {{< card link="https://gpgtools.org/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-apple: macOS](https://gpgtools.org)
-
-</details>
-
-</div>
+[{{< badge content="macOS" color="indigo" >}}](https://gpgtools.org)
 
 Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable release for macOS Sonoma and later.
 
 ### OpenKeychain
 
-<div class="admonition recommendation" markdown>
+**OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](../email-clients/_index.md#thunderbird), [FairEmail](../email-clients/_index.md#fairemail-android), and other Android apps to provide encryption support.
 
-![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+{{< cards >}}
+  {{< card link="https://openkeychain.org" title="Homepage" icon="home" >}}
+  {{< card link="https://openkeychain.org/help/privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-**OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android), and other Android apps to provide encryption support.
-
-[:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://openkeychain.org/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-
-</details>
-
-</div>
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 
 Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. The published audit and OpenKeychain's solutions to the issues raised in the audit can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Qualifications
 

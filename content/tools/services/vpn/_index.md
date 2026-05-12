@@ -6,6 +6,14 @@ description: The best VPN services for protecting your privacy and security onli
 
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#proton-vpn" title="Proton VPN" image="./protonvpn.svg" subtitle="Proton VPN is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option." >}}
+  {{< card link="#ivpn" title="IVPN" image="./ivpn.svg" subtitle="IVPN is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar and does not offer a free trial." >}}
+  {{< card link="#mullvad" title="Mullvad" image="./mullvad.svg" subtitle="Mullvad is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since 2009. Mullvad is based in Sweden and offers a 14-day money-back guarantee for payment methods that allow it." >}}
+{{< /cards >}}
+</div>
+
 If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
@@ -15,11 +23,11 @@ Using a VPN will **not** keep your browsing habits anonymous, nor will it add ad
 
 If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
-[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](../../../wiki/advanced/tor-overview.md){ .md-button }
+[Introduction to the Tor Browser](../../software/tor/_index.md#tor-browser) · [Tor Myths & FAQ](../../../wiki/advanced/tor-overview.md)
 
 </div>
 
-[Detailed VPN Overview :material-arrow-right-drop-circle:](../../../wiki/basics/vpn-overview.md){ .md-button }
+[Detailed VPN Overview](../../../wiki/basics/vpn-overview.md)
 
 ## Recommended Providers
 
@@ -33,30 +41,19 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 ### Proton VPN
 
-<div class="admonition recommendation" markdown>
-
-![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
-
 **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
 
-[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://protonvpn.com" title="Homepage" icon="home" >}}
+  {{< card link="https://protonvpn.com/privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
-- [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-- [:fontawesome-brands-windows: Windows](https://protonvpn.com/download-windows)
-- [:simple-apple: macOS](https://protonvpn.com/download-macos)
-- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://protonvpn.com/support/linux-vpn-setup)
+[{{< badge content="macOS" color="indigo" >}}](https://protonvpn.com/download-macos)
+[{{< badge content="Windows" color="red" >}}](https://protonvpn.com/download-windows)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1437005085)
+[{{< badge content="GitHub" >}}](https://github.com/ProtonVPN/android-app/releases)
 
 #### :material-check:{ .pg-green } 127 Countries
 
@@ -117,7 +114,7 @@ We are noting this because while we don't necessarily recommend against sharing 
 
 #### :material-alert-outline:{ .pg-orange } Additional Notes
 
-Proton VPN clients support two-factor authentication on all platforms. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Proton VPN clients support two-factor authentication on all platforms. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](../../software/tor/_index.md#tor-browser) for this purpose.
 
 ##### Kill switch feature provides poor protections on macOS
 
@@ -127,31 +124,20 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 
 ### IVPN
 
-<div class="admonition recommendation" markdown>
-
-![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
-
 **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar and does not offer a free trial.
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://ivpn.net" title="Homepage" icon="home" >}}
+  {{< card link="https://ivpn.net/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
-- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-- [:simple-github: GitHub](https://github.com/ivpn/android-app/releases)
-- [:fontawesome-brands-windows: Windows](https://ivpn.net/apps-windows)
-- [:simple-apple: macOS](https://ivpn.net/apps-macos)
-- [:simple-linux: Linux](https://ivpn.net/apps-linux)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://ivpn.net/apps-linux)
+[{{< badge content="macOS" color="indigo" >}}](https://ivpn.net/apps-macos)
+[{{< badge content="Windows" color="red" >}}](https://ivpn.net/apps-windows)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=net.ivpn.client)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1193122683)
+[{{< badge content="Accrescent" >}}](https://accrescent.app/app/net.ivpn.client)
+[{{< badge content="GitHub" >}}](https://github.com/ivpn/android-app/releases)
 
 #### :material-check:{ .pg-green } 41 Countries
 
@@ -202,31 +188,19 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 ### Mullvad
 
-<div class="admonition recommendation" markdown>
-
-![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
-
 **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since 2009. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://mullvad.net" title="Homepage" icon="home" >}}
+  {{< card link="https://mullvad.net/en/help/privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
-- [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/windows)
-- [:simple-apple: macOS](https://mullvad.net/en/download/macos)
-- [:simple-linux: Linux](https://mullvad.net/en/download/linux)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://mullvad.net/en/download/linux)
+[{{< badge content="macOS" color="indigo" >}}](https://mullvad.net/en/download/macos)
+[{{< badge content="Windows" color="red" >}}](https://mullvad.net/en/download/windows)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1488466513)
+[{{< badge content="GitHub" >}}](https://github.com/mullvad/mullvadvpn-app/releases)
 
 #### :material-check:{ .pg-green } 49 Countries
 
@@ -290,7 +264,7 @@ It is important to note that using a VPN provider will not make you anonymous, b
 
 </div>
 
-**Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+**Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
 
 ### Technology
 
@@ -300,7 +274,7 @@ We require our recommended providers to support modern technologies currently av
 
 - Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
 - Support for strong protocols such as WireGuard.
-- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](../../os/desktop/_index.md) and [mobile](../../os/android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
 - If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
@@ -319,7 +293,7 @@ We prefer our recommended providers to collect as little data as possible. Not c
 
 **Minimum to Qualify:**
 
-- [Anonymous cryptocurrency](cryptocurrency.md) **or** cash payment option.
+- [Anonymous cryptocurrency](../../software/cryptocurrency/_index.md) **or** cash payment option.
 - No personal information required to register: Only username, password, and email at most.
 
 **Best Case:**
@@ -380,7 +354,7 @@ Must not have any marketing which is irresponsible:
 
 Responsible marketing that is both educational and useful to the consumer could include:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
+- An accurate comparison to when [Tor](../../software/tor/_index.md) should be used instead.
 - Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
 
 ### Additional Functionality

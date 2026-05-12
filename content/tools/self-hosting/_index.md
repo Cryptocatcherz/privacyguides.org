@@ -50,19 +50,12 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 ### Vaultwarden
 
-<div class="admonition recommendation" markdown>
+**Vaultwarden** is an alternative implementation of [Bitwarden](../services/passwords/_index.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, [official service](https://github.com/bitwarden/server) might not be ideal.
 
-![Vaultwarden logo](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
-![Vaultwarden logo](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
-
-**Vaultwarden** is an alternative implementation of [Bitwarden](../passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, [official service](https://github.com/bitwarden/server) might not be ideal.
-
-[:octicons-repo-16: Repository](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
-
-</div>
+{{< cards >}}
+  {{< card link="https://github.com/dani-garcia/vaultwarden#readme" title="Repository" icon="code" >}}
+  {{< card link="https://github.com/dani-garcia/vaultwarden/wiki" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 ## :material-account-supervisor-circle-outline: Social Networks
 
@@ -70,16 +63,12 @@ Self-hosting your own instance of a social network software can help circumvent 
 
 ### Mastodon
 
-<div class="admonition recommendation" markdown>
-
-![Mastodon logo](../assets/img/social-networks/mastodon.svg){ align=right }
-
 **Mastodon** is a social network based on open web protocols and free, open-source software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
 
-[:octicons-home-16:](https://joinmastodon.org){ .card-link title="Homepage" }
-[:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Admin Documentation" }
-
-</div>
+{{< cards >}}
+  {{< card link="https://joinmastodon.org" title="Homepage" icon="home" >}}
+  {{< card link="https://docs.joinmastodon.org/admin/prerequisites" title="Admin documentation" icon="document-text" >}}
+{{< /cards >}}
 
 Mastodon [integrates with the Tor network](https://docs.joinmastodon.org/admin/optional/tor) for more extreme scenarios where even your underlying hosting provider is subject to censorship, but this may limit who can access your content to only other servers which integrate with Tor (like most other hidden services).
 
@@ -87,17 +76,12 @@ Mastodon benefits greatly from a large and active self-hosting community, and it
 
 ### Element
 
-<div class="admonition recommendation" markdown>
-
-![Element logo](../assets/img/social-networks/element.svg){ align=right }
-
 **Element** is the flagship client for the **:simple-matrix: Matrix** protocol, an open standard that enables decentralized communication by way of federated chat rooms.
 
-[:octicons-home-16:](https://element.io){ .card-link title="Homepage" }
-[:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
-
-</div>
+{{< cards >}}
+  {{< card link="https://element.io" title="Homepage" icon="home" >}}
+  {{< card link="https://element-hq.github.io/synapse/latest" title="Admin documentation" icon="document-text" >}}
+{{< /cards >}}
 
 ## :material-flip-to-front: Frontends
 

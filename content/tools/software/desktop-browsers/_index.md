@@ -8,33 +8,30 @@ description: These privacy-protecting browsers are what we currently recommend f
 
 These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#mullvad-browser" title="Mullvad Browser" image="./mullvad_browser.svg" subtitle="Mullvad Browser is a version of Tor Browser with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against Mass Surveillance." >}}
+  {{< card link="#firefox" title="Firefox" image="./firefox.svg" subtitle="Firefox provides strong privacy settings such as Enhanced Tracking Protection, which can help block various types of tracking." >}}
+  {{< card link="#brave" title="Brave" image="./brave.svg" subtitle="Brave Browser includes a built-in content blocker and privacy features, many of which are enabled by default. Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues." >}}
+{{< /cards >}}
+</div>
+
+If you need to browse the internet anonymously, you should use [Tor](../tor/_index.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
 
 ## Mullvad Browser
 
-<div class="admonition recommendation" markdown>
+**Mullvad Browser** is a version of [Tor Browser](../tor/_index.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](../../../wiki/basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](../../services/vpn/_index.md#mullvad), and does **not** require the use of Mullvad's VPN.
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+{{< cards >}}
+  {{< card link="https://mullvad.net/en/browser" title="Homepage" icon="home" >}}
+  {{< card link="https://mullvad.net/en/help/privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](../../../wiki/basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+[{{< badge content="Linux" color="yellow" >}}](https://mullvad.net/en/download/browser/linux)
+[{{< badge content="macOS" color="indigo" >}}](https://mullvad.net/en/download/browser/macos)
+[{{< badge content="Windows" color="red" >}}](https://mullvad.net/en/download/browser/windows)
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
-- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
-
-</details>
-
-</div>
-
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Like [Tor Browser](../tor/_index.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 
@@ -42,13 +39,13 @@ Modifications other than adjusting this setting would make your fingerprint uniq
 
 ### Anti-Fingerprinting
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**Without** using a [VPN](../../services/vpn/_index.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
 
 ==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
 Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically discourage adding *additional* [browser extensions](../browser-extensions/_index.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
 
 ### Private Browsing Mode
 
@@ -58,29 +55,17 @@ This is required to prevent advanced forms of tracking, but does come at the cos
 
 ## Firefox
 
-<div class="admonition recommendation" markdown>
-
-![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
-
 **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://firefox.com" title="Homepage" icon="home" >}}
+  {{< card link="https://mozilla.org/privacy/firefox" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
-- [:simple-apple: macOS](https://mozilla.org/firefox/mac)
-- [:simple-linux: Linux](https://mozilla.org/firefox/linux)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://mozilla.org/firefox/linux)
+[{{< badge content="macOS" color="indigo" >}}](https://mozilla.org/firefox/mac)
+[{{< badge content="Windows" color="red" >}}](https://mozilla.org/firefox/windows)
+[{{< badge content="Flathub" >}}](https://flathub.org/apps/details/org.mozilla.firefox)
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -155,7 +140,7 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+If you use a [DNS over HTTPS provider](../../services/dns/_index.md):
 
 - [x] Select **Max Protection** and choose a suitable provider
 
@@ -180,32 +165,20 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 ## Brave
 
-<div class="admonition recommendation annotate" markdown>
-
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
-
 **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://brave.com" title="Homepage" icon="home" >}}
+  {{< card link="https://brave.com/privacy/browser" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:fontawesome-brands-windows: Windows](https://brave.com/download)
-- [:simple-apple: macOS](https://brave.com/download)
-- [:simple-linux: Linux](https://brave.com/linux)
-- [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://brave.com/linux)
+[{{< badge content="macOS" color="indigo" >}}](https://brave.com/download)
+[{{< badge content="Windows" color="red" >}}](https://brave.com/download)
+[{{< badge content="Flathub" >}}](https://flathub.org/apps/com.brave.Browser)
+[{{< badge content="GitHub" >}}](https://github.com/brave/brave-browser/releases)
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -265,7 +238,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 ##### Tor windows
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](../tor/_index.md#tor-browser).
 
 ##### Data Collection
 
@@ -306,13 +279,13 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](../../../wiki/advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](../cryptocurrency/_index.md), nor do we recommend using a [custodial wallet](../../../wiki/advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 
@@ -334,6 +307,6 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should not include add-on functionality (bloatware) that does not impact user privacy.
 - Should not collect telemetry by default.
 - Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Should default to a [private search engine](../../services/search-engines/_index.md).
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).

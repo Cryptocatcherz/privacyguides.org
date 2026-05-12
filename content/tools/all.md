@@ -60,7 +60,7 @@ We [**recommend**](dns.md#recommended-providers) a number of encrypted DNS serve
 {{< cards >}}
   {{< card link="../services/email/#proton-mail" title="Proton Mail" image="../services/email/protonmail.svg" subtitle="Proton Mail is a privacy-focused email provider developed by the makers of Proton VPN." >}}
   {{< card link="../services/email/#mailbox-mail" title="Mailbox" image="../services/email/mailbox-mail.svg" subtitle="Mailbox is a privacy-focused email provider that offers end-to-end encryption and a suite of collaboration tools." >}}
-  {{< card link="../services/email/#tutanota" title="Tuta" image="../services/email/tuta.svg" subtitle="Tutanota is a privacy-focused email provider that offers end-to-end encryption and a user-friendly interface." >}}
+  {{< card link="../services/email/#tuta" title="Tuta" image="../services/email/tuta.svg" subtitle="Tutanota is a privacy-focused email provider that offers end-to-end encryption and a user-friendly interface." >}}
 {{< /cards >}}
 
 ### Financial Services
@@ -68,8 +68,8 @@ We [**recommend**](dns.md#recommended-providers) a number of encrypted DNS serve
 #### Payment Masking Services
 
 {{< cards >}}
-  {{< card link="../services/financial-services/#privacycom" title="Privacy.com" image="../services/financial-services/privacy_com.svg" subtitle="Privacy.com is a US-based payment masking service that allows you to create virtual credit cards for online purchases." >}}
-  {{< card link="../services/financial-services/#mysudo" title="MySudo" image="../services/financial-services/mysudo.svg" subtitle="MySudo is a US-based payment masking service that allows you to create virtual credit cards for online purchases, as well as providing private phone numbers and email addresses." >}}
+  {{< card link="../services/financial-services/#privacycom-us" title="Privacy.com" image="../services/financial-services/privacy_com.svg" subtitle="Privacy.com is a US-based payment masking service that allows you to create virtual credit cards for online purchases." >}}
+  {{< card link="../services/financial-services/#mysudo-us-paid" title="MySudo" image="../services/financial-services/mysudo.svg" subtitle="MySudo is a US-based payment masking service that allows you to create virtual credit cards for online purchases, as well as providing private phone numbers and email addresses." >}}
 {{< /cards >}}
 
 #### Online Gift Card Marketplaces

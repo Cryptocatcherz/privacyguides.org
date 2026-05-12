@@ -11,7 +11,17 @@ Most **mobile phones** receive short or limited windows of security updates from
 
 The mobile devices listed here provide a long lifespan of guaranteed security updates and allow you to install a custom operating system without violating the Android security model.
 
-[Recommended Android Distributions :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#google-pixel" title="Google Pixel" image="./google-pixel.png" subtitle="Google Pixel phones are the only devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google’s custom Titan security chips acting as the Secure Element." >}}
+{{< /cards >}}
+</div>
+
+[Recommended Android Distributions :material-arrow-right-drop-circle:](../../os/android/distributions.md)
+{ .md-button .md-button--primary }
+
+[Details about Android Security :material-arrow-right-drop-circle:](../../os/android-overview.md#security-protections)
+{ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -38,17 +48,14 @@ A few more tips regarding Android devices and operating system compatibility:
 
 Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
 
-<div class="admonition recommendation" markdown>
-
-![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
-
 **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
 
 Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
 
-[:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
-
-</div>
+{{< cards >}}
+  {{< card link="https://store.google.com/category/phones" title="Store" icon="shopping-bag" >}}
+  {{< card link="https://support.google.com/pixelphone" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 ### Hardware Security
 
@@ -56,7 +63,7 @@ Secure Elements like the Titan M2 are more limited than the processor's Trusted 
 
 Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
 
-The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](android/distributions.md#grapheneos), an alternative Android OS we recommend, greatly improves the usability and coverage of MTE in its implementation of the feature.
+The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](../../os/android/distributions.md#grapheneos), an alternative Android OS we recommend, greatly improves the usability and coverage of MTE in its implementation of the feature.
 
 ### Buying a Google Pixel
 
@@ -83,7 +90,7 @@ The installation of GrapheneOS on a Pixel phone is easy with their [web installe
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Must support at least one of our recommended custom operating systems.
 - Must be currently sold new in stores.

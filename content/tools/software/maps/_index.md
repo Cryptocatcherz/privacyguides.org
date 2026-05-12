@@ -6,61 +6,47 @@ description: Privacy-respecting map providers and navigation apps which don't bu
 
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#organic-maps" title="Organic Maps" image="./organic-maps.svg" subtitle="Organic Maps is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads." >}}
+  {{< card link="#osmand" title="OsmAnd" image="./osmand.svg" subtitle="OsmAnd is an open-source, offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. You can find a detailed overview of OsmAnd's supported features on the OpenStreet Map Wiki." >}}
+{{< /cards >}}
+</div>
+
 Use a **map and navigation app** that doesn't build an advertising profile based on your searches and location history. Instead of using Google Maps, Apple Maps, or Waze, we recommend these privacy-respecting alternatives.
 
 The recommendations here do not collect personally identifying information (PII) based on each application's privacy policy. There is **no guarantee** that these privacy policies are honored.
 
 ## Organic Maps
 
-<div class="admonition recommendation" markdown>
-
-![Organic Maps logo](assets/img/maps/organic-maps.svg){ align=right }
-
 **Organic Maps** is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
 
 Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
 
-[:octicons-home-16: Homepage](https://organicmaps.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://organicmaps.app" title="Homepage" icon="home" >}}
+  {{< card link="https://organicmaps.app/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
-- [:simple-appstore: App Store](https://apps.apple.com/app/organic-maps/id1567437057)
-- [:simple-github: GitHub](https://github.com/organicmaps/organicmaps/releases)
-- [:simple-linux: Linux](https://flathub.org/apps/app.organicmaps.desktop)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://flathub.org/apps/app.organicmaps.desktop)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=app.organicmaps)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/organic-maps/id1567437057)
+[{{< badge content="GitHub" >}}](https://github.com/organicmaps/organicmaps/releases)
 
 Please note that Organic Maps is a simple, basic app that lacks certain features many users might expect, such as satellite images, street view images, and real-time traffic information.
 
 ## OsmAnd
 
-<div class="admonition recommendation" markdown>
-
-![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
-
 **OsmAnd** is an open-source, offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. You can find a detailed overview of OsmAnd's supported [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) on the OpenStreet Map Wiki.
 
-[:octicons-home-16: Homepage](https://osmand.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://osmand.net" title="Homepage" icon="home" >}}
+  {{< card link="https://osmand.net/docs/legal/privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.osmand)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/id934850257)
-- [:simple-android: Android](https://osmand.net/docs/versions/free-versions)
-
-</details>
-
-</div>
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=net.osmand)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/us/app/id934850257)
+[{{< badge content="Android" >}}](https://osmand.net/docs/versions/free-versions)
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Unique User Identifier</p>
@@ -81,7 +67,7 @@ OsmAnd allows you to overlay or underlay external map data, such as satellite im
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 

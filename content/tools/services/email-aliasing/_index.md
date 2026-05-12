@@ -2,12 +2,20 @@
 title: "Email Aliasing"
 description: An email aliasing service allows you to easily generate a new email address for every website you register for.
 ---
+
 <small>Protects against the following threat(s):</small>
 
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 [{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats.md#limiting-public-information)
 
-An **email aliasing service** allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your [email provider](email.md).
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#addyio" title="Addy.io" image="./addy.svg" subtitle="Addy.io lets you create 10 domain aliases on a shared domain for free, or unlimited standard aliases. The number of shared aliases (which end in a shared domain like @addy.io) that you can create depends on the plan you are subscribed to." >}}
+  {{< card link="#simplelogin" title="SimpleLogin" image="./simplelogin.svg" subtitle="SimpleLogin is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains." >}}
+{{< /cards >}}
+</div>
+
+An **email aliasing service** allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your [email provider](../email/_index.md).
 
 Email aliasing can also act as a safeguard in case your email provider ever ceases operation. In that scenario, you can easily re-route your aliases to a new email address. In turn, however, you are placing trust in the aliasing service to continue functioning.
 
@@ -36,42 +44,23 @@ Email aliasing services also have a number of benefits over "temporary email" se
 
 ## Recommended Providers
 
-<div class="grid cards" markdown>
-
-- ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
-- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
-
-</div>
-
 Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as on your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the `@` symbol.
 
 Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption[^1], which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
 
 ### Addy.io
 
-<div class="admonition recommendation" markdown>
-
-![Addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
-
 **Addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited ["standard" aliases](https://addy.io/faq/#what-is-a-standard-alias).
 
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://addy.io/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://addy.io" title="Homepage" icon="home" >}}
+  {{< card link="https://addy.io/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://addy.io/faq/#is-there-an-android-app)
-- [:simple-appstore: App Store](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
+[{{< badge content="Google Play" color="green" >}}](https://addy.io/faq/#is-there-an-android-app)
+[{{< badge content="App Store" color="blue" >}}](https://addy.io/faq/#is-there-an-ios-app)
+[{{< badge content="Chrome" >}}](https://chrome.google.com/webstore/detail/iadbdpnoknmbdeolbapdackdcogdmjpe)
+[{{< badge content="Firefox" >}}](https://addons.mozilla.org/firefox/addon/addy_io)
 
 The number of shared aliases (which end in a shared domain like `@addy.io`) that you can create depends on the [plan](https://addy.io/#pricing) you are subscribed to. You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), Addy.io's official reseller.
 
@@ -91,31 +80,20 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 
 ### SimpleLogin
 
-<div class="admonition recommendation" markdown>
-
-![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
-
 **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
 
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://simplelogin.io" title="Homepage" icon="home" >}}
+  {{< card link="https://simplelogin.io/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=io.simplelogin.android)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1494359858)
+[{{< badge content="Chrome" >}}](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
+[{{< badge content="Edge" >}}](https://microsoftedge.microsoft.com/addons/detail/diacfpipniklenphgljfkmhinphjlfff)
+[{{< badge content="Firefox" >}}](https://addons.mozilla.org/firefox/addon/simplelogin)
+[{{< badge content="GitHub" >}}](https://github.com/simple-login/Simple-Login-Android/releases)
+[{{< badge content="Safari" >}}](https://apps.apple.com/app/id6475835429)
 
 SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
 
@@ -134,6 +112,6 @@ When your subscription ends, all aliases you created will still be able to recei
 
 ## Criteria
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we evaluate email aliasing providers to the same standard as our regular [email provider criteria](email.md#criteria) where applicable. We suggest you familiarize yourself with this list before choosing an email aliasing service, and conduct your own research to ensure the provider you choose is the right choice for you.
+**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we evaluate email aliasing providers to the same standard as our regular [email provider criteria](../email/_index.md#criteria) where applicable. We suggest you familiarize yourself with this list before choosing an email aliasing service, and conduct your own research to ensure the provider you choose is the right choice for you.
 
 [^1]: Automatic PGP encryption allows you to encrypt non-encrypted incoming emails before they are forwarded to your mailbox, making sure your primary mailbox provider never sees unencrypted email content.

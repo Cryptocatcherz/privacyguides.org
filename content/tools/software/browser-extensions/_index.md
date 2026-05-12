@@ -10,33 +10,30 @@ In general, we recommend keeping your browser extensions to a minimum to decreas
 
 However, some provide functionality which can outweigh these downsides in certain situations, particularly when it comes to [content blocking](../../../wiki/basics/common-threats.md#mass-surveillance-programs).
 
-Don't install extensions which you don't immediately have a need for, or ones that duplicate the functionality of your browser. For example, [Brave](desktop-browsers.md#brave) users don't need to install uBlock Origin, because Brave Shields already provides the same functionality.
+Don't install extensions which you don't immediately have a need for, or ones that duplicate the functionality of your browser. For example, [Brave](../desktop-browsers/_index.md#brave) users don't need to install uBlock Origin, because Brave Shields already provides the same functionality.
+
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#ublock-origin" title="uBlock Origin" image="./ublock_origin.svg" subtitle="uBlock Origin is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts." >}}
+  {{< card link="#ublock-origin-lite" title="uBlock Origin Lite" image="./ublock_origin_lite.svg" subtitle="uBlock Origin Lite is a Manifest V3 compatible content blocker. Compared to the original uBlock Origin, this extension does not require broad read/modify data permissions to function, which lowers the risk of Passive Attacks on your browser if a malicious rule is added to a filter list." >}}
+  {{< card link="#adguard" title="AdGuard for iOS" image="./adguard.svg" subtitle="AdGuard for iOS is a free and open-source content-blocking extension for Safari that uses the native Content Blocker API." >}}
+{{< /cards >}}
+</div>
 
 ## Content Blockers
 
 ### uBlock Origin
 
-<div class="admonition recommendation" markdown>
-
-![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
-
 **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
 
-[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://github.com/gorhill/uBlock#readme" title="Repository" icon="code" >}}
+  {{< card link="https://github.com/gorhill/uBlock/wiki/Privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
-
-</details>
-
-</div>
+[{{< badge content="Firefox" >}}](https://addons.mozilla.org/firefox/addon/ublock-origin)
+[{{< badge content="Chrome" >}}](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+[{{< badge content="Edge" >}}](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
 We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
@@ -53,27 +50,16 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
 - ...your browser only supports Manifest V3 extensions. This is the case for Chrome [^2] , Edge and most Chromium browsers.
 
-<div class="admonition recommendation" markdown>
-
-![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-
 **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [:material-bug-outline: Passive Attacks](../../../wiki/basics/common-threats.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
 
-[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://github.com/uBlockOrigin/uBOL-home#readme" title="Repository" icon="code" >}}
+  {{< card link="https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
-- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/cimighlppcgcoapaliogpjjdehbnofhn)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6745342698)
-
-</details>
-
-</div>
+[{{< badge content="Chrome" >}}](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+[{{< badge content="Edge" >}}](https://microsoftedge.microsoft.com/addons/detail/cimighlppcgcoapaliogpjjdehbnofhn)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id6745342698)
 
 We only recommend this version of uBlock Origin if you never want to add any filter lists not included by default, or need advanced options such as [dynamic filtering](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide) and the network logger. These restrictions are due to limitations in Manifest V3's design, notably the hard limit on the number of filtering rules, and the fact that extensions generally cannot fetch remote resources.[^3]
 
@@ -85,27 +71,16 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 ### AdGuard
 
-We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is only supported by uBlock Origin **Lite**. Luckily, AdGuard provides an adequate alternative:
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+We recommend [Safari](../mobile-browsers/_index.md#safari-ios) for iOS users, which unfortunately is only supported by uBlock Origin **Lite**. Luckily, AdGuard provides an adequate alternative:
 
 **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://adguard.com/en/adguard-ios/overview.html" title="Homepage" icon="home" >}}
+  {{< card link="https://adguard.com/privacy/ios.html" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1047223162)
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
 

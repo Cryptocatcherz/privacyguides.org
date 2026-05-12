@@ -8,27 +8,26 @@ description: Discover how to privately share your files between your devices, wi
 
 Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#send" title="Send" image="./send.svg" subtitle="Send is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well." >}}
+  {{< card link="#onionshare" title="OnionShare" image="./onionshare.svg" subtitle="OnionShare is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files." >}}
+  {{< card link="#syncthing-p2p" title="Syncthing" image="./syncthing.svg" subtitle="Syncthing is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet." >}}
+{{< /cards >}}
+</div>
+
 ## File Sharing
 
-If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarden](passwords.md#bitwarden) Premium[^2] subscription, consider using the file sharing capabilities that they each offer, both of which use end-to-end encryption. Otherwise, the standalone options listed here ensure that the files you share are not read by a remote server.
+If you already use [Proton Drive](../../services/cloud/_index.md#proton-drive)[^1] or have a [Bitwarden](../../services/passwords/_index.md#bitwarden) Premium[^2] subscription, consider using the file sharing capabilities that they each offer, both of which use end-to-end encryption. Otherwise, the standalone options listed here ensure that the files you share are not read by a remote server.
 
 ### Send
 
-<div class="admonition recommendation" markdown>
-
-![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
-
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee). You can use other public instances, or you can host Send yourself.
 
-[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://send.vis.ee" title="Homepage" icon="home" >}}
+  {{< card link="https://github.com/timvisee/send-instances" title="Public Instances" icon="server" >}}
+{{< /cards >}}
 
 Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
 
@@ -38,34 +37,23 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ### OnionShare
 
-<div class="admonition recommendation" markdown>
-
-![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
-
 **OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
 
-[:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://onionshare.org" title="Homepage" icon="home" >}}
+  {{< card link="http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion" title="Onion Service" icon="link" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
-- [:simple-apple: macOS](https://onionshare.org/#download)
-- [:simple-linux: Linux](https://onionshare.org/#download)
-- [:simple-flathub: Flathub](https://flathub.org/apps/org.onionshare.OnionShare)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://onionshare.org/#download)
+[{{< badge content="macOS" color="indigo" >}}](https://onionshare.org/#download)
+[{{< badge content="Windows" color="red" >}}](https://onionshare.org/#download)
+[{{< badge content="Flathub" >}}](https://flathub.org/apps/org.onionshare.OnionShare)
 
 OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 ### Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Must not store decrypted data on a remote server.
 - Must be open-source software.
@@ -75,32 +63,21 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 ### Syncthing (P2P)
 
-<div class="admonition recommendation" markdown>
-
-![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
-
 **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
 
-[:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
+{{< cards >}}
+  {{< card link="https://syncthing.net" title="Homepage" icon="home" >}}
+  {{< card link="https://docs.syncthing.net" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
-- [:simple-apple: macOS](https://syncthing.net/downloads)
-- [:simple-linux: Linux](https://syncthing.net/downloads)
-- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://syncthing.net/downloads)
+[{{< badge content="macOS" color="indigo" >}}](https://syncthing.net/downloads)
+[{{< badge content="Windows" color="red" >}}](https://syncthing.net/downloads)
+[{{< badge content="FreeBSD" >}}](https://syncthing.net/downloads)
 
 ### Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 #### Minimum Requirements
 

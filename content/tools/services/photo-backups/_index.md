@@ -2,49 +2,45 @@
 title: Photo Management
 description: These photo management tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
 ---
+
 <small>Protects against the following threat(s):</small>
 
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#ente-photos" title="Ente Photos" image="./ente.svg" subtitle="Ente Photos is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open source, both on the client side and on the server side." >}}
+{{< /cards >}}
+</div>
+
 Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
 
 ## Ente Photos
-
-<div class="admonition recommendation" markdown>
-
-![Ente logo](assets/img/photo-management/ente.svg){ align=right }
 
 **Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 
 The free plan offers 10 GB of storage as long as you use the service at least once a year.
 
-[:octicons-home-16: Homepage](https://ente.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ente.com/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://ente.com" title="Homepage" icon="home" >}}
+  {{< card link="https://ente.com/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=photos)
-- [:simple-android: Android](https://ente.com/download)
-- [:fontawesome-brands-windows: Windows](https://ente.com/download)
-- [:simple-apple: macOS](https://ente.com/download)
-- [:simple-linux: Linux](https://ente.com/download)
-- [:octicons-browser-16: Web](https://web.ente.io)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://ente.com/download)
+[{{< badge content="macOS" color="indigo" >}}](https://ente.com/download)
+[{{< badge content="Windows" color="red" >}}](https://ente.com/download)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=io.ente.photos)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1542026904)
+[{{< badge content="Android" >}}](https://ente.com/download)
+[{{< badge content="GitHub" >}}](https://github.com/ente-io/ente/releases?q=photos)
+[{{< badge content="Web" >}}](https://web.ente.io)
 
 The server-side source code and infrastructure which underpins Ente Photos underwent an audit by [Cure53](https://ente.com/blog/cern-audit) in October 2025. Previous audits were completed by [Cure53](https://ente.com/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 

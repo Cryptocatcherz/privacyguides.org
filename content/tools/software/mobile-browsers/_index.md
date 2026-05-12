@@ -6,35 +6,31 @@ description: These browsers are what we currently recommend for standard/non-ano
 
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#brave" title="Brave" image="./brave.svg" subtitle="Brave Browser includes a built-in content blocker and privacy features, many of which are enabled by default. Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues." >}}
+  {{< card link="#cromite-android" title="Cromite" image="./cromite.svg" subtitle="Cromite is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other privacy and security enhancements. It is a fork of the discontinued Bromite browser." >}}
+  {{< card link="#safari-ios" title="Safari (iOS)" image="./safari.svg" subtitle="On iOS, any app that can browse the web is restricted to using an Apple-provided WebKit framework, so a browser like Brave does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems. Safari is the default browser in iOS." >}}
+{{< /cards >}}
+</div>
+
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead.
 
 ## Brave
-
-<div class="admonition recommendation" markdown>
-
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
 **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://brave.com" title="Homepage" icon="home" >}}
+  {{< card link="https://brave.com/privacy/browser" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
-- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:simple-fdroid: F-Droid](https://brave-browser-apk-release.s3.brave.com/fdroid/repo/index.html)
-
-</details>
-
-</div>
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.brave.browser)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1052879175)
+[{{< badge content="F-Droid" >}}](https://brave-browser-apk-release.s3.brave.com/fdroid/repo/index.html)
+[{{< badge content="GitHub" >}}](https://github.com/brave/brave-browser/releases)
 
 ### Recommended Brave Configuration
 
@@ -159,26 +155,15 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 ## Cromite (Android)
 
-<div class="admonition recommendation" markdown>
-
-![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
-
 **Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
 
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://cromite.org" title="Homepage" icon="home" >}}
+  {{< card link="https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
-
-</details>
-
-</div>
+[{{< badge content="F-Droid" >}}](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+[{{< badge content="GitHub" >}}](https://github.com/uazo/cromite/releases/latest)
 
 ### Recommended Configuration
 
@@ -222,19 +207,12 @@ This disables update checks for the unmaintained Bromite adblock filter.
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
 
-<div class="admonition recommendation" markdown>
-
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
-
 **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://apple.com/safari" title="Homepage" icon="home" >}}
+  {{< card link="https://apple.com/legal/privacy/data/en/safari" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
 ### Recommended Safari Configuration
 
@@ -341,7 +319,7 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend sett
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 

@@ -15,54 +15,42 @@ You should **never** use blur to redact [text in images](https://bishopfox.com/b
 
 </div>
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#mat2" title="MAT2" image="./mat2.svg" subtitle="MAT2 is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for Dolphin, the default file manager of KDE." >}}
+  {{< card link="#exiferaser-android" title="ExifEraser" image="./exiferaser.svg" subtitle="ExifEraser is a modern, permissionless image metadata erasing application for Android." >}}
+  {{< card link="#exiftool-cli" title="ExifTool" image="./exiftool.png" subtitle="ExifTool is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more)." >}}
+{{< /cards >}}
+</div>
+
 ## MAT2
-
-<div class="admonition recommendation" markdown>
-
-![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
 
 **MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
-[:octicons-repo-16: Repository](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/jvoisin/mat2){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://github.com/jvoisin/mat2#readme" title="Repository" icon="code" >}}
+  {{< card link="https://github.com/jvoisin/mat2#how-to-use-mat2" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
-- [:simple-apple: macOS](https://github.com/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
-- [:simple-linux: Linux](https://pypi.org/project/mat2)
-- [:octicons-browser-16: Web](https://github.com/jvoisin/mat2#web-interface)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://pypi.org/project/mat2)
+[{{< badge content="macOS" color="indigo" >}}](https://github.com/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+[{{< badge content="Windows" color="red" >}}](https://pypi.org/project/mat2)
+[{{< badge content="Web" >}}](https://github.com/jvoisin/mat2#web-interface)
 
 ## ExifEraser (Android)
-
-<div class="admonition recommendation" markdown>
-
-![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
 
 **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
 It currently supports JPEG, PNG, and WebP files.
 
-[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://github.com/Tommy-Geenexus/exif-eraser#readme" title="Repository" icon="code" >}}
+  {{< card link="https://github.com/Tommy-Geenexus/exif-eraser#description" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
-- [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
-- [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
-
-</details>
-
-</div>
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
+[{{< badge content="Accrescent" >}}](https://accrescent.app/app/com.none.tom.exiferaser)
+[{{< badge content="GitHub" >}}](https://github.com/Tommy-Geenexus/exif-eraser/releases)
 
 The metadata that is erased depends on the image's file type:
 
@@ -84,7 +72,8 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 On iOS and macOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://apps.apple.com/app/id915249334) for this purpose. Here is an example shortcut you can download to use as is:
 
-[:material-tag-minus: Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9){ .md-button }
+[:material-tag-minus: Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9)
+{ .md-button }
 
 You can also use it as a model for your own shortcut; just make sure that the **Preserve Metadata** option under the **Convert** action is unchecked. Once added, you can access the shortcut in the share sheet that appears when you select the :octicons-share-24: Share button. You can select multiple images and invoke the shortcut to remove their metadata all at once.
 
@@ -92,29 +81,18 @@ This shortcut removes metadata such as location, device model, lens model, and o
 
 ## ExifTool (CLI)
 
-<div class="admonition recommendation" markdown>
-
-![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
-
 **ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
 It is often a component of other Exif removal applications and in most Linux distribution repositories.
 
-[:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://exiftool.org" title="Homepage" icon="home" >}}
+  {{< card link="https://exiftool.org/faq.html" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://exiftool.org)
-- [:simple-apple: macOS](https://exiftool.org)
-- [:simple-linux: Linux](https://exiftool.org)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://exiftool.org)
+[{{< badge content="macOS" color="indigo" >}}](https://exiftool.org)
+[{{< badge content="Windows" color="red" >}}](https://exiftool.org)
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Deleting data from a directory of files</p>
@@ -127,7 +105,7 @@ exiftool -all= *.file_extension
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Apps developed for open-source operating systems must be open source.
 - Apps must be free and should not include ads or other limitations.

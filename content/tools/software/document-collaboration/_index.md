@@ -6,32 +6,28 @@ description: Most online office suites do not support end-to-end encryption, mea
 
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#cryptpad" title="CryptPad" image="./cryptpad.svg" subtitle="CryptPad is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily." >}}
+{{< /cards >}}
+</div>
+
 Most online **document collaboration** platforms like Google Drive do not support end-to-end encryption, meaning the cloud provider has access to everything you do. The provider's privacy policy may legally protect your rights, but it does not provide technical access constraints.
 
 ## CryptPad
-
-<div class="admonition recommendation" markdown>
-
-![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
 **CryptPad** is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily.
 
 [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
 
-[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
-[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://cryptpad.fr" title="Homepage" icon="home" >}}
+  {{< card link="https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 

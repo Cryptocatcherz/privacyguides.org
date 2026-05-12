@@ -8,25 +8,33 @@ description: Linux distributions are commonly recommended for privacy protection
 
 Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
 
-- [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
+- [General Linux Overview](../linux-overview.md)
+
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#fedora-linux" title="Fedora Linux" image="./fedora.svg" subtitle="Fedora Linux is our recommended desktop distribution for people new to Linux. Fedora generally adopts newer technologies (e.g., Wayland and PipeWire) before other distributions. These new technologies often come with improvements in security, privacy, and usability in general." >}}
+  {{< card link="#opensuse-tumbleweed" title="openSUSE Tumbleweed" image="./opensuse-tumbleweed.svg" subtitle="openSUSE Tumbleweed is a stable rolling release distribution. openSUSE Tumbleweed uses Btrfs and Snapper to ensure that snapshots can be rolled back should there be a problem." >}}
+  {{< card link="#arch-linux" title="Arch Linux" image="./archlinux.svg" subtitle="Arch Linux is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. For more information see their FAQ." >}}
+  {{< card link="#fedora-atomic-desktops" title="Fedora Atomic Desktops" image="./fedora.svg" subtitle="Fedora Atomic Desktops are variants of Fedora which use the rpm-ostree package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream." >}}
+  {{< card link="#nixos" title="NixOS" image="./nixos.svg" subtitle="NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability." >}}
+  {{< card link="#whonix" title="Whonix" image="./whonix.svg" subtitle="Whonix is based on Kicksecure, a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with Qubes OS." >}}
+  {{< card link="#tails" title="Tails" image="./tails.svg" subtitle="Tails is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses Tor to preserve privacy and anonymity while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off." >}}
+  {{< card link="#qubes-os" title="Qubes OS" image="./qubes_os.svg" subtitle="Qubes OS is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or “qubes”). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers." >}}
+  {{< card link="#secureblue" title="Secureblue" image="./secureblue.svg" subtitle="Secureblue is a security-focused operating system based on Fedora Atomic Desktops. It includes a number of security features intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with Trivalent, their hardened, Chromium-based web browser." >}}
+  {{< card link="#kicksecure" title="Kicksecure" image="./kicksecure.svg" subtitle="Kicksecure—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. It also serves as the base OS for Whonix." >}}
+{{< /cards >}}
+</div>
 
 ## Traditional Distributions
 
 ### Fedora Linux
 
-<div class="admonition recommendation" markdown>
-
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
-
 **Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. These new technologies often come with improvements in security, privacy, and usability in general.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://fedoraproject.org" title="Homepage" icon="home" >}}
+  {{< card link="https://docs.fedoraproject.org/en-US/docs" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 Fedora comes in two primary desktop editions, [Fedora Workstation](https://fedoraproject.org/workstation), which uses the GNOME desktop environment, and [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), which uses KDE. Historically, Fedora Workstation has been more popular and widely recommended, but KDE has been gaining in popularity and provides an experience more similar to Windows, which may make transitioning to Linux easier for some. The security and privacy benefits of both editions are very similar, so it mostly comes down to personal preference.
 
@@ -34,65 +42,44 @@ Fedora has a semi-rolling release cycle. While some packages like the desktop en
 
 ### openSUSE Tumbleweed
 
-<div class="admonition recommendation" markdown>
-
-![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
-
 **openSUSE Tumbleweed** is a stable rolling release distribution.
 
 openSUSE Tumbleweed uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
 
-[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
-[:octicons-info-16:](https://doc.opensuse.org){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://get.opensuse.org/tumbleweed" title="Homepage" icon="home" >}}
+  {{< card link="https://doc.opensuse.org" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When you upgrade your system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by [openQA](https://openqa.opensuse.org) to ensure its quality.
 
 ### Arch Linux
 
-<div class="admonition recommendation" markdown>
-
-![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
-
 **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
-[:octicons-home-16: Homepage](https://archlinux.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://archlinux.org" title="Homepage" icon="home" >}}
+  {{< card link="https://wiki.archlinux.org" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
-Being a DIY distribution, you are [expected to set up and maintain](os/linux-overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+Being a DIY distribution, you are [expected to set up and maintain](../linux-overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
 
 A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org)[^1].
 
 ## Atomic Distributions
 
-**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. Advantages of atomic distros include increased stability and the ability to easily roll back updates. See [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) for more info.
+**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. Advantages of atomic distros include increased stability and the ability to easily roll back updates. See [*Traditional vs. Atomic Updates*](../linux-overview.md#traditional-vs-atomic-updates) for more info.
 
 ### Fedora Atomic Desktops
 
-<div class="admonition recommendation" markdown>
-
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
-
 **Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://fedoraproject.org/atomic-desktops" title="Homepage" icon="home" >}}
+  {{< card link="https://docs.fedoraproject.org/en-US/emerging" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer. As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding flavors that support only the legacy X11 window system.
 
@@ -106,19 +93,12 @@ As an alternative to Flatpaks, there is the option of [Toolbx](https://docs.fedo
 
 ### NixOS
 
-<div class="admonition recommendation" markdown>
+**NixOS** is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
 
-![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
-
-NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
-
-[:octicons-home-16: Homepage](https://nixos.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://nixos.org" title="Homepage" icon="home" >}}
+  {{< card link="https://nixos.org/learn.html" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 
@@ -134,42 +114,27 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 ### Whonix
 
-<div class="admonition recommendation" markdown>
+**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and [anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy) on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
 
-![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
-
-**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and [:material-incognito: Anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
-
-[:octicons-home-16: Homepage](https://whonix.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://whonix.org/wiki/Documentation){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://whonix.org" title="Homepage" icon="home" >}}
+  {{< card link="https://whonix.org/wiki/Documentation" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
 
 Some of its features include Tor Stream Isolation, [keystroke anonymization](https://whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/roddhjav/apparmor.d) and a [sandboxed app launcher](https://whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
+Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](../qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 
-<div class="admonition recommendation" markdown>
+**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](../../software/tor/_index.md) to preserve privacy and [anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy) while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
 
-![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
-
-**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](tor.md) to preserve privacy and [:material-incognito: Anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
-
-[:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://tails.net/donate){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://tails.net" title="Homepage" icon="home" >}}
+  {{< card link="https://tails.net/doc/index.en.html" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -180,7 +145,7 @@ Tails [doesn't erase](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) t
 
 Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy, allowing for the user to be deanonymized.
 
-Tails includes [uBlock Origin](browser-extensions.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
+Tails includes [uBlock Origin](../../software/browser-extensions/_index.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
 
 By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.net/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 
@@ -192,69 +157,44 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 ### Qubes OS
 
-<div class="admonition recommendation" markdown>
-
-![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
-
 **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
 
-[:octicons-home-16: Homepage](https://qubes-os.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://qubes-os.org" title="Homepage" icon="home" >}}
+  {{< card link="https://qubes-os.org/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-</details>
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised via an exploit in a [targeted attack](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals), the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
-</div>
-
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised via an exploit in a [:material-target-account: Targeted Attack](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }, the extra isolation is likely to protect the rest of the *qubes* and the core system.
-
-For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+For further information about how Qubes works, read our full [Qubes OS overview](../qubes-overview.md) page.
 
 ### Secureblue
 
-<div class="admonition recommendation" markdown>
-
-![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ align=right }
-
 **Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
 
-[:octicons-home-16: Homepage](https://secureblue.dev){ .md-button .md-button--primary }
-[:octicons-info-16:](https://secureblue.dev/install){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/secureblue/secureblue){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://secureblue.dev/donate){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://secureblue.dev" title="Homepage" icon="home" >}}
+  {{< card link="https://secureblue.dev/install" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
-</div>
-
-**Trivalent** is Secureblue's hardened Chromium for desktop Linux inspired by [GrapheneOS](android/distributions.md#grapheneos)'s Vanadium browser.
+**Trivalent** is Secureblue's hardened Chromium for desktop Linux inspired by [GrapheneOS](../android/distributions.md#grapheneos)'s Vanadium browser.
 
 Secureblue also provides GrapheneOS's [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc) and enables it globally (including for Flatpaks).
 
 ### Kicksecure
 
-While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
-
-<div class="admonition recommendation" markdown>
-
-![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+While we [recommend against](../linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
 
 **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. It also serves as the base OS for [Whonix](#whonix).
 
-[:octicons-home-16: Homepage](https://kicksecure.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title="Contribute" }
-
-</details>
-
-</div>
+{{< cards >}}
+  {{< card link="https://kicksecure.com" title="Homepage" icon="home" >}}
+  {{< card link="https://kicksecure.com/wiki/Privacy_Policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
 ## Criteria
 
-Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
+Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](../linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
 - Free and open source.
 - Receives regular software and kernel updates.
@@ -262,11 +202,11 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
     - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - Supports full-disk encryption during installation.
 - Doesn't freeze regular releases for more than 1 year.
-    - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
+    - We [recommend against](../linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
 - Supports a wide variety of hardware.
 - Preference towards larger projects.
     - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
 
-In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
+In addition, [our standard criteria](../../../about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
 
 [^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [:material-package-variant-closed-remove: Supply Chain Attacks](../../../wiki/basics/common-threats.md#attacks-against-certain-organizations){ .pg-viridian }.

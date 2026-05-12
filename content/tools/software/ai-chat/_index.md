@@ -44,6 +44,14 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 
 ## AI Chat Clients
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#koboldcpp" title="Kobold.cpp" image="./kobold.png" subtitle="Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes." >}}
+  {{< card link="#ollama-cli" title="Ollama" image="./ollama.png" subtitle="Ollama is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques." >}}
+  {{< card link="#llamafile" title="Llamafile" image="./llamafile.webp" subtitle="Llamafile is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is backed by Mozilla and available on Linux, macOS, and Windows." >}}
+{{< /cards >}}
+</div>
+
 | Feature | [Kobold.cpp](#koboldcpp) | [Ollama](#ollama-cli) | [Llamafile](#llamafile) |
 |---|---|---|---|
 | GPU Support | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green } |
@@ -55,29 +63,18 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 
 ### Kobold.cpp
 
-<div class="admonition recommendation" markdown>
-
-![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
-
 **Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
 
 In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools such as [Whisper](https://github.com/ggerganov/whisper.cpp).
 
-[:octicons-repo-16: Repository](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
+{{< cards >}}
+  {{< card link="https://github.com/LostRuins/koboldcpp#readme" title="Repository" icon="code" >}}
+  {{< card link="https://github.com/LostRuins/koboldcpp/wiki" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
-- [:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
-- [:simple-linux: Linux](https://github.com/LostRuins/koboldcpp/releases)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://github.com/LostRuins/koboldcpp/releases)
+[{{< badge content="macOS" color="indigo" >}}](https://github.com/LostRuins/koboldcpp/releases)
+[{{< badge content="Windows" color="red" >}}](https://github.com/LostRuins/koboldcpp/releases)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Compatibility Issues</p>
@@ -90,57 +87,35 @@ Kobold.cpp allows you to modify parameters such as the AI model temperature and 
 
 ### Ollama (CLI)
 
-<div class="admonition recommendation" markdown>
-
-![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
-
 **Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
 
 In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
 
-[:octicons-home-16: Homepage](https://ollama.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Security Policy" }
+{{< cards >}}
+  {{< card link="https://ollama.com" title="Homepage" icon="home" >}}
+  {{< card link="https://github.com/ollama/ollama#readme" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://ollama.com/download/windows)
-- [:simple-apple: macOS](https://ollama.com/download/mac)
-- [:simple-linux: Linux](https://ollama.com/download/linux)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://ollama.com/download/linux)
+[{{< badge content="macOS" color="indigo" >}}](https://ollama.com/download/mac)
+[{{< badge content="Windows" color="red" >}}](https://ollama.com/download/windows)
 
 Ollama simplifies the process of setting up a local AI chat by downloading the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, Ollama maintains their own [model library](https://ollama.com/library) where they host the files of various AI models. This ensures that models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
 
 ### Llamafile
 
-<div class="admonition recommendation" markdown>
-
-![Llamafile Logo](assets/img/ai-chat/llamafile.webp){align=right}
-
 **Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
 
 Llamafile also supports LLaVA. However, it doesn't support speech recognition or image generation.
 
-[:octicons-repo-16: Repository](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
+{{< cards >}}
+  {{< card link="https://github.com/Mozilla-Ocho/llamafile#readme" title="Repository" icon="code" >}}
+  {{< card link="https://github.com/Mozilla-Ocho/llamafile#quickstart" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-- [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-- [:simple-linux: Linux](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+[{{< badge content="macOS" color="indigo" >}}](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+[{{< badge content="Windows" color="red" >}}](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 
 Mozilla has made llamafiles available for only some Llama and Mistral models, while there are few third-party llamafiles available. Moreover, Windows limits `.exe` files to 4 GB, and most models are larger than that.
 
@@ -165,7 +140,7 @@ A downloaded model is generally safe if it satisfies all the above checks.
 
 ## Criteria
 
-Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 

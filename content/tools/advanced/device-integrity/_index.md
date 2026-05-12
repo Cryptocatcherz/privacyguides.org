@@ -12,6 +12,14 @@ These tools may provide utility for certain individuals. They provide functional
 
 </div>
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#mobile-verification-toolkit" title="MVT" image="./mvt.webp" subtitle="Mobile Verification Toolkit (MVT) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the Pegasus Project." >}}
+  {{< card link="#imazing-ios" title="iMazing" image="./imazing.png" subtitle="iMazing provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for MVT. This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators." >}}
+  {{< card link="#auditor-android" title="Auditor" image="./auditor.svg" subtitle="Auditor is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for supported devices." >}}
+{{< /cards >}}
+</div>
+
 It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
 
 ## General Advice
@@ -64,25 +72,15 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 
 ### Mobile Verification Toolkit
 
-<div class="admonition recommendation" markdown>
-
-![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
-![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
-
 **Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 
-[:octicons-home-16: Homepage](https://mvt.re){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://mvt.re" title="Homepage" icon="home" >}}
+  {{< card link="https://github.com/mvt-project/mvt" title="Source code" icon="code" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
-- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
-
-</details>
-
-</div>
+[{{< badge content="macOS" color="indigo" >}}](https://docs.mvt.re/en/latest/install)
+[{{< badge content="Linux" color="yellow" >}}](https://docs.mvt.re/en/latest/install)
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -106,25 +104,15 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 ### iMazing (iOS)
 
-<div class="admonition recommendation" markdown>
-
-![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
-
 **iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
 
-[:octicons-home-16: Homepage](https://imazing.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
+{{< cards >}}
+  {{< card link="https://imazing.com" title="Homepage" icon="home" >}}
+  {{< card link="https://imazing.com/privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://imazing.com/download)
-- [:simple-apple: macOS](https://imazing.com/download)
-
-</details>
-
-</div>
+[{{< badge content="Windows" color="red" >}}](https://imazing.com/download)
+[{{< badge content="macOS" color="indigo" >}}](https://imazing.com/download)
 
 iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
 
@@ -146,33 +134,20 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 ### Auditor (Android)
 
-<div class="admonition recommendation" markdown>
-
-![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
-![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
-
 **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
 
-[:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
-[:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
+{{< cards >}}
+  {{< card link="https://attestation.app" title="Homepage" icon="home" >}}
+  {{< card link="https://attestation.app/privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-- [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
-
-</details>
-
-</div>
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
+[{{< badge content="GitHub" >}}](https://github.com/GrapheneOS/Auditor/releases)
+[{{< badge content="GrapheneOS App Store" >}}](https://github.com/GrapheneOS/Apps/releases)
 
 Auditor is not a scanning/analysis tool like some other tools on this page. Rather, it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. This provides a very robust integrity check of your device itself, but doesn't necessarily check whether the user-level apps running on your device are malicious.
 
-Auditor performs attestation and intrusion detection with **two** devices, an *auditee* (the device being verified) and an *auditor* (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android/distributions.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor works by:
+Auditor performs attestation and intrusion detection with **two** devices, an *auditee* (the device being verified) and an *auditor* (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](../../os/android/distributions.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor works by:
 
 - Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an *auditor* and *auditee*, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the *Auditor*.
 - The *auditor* can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
@@ -184,4 +159,4 @@ It is important to note that Auditor can only effectively detect changes **after
 
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-If your [threat model](../../../wiki/basics/threat-modeling.md requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).
+If your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](../alternative-networks/_index.md#orbot) or a [VPN](../../services/vpn/_index.md).

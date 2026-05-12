@@ -2,9 +2,17 @@
 title: Data Removal Services
 description: Our recommended methods for removing your personal information from data brokers and people search sites.
 ---
+
 <small>Protects against the following threat(s):</small>
 
 [{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-misconceptions.md)
+
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#easyoptouts-paid" title="EasyOptOuts" image="./easyoptouts.svg" subtitle="EasyOptOuts is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time." >}}
+  {{< card link="#google-results-about-you-free" title="Google Results about you" image="./google.svg" subtitle="Results about you is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appears in Google search results. If any personal information is found, you can request its removal." >}}
+{{< /cards >}}
+</div>
 
 "People search sites" operated by data brokers represent an immense privacy risk to the majority of Americans. For many, sensitive personal information such as your address, phone number, email, and age is a simple internet search away. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their *public* databases upon request.
 
@@ -15,7 +23,7 @@ Counterintuitively, removing your personal data on these sites from the internet
 <div class="admonition example" markdown>
 <p class="admonition-title">Try it out</p>
 
-Use your favorite [search engine](search-engines.md) to see if your data is trivially exposed by searching for your name in quotes, plus your general location. For example, search for `"Jane Smith" Chicago IL`. In many cases, you may find your personal information makes up many of the first results. Even if results about you aren't readily available though, you may still be affected. The list of data brokers linked below will provide more places to check whether your data is in any public databases.
+Use your favorite [search engine](../search-engines/_index.md) to see if your data is trivially exposed by searching for your name in quotes, plus your general location. For example, search for `"Jane Smith" Chicago IL`. In many cases, you may find your personal information makes up many of the first results. Even if results about you aren't readily available though, you may still be affected. The list of data brokers linked below will provide more places to check whether your data is in any public databases.
 
 </div>
 
@@ -60,16 +68,12 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 ## EasyOptOuts <small>Paid</small>
 
-<div class="admonition recommendation" markdown>
-
-![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
-
 **EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
 
-[:octicons-home-16: Homepage](https://easyoptouts.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Privacy Policy" }
-
-</div>
+{{< cards >}}
+  {{< card link="https://easyoptouts.com" title="Homepage" icon="home" >}}
+  {{< card link="https://easyoptouts.com/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
 Some websites supported by EasyOptOuts are publicly searchable. In those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
 
@@ -96,16 +100,14 @@ While Google is not a data broker themselves *per se*, as they don't sell or sha
 
 </div>
 
-<div class="admonition recommendation" markdown>
-
-![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
-
 **Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appears in Google search results. If any personal information is found, you can request its removal.
 
-[:octicons-globe-16: Open Web Tool](https://myactivity.google.com/results-about-you){ .md-button .md-button--primary }
-[:octicons-info-16:](https://support.google.com/websearch/answer/12719076){ .card-link title=Documentation}
+{{< cards >}}
+  {{< card link="https://myactivity.google.com/results-about-you" title="Web Tool" icon="external-link" >}}
+  {{< card link="https://policies.google.com/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-</div>
+Google publishes [help documentation](https://support.google.com/websearch/answer/12719076) for this tool.
 
 In many cases, a Google search is the first place a potential stalker or abuser would look to find your personal information, which could make using it a worthwhile trade-off. However, this tool does not remove your information from the discovered websites themselves, only their listings on Google. You should still consider manually opting out from the results which are discovered, or using another service which automatically opts you out from those sites directly.
 
@@ -117,7 +119,7 @@ In our testing, this tool worked to reliably remove people search sites from Goo
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing a data removal service, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing a data removal service, and conduct your own research to ensure it's the right choice for you.
 
 Our picks for removal services are primarily based on independent professional testing from third-parties as noted in the sections above, our own internal testing, and aggregated reviews from our community.
 

@@ -7,13 +7,20 @@ description: Find a new social network that doesn’t pry into your data or mone
 [{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats.md#avoiding-censorship)
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#mastodon" title="Mastodon" image="./mastodon.svg" subtitle="Mastodon is a social network based on open web protocols and free, open-source software. It uses the ActivityPub protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other." >}}
+  {{< card link="#element" title="Element" image="./element.svg" subtitle="Element is the flagship client for the Matrix protocol, an open standard that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other." >}}
+{{< /cards >}}
+</div>
+
 These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
 
 A growing problem among social media platforms is censorship in two different forms. First, they often acquiesce to illegitimate censorship requests, either from malicious governments or their own internal policies. Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
 
 The social networks we recommend solve the issue of censorship by operating atop an open and decentralized social networking protocol. They also don't require an account merely to view publicly available content.
 
-You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](real-time-communication.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
+You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](../../services/messengers/_index.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
 
 ## Decentralization
 
@@ -39,16 +46,12 @@ If you are greatly concerned about an existing server censoring your content, th
 
 ## Mastodon
 
-<div class="admonition recommendation" markdown>
-
-![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
-
 **Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
 
-[:octicons-home-16: Homepage](https://joinmastodon.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Documentation" }
-
-</div>
+{{< cards >}}
+  {{< card link="https://joinmastodon.org" title="Homepage" icon="home" >}}
+  {{< card link="https://docs.joinmastodon.org" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
 There are many software platforms which use ActivityPub as their backend social networking protocol, meaning they can talk to servers even when they are running different software. For example, PeerTube is a video publishing software that uses ActivityPub, meaning you can follow channels on PeerTube either with another PeerTube account, *or* with a Mastodon account because Mastodon also uses ActivityPub.
 
@@ -111,31 +114,20 @@ If you used our recommended configuration settings above, you should be posting 
 
 ## Element
 
-<div class="admonition recommendation" markdown>
-
-![Element logo](assets/img/social-networks/element.svg){ align=right }
-
 **Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
 
-[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://element.io" title="Homepage" icon="home" >}}
+  {{< card link="https://element.io/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.element.android.x)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1631335820)
-- [:simple-github: GitHub](https://github.com/element-hq/element-x-android/releases)
-- [:fontawesome-brands-windows: Windows](https://element.io/download)
-- [:simple-apple: macOS](https://element.io/download)
-- [:simple-linux: Linux](https://element.io/download)
-- [:octicons-browser-16: Web](https://app.element.io)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://element.io/download)
+[{{< badge content="macOS" color="indigo" >}}](https://element.io/download)
+[{{< badge content="Windows" color="red" >}}](https://element.io/download)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=io.element.android.x)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1631335820)
+[{{< badge content="GitHub" >}}](https://github.com/element-hq/element-x-android/releases)
+[{{< badge content="Web" >}}](https://app.element.io)
 
 ### Choosing a Homeserver
 
@@ -187,13 +179,13 @@ With this setting enabled, unverified users (i.e., those who have not used the *
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Must be free and open-source software.
 - Must use a federated protocol to communicate with other instances of the social networking software.
 - Must not have non-technical restrictions on who can be federated with.
-- Must be usable within a standard [web browser](desktop-browsers.md).
+- Must be usable within a standard [web browser](../desktop-browsers/_index.md).
 - Must make public content accessible to visitors without an account.
 - Must allow you to limit who can follow your profile.
 - Must allow you to post content visible only to your followers.
-- Must support modern web application security standards/features (including [multifactor authentication](multi-factor-authentication.md)).
+- Must support modern web application security standards/features (including [multifactor authentication](../multi-factor-authentication/_index.md)).

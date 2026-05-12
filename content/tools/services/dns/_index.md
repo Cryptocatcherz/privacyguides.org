@@ -6,9 +6,18 @@ description: We recommend choosing these encrypted DNS providers to replace your
 
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#control-d" title="Control D" image="./control-d.svg" subtitle="Control D is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level. In addition to their paid plans, they offer a number of preconfigured DNS resolvers you can use for free." >}}
+  {{< card link="#nextdns" title="NextDNS" image="./nextdns.svg" subtitle="NextDNS is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level. They offer a fully functional free plan for limited use." >}}
+  {{< card link="#rethinkdns" title="RethinkDNS" image="./rethinkdns.svg" subtitle="RethinkDNS is an open-source Android client that supports DoH, DoT, DNSCrypt and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall." >}}
+  {{< card link="#dnscrypt-proxy" title="DNSCrypt-Proxy" image="./dnscrypt-proxy.svg" subtitle="DNSCrypt-Proxy is a DNS proxy with support for DNSCrypt, DoH, and Anonymized DNS." >}}
+{{< /cards >}}
+</div>
+
 Encrypted **DNS** with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
 
-[Learn more about DNS :material-arrow-right-drop-circle:](../../../wiki/advanced/dns-overview.md){ .md-button }
+[Learn more about DNS](../../../wiki/advanced/dns-overview.md)
 
 ## Recommended Providers
 
@@ -51,60 +60,38 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 ### Control D
 
-<div class="admonition recommendation" markdown>
-
-![Control D logo](assets/img/dns/control-d.svg){ align=right }
-
 **Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
 
 In addition to their paid plans, they offer a number of preconfigured DNS resolvers you can use for free.
 
-[:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://controld.com" title="Homepage" icon="home" >}}
+  {{< card link="https://controld.com/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
-- [:simple-appstore: App Store](https://apps.apple.com/app/1518799460)
-- [:simple-github: GitHub](https://github.com/Control-D-Inc/ctrld/releases)
-- [:fontawesome-brands-windows: Windows](https://docs.controld.com/docs/gui-setup-utility)
-- [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
-- [:simple-linux: Linux](https://docs.controld.com/docs/ctrld)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://docs.controld.com/docs/ctrld)
+[{{< badge content="macOS" color="indigo" >}}](https://docs.controld.com/docs/gui-setup-utility)
+[{{< badge content="Windows" color="red" >}}](https://docs.controld.com/docs/gui-setup-utility)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.controld.setuputility)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/1518799460)
+[{{< badge content="GitHub" >}}](https://github.com/Control-D-Inc/ctrld/releases)
 
 ### NextDNS
-
-<div class="admonition recommendation" markdown>
-
-![NextDNS logo](assets/img/dns/nextdns.svg){ align=right }
 
 **NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
 
 They offer a fully functional free plan for limited use.
 
-[:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.nextdns.io){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://nextdns.io" title="Homepage" icon="home" >}}
+  {{< card link="https://nextdns.io/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/nextdns/id1463342498)
-- [:simple-github: GitHub](https://github.com/nextdns/nextdns/releases)
-- [:fontawesome-brands-windows: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
-- [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
-- [:simple-linux: Linux](https://github.com/nextdns/nextdns/wiki)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://github.com/nextdns/nextdns/wiki)
+[{{< badge content="macOS" color="indigo" >}}](https://apps.apple.com/us/app/nextdns/id1464122853)
+[{{< badge content="Windows" color="red" >}}](https://github.com/nextdns/nextdns/wiki/Windows)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/nextdns/id1463342498)
+[{{< badge content="GitHub" >}}](https://github.com/nextdns/nextdns/releases)
 
 When used with an account, NextDNS will enable insights and logging features by default (as some features require it). You can choose retention time and log storage location for any logs you choose to keep, or disable logs altogether.
 
@@ -118,53 +105,30 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](..
 
 ### RethinkDNS
 
-<div class="admonition recommendation" markdown>
-
-![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
-
 **RethinkDNS** is an open-source Android client that supports [DoH](../../../wiki/advanced/dns-overview.md#dns-over-https-doh), [DoT](../../../wiki/advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](../../../wiki/advanced/dns-overview.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
 
-[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://rethinkdns.com" title="Homepage" icon="home" >}}
+  {{< card link="https://rethinkdns.com/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-- [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
-
-</details>
-
-</div>
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+[{{< badge content="GitHub" >}}](https://github.com/celzero/rethink-app/releases)
 
 While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a WireGuard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
 
 ### DNSCrypt-Proxy
 
-<div class="admonition recommendation" markdown>
-
-![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
-
 **DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](../../../wiki/advanced/dns-overview.md#dnscrypt), [DoH](../../../wiki/advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
-[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://github.com/DNSCrypt/dnscrypt-proxy" title="Source Code Repository" icon="code" >}}
+  {{< card link="https://github.com/DNSCrypt/dnscrypt-proxy/wiki" title="Documentation" icon="document-text" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
-- [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
-- [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+[{{< badge content="macOS" color="indigo" >}}](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
+[{{< badge content="Windows" color="red" >}}](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>

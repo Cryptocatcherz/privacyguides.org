@@ -9,38 +9,35 @@ description: Encrypted messengers like Signal and SimpleX keep your sensitive co
 [{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
+<div class="pg-card-logos">
+{{< cards >}}
+  {{< card link="#signal" title="Signal" image="./signal.svg" subtitle="Signal is a mobile app developed by Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy and post-compromise security." >}}
+  {{< card link="#molly-android" title="Molly (Android)" image="./molly.svg" subtitle="If you use Android and your threat model requires protecting against targeted attacks you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network. Molly is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and more." >}}
+  {{< card link="#simplex-chat" title="SimpleX Chat" image="./simplex.svg" subtitle="SimpleX Chat is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against censorship." >}}
+  {{< card link="#briar" title="Briar" image="./briar.svg" subtitle="Briar is an encrypted instant messenger that connects to other clients using the Tor network, making it an effective tool at circumventing censorship. Briar can also connect via Wi-Fi or Bluetooth when in local proximity." >}}
+{{< /cards >}}
+</div>
+
 These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](../../../wiki/advanced/communication-network-types.md).
 
-[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why){ .md-button }
+[Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why)
 
 ## Signal
 
-<div class="admonition recommendation" markdown>
-
-![Signal logo](assets/img/messengers/signal.svg){ align=right }
-
 **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
-[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://signal.org" title="Homepage" icon="home" >}}
+  {{< card link="https://signal.org/legal/#privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
-- [:simple-github: GitHub](https://github.com/signalapp/Signal-Android/releases)
-- [:simple-android: Android](https://signal.org/android/apk)
-- [:fontawesome-brands-windows: Windows](https://signal.org/download/windows)
-- [:simple-apple: macOS](https://signal.org/download/macos)
-- [:simple-linux: Linux](https://signal.org/download/linux)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://signal.org/download/linux)
+[{{< badge content="macOS" color="indigo" >}}](https://signal.org/download/macos)
+[{{< badge content="Windows" color="red" >}}](https://signal.org/download/windows)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id874139669)
+[{{< badge content="Android" >}}](https://signal.org/android/apk)
+[{{< badge content="GitHub" >}}](https://github.com/signalapp/Signal-Android/releases)
 
 Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
 
@@ -54,7 +51,7 @@ Signal requires your phone number for registration, however you should create a 
 
 We have some additional tips on configuring and hardening your Signal installation:
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
+[Signal Configuration and Hardening](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
 Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
 
@@ -66,28 +63,16 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals){ .pg-red  } you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
 
-<div class="admonition recommendation" markdown>
-
-![Molly logo](assets/img/messengers/molly.svg){ align=right }
-
 **Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
 
-[:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
+{{< cards >}}
+  {{< card link="https://molly.im" title="Homepage" icon="home" >}}
+  {{< card link="https://signal.org/legal/#privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-fdroid: F-Droid](https://molly.im/fdroid)
-- [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
-- [:simple-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
-
-</details>
-
-</div>
+[{{< badge content="Accrescent" >}}](https://accrescent.app/app/im.molly.app)
+[{{< badge content="F-Droid" >}}](https://molly.im/fdroid)
+[{{< badge content="GitHub" >}}](https://github.com/mollyim/mollyim-android/releases)
 
 Molly is updated every two weeks to include the latest features and bug fixes from Signal. The exception is security issues, which are patched as soon as possible. That said, you should be aware that there might be a slight delay compared to upstream, which may affect actions such as [migrating from Signal to Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal).
 
@@ -99,31 +84,20 @@ Both versions of Molly provide the same security improvements and support [repro
 
 ## SimpleX Chat
 
-<div class="admonition recommendation" markdown>
-
-![SimpleX Chat logo](assets/img/messengers/simplex.svg){ align=right }
-
 **SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
-[:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+{{< cards >}}
+  {{< card link="https://simplex.chat" title="Homepage" icon="home" >}}
+  {{< card link="https://simplex.chat/privacy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
-- [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
-- [:fontawesome-brands-windows: Windows](https://simplex.chat/downloads/#desktop-app)
-- [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
-- [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
-- [:simple-flathub: Flathub](https://flathub.org/en/apps/chat.simplex.simplex)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://simplex.chat/downloads/#desktop-app)
+[{{< badge content="macOS" color="indigo" >}}](https://simplex.chat/downloads/#desktop-app)
+[{{< badge content="Windows" color="red" >}}](https://simplex.chat/downloads/#desktop-app)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=chat.simplex.app)
+[{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1605771084)
+[{{< badge content="Flathub" >}}](https://flathub.org/en/apps/chat.simplex.simplex)
+[{{< badge content="GitHub" >}}](https://github.com/simplex-chat/simplex-chat/releases)
 
 SimpleX Chat provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Additionally, SimpleX Chat provides metadata protection by using unidirectional ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) to deliver messages.
 
@@ -135,29 +109,17 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 ## Briar
 
-<div class="admonition recommendation" markdown>
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](../../advanced/alternative-networks/_index.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
-![Briar logo](assets/img/messengers/briar.svg){ align=right }
+{{< cards >}}
+  {{< card link="https://briarproject.org" title="Homepage" icon="home" >}}
+  {{< card link="https://briarproject.org/privacy-policy" title="Privacy Policy" icon="eye" >}}
+{{< /cards >}}
 
-**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
-
-[:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Documentation" }
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://code.briarproject.org/briar/briar#donate){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-- [:fontawesome-brands-windows: Windows](https://briarproject.org/download-briar-desktop)
-- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
-
-</details>
-
-</div>
+[{{< badge content="Linux" color="yellow" >}}](https://briarproject.org/download-briar-desktop)
+[{{< badge content="Windows" color="red" >}}](https://briarproject.org/download-briar-desktop)
+[{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
+[{{< badge content="Flathub" >}}](https://flathub.org/apps/details/org.briarproject.Briar)
 
 To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
 
@@ -167,7 +129,7 @@ The client software was independently [audited](https://briarproject.org/news/20
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 
