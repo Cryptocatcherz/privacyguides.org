@@ -1,17 +1,15 @@
 ---
 title: Instant Messengers
-icon: material/chat-processing
 description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
-cover: real-time-communication.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
+[{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
-These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](advanced/communication-network-types.md).
+These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](../../../wiki/advanced/communication-network-types.md).
 
 [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why){ .md-button }
 
@@ -66,7 +64,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 ### Molly (Android)
 
-If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red  } you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
+If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals){ .pg-red  } you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
 
 <div class="admonition recommendation" markdown>
 
@@ -105,7 +103,7 @@ Both versions of Molly provide the same security improvements and support [repro
 
 ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
@@ -141,7 +139,7 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 ![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
@@ -186,7 +184,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Should support future secrecy (post-compromise security)[^2]
 - Should have open-source servers.
-- Should use a decentralized network, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Should use a decentralized network, i.e. [federated or P2P](../../../wiki/advanced/communication-network-types.md).
 - Should use E2EE for all messages by default.
 - Should support Linux, macOS, Windows, Android, and iOS.
 

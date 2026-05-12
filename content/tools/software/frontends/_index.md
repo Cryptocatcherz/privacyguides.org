@@ -1,12 +1,10 @@
 ---
 title: "Frontends"
-icon: material/flip-to-front
 description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
-cover: frontends.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
 Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to circumvent these restrictions.
 
@@ -170,7 +168,7 @@ When using FreeTube, your subscription list, playlists, watch history and search
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](../../../wiki/basics/threat-modeling.md requires hiding your IP address.
 
 </div>
 
@@ -205,7 +203,7 @@ Your subscription list and playlists are saved locally on your Android device.
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When using LibreTube, your IP address will be visible to YouTube, [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using LibreTube, your IP address will be visible to YouTube, [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](../../../wiki/basics/threat-modeling.md requires hiding your IP address.
 
 </div>
 
@@ -241,7 +239,7 @@ Your subscription list and playlists are saved locally on your Android device.
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](../../../wiki/basics/threat-modeling.md requires hiding your IP address.
 
 </div>
 

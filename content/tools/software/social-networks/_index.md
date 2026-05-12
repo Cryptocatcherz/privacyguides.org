@@ -1,13 +1,11 @@
 ---
 title: Social Networks
-icon: material/account-supervisor-circle-outline
 description: Find a new social network that doesn’t pry into your data or monetize your profile.
-cover: social-networks.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+[{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats.md#avoiding-censorship)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
 These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
 

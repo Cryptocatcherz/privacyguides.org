@@ -1,13 +1,10 @@
 ---
 title: File Management
-meta_title: "Self-Hosting File Management Tools - Privacy Guides"
-icon: material/file-multiple-outline
 description: For our more technical readers, self-hosting file management tools can provide additional privacy assurances by having maximum control over your data.
-cover: cloud.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 Self-hosting your own **file management** tools may be a good idea to reduce the risk of encryption flaws in a cloud provider's native clients.
 

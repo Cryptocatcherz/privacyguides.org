@@ -1,13 +1,10 @@
 ---
-meta_title: "Recommended Maps and Navigation Apps - Privacy Guides"
 title: Maps and Navigation
-icon: material/map
 description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
-cover: maps.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
 Use a **map and navigation app** that doesn't build an advertising profile based on your searches and location history. Instead of using Google Maps, Apple Maps, or Waze, we recommend these privacy-respecting alternatives.
 

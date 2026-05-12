@@ -1,133 +1,16 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
 title: Password Managers
-icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
-cover: passwords.webp
-schema:
-  -
-    "@context": http://schema.org
-    "@type": WebPage
-    name: Password Manager Recommendations
-    url: "./"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: Bitwarden
-    image: /assets/img/password-management/bitwarden.svg
-    url: https://bitwarden.com
-    sameAs: https://en.wikipedia.org/wiki/Bitwarden
-    applicationCategory: Password Manager
-    operatingSystem:
-      - Windows
-      - macOS
-      - Linux
-      - Android
-      - iOS
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: 1Password
-    image: /assets/img/password-management/1password.svg
-    url: https://1password.com
-    sameAs: https://en.wikipedia.org/wiki/1Password
-    applicationCategory: Password Manager
-    operatingSystem:
-      - Windows
-      - macOS
-      - Linux
-      - Android
-      - iOS
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: Proton Pass
-    image: /assets/img/password-management/protonpass.svg
-    url: https://proton.me/pass
-    applicationCategory: Password Manager
-    operatingSystem:
-      - Android
-      - iOS
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: Psono
-    image: /assets/img/password-management/psono.svg
-    url: https://psono.com
-    applicationCategory: Password Manager
-    operatingSystem:
-      - Android
-      - iOS
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: KeePassXC
-    image: /assets/img/password-management/keepassxc.svg
-    url: https://keepassxc.org
-    sameAs: https://en.wikipedia.org/wiki/KeePassXC
-    applicationCategory: Password Manager
-    operatingSystem:
-      - Windows
-      - macOS
-      - Linux
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: KeePassDX
-    image: /assets/img/password-management/keepassdx.svg
-    url: https://keepassdx.com
-    applicationCategory: Password Manager
-    operatingSystem: Android
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: Gopass
-    image: /assets/img/password-management/gopass.svg
-    url: https://gopass.pw
-    applicationCategory: Password Manager
-    operatingSystem:
-      - Windows
-      - macOS
-      - Linux
-      - FreeBSD
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 **Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
-[Introduction to Passwords :material-arrow-right-drop-circle:](basics/passwords-overview.md)
+[Introduction to Passwords :material-arrow-right-drop-circle:](../../../wiki/basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>

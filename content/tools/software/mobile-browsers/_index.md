@@ -1,57 +1,10 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
 title: Mobile Browsers
-icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
-cover: mobile-browsers.webp
-schema:
-  -
-    "@context": http://schema.org
-    "@type": WebPage
-    name: Private Mobile Browser Recommendations
-    url: "./"
-    relatedLink: "../desktop-browsers/"
-  -
-    "@context": http://schema.org
-    "@type": MobileApplication
-    name: Brave
-    image: /assets/img/browsers/brave.svg
-    url: https://brave.com
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Android
-      - iOS
-    subjectOf:
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": MobileApplication
-    name: Cromite
-    image: /assets/img/browsers/cromite.svg
-    url: https://cromite.org
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Android
-    subjectOf:
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": MobileApplication
-    name: Safari
-    image: /assets/img/browsers/safari.svg
-    url: https://apple.com/safari
-    applicationCategory: Web Browser
-    operatingSystem:
-      - iOS
-    subjectOf:
-      "@type": WebPage
-      url: "./"
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead.
 

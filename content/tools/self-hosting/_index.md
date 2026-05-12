@@ -1,13 +1,11 @@
 ---
 title: Self-Hosting
-meta_title: "Self-Hosting Software and Services - Privacy Guides"
 description: For our more technical readers, self-hosting software and services can provide additional privacy assurances since you have maximum control over your data.
-cover: router.webp
 weight: 40
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+[{{< badge content="Service Providers" color="indigo" >}}](../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 **Self-hosting** software and services can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. By self-hosting, we mean hosting applications and data on your own hardware.
 

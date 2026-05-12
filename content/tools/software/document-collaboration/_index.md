@@ -1,12 +1,10 @@
 ---
 title: Document Collaboration
-icon: material/account-group
 description: Most online office suites do not support end-to-end encryption, meaning the cloud provider has access to everything you do.
-cover: document-collaboration.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 Most online **document collaboration** platforms like Google Drive do not support end-to-end encryption, meaning the cloud provider has access to everything you do. The provider's privacy policy may legally protect your rights, but it does not provide technical access constraints.
 

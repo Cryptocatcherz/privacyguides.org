@@ -1,34 +1,11 @@
 ---
 title: Mobile Phones
-icon: material/cellphone-check
 description: These mobile devices provide the best hardware security support for custom Android operating systems.
-cover: android.webp
-schema:
-  -
-    "@context": http://schema.org
-    "@type": WebPage
-    name: Mobile Phone Recommendations
-    url: "./"
-  -
-    "@context": http://schema.org
-    "@type": Product
-    name: Pixel
-    brand:
-      "@type": Brand
-      name: Google
-    image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
-    review:
-      "@type": Review
-      author:
-        "@type": Organization
-        name: Privacy Guides
-robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 
 Most **mobile phones** receive short or limited windows of security updates from OEMs; after these devices reach the end of their support period, they **cannot** be considered secure as they no longer receive firmware or driver security updates.
 

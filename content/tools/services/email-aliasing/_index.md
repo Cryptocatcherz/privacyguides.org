@@ -1,13 +1,11 @@
 ---
 title: "Email Aliasing"
-icon: material/email-lock
 description: An email aliasing service allows you to easily generate a new email address for every website you register for.
-cover: email-aliasing.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats.md#limiting-public-information)
 
 An **email aliasing service** allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your [email provider](email.md).
 

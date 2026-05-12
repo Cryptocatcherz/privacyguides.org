@@ -1,11 +1,8 @@
 ---
 title: "Device Integrity"
-icon: material/security
 description: These tools can be used to check your devices for compromise.
-cover: device-integrity.webp
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
-
 These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
 
 <div class="admonition note" markdown>
@@ -48,7 +45,7 @@ These tools provide analysis based on the information they have the ability to a
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
@@ -135,8 +132,8 @@ iMazing automates and interactively guides you through the process of using [MVT
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
@@ -187,4 +184,4 @@ It is important to note that Auditor can only effectively detect changes **after
 
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-If your [threat model](basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).
+If your [threat model](../../../wiki/basics/threat-modeling.md requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).

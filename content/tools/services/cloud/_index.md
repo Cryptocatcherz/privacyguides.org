@@ -2,29 +2,29 @@
 title: Cloud Storage
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 ---
+<small>Protects against the following threat(s):</small>
 
-<small>Protects against the following threat(s):</small> 
-[{{< badge content="Passive Attacks" color="orange" >}}]((basics/common-threats.md#security-and-privacy))
-[{{< badge content="Service Providers" color="teal" >}}]((basics/common-threats.md#privacy-from-service-providers))
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 <div class="pg-card-logos">
 {{< cards >}}
-  {{< card link="#proton-drive" title="Proton Drive" image="https://www.privacyguides.org/en/assets/img/cloud/protondrive.svg" subtitle="Proton Drive is an encrypted cloud storage provider from the popular encrypted email provider Proton Mail." >}}
-  {{< card link="#tresorit" title="Tresorit" image="https://www.privacyguides.org/en/assets/img/cloud/tresorit.svg" subtitle="Tresorit is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland." >}}
-  {{< card link="#peergos" title="Peergos" image="https://www.privacyguides.org/en/assets/img/cloud/peergos.svg" subtitle="Peergos is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc." >}}
+  {{< card link="#proton-drive" title="Proton Drive" image="./protondrive.svg" subtitle="Proton Drive is an encrypted cloud storage provider from the popular encrypted email provider Proton Mail." >}}
+  {{< card link="#tresorit" title="Tresorit" image="./tresorit.svg" subtitle="Tresorit is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland." >}}
+  {{< card link="#peergos" title="Peergos" image="./peergos.svg" subtitle="Peergos is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc." >}}
 {{< /cards >}}
 </div>
 
 Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
 
-If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
+If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](../../software/encryption/_index.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
 
 > [!NOTE]
-> For more technical readers, Nextcloud is [still a recommended tool](self-hosting/file-management.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+> For more technical readers, Nextcloud is [still a recommended tool](../../self-hosting/file-management/_index.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 ## Proton Drive
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](../email/_index.md#proton-mail).
 
 The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
@@ -88,7 +88,7 @@ Peergos secures your files with quantum-resistant E2EE and ensures all data abou
 [{{< badge content="Web" color="gray" >}}](https://peergos.net)
 [{{< badge content="GitHub" color="gray" >}}](https://github.com/Peergos/web-ui/releases)
 
-Peergos is built on top of the [InterPlanetary File System (IPFS)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+Peergos is built on top of the [InterPlanetary File System (IPFS)](https://ipfs.tech), a peer-to-peer architecture that protects against [Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship).
 
 The client, server, and command line interface for Peergos all run from the same binary. Additionally, Peergos includes a [sync engine](https://book.peergos.org/features/sync) (accessible via the native apps) for bi-directionally synchronizing a local folder with a Peergos folder, and a [webdav bridge](https://book.peergos.org/features/webdav) to allow other applications to access your Peergos storage. You can refer to Peergos's documentation for a full overview of their numerous features.
 
@@ -96,7 +96,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 

@@ -1,16 +1,10 @@
 ---
-meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
 title: VPN Services
-icon: material/vpn
 description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
-cover: vpn.webp
-global:
-  - [randomize-element, "table tbody"]
 ---
-
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
 If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
 
@@ -21,11 +15,11 @@ Using a VPN will **not** keep your browsing habits anonymous, nor will it add ad
 
 If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
-[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](../../../wiki/advanced/tor-overview.md){ .md-button }
 
 </div>
 
-[Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md){ .md-button }
+[Detailed VPN Overview :material-arrow-right-drop-circle:](../../../wiki/basics/vpn-overview.md){ .md-button }
 
 ## Recommended Providers
 
@@ -86,7 +80,7 @@ Proton VPN provides the source code for their desktop and mobile clients in thei
 
 #### :material-check:{ .pg-green } Accepts Cash
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](../../../wiki/advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
 #### :material-check:{ .pg-green } WireGuard Support
 
@@ -330,7 +324,7 @@ We prefer our recommended providers to collect as little data as possible. Not c
 
 **Best Case:**
 
-- Accepts multiple [anonymous payment options](advanced/payments.md).
+- Accepts multiple [anonymous payment options](../../../wiki/advanced/payments.md).
 - No personal information accepted (auto-generated username, no email required, etc.).
 
 ### Security

@@ -1,13 +1,10 @@
 ---
-meta_title: "Privacy-Respecting Health and Wellness apps for Android and iOS - Privacy Guides"
 title: "Health and Wellness"
-icon: material/heart-pulse
 description: These applications are what we currently recommend for all health- and fitness-related activites on your phone.
-cover: health.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 Keep track of your health and fitness-related goals with these apps. Unlike their mainstream alternatives, your personal health information will be kept private.
 

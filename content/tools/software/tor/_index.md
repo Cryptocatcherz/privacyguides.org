@@ -1,46 +1,26 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
 title: "Tor Browser"
-icon: simple/torbrowser
 description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
-cover: tor.webp
-schema:
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: Tor Browser
-    image: /assets/img/browsers/tor.svg
-    url: https://torproject.org
-    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Windows
-      - macOS
-      - Linux
-      - Android
-    subjectOf:
-      "@type": WebPage
-      url: "./"
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)
+[{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats.md#avoiding-censorship)
 
 **Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button .md-button--primary }
+[Detailed Tor Overview :material-arrow-right-drop-circle:](../../../wiki/advanced/tor-overview.md){ .md-button .md-button--primary }
 [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor){ .md-button }
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+Before connecting to Tor, please ensure you've read our [overview](../../../wiki/advanced/tor-overview.md on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
 
 </div>
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } browsing for desktop computers and Android.
+There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } browsing for desktop computers and Android.
 
 Some of these apps are better than others; making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
 

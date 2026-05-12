@@ -1,64 +1,10 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
 title: Desktop Browsers
-icon: material/laptop
 description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
-cover: desktop-browsers.webp
-schema:
-  -
-    "@context": http://schema.org
-    "@type": WebPage
-    name: Private Desktop Browser Recommendations
-    url: "./"
-    relatedLink: "../mobile-browsers/"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: Mullvad Browser
-    image: /assets/img/browsers/mullvad_browser.svg
-    url: https://mullvad.net/en/browser
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Windows
-      - macOS
-      - Linux
-    subjectOf:
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: Firefox
-    image: /assets/img/browsers/firefox.svg
-    url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Windows
-      - macOS
-      - Linux
-    subjectOf:
-      "@type": WebPage
-      url: "./"
-  -
-    "@context": http://schema.org
-    "@type": SoftwareApplication
-    name: Brave
-    image: /assets/img/browsers/brave.svg
-    url: https://brave.com
-    sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Windows
-      - macOS
-      - Linux
-    subjectOf:
-      "@type": WebPage
-      url: "./"
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
 
 These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
 
@@ -70,7 +16,7 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](../../../wiki/basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
@@ -360,7 +306,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](../../../wiki/advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 

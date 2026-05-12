@@ -1,12 +1,10 @@
 ---
 title: "Notebooks"
-icon: material/notebook-edit-outline
 description: These encrypted note-taking apps let you keep track of your notes without giving them to a third party.
-cover: notebooks.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 Keep track of your notes and journals without giving them to a third party.
 

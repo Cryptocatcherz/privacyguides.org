@@ -1,12 +1,10 @@
 ---
 title: Multifactor Authentication
-icon: material/two-factor-authentication
 description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third party.
-cover: multi-factor-authentication.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Hardware Keys</p>

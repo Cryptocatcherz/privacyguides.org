@@ -1,35 +1,10 @@
 ---
 title: "General Apps"
 description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
-schema:
-  -
-    "@context": http://schema.org
-    "@type": WebPage
-    name: General Android Apps
-    url: "./"
-  -
-    "@context": http://schema.org
-    "@type": MobileApplication
-    name: Shelter
-    applicationCategory: Utilities
-    operatingSystem: Android
-  -
-    "@context": http://schema.org
-    "@type": MobileApplication
-    name: Secure Camera
-    applicationCategory: Utilities
-    operatingSystem: Android
-  -
-    "@context": http://schema.org
-    "@type": MobileApplication
-    name: Secure PDF Viewer
-    applicationCategory: Utilities
-    operatingSystem: Android
-robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 
 We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
@@ -64,7 +39,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
+[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats.md#limiting-public-information)
 
 <div class="admonition recommendation" markdown>
 
@@ -108,7 +83,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 
 <div class="admonition recommendation" markdown>
 

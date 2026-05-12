@@ -1,24 +1,22 @@
 ---
 title: "Email Clients"
-icon: material/email-open
 description: These email clients are privacy-respecting and support OpenPGP email encryption.
-cover: email-clients.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 
-The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) to prevent account theft.
+The **email clients** we recommend support both [OpenPGP](../encryption/_index.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](../../../wiki/basics/account-creation.md#sign-in-with-oauth). OAuth allows you to use [Multi-Factor Authentication](../../../wiki/basics/multi-factor-authentication.md) to prevent account theft.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
+When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](../../../wiki/basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
 
-OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
+OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](../../../wiki/basics/email-security.md#how-do-i-protect-my-private-keys) Consider using a medium that provides forward secrecy:
 
-[Real-time Communication](real-time-communication.md){ .md-button }
+[Real-time Communication](../../services/messengers/_index.md){ .md-button }
 
 </details>
 
@@ -91,7 +89,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
 
-**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](../encryption/_index.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }

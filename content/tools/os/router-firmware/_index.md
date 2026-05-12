@@ -1,13 +1,11 @@
 ---
 title: "Router Firmware"
-icon: material/router-wireless
 description: Alternative operating systems for securing your router or Wi-Fi access point.
-cover: router.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 
 Below are a few alternative operating systems that can be used on routers, Wi-Fi access points, etc.
 

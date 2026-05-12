@@ -2,7 +2,6 @@
 title: All Privacy Tools
 weight: 10
 ---
-
 <style>
 .hextra-card-image {
   width: 100px;

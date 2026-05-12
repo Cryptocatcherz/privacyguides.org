@@ -1,12 +1,10 @@
 ---
 title: "News Aggregators"
-icon: material/rss
 description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
-cover: news-aggregators.webp
 ---
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 
 A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
 
