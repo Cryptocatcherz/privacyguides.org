@@ -28,7 +28,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 {{< cards >}}
   {{< card link="services/calendar/" title="Calendar Sync" icon="calendar" >}}
-  {{< card link="services/cloud-storage/" title="Cloud Storage" icon="cloud" >}}
+  {{< card link="services/cloud/" title="Cloud Storage" icon="cloud" >}}
   {{< card link="services/data-broker-removals/" title="Data Removal Services" icon="folder-remove" >}}
   {{< card link="services/dns/" title="DNS Servers" icon="globe" >}}
   {{< card link="services/email-aliasing/" title="Email Aliasing Services" icon="at-symbol" >}}
