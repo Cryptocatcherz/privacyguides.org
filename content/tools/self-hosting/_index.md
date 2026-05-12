@@ -150,7 +150,7 @@ Tool recommendations in other categories of the website also provide a self-host
     [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
-- ![Ente logo](../assets/img/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
+- ![Ente logo](../assets/img/photo-backups/ente.svg){ .twemoji } [**Ente Photos**](../photo-backups/_index.md#ente-photos)
 
     ---
 

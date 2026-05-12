@@ -1,6 +1,6 @@
 ---
-title: Photo Management
-description: These photo management tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
+title: Photo Backups
+description: These photo backup tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
 ---
 
 <small>Protects against the following threat(s):</small>
@@ -14,7 +14,7 @@ description: These photo management tools keep your personal photos safe from th
 {{< /cards >}}
 </div>
 
-Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
+Most cloud **photo backup** solutions like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
 
 ## Ente Photos
 
