@@ -20,7 +20,7 @@ If you're looking for additional *privacy* from your ISP, on a public Wi-Fi netw
 >
 > If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 >
-> [Introduction to the Tor Browser](../../software/tor/_index.md#tor-browser) · [Tor Myths & FAQ](../../../wiki/advanced/tor-overview.md)
+> [Introduction to the Tor Browser](../../software/tor/_index.md#tor-browser) · [Tor Myths & FAQ](../../../wiki/advanced/tor-overview/_index.md)
 
 [Detailed VPN Overview](../../../wiki/basics/vpn-overview.md)
 

@@ -56,7 +56,7 @@ There are many ways to refuse to participate in privacy-invasive practices and p
 
 - Inform yourself in advance about potential legal options to opt out of privacy-invasive technologies such as airport facial scanner.
 
-- Refuse to provide an official piece of ID online for purposes that aren't strictly necessary, such as government requests. Do not comply with intrusive [age-verification](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) processes. Leave your account abandoned instead, or [delete it](../../basics/account-deletion.md) if you still can. Additionally, consider contacting your government representatives and the platform's complaint email to voice your privacy concerns about such practice.
+- Refuse to provide an official piece of ID online for purposes that aren't strictly necessary, such as government requests. Do not comply with intrusive [age-verification](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) processes. Leave your account abandoned instead, or [delete it](../../wiki/basics/account-deletion/_index.md) if you still can. Additionally, consider contacting your government representatives and the platform's complaint email to voice your privacy concerns about such practice.
 
 - [Report privacy violations](tip-report-privacy-violations.md) of your local privacy laws whenever you can.
 

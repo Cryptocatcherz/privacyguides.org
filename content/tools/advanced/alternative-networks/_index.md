@@ -9,7 +9,7 @@ description: These tools allow you to access networks other than the World Wide 
 
 ## Anonymizing Networks
 
-When it comes to anonymizing networks, we want to specially note that [Tor](../../../wiki/advanced/tor-overview.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your [:material-incognito: Anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
+When it comes to anonymizing networks, we want to specially note that [Tor](../../../wiki/advanced/tor-overview/_index.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your [:material-incognito: Anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -33,7 +33,7 @@ The recommended way to access the Tor network is via the official Tor Browser, w
 
 [Tor Browser Info :material-arrow-right-drop-circle:](../../software/tor/_index.md){ .md-button .md-button--primary }
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](../../../wiki/advanced/tor-overview.md){ .md-button }
+[Detailed Tor Overview :material-arrow-right-drop-circle:](../../../wiki/advanced/tor-overview/_index.md){ .md-button }
 
 You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
 

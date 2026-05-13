@@ -186,7 +186,7 @@ Additionally, even companies outside the *AdTech* or tracking industry can share
 
 The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion/_index.md)
 
 On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
 
@@ -200,7 +200,7 @@ Censorship online can be carried out (to varying degrees) by actors including to
 
 Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../../tools/software/social-networks/_index.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview/_index.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../../tools/software/social-networks/_index.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 > [!TIP]
 > While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.

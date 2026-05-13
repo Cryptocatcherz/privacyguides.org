@@ -6,7 +6,7 @@ description: These security keys provide a form of phishing-immune authenticatio
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
 
-A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](../../software/multi-factor-authentication/_index.md), the [FIDO2](../../../wiki/basics/multi-factor-authentication.md#fido-fast-identity-online) security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](../../software/multi-factor-authentication/_index.md), the [FIDO2](../../../wiki/basics/multi-factor-authentication/_index.md#fido-fast-identity-online) security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
 
 <div class="pg-card-logos">
 {{< cards >}}

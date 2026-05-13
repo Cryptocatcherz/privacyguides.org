@@ -6,7 +6,7 @@ description: These email clients are privacy-respecting and support OpenPGP emai
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
 
-The **email clients** we recommend support both [OpenPGP](../encryption/_index.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](../../../wiki/basics/account-creation.md#sign-in-with-oauth). OAuth allows you to use [Multi-Factor Authentication](../../../wiki/basics/multi-factor-authentication.md) to prevent account theft.
+The **email clients** we recommend support both [OpenPGP](../encryption/_index.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](../../../wiki/basics/account-creation.md#sign-in-with-oauth). OAuth allows you to use [Multi-Factor Authentication](../../../wiki/basics/multi-factor-authentication/_index.md) to prevent account theft.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>

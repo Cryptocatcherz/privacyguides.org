@@ -87,7 +87,7 @@ If you go this route, make sure to purchase Monero at different times and in dif
 
 When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
 
-When purchasing online, ideally you should do so over [Tor](tor-overview.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../../tools/services/vpn/_index.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
+When purchasing online, ideally you should do so over [Tor](tor-overview/_index.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../../tools/services/vpn/_index.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
 
 <!-- TODO: Admonition -->
 <div class="admonition tip" markdown>

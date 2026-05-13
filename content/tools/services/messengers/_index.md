@@ -17,7 +17,7 @@ description: Encrypted messengers like Signal and SimpleX keep your sensitive co
 {{< /cards >}}
 </div>
 
-These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](../../../wiki/advanced/communication-network-types.md).
+These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](../../../wiki/advanced/communication-networks/_index.md).
 
 [Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why)
 
@@ -145,7 +145,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Should support future secrecy (post-compromise security)[^2]
 - Should have open-source servers.
-- Should use a decentralized network, i.e. [federated or P2P](../../../wiki/advanced/communication-network-types.md).
+- Should use a decentralized network, i.e. [federated or P2P](../../../wiki/advanced/communication-networks/_index.md).
 - Should use E2EE for all messages by default.
 - Should support Linux, macOS, Windows, Android, and iOS.
 

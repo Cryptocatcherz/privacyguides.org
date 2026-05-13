@@ -144,7 +144,7 @@ Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment pr
 
 #### :material-check:{ .pg-green } Account Security
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. You can use either TOTP or a [YubiKey](../../hardware/security-keys/_index.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](../../../wiki/basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. You can use either TOTP or a [YubiKey](../../hardware/security-keys/_index.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](../../../wiki/basics/multi-factor-authentication/_index.md#fido-fast-identity-online) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } Data Security
 
@@ -277,7 +277,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **Minimum to Qualify:**
 
-- Protection of webmail with 2FA, such as [TOTP](../../../wiki/basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Protection of webmail with 2FA, such as [TOTP](../../../wiki/basics/multi-factor-authentication/_index.md#time-based-one-time-password-totp).
 - Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
@@ -295,7 +295,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **Best Case:**
 
-- Should support hardware authentication, i.e. U2F and [WebAuthn](../../../wiki/basics/multi-factor-authentication.md#fido-fast-identity-online).
+- Should support hardware authentication, i.e. U2F and [WebAuthn](../../../wiki/basics/multi-factor-authentication/_index.md#fido-fast-identity-online).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Published security audits from a reputable, third-party firm.

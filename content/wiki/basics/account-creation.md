@@ -9,7 +9,7 @@ Often people sign up for services without thinking. Maybe it's a streaming servi
 
 There are risks associated with every new service that you use. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion/_index.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
 
 ## Terms of Service & Privacy Policy
 
@@ -33,7 +33,7 @@ The most common way to create a new account is by an email address and password.
 > You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
 
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
+You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication/_index.md) on your accounts.
 
 [Recommended password managers](../../tools/software/passwords/_index.md){ .md-button }
 
@@ -61,7 +61,7 @@ But there are disadvantages:
 - **Privacy**: The OAuth provider you log in with will know the services you use.
 - **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
-OAuth can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+OAuth can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication/_index.md).
 
 All the services that use OAuth will be as secure as your underlying OAuth provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
 

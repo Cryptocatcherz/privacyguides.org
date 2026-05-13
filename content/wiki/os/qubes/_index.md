@@ -16,12 +16,12 @@ Some of the information here and on the Qubes OS documentation may contain confl
 
 </details>
 
-![Qubes architecture](/assets/img/qubes/qubes-trust-level-architecture.png)
+![Qubes architecture](./qubes-trust-level-architecture.png)
 <figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
 
 Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
 
-![Colored border](/assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![Colored border](./r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
 
 ## Why Should I use Qubes?
@@ -56,7 +56,7 @@ The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes 
 
 ## Connecting to Tor via a VPN
 
-We [recommend](../../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../../../tools/services/vpn/_index.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
+We [recommend](../../advanced/tor-overview/_index.md) connecting to the Tor network via a [VPN](../../../tools/services/vpn/_index.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
 
 After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
 

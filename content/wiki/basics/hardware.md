@@ -69,7 +69,7 @@ Some threats can't be protected against by your internal components alone. Many 
 
 Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../../tools/hardware/security-keys/_index.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+[Recommended Hardware Keys :material-arrow-right-drop-circle:](../../tools/hardware/security-keys/_index.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication/_index.md#hardware-security-keys){ .md-button }
 
 ### Camera/Microphone
 
