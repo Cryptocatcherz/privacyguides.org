@@ -26,8 +26,8 @@ Privacy Guides is a small, largely volunteer-driven nonprofit media organization
 
 Your responsibilities will include, but aren’t limited to:
 
-- Creating high-quality articles for our [knowledge base](../../basics/why-privacy-matters.md).
-- Performing product reviews for our [reviews](https://www.privacyguides.org/articles/category/reviews) section and [tool recommendations](../../tools.md).
+- Creating high-quality articles for our [knowledge base](../../wiki/basics/why-privacy-matters/_index.md).
+- Performing product reviews for our [reviews](https://www.privacyguides.org/articles/category/reviews) section and [tool recommendations](../../tools/_index.md).
 - Researching new topics to cover.
 - Interviewing and fact-checking all relevant sources.
 - Regular posting of high-quality, unbiased journalistic content across our platforms.

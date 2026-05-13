@@ -272,7 +272,7 @@ You can see your account data by visiting your profile page on any websites wher
 
 On the forum, your [profile settings](https://discuss.privacyguides.net/my/preferences/account) include a link to download all of your activity in standard Comma Separated Values format.
 
-If you do not have an account with us but have a data access request, please [contact us](about.md).
+If you do not have an account with us but have a data access request, please [contact us](about/_index.md).
 
 ## How can I change or erase data about me?
 
@@ -332,7 +332,7 @@ You can always request the deletion of your data at any time regardless of this 
 
 ## How can I contact Privacy Guides about privacy?
 
-You can send questions, requests, and complaints via email to us at <team@privacyguides.org>. You may also use Signal or another [contact method](about.md#contact-us) to contact us more securely.
+You can send questions, requests, and complaints via email to us at <team@privacyguides.org>. You may also use Signal or another [contact method](about/_index.md#contact-us) to contact us more securely.
 
 For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
 

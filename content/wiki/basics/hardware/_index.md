@@ -57,7 +57,7 @@ Android defines three [security classes](https://source.android.com/docs/securit
 
 ### Device Encryption
 
-If your device is [encrypted](../../tools/software/encryption/_index.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+If your device is [encrypted](../../../tools/software/encryption/_index.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
 
 This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
 
@@ -69,7 +69,7 @@ Some threats can't be protected against by your internal components alone. Many 
 
 Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../../tools/hardware/security-keys/_index.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](../multi-factor-authentication/_index.md#hardware-security-keys){ .md-button }
+[Recommended Hardware Keys :material-arrow-right-drop-circle:](../../../tools/hardware/security-keys/_index.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](../multi-factor-authentication/_index.md#hardware-security-keys){ .md-button }
 
 ### Camera/Microphone
 
@@ -135,6 +135,6 @@ The most important thing to think about with routers is keeping them up-to-date.
 
 If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../../tools/os/router-firmware/_index.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../../../tools/os/router-firmware/_index.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
 
 Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.

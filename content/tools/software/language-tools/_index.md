@@ -46,7 +46,7 @@ LanguageTool offers integration with a variety of [office suites](https://langua
   {{< card link="https://github.com/LibreTranslate/LibreTranslate#mirrors" title="Public Instances" icon="server" >}}
 {{< /cards >}}
 
-You can use LibreTranslate through a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](../../advanced/alternative-networks/_index.md#i2p-the-invisible-internet-project) eepsite. You can also host the software yourself for maximum control over the text submitted for translation.
+You can use LibreTranslate through a number of public instances, with some that offer a [Tor](../tor/_index.md) onion service or an [I2P](../../advanced/alternative-networks/_index.md#i2p-the-invisible-internet-project) eepsite. You can also host the software yourself for maximum control over the text submitted for translation.
 
 We use a self-hosted instance of LibreTranslate to automatically translate posts on our [forum](https://discuss.privacyguides.net) to multiple languages.
 

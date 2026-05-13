@@ -63,13 +63,13 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
-Being a DIY distribution, you are [expected to set up and maintain](../linux-overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+Being a DIY distribution, you are [expected to set up and maintain](../../../wiki/os/linux/_index.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
 
 A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org)[^1].
 
 ## Atomic Distributions
 
-**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. Advantages of atomic distros include increased stability and the ability to easily roll back updates. See [*Traditional vs. Atomic Updates*](../linux-overview.md#traditional-vs-atomic-updates) for more info.
+**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. Advantages of atomic distros include increased stability and the ability to easily roll back updates. See [*Traditional vs. Atomic Updates*](../../../wiki/os/linux/_index.md#traditional-vs-atomic-updates) for more info.
 
 ### Fedora Atomic Desktops
 

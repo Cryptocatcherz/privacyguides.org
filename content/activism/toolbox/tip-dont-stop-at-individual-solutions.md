@@ -12,7 +12,7 @@ Here's what to keep in mind to **expand your perspective on data privacy** beyon
 
 While it might feel easier to focus on our own needs, nobody lives in a vacuum. Even if you were able to somehow protect all the data you have custody of, there is a lot of data about you that isn't under your control, and a lot of data about *others* that impact you.
 
-Moreover, it's important to consider others in different situations. For example, even if everyone who has access to a [VPN](../../vpn.md) service can stay protected from a particular issue, what about all the others? It's neither practical nor realistic to expect that *everyone* would be able to circumvent a problem by using a VPN.
+Moreover, it's important to consider others in different situations. For example, even if everyone who has access to a [VPN](../../tools/services/vpn/_index.md) service can stay protected from a particular issue, what about all the others? It's neither practical nor realistic to expect that *everyone* would be able to circumvent a problem by using a VPN.
 
 While in some cases we might want to discuss immediate individual solutions in order to mitigate some harm, we must also attack the root cause of the problem.
 

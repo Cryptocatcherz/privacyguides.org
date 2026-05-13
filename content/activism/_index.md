@@ -10,7 +10,7 @@ breadcrumbs: false
 cascade:
   type: docs
 ---
-The **Guides and Tools for Privacy Activists** project from [*Privacy Guides*](../about.md) offers a new way to empower the digital rights community.
+The **Guides and Tools for Privacy Activists** project from [*Privacy Guides*](../about/_index.md) offers a new way to empower the digital rights community.
 
 This section contains information to help you become a better defender of privacy rights, both for individuals and organizations.
 
@@ -18,7 +18,7 @@ This section contains information to help you become a better defender of privac
 
 Fighting to improve our privacy cannot *only* be a matter of individual protections.
 
-When [regulations keep attacking](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/) the tools and services we rely on to protect our personal information, when corporations [exploit our data](../basics/common-threats.md/#surveillance-as-a-business-model) more aggressively every day, and when platforms exponentially [erode online pseudonymity](https://www.privacyguides.org/articles/2025/10/15/real-name-policies/), we must broaden our reach to fight for our rights.
+When [regulations keep attacking](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/) the tools and services we rely on to protect our personal information, when corporations [exploit our data](../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model) more aggressively every day, and when platforms exponentially [erode online pseudonymity](https://www.privacyguides.org/articles/2025/10/15/real-name-policies/), we must broaden our reach to fight for our rights.
 
 ==For privacy to become a valued and respected human right, we must work together== to defend privacy rights as a community.
 
@@ -26,7 +26,7 @@ This section will progressively grow with more tools to support the community in
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/index.md){ .toolbox-button .toolbox-bg }
+[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/_index.md){ .toolbox-button .toolbox-bg }
 
 [:fontawesome-solid-address-card:{ .toolbox-button-icon } DPA Directory](legal/dpa-directory.md){ .toolbox-button .dpadirectory-bg }
 

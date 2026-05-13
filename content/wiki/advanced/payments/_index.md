@@ -27,17 +27,17 @@ Cash remains the best option for in-person purchases for most people. Gift cards
 
 ### Online Marketplaces
 
-If you have [cryptocurrency](../../tools/software/cryptocurrency/_index.md), you can purchase gift cards with an online gift card marketplace. Some of these services offer high limits (with ID verification), but they usually allow basic, low-limit accounts with just an email address. Expect limits under $10,000 for basic accounts and significantly higher limits for ID verified accounts (if offered).
+If you have [cryptocurrency](../../../tools/software/cryptocurrency/_index.md), you can purchase gift cards with an online gift card marketplace. Some of these services offer high limits (with ID verification), but they usually allow basic, low-limit accounts with just an email address. Expect limits under $10,000 for basic accounts and significantly higher limits for ID verified accounts (if offered).
 
 When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy (more on this below). Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
 
-- [Online Gift Card Marketplaces :material-arrow-right-drop-circle:](../../tools/services/financial-services/_index.md#gift-card-marketplaces)
+- [Online Gift Card Marketplaces :material-arrow-right-drop-circle:](../../../tools/services/financial-services/_index.md#gift-card-marketplaces)
 
 ## Virtual Cards
 
 Another way to protect your information from merchants online is to use virtual, single-use cards which mask your actual banking or billing information. This is primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft. They do **not** assist you in making a purchase completely anonymously, nor do they hide any information from the banking institution themselves. Regular financial institutions which offer virtual cards are subject to "Know Your Customer" (KYC) laws, meaning they may require your ID or other identifying information.
 
-- [Recommended Payment Masking Services :material-arrow-right-drop-circle:](../../tools/services/financial-services/_index.md#payment-masking-services)
+- [Recommended Payment Masking Services :material-arrow-right-drop-circle:](../../../tools/services/financial-services/_index.md#payment-masking-services)
 
 These tend to be good options for recurring/subscription payments online, while prepaid gift cards are preferred for one-time transactions.
 
@@ -59,7 +59,7 @@ Additionally, many if not most cryptocurrencies are scams. Make transactions car
 
 There are a number of cryptocurrency projects which purport to provide privacy by making transactions anonymous. We recommend using one which provides transaction anonymity **by default** to avoid operational errors.
 
-- [Recommended Cryptocurrency :material-arrow-right-drop-circle:](../../tools/software/cryptocurrency/_index.md#monero)
+- [Recommended Cryptocurrency :material-arrow-right-drop-circle:](../../../tools/software/cryptocurrency/_index.md#monero)
 
 Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can trace (at least to some extent) Bitcoin Lightning Network and/or Monero transactions. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million to further develop tools to do so. Due to the secrecy surrounding tools like these, <mark>none of these methods of tracing cryptocurrencies have been independently confirmed.</mark> However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins in their current form only succeed in thwarting mass surveillance.
 
@@ -77,9 +77,9 @@ With cryptocurrency there are two forms of wallets: custodial wallets and self-c
 
 ### Acquisition
 
-Acquiring [cryptocurrencies](../../tools/software/cryptocurrency/_index.md) like Monero privately can be difficult. P2P marketplaces (platforms which facilitate trades between people) are one option, though the user experience typically suffers. If using an exchange which requires KYC is acceptable for you as long as subsequent transactions can't be traced, it's much easier to purchase Monero on a centralized exchange or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own self-custody wallet to use privately from that point forward.
+Acquiring [cryptocurrencies](../../../tools/software/cryptocurrency/_index.md) like Monero privately can be difficult. P2P marketplaces (platforms which facilitate trades between people) are one option, though the user experience typically suffers. If using an exchange which requires KYC is acceptable for you as long as subsequent transactions can't be traced, it's much easier to purchase Monero on a centralized exchange or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own self-custody wallet to use privately from that point forward.
 
-[Recommended places to buy Monero](../../tools/software/cryptocurrency/_index.md#buying-monero){ .md-button }
+[Recommended places to buy Monero](../../../tools/software/cryptocurrency/_index.md#buying-monero){ .md-button }
 
 If you go this route, make sure to purchase Monero at different times and in different amounts than where you will spend it. If you purchase $5000 of Monero at an exchange and make a $5000 purchase in Monero an hour later, those actions could potentially be correlated by an outside observer regardless of which path the Monero took. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
 
@@ -87,12 +87,12 @@ If you go this route, make sure to purchase Monero at different times and in dif
 
 When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
 
-When purchasing online, ideally you should do so over [Tor](../tor-overview/_index.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../../tools/services/vpn/_index.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
+When purchasing online, ideally you should do so over [Tor](../tor-overview/_index.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../../../tools/services/vpn/_index.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
 
 <!-- TODO: Admonition -->
 <div class="admonition tip" markdown>
 <p class="admonition-title">Important notices</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](/about/notices).
+The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../../../about/notices.md).
 
 </div>

@@ -65,7 +65,7 @@ To minimize the damage that a malicious piece of software *could* do, you should
 > [!TIP]
 > Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
 > 
-> Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../../tools/os/desktop/_index.md#qubes-os).
+> Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../../../tools/os/desktop/_index.md#qubes-os).
 
 
 ## Attacks against Specific Individuals
@@ -122,7 +122,7 @@ Thankfully, E2EE can alleviate this issue by encrypting communications between y
 <div class="admonition note" markdown>
 <p class="admonition-title">Note on Web-based Encryption</p>
 
-In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../../tools/services/messengers/_index.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../../../tools/services/messengers/_index.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
 
 On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
 
@@ -200,7 +200,7 @@ Censorship online can be carried out (to varying degrees) by actors including to
 
 Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-People concerned with the threat of censorship can use technologies like [Tor](../../advanced/tor-overview/_index.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../../tools/software/social-networks/_index.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+People concerned with the threat of censorship can use technologies like [Tor](../../advanced/tor-overview/_index.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../../../tools/software/social-networks/_index.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 > [!TIP]
 > While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.

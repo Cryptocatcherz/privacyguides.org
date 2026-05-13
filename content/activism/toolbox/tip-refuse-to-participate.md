@@ -70,7 +70,7 @@ There are many ways to refuse to participate in privacy-invasive practices and p
 
 ## More resources
 
-- [*Privacy Guides* tools and services recommendations](../../tools.md)
+- [*Privacy Guides* tools and services recommendations](../../tools/_index.md)
 
 - [You can say NO (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/06/17/you-can-say-no/)
 

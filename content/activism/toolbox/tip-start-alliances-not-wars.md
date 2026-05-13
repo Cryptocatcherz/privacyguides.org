@@ -46,7 +46,7 @@ Newcomers get confused when they receive competing new information. Confusion le
 
 Here are a few ideas to start building alliances within the privacy community:
 
-- **Keep a list** of organizations and other privacy activists sharing your values. Mastodon's [list feature](https://fedi.tips/how-to-use-the-lists-feature-on-mastodon/) can be very helpful to build a social network feed for this. Using an [RSS feed reader](../../news-aggregators.md) is another great way to do this.
+- **Keep a list** of organizations and other privacy activists sharing your values. Mastodon's [list feature](https://fedi.tips/how-to-use-the-lists-feature-on-mastodon/) can be very helpful to build a social network feed for this. Using an [RSS feed reader](../../tools/software/news-aggregators/_index.md) is another great way to do this.
 
 - **Get familiar** with what your allies are working on. Think about ways their mission might be compatible with yours.
 

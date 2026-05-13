@@ -28,7 +28,7 @@ Obtainium allows you to download APK installer files from a wide variety of sour
 
 ## GrapheneOS App Store
 
-GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](../../advanced/device-integrity/_index.md#auditor-android), [Camera](general-apps.md#secure-camera), and [PDF Viewer](general-apps.md#secure-pdf-viewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](../../../advanced/device-integrity/_index.md#auditor-android), [Camera](../general-apps/_index.md#secure-camera), and [PDF Viewer](../general-apps/_index.md#secure-pdf-viewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
 
 ## Aurora Store
 
@@ -47,13 +47,13 @@ Aurora Store does not allow you to download paid apps with their anonymous accou
 
 ## Manually with RSS Notifications
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](../../software/news-aggregators/_index.md) that will help you keep track of new releases.
+For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](../../../software/news-aggregators/_index.md) that will help you keep track of new releases.
 
 ![RSS APK](./rss-apk-light.png#only-light) ![RSS APK](./rss-apk-dark.png#only-dark) ![APK Changes](./rss-changes-light.png#only-light) ![APK Changes](./rss-changes-dark.png#only-dark)
 
 ### GitHub
 
-On GitHub, using [Secure Camera](general-apps.md#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
+On GitHub, using [Secure Camera](../general-apps/_index.md#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
@@ -107,4 +107,4 @@ Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https:/
 The [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid) repositories are home to countless apps, so they can be useful places to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgment when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
 
 > [!NOTE]
-> In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](../../software/health-and-wellness/_index.md#gadgetbridge) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+> In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](../../../software/health-and-wellness/_index.md#gadgetbridge) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).

@@ -3,7 +3,7 @@ title: "General Apps"
 description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../../wiki/basics/common-threats/_index.md#security-and-privacy)
 
 We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
@@ -17,7 +17,7 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
 ## Shelter
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](../android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+If your device is on Android 15 or greater, we recommend using the native [Private Space](../_index.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
 
 **Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
 
@@ -37,7 +37,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 ## Secure Camera
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats/_index.md#limiting-public-information)
+[{{< badge content="Public Exposure" color="green" >}}](../../../../wiki/basics/common-threats/_index.md#limiting-public-information)
 
 **Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
@@ -59,13 +59,13 @@ Main privacy features include:
 > [!NOTE]
 > Metadata is not currently deleted from video files, but that is planned.
 > 
-> The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../../software/data-redaction/_index.md#exiferaser-android).
+> The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../../../software/data-redaction/_index.md#exiferaser-android).
 
 
 ## Secure PDF Viewer
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
 
 **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
 
@@ -82,7 +82,7 @@ Main privacy features include:
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../../../../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.

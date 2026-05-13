@@ -13,7 +13,7 @@ description: These browsers are what we currently recommend for standard/non-ano
 {{< /cards >}}
 </div>
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead.
+These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](../tor/_index.md) instead.
 
 ## Brave
 
@@ -33,7 +33,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 ### Recommended Brave Configuration
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](../tor/_index.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
 === "Android"
 

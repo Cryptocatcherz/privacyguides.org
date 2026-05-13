@@ -35,7 +35,7 @@ The most common way to create a new account is by an email address and password.
 
 You will be responsible for managing your login credentials. For added security, you can set up [MFA](../multi-factor-authentication/_index.md) on your accounts.
 
-[Recommended password managers](../../tools/software/passwords/_index.md){ .md-button }
+[Recommended password managers](../../../tools/software/passwords/_index.md){ .md-button }
 
 #### Email aliases
 
@@ -43,7 +43,7 @@ If you don't want to give your real email address to a service, you have the opt
 
 Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
-[Recommended email aliasing services](../../tools/services/email-aliasing/_index.md){ .md-button }
+[Recommended email aliasing services](../../../tools/services/email-aliasing/_index.md){ .md-button }
 
 ### "Sign in with..." (OAuth)
 

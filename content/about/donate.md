@@ -113,11 +113,11 @@ We use donations for a variety of purposes, including:
 
 **Online Services**
 
-:   We host [internet services](services.md) for testing and showcasing different privacy-products we like and [recommend](../tools.md). Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
+:   We host [internet services](services.md) for testing and showcasing different privacy-products we like and [recommend](../tools/_index.md). Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
 
 **Product Purchases**
 
-:   We occasionally purchase products and services for the purposes of testing our [recommended tools](../tools.md).
+:   We occasionally purchase products and services for the purposes of testing our [recommended tools](../tools/_index.md).
 
 Thank you to all those who support our mission! :material-heart:{ .pg-red }
 

@@ -114,7 +114,7 @@ With that in mind, here are some green flags you can keep in mind when evaluatin
 
 ## More resources
 
-- [Tool recommendations vetted by our community (*Privacy Guides*)](../../tools.md)
+- [Tool recommendations vetted by our community (*Privacy Guides*)](../../tools/_index.md)
 
 - [Extensive guide on how to evaluate better privacy tools and organizations (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/)
 

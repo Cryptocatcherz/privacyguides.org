@@ -14,7 +14,7 @@ In privacy, **diversity** is an incredible strength, a necessity even. When peop
 
 Having a broad perspective is essential to understand the scope and impact of privacy issues, as well as the actionable solutions for diverse situations.
 
-When people with different lived experiences and identities join our group, it expands our understanding of numerous [threat models](../../basics/threat-modeling.md), and allows us to adapt our message in ways that will be more inclusive.
+When people with different lived experiences and identities join our group, it expands our understanding of numerous [threat models](../../wiki/basics/threat-modeling/_index.md), and allows us to adapt our message in ways that will be more inclusive.
 
 When people from different localities join our group, this helps us to regionalize our content and communication to make it accessible to people all around the world, and expand our network. And when people with different mentalities join our group, it helps us to reach out to people with different ways of thinking more easily.
 

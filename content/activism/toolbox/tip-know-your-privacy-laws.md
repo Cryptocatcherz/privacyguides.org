@@ -37,7 +37,7 @@ If your jurisdiction is protected by one or more privacy laws, it should be rela
 
 To start your research, you can look at [Privacy Guides' DPA Directory](../legal/dpa-directory.md) and check if your region is listed there. If it is, you will see what is the main consumer privacy law for this region, and you can click on the link to learn more about it.
 
-If your region isn't listed in our DPA Directory, or if you are looking for another more specific privacy-related law, you should be able to find this information online simply using a [trustworthy search engine](../../search-engines.md). Look for keywords with your location (be specific about country + states/provinces/region) and "privacy laws" or "data protection regulations."
+If your region isn't listed in our DPA Directory, or if you are looking for another more specific privacy-related law, you should be able to find this information online simply using a [trustworthy search engine](../../tools/services/search-engines/_index.md). Look for keywords with your location (be specific about country + states/provinces/region) and "privacy laws" or "data protection regulations."
 
 Always make sure to find a result that is from an official government source.
 

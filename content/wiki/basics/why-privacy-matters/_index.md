@@ -26,11 +26,11 @@ Many people get the concepts of **privacy**, **security**, and **anonymity** con
 <!-- markdownlint-disable-next-line -->
 **Anonymity**
 
-:   Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../../tools/software/tor/_index.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+:   Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../../../tools/software/tor/_index.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
 
 :   **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../../tools/_index.md) you use.
+All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../../../tools/_index.md) you use.
 
 [:material-book-outline: Learn More About Threat Modeling](../threat-modeling/_index.md){ .md-button }
 
@@ -48,7 +48,7 @@ Take cookie consent forms, for example. You may encounter these dozens of times 
 
 <mark>Control over your privacy inside most apps is an illusion.</mark> It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
 
-Privacy is something we need to have baked into the [software and services](../../tools/_index.md) we use by default, you can't bend most apps into being private on your own.
+Privacy is something we need to have baked into the [software and services](../../../tools/_index.md) we use by default, you can't bend most apps into being private on your own.
 
 [:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 

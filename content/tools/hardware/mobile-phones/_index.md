@@ -19,7 +19,7 @@ The mobile devices listed here provide a long lifespan of guaranteed security up
 [Recommended Android Distributions :material-arrow-right-drop-circle:](../../os/android/distributions.md)
 { .md-button .md-button--primary }
 
-[Details about Android Security :material-arrow-right-drop-circle:](../../os/android-overview.md#security-protections)
+[Details about Android Security :material-arrow-right-drop-circle:](../../os/android/_index.md#security-protections)
 { .md-button }
 
 > [!WARNING]

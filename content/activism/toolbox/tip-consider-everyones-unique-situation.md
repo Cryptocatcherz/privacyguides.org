@@ -8,7 +8,7 @@ Everyone has different needs, and everyone faces different dangers when their pe
 
 To give actionable privacy advices and recommendations, it's essential to **keep in mind everyone's situation**. There isn't a one-size-fits-all approach when it comes to data privacy.
 
-Here's how you can get better at evaluating each person's unique [*threat model*](../../basics/threat-modeling.md):
+Here's how you can get better at evaluating each person's unique [*threat model*](../../wiki/basics/threat-modeling/_index.md):
 
 ## What is a threat model?
 
@@ -70,6 +70,6 @@ To be a good privacy advocate is to provide information and support when needed.
 
 ## More resources
 
-- [More detailed information on threat modeling (*Privacy Guides*)](../../basics/threat-modeling.md)
+- [More detailed information on threat modeling (*Privacy Guides*)](../../wiki/basics/threat-modeling/_index.md)
 
-- [Examples of common threats (*Privacy Guides*)](../../basics/common-threats.md)
+- [Examples of common threats (*Privacy Guides*)](../../wiki/basics/common-threats/_index.md)

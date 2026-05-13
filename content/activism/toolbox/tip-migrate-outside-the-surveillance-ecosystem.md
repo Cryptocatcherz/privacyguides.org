@@ -24,7 +24,7 @@ While using the most popular mainstream tools and platforms for our work might s
 
 <div class="emoji-list-a" markdown>
 
-1. The first drawback is that by using products that are antithetical to our values, we are directly participating in sustaining anti-privacy corporations and contributing to [surveillance capitalism](../../basics/common-threats.md/#surveillance-as-a-business-model).
+1. The first drawback is that by using products that are antithetical to our values, we are directly participating in sustaining anti-privacy corporations and contributing to [surveillance capitalism](../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model).
 
 2. The second drawback is that simply by using Big Tech tools, we are indirectly promoting the usage of services that are horrible for everyone's privacy.
 
@@ -47,7 +47,7 @@ While using the most popular mainstream tools and platforms for our work might s
 <div class="admonition question inline end" markdown>
 <p class="admonition-title">What is the best tool?</p>
 
-For each proposed alternative, you should always first consider your own [threat model](../../basics/threat-modeling.md). One tool might be ideal for one person or organization, but another tool might be better for another. Make sure to understand well your threat model in order to choose the tools that are the best for your unique situation.
+For each proposed alternative, you should always first consider your own [threat model](../../wiki/basics/threat-modeling/_index.md). One tool might be ideal for one person or organization, but another tool might be better for another. Make sure to understand well your threat model in order to choose the tools that are the best for your unique situation.
 
 </div>
 
@@ -73,11 +73,11 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 <div class="emoji-list-b" markdown>
 
-- **[Messaging communication](../../real-time-communication.md):** Move your text message communication, audio calls, and video calls to a secure messenger like Signal. Enable features like Signal's username option, and disappearing messages.
+- **[Messaging communication](../../tools/services/messengers/_index.md):** Move your text message communication, audio calls, and video calls to a secure messenger like Signal. Enable features like Signal's username option, and disappearing messages.
 
-- **Sensitive messaging communication:** If your threat model requires a peer-to-peer solution that doesn't need a phone number and transits over the [Tor network](https://www.privacyguides.org/articles/2025/04/30/in-praise-of-tor/), you might want to use an application such as [Cwtch](https://docs.cwtch.im/) or [Briar](../../real-time-communication.md/#briar).
+- **Sensitive messaging communication:** If your threat model requires a peer-to-peer solution that doesn't need a phone number and transits over the [Tor network](https://www.privacyguides.org/articles/2025/04/30/in-praise-of-tor/), you might want to use an application such as [Cwtch](https://docs.cwtch.im/) or [Briar](../../tools/services/messengers/_index.md#briar).
 
-- **[Email communication](../../email.md):** Migrate to a privacy-respectful email service that offers end-to-end encryption, such as Proton Mail or Tuta. Make sure to inform yourself about the limitations of email privacy when using email for sensitive communication.
+- **[Email communication](../../tools/services/email/_index.md):** Migrate to a privacy-respectful email service that offers end-to-end encryption, such as Proton Mail or Tuta. Make sure to inform yourself about the limitations of email privacy when using email for sensitive communication.
 
     <section class="admonition success inline end" markdown>
     <p class="admonition-title">Service providers disclosure and compatibility</p>
@@ -90,13 +90,13 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
     </section>
 
-- **[Document storing and sharing](../../document-collaboration.md):** Move away from privacy-invasive Google products to store and share documents. Instead, use an end-to-end encrypted solution such as [CryptPad](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/) for your collaborative documents and forms. Proton Drive also offers collaborative documents with *Proton Docs* and *Sheets*.
+- **[Document storing and sharing](../../tools/software/document-collaboration/_index.md):** Move away from privacy-invasive Google products to store and share documents. Instead, use an end-to-end encrypted solution such as [CryptPad](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/) for your collaborative documents and forms. Proton Drive also offers collaborative documents with *Proton Docs* and *Sheets*.
 
-- **[Storing files](../../cloud.md):** Choose an end-to-end encrypted cloud solution to store and share files. Always keep in mind that if a cloud service provider doesn't offer solid end-to-end encryption, then it can potentially access any of your stored files.
+- **[Storing files](../../tools/services/cloud/_index.md):** Choose an end-to-end encrypted cloud solution to store and share files. Always keep in mind that if a cloud service provider doesn't offer solid end-to-end encryption, then it can potentially access any of your stored files.
 
 - **Surveys:** Stop using products such as Google Forms to poll your community. Instead, choose a privacy-focused alternative such as [CryptPad Form](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/#form) or [Framaforms](https://framaforms.org/abc/en/).
 
-- **[Online calendar](../../calendar.md):** Your online calendar can be an important source of sensitive data. Moreover, you might store other's people data in it, or use it to share event links with collaborators. It's essential to make sure to use a privacy-protecting solution for online and collaborative calendars.
+- **[Online calendar](../../tools/services/calendar/_index.md):** Your online calendar can be an important source of sensitive data. Moreover, you might store other's people data in it, or use it to share event links with collaborators. It's essential to make sure to use a privacy-protecting solution for online and collaborative calendars.
 
 - **Groups and events:** When organizing groups or events, be careful to choose platforms that are privacy-respectful and don't require participants to register personal information. Keep in mind that if you only use Facebook groups, you are contributing to people staying on a privacy-invasive platform. If you only use a closed Meetup group, you are demanding people create an account and share their sensitive data in order to join. Instead, use privacy-respectful platforms such as [Mobilizon](https://mobilizon.org/) or [LAUTI](https://lauti.org/) for groups and events, [Discourse](https://www.discourse.org/) for forums, or simply use your own website to advertise in-person events.
 
@@ -110,7 +110,7 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 - **Availability:** Make sure you or your organization is reachable outside the Big Tech ecosystem. If your organization only has a Facebook page, then people without a Facebook account cannot reach out to you. The same is true for other commercial social media. Instead, try to rely on a website you control yourself, or a social network page you can host yourself.
 
-- **[Social media](../../social-networks.md):** Move away from commercial social media platforms. Mainstream platforms are almost all abusing their users' data. By keeping an account there, you are indirectly encouraging your followers to stay there as well, perpetuating the platform's abuse.
+- **[Social media](../../tools/software/social-networks/_index.md):** Move away from commercial social media platforms. Mainstream platforms are almost all abusing their users' data. By keeping an account there, you are indirectly encouraging your followers to stay there as well, perpetuating the platform's abuse.
 
     While you may want to keep a minimal presence to advertise that you have now moved your activity to a more privacy-respectful platform, you should keep your engagement there to a minimum.
 
@@ -120,7 +120,7 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 ## More resources
 
-- [Alternatives to Big Tech that have been vetted by our community (*Privacy Guides*)](../../tools.md)
+- [Alternatives to Big Tech that have been vetted by our community (*Privacy Guides*)](../../tools/_index.md)
 
 - [Privacy-respecting European tech alternatives (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/03/19/private-european-alternatives/)
 

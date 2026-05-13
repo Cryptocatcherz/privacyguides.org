@@ -10,7 +10,7 @@ Here's how to get better at **considering the whole landscape**:
 
 ## The technology
 
-Technology plays a crucial role in how we protect our digital information. Most people are already familiar with the [tools and services](../../tools.md) we can use to better protect our privacy, and the ways technology can endanger our privacy rights. Technologies like encryption, for example, are essential in our connected world.
+Technology plays a crucial role in how we protect our digital information. Most people are already familiar with the [tools and services](../../tools/_index.md) we can use to better protect our privacy, and the ways technology can endanger our privacy rights. Technologies like encryption, for example, are essential in our connected world.
 
 But if we only consider the technological aspect, it will not be enough to defend our privacy rights. When we only think and talk about technical solutions, we are missing the bigger picture, and with it, the bigger solutions as well.
 
@@ -44,7 +44,7 @@ Here are a few examples:
 
 - [**Age Verification**](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) regulations and proposals are growing around the world at a terrifying rate.
 
-- [**Data Brokers**](../../data-broker-removals.md) are incessantly exploiting our data due to weak regulations.
+- [**Data Brokers**](../../tools/services/data-broker-removals/_index.md) are incessantly exploiting our data due to weak regulations.
 
 - [**Funding cuts**](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/) from new regulations have frequently impacted negatively the organizations and privacy tools we rely on.
 
