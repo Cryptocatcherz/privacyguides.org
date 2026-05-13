@@ -1,6 +1,10 @@
 # Hugo configuration file
 title: Privacy Guides
 
+# temporarily ignore blog content
+ignoreFiles:
+  - "blog"
+
 # import hextra as module
 module:
   imports:

@@ -65,7 +65,7 @@ Here are some ideas of what you can do to become a privacy activist in your comm
 
 - [**Refuse**](tip-refuse-to-participate.md) to participate in privacy-invasive requests, and refuse to use privacy-invasive technologies as much as doable for your situation. Sometimes doing nothing can be a powerful action. Try to prioritize your privacy principles over [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/), and report on your refusal experiences on social networks and with your local communities.
 
-- [**Join or build** communities](https://discuss.privacyguides.net/) with people sharing your privacy values. Be a positive contributor and lift your allies up. [Support your privacy comrades](tip-support-your-privacy-comrades.md) and [ask for help](tip-take-time-to-rest.md) when you need it yourself. Look for nonprofit organizations [seeking volunteers](../../about/contributors.md).
+- [**Join or build** communities](https://discuss.privacyguides.net/) with people sharing your privacy values. Be a positive contributor and lift your allies up. [Support your privacy comrades](tip-support-your-privacy-comrades.md) and [ask for help](tip-take-time-to-rest.md) when you need it yourself. Look for nonprofit organizations seeking volunteers.
 
 - [**Contribute** financially](../../about/donate.md) if you can. If you cannot afford to participate in time, consider donating money. There are many digital rights nonprofit organizations that could do *so much more* if only they had more funding. Offering financial support when you can is a meaningful way to contribute to the privacy rights movement.
 
