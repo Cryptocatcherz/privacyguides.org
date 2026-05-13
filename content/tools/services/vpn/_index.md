@@ -3,7 +3,7 @@ title: VPN Services
 description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -22,7 +22,7 @@ If you're looking for additional *privacy* from your ISP, on a public Wi-Fi netw
 >
 > [Introduction to the Tor Browser](../../software/tor/_index.md#tor-browser) · [Tor Myths & FAQ](../../../wiki/advanced/tor-overview/_index.md)
 
-[Detailed VPN Overview](../../../wiki/basics/vpn-overview.md)
+[Detailed VPN Overview](../../../wiki/basics/vpn-overview/_index.md)
 
 ## Recommended Providers
 
@@ -72,7 +72,7 @@ Proton VPN provides the source code for their desktop and mobile clients in thei
 
 #### :material-check:{ .pg-green } Accepts Cash
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](../../../wiki/advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](../../../wiki/advanced/payments/_index.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
 #### :material-check:{ .pg-green } WireGuard Support
 
@@ -283,7 +283,7 @@ We prefer our recommended providers to collect as little data as possible. Not c
 
 **Best Case:**
 
-- Accepts multiple [anonymous payment options](../../../wiki/advanced/payments.md).
+- Accepts multiple [anonymous payment options](../../../wiki/advanced/payments/_index.md).
 - No personal information accepted (auto-generated username, no email required, etc.).
 
 ### Security

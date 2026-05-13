@@ -3,7 +3,7 @@ title: Desktop Browsers
 description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
 
@@ -19,7 +19,7 @@ If you need to browse the internet anonymously, you should use [Tor](../tor/_ind
 
 ## Mullvad Browser
 
-**Mullvad Browser** is a version of [Tor Browser](../tor/_index.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](../../../wiki/basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](../../services/vpn/_index.md#mullvad), and does **not** require the use of Mullvad's VPN.
+**Mullvad Browser** is a version of [Tor Browser](../tor/_index.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](../../../wiki/basics/common-threats/_index.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](../../services/vpn/_index.md#mullvad), and does **not** require the use of Mullvad's VPN.
 
 {{< cards >}}
   {{< card link="https://mullvad.net/en/browser" title="Homepage" icon="home" >}}
@@ -268,7 +268,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](../cryptocurrency/_index.md), nor do we recommend using a [custodial wallet](../../../wiki/advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](../cryptocurrency/_index.md), nor do we recommend using a [custodial wallet](../../../wiki/advanced/payments/_index.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 

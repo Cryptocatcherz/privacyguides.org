@@ -24,7 +24,7 @@ All of our [recommended password managers](../../tools/software/passwords/_index
 
 You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](../threat-modeling/_index.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
 <!-- TODO: Admonition -->
 <div class="admonition tip" markdown>
@@ -164,7 +164,7 @@ There are many good options to choose from, both cloud-based and local. Choose o
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-When using [TOTP codes as multifactor authentication](multi-factor-authentication/_index.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../../tools/software/multi-factor-authentication/_index.md).
+When using [TOTP codes as multifactor authentication](../multi-factor-authentication/_index.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../../tools/software/multi-factor-authentication/_index.md).
 
 Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
 

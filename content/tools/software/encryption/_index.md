@@ -27,9 +27,9 @@ The options listed here are available on multiple platforms and great for creati
 ### Cryptomator (Cloud)
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
 
-**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](../../../wiki/basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
 
 {{< cards >}}
   {{< card link="https://cryptomator.org" title="Homepage" icon="home" >}}
@@ -55,7 +55,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 ### VeraCrypt (Disk)
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
 
 **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
 
@@ -77,9 +77,9 @@ TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 ## Operating System Encryption
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
 
-Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](../../../wiki/basics/hardware.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
+Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](../../../wiki/basics/hardware/_index.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
 
 <details class="warning" markdown>
 
@@ -151,7 +151,7 @@ udisksctl unlock -b /dev/loop0
 ## Command-line
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
 
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
@@ -180,9 +180,9 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 ## OpenPGP
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
 

@@ -3,7 +3,7 @@ title: "Frontends"
 description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to circumvent these restrictions.
 
@@ -114,7 +114,7 @@ When using FreeTube, your subscription list, playlists, watch history and search
 [{{< badge content="Flathub" >}}](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
 > [!WARNING]
-> When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address.
+> When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling/_index.md) requires hiding your IP address.
 
 
 By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
@@ -133,7 +133,7 @@ Your subscription list and playlists are saved locally on your Android device.
 [{{< badge content="GitHub" >}}](https://github.com/libre-tube/LibreTube/releases)
 
 > [!WARNING]
-> When using LibreTube, your IP address will be visible to YouTube, [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address.
+> When using LibreTube, your IP address will be visible to YouTube, [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling/_index.md) requires hiding your IP address.
 
 
 By default, LibreTube blocks all YouTube advertisements. Additionally, LibreTube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely. There is also a button on the video player itself to disable it for a specific video if desired.
@@ -154,7 +154,7 @@ Your subscription list and playlists are saved locally on your Android device.
 1. The default instance is [FramaTube](https://framatube.org), however more can be added via **Settings** → **Content** → **PeerTube instances**.
 
 > [!WARNING]
-> When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address.
+> When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](../../services/vpn/_index.md) or [Tor](../tor/_index.md) if your [threat model](../../../wiki/basics/threat-modeling/_index.md) requires hiding your IP address.
 
 
 ## Criteria

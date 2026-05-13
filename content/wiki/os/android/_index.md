@@ -4,7 +4,7 @@ icon: simple/android
 description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
-![Android logo](./android.svg){ align=right }
+![Android logo](android.svg){ align=right }
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
@@ -125,7 +125,7 @@ If you have a Google account we suggest enrolling in the [Advanced Protection Pr
 
 The Advanced Protection Program provides enhanced threat monitoring and enables:
 
-- Stricter two-factor authentication; e.g. that [FIDO](../../basics/multi-factor-authentication/_index.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../../basics/multi-factor-authentication/_index.md#sms-or-email-mfa), [TOTP](../../basics/multi-factor-authentication/_index.md#time-based-one-time-password-totp) and [OAuth](../../basics/account-creation.md#sign-in-with-oauth)
+- Stricter two-factor authentication; e.g. that [FIDO](../../basics/multi-factor-authentication/_index.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../../basics/multi-factor-authentication/_index.md#sms-or-email-mfa), [TOTP](../../basics/multi-factor-authentication/_index.md#time-based-one-time-password-totp) and [OAuth](../../basics/account-creation/_index.md#sign-in-with-oauth)
 - Only Google and verified third-party apps can access account data
 - Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
 - Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome

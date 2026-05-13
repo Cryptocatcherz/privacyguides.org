@@ -180,10 +180,10 @@ System Integrity Protection makes critical file locations read-only to protect a
 
 ##### App Sandbox
 
-On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../../basics/common-threats.md#attacks-against-certain-organizations){ .pg-viridian } by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
+On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../../basics/common-threats/_index.md#attacks-against-certain-organizations){ .pg-viridian } by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
 
 > [!WARNING]
-> Software downloaded from outside the official App Store is not required to be sandboxed. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
+> Software downloaded from outside the official App Store is not required to be sandboxed. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../../basics/common-threats/_index.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
 
 
 You can check if an app uses the App Sandbox in a few ways:
@@ -208,7 +208,7 @@ If an app is sandboxed, you should see the following output:
         [Bool] true
 ```
 
-If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
+If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../../basics/common-threats/_index.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
 
 ##### Hardened Runtime
 

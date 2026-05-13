@@ -3,7 +3,7 @@ title: Document Collaboration
 description: Most online office suites do not support end-to-end encryption, meaning the cloud provider has access to everything you do.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
 
 <div class="pg-card-logos">
 {{< cards >}}

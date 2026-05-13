@@ -4,8 +4,8 @@ description: Calendars contain some of your most sensitive data; use products th
 ---
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
 
 <div class="pg-card-logos">
 {{< cards >}}

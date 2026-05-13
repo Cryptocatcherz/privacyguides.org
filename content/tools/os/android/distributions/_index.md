@@ -3,8 +3,8 @@ title: Alternative Distributions
 description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
 
 A **custom Android-based operating system** (sometimes referred to as a **custom ROM**) can be a way to achieve a higher level of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services as well as other vendor software.
 
@@ -39,7 +39,7 @@ GrapheneOS also provides a global toggle for enabling MTE on all user-installed 
 
 ### Connectivity Checks
 
-By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../../../wiki/basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
+By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
 
 If you want to hide information like this from an adversary on your network or ISP, you **must** use a [trusted VPN](../../services/vpn/_index.md) in addition to changing the connectivity check setting to **Standard (Google)**. It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
 

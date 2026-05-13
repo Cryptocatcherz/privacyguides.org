@@ -3,7 +3,7 @@ title: "Pastebins"
 description: These tools allow you to have full control of any pasted data you share to other parties.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
 
 <div class="pg-card-logos">
 {{< cards >}}

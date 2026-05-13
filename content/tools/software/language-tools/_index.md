@@ -3,8 +3,8 @@ title: "Language Tools"
 description: These language tools do not send your input text to a server and can be used offline and self-hosted.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 <div class="pg-card-logos">
 {{< cards >}}

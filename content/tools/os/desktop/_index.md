@@ -3,7 +3,7 @@ title: "Desktop/PC"
 description: Linux distributions are commonly recommended for privacy protection and software freedom.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
 
@@ -113,7 +113,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 ### Whonix
 
-**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and [anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy) on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
+**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and [anonymity](../../../wiki/basics/common-threats/_index.md#anonymity-vs-privacy) on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
 
 {{< cards >}}
   {{< card link="https://whonix.org" title="Homepage" icon="home" >}}
@@ -124,11 +124,11 @@ Whonix is meant to run as two virtual machines: a “Workstation” and a Tor �
 
 Some of its features include Tor Stream Isolation, [keystroke anonymization](https://whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/roddhjav/apparmor.d) and a [sandboxed app launcher](https://whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](../qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
+Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](../../../wiki/os/qubes/_index.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
 
 ### Tails
 
-**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](../../software/tor/_index.md) to preserve privacy and [anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy) while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
+**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](../../software/tor/_index.md) to preserve privacy and [anonymity](../../../wiki/basics/common-threats/_index.md#anonymity-vs-privacy) while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
 
 {{< cards >}}
   {{< card link="https://tails.net" title="Homepage" icon="home" >}}
@@ -148,7 +148,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 ## Security-focused Distributions
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
 
 ### Qubes OS
 
@@ -159,9 +159,9 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
   {{< card link="https://qubes-os.org/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised via an exploit in a [targeted attack](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals), the extra isolation is likely to protect the rest of the *qubes* and the core system.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised via an exploit in a [targeted attack](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals), the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
-For further information about how Qubes works, read our full [Qubes OS overview](../qubes-overview.md) page.
+For further information about how Qubes works, read our full [Qubes OS overview](../../../wiki/os/qubes/_index.md) page.
 
 ### Secureblue
 
@@ -178,7 +178,7 @@ Secureblue also provides GrapheneOS's [hardened memory allocator](https://github
 
 ### Kicksecure
 
-While we [recommend against](../linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+While we [recommend against](../../../wiki/os/linux/_index.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
 
 **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. It also serves as the base OS for [Whonix](#whonix).
 
@@ -189,7 +189,7 @@ While we [recommend against](../linux-overview.md#release-cycle) "perpetually ou
 
 ## Criteria
 
-Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](../linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
+Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](../../../wiki/os/linux/_index.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
 - Free and open source.
 - Receives regular software and kernel updates.
@@ -197,11 +197,11 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
     - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - Supports full-disk encryption during installation.
 - Doesn't freeze regular releases for more than 1 year.
-    - We [recommend against](../linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
+    - We [recommend against](../../../wiki/os/linux/_index.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
 - Supports a wide variety of hardware.
 - Preference towards larger projects.
     - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
 
 In addition, [our standard criteria](../../../about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
 
-[^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [:material-package-variant-closed-remove: Supply Chain Attacks](../../../wiki/basics/common-threats.md#attacks-against-certain-organizations){ .pg-viridian }.
+[^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [:material-package-variant-closed-remove: Supply Chain Attacks](../../../wiki/basics/common-threats/_index.md#attacks-against-certain-organizations){ .pg-viridian }.

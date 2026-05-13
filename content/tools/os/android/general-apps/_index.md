@@ -3,7 +3,7 @@ title: "General Apps"
 description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
 
 We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
@@ -37,7 +37,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 ## Secure Camera
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats.md#limiting-public-information)
+[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats/_index.md#limiting-public-information)
 
 **Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
@@ -65,7 +65,7 @@ Main privacy features include:
 ## Secure PDF Viewer
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
 
 **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
 

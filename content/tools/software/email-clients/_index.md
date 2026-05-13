@@ -3,17 +3,17 @@ title: "Email Clients"
 description: These email clients are privacy-respecting and support OpenPGP email encryption.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
 
-The **email clients** we recommend support both [OpenPGP](../encryption/_index.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](../../../wiki/basics/account-creation.md#sign-in-with-oauth). OAuth allows you to use [Multi-Factor Authentication](../../../wiki/basics/multi-factor-authentication/_index.md) to prevent account theft.
+The **email clients** we recommend support both [OpenPGP](../encryption/_index.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](../../../wiki/basics/account-creation/_index.md#sign-in-with-oauth). OAuth allows you to use [Multi-Factor Authentication](../../../wiki/basics/multi-factor-authentication/_index.md) to prevent account theft.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](../../../wiki/basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
+When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](../../../wiki/basics/email-security/_index.md#email-metadata-overview) that is not encrypted in the header of the email.
 
-OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](../../../wiki/basics/email-security.md#how-do-i-protect-my-private-keys) Consider using a medium that provides forward secrecy:
+OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](../../../wiki/basics/email-security/_index.md#how-do-i-protect-my-private-keys) Consider using a medium that provides forward secrecy:
 
 [Real-time Communication](../../services/messengers/_index.md)
 { .md-button }

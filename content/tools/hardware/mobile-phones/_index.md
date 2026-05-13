@@ -3,8 +3,8 @@ title: Mobile Phones
 description: These mobile devices provide the best hardware security support for custom Android operating systems.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
 
 Most **mobile phones** receive short or limited windows of security updates from OEMs; after these devices reach the end of their support period, they **cannot** be considered secure as they no longer receive firmware or driver security updates.
 

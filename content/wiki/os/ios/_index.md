@@ -136,7 +136,7 @@ If you don't want anyone to be able to control your phone with Siri when it is l
 
 Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make trade-offs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
 
-Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. Make sure that you create a [secure password](../../basics/passwords-overview.md).
+Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. Make sure that you create a [secure password](../../basics/passwords-overview/_index.md).
 
 If you wish to use Face ID or Touch ID, you can go ahead and set it up now. Your phone will use the password you set up earlier as a fallback in case your biometric verification fails. Biometric unlock methods are primarily a convenience, although they do stop surveillance cameras or people over your shoulder from watching you input your passcode.
 
@@ -226,11 +226,11 @@ When an app prompts you for access to your device's photo library, iOS provides 
 
 Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. You can change photo access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Photos**.
 
-![Photo Permissions](./photo-permissions-light.png#only-light) ![Photo Permissions](./photo-permissions-dark.png#only-dark)
+![Photo Permissions](photo-permissions-light.png#only-light) ![Photo Permissions](photo-permissions-dark.png#only-dark)
 
 **Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
 
-![Private Access](./private-access-light.png#only-light) ![Private Access](./private-access-dark.png#only-dark)
+![Private Access](private-access-light.png#only-light) ![Private Access](private-access-dark.png#only-dark)
 
 Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../../../tools/software/data-redaction/_index.md) beforehand.
 
@@ -238,7 +238,7 @@ Some apps also support **Private Access**, which functions similarly to the **Li
 
 Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
 
-![Contact Permissions](./contact-permissions-light.png#only-light) ![Contact Permissions](./contact-permissions-dark.png#only-dark)
+![Contact Permissions](contact-permissions-light.png#only-light) ![Contact Permissions](contact-permissions-dark.png#only-dark)
 
 ### Require Biometrics and Hide Apps
 
@@ -294,7 +294,7 @@ Apple always makes beta versions of iOS available early for those that wish to h
 
 ### Before First Unlock
 
-If your threat model includes [:material-target-account: Targeted Attacks](../../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+If your threat model includes [:material-target-account: Targeted Attacks](../../basics/common-threats/_index.md#attacks-against-specific-individuals){ .pg-red } that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
 
 iPhones [automatically reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) if they're not unlocked after a period of time.
 

@@ -3,16 +3,16 @@ title: Financial Services
 description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 Making payments online is one of the biggest challenges to privacy. These services can assist you in protecting your privacy from merchants and other trackers, provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
 
-[Making Private Payments](../../../wiki/advanced/payments.md)
+[Making Private Payments](../../../wiki/advanced/payments/_index.md)
 
 ## Payment Masking Services
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats.md#limiting-public-information)
+[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats/_index.md#limiting-public-information)
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -58,7 +58,7 @@ MySudo's virtual cards are currently only available via their iOS app.
 ## Gift Card Marketplaces
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)
+[{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats/_index.md#mass-surveillance-programs)
 
 <div class="pg-card-logos">
 {{< cards >}}

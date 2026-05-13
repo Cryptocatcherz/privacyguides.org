@@ -3,8 +3,8 @@ title: Social Networks
 description: Find a new social network that doesn’t pry into your data or monetize your profile.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats.md#avoiding-censorship)
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats/_index.md#avoiding-censorship)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 <div class="pg-card-logos">
 {{< cards >}}

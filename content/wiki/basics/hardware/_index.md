@@ -16,7 +16,7 @@ Some devices will have a "hardware security program", which is a collaboration b
 
 - [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of features like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
 - [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
-- macOS running on an Apple SoC takes advantage of [hardware security](../os/macos/_index.md#hardware-security) which may not be available with third party operating systems.
+- macOS running on an Apple SoC takes advantage of [hardware security](../../os/macos/_index.md#hardware-security) which may not be available with third party operating systems.
 - [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
 
 Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
@@ -69,7 +69,7 @@ Some threats can't be protected against by your internal components alone. Many 
 
 Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../../tools/hardware/security-keys/_index.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication/_index.md#hardware-security-keys){ .md-button }
+[Recommended Hardware Keys :material-arrow-right-drop-circle:](../../tools/hardware/security-keys/_index.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](../multi-factor-authentication/_index.md#hardware-security-keys){ .md-button }
 
 ### Camera/Microphone
 

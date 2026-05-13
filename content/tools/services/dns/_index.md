@@ -3,7 +3,7 @@ title: DNS Resolvers
 description: We recommend choosing these encrypted DNS providers to replace your ISP's default configuration.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -16,13 +16,13 @@ description: We recommend choosing these encrypted DNS providers to replace your
 
 Encrypted **DNS** with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
 
-[Learn more about DNS](../../../wiki/advanced/dns-overview.md)
+[Learn more about DNS](../../../wiki/advanced/dns-overview/_index.md)
 
 ## Recommended Providers
 
 These are our favorite public DNS resolvers based on their privacy and security characteristics, and their worldwide performance. Some of these services offer basic DNS-level blocking of malware or trackers depending on the server you choose, but if you want to be able to see and customize what is blocked, you should use a dedicated DNS filtering product instead.
 
-| DNS Provider | Protocols | Logging / Privacy Policy | [ECS](../../../wiki/advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Filtering | Signed Apple Profile |
+| DNS Provider | Protocols | Logging / Privacy Policy | [ECS](../../../wiki/advanced/dns-overview/_index.md#what-is-edns-client-subnet-ecs) | Filtering | Signed Apple Profile |
 |---|---|---|---|---|---|
 | [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html) | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^1] | Anonymized | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardSDNSFilter) | Yes [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html) |
 | [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | Cleartext <br>DoH/3 <br>DoT | Anonymized[^2] | No | Based on server choice. | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
@@ -100,11 +100,11 @@ NextDNS also offers a public DoH service at `https://dns.nextdns.io` and DNS-ove
 
 ## Encrypted DNS Proxies
 
-Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](../../../wiki/advanced/dns-overview.md#unencrypted-dns) resolver to forward to. Typically, it is used on platforms that don't natively support [encrypted DNS](../../../wiki/advanced/dns-overview.md#what-is-encrypted-dns).
+Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](../../../wiki/advanced/dns-overview/_index.md#unencrypted-dns) resolver to forward to. Typically, it is used on platforms that don't natively support [encrypted DNS](../../../wiki/advanced/dns-overview/_index.md#what-is-encrypted-dns).
 
 ### RethinkDNS
 
-**RethinkDNS** is an open-source Android client that supports [DoH](../../../wiki/advanced/dns-overview.md#dns-over-https-doh), [DoT](../../../wiki/advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](../../../wiki/advanced/dns-overview.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
+**RethinkDNS** is an open-source Android client that supports [DoH](../../../wiki/advanced/dns-overview/_index.md#dns-over-https-doh), [DoT](../../../wiki/advanced/dns-overview/_index.md#dns-over-tls-dot), [DNSCrypt](../../../wiki/advanced/dns-overview/_index.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
 
 {{< cards >}}
   {{< card link="https://rethinkdns.com" title="Homepage" icon="home" >}}
@@ -118,7 +118,7 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 
 ### DNSCrypt-Proxy
 
-**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](../../../wiki/advanced/dns-overview.md#dnscrypt), [DoH](../../../wiki/advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](../../../wiki/advanced/dns-overview/_index.md#dnscrypt), [DoH](../../../wiki/advanced/dns-overview/_index.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 {{< cards >}}
   {{< card link="https://github.com/DNSCrypt/dnscrypt-proxy" title="Source Code Repository" icon="code" >}}
@@ -130,7 +130,7 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 [{{< badge content="Windows" color="red" >}}](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 
 > [!WARNING]
-> The anonymized DNS feature does [not](../../../wiki/advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
+> The anonymized DNS feature does [not](../../../wiki/advanced/dns-overview/_index.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
 
 
 ## Criteria
@@ -139,9 +139,9 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 
 All DNS products...
 
-- Must support [DNSSEC](../../../wiki/advanced/dns-overview.md#what-is-dnssec).
-- Must support [QNAME Minimization](../../../wiki/advanced/dns-overview.md#what-is-qname-minimization).
-- Must anonymize [ECS](../../../wiki/advanced/dns-overview.md#what-is-edns-client-subnet-ecs) or disable it by default.
+- Must support [DNSSEC](../../../wiki/advanced/dns-overview/_index.md#what-is-dnssec).
+- Must support [QNAME Minimization](../../../wiki/advanced/dns-overview/_index.md#what-is-qname-minimization).
+- Must anonymize [ECS](../../../wiki/advanced/dns-overview/_index.md#what-is-edns-client-subnet-ecs) or disable it by default.
 
 Additionally, all public providers...
 

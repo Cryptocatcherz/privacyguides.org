@@ -3,8 +3,8 @@ description: Unlike most cryptocurrencies, these ones provide transaction privac
 title: Cryptocurrency
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)
-[{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats.md#avoiding-censorship)
+[{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats/_index.md#mass-surveillance-programs)
+[{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats/_index.md#avoiding-censorship)
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -14,7 +14,7 @@ title: Cryptocurrency
 
 Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
 
-[Making Private Payments](../../../wiki/advanced/payments.md)
+[Making Private Payments](../../../wiki/advanced/payments/_index.md)
 { .md-button }
 
 > [!CAUTION]
@@ -22,7 +22,7 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 
 ## Monero
 
-**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](../../../wiki/basics/common-threats/_index.md#anonymity-vs-privacy){ .pg-purple }. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
 
 {{< cards >}}
   {{< card link="https://getmonero.org" title="Homepage" icon="home" >}}
@@ -58,7 +58,7 @@ For maximum privacy (even with a self-custody wallet), you should run your own M
 
 ### Buying Monero
 
-[General tips for acquiring Monero](../../../wiki/advanced/payments.md#acquisition)
+[General tips for acquiring Monero](../../../wiki/advanced/payments/_index.md#acquisition)
 { .md-button }
 
 There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is *that* you bought Monero, but not how much you own or where you spend it (after it leaves the exchange). Some reputable places to buy Monero include:

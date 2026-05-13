@@ -4,8 +4,8 @@ description: An email aliasing service allows you to easily generate a new email
 ---
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
-[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats.md#limiting-public-information)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
+[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats/_index.md#limiting-public-information)
 
 <div class="pg-card-logos">
 {{< cards >}}

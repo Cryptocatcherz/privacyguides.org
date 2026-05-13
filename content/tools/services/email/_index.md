@@ -3,7 +3,7 @@ title: Email Services
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -33,7 +33,7 @@ In addition to (or instead of) an email provider recommended here, you may wish 
 
 ## OpenPGP Compatible Services
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](../../../wiki/basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](../../../wiki/basics/email-security/_index.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
 
 <div class="grid cards" markdown>
 
@@ -43,11 +43,11 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 </div>
 
 > [!WARNING]
-> When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](../../../wiki/basics/email-security.md#email-metadata-overview).
+> When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](../../../wiki/basics/email-security/_index.md#email-metadata-overview).
 > 
 > OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
 > 
-> - [How do I protect my private keys?](../../../wiki/basics/email-security.md#how-do-i-protect-my-private-keys)
+> - [How do I protect my private keys?](../../../wiki/basics/email-security/_index.md#how-do-i-protect-my-private-keys)
 
 
 ### Proton Mail
@@ -95,7 +95,7 @@ Paid Proton Mail subscribers can use their own domain with the service or a [cat
 
 #### :material-check:{ .pg-green } Private Payment Methods
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](../../../wiki/advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments. Additionally, you can use [**Monero**](../../software/cryptocurrency/_index.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](../../../wiki/advanced/payments/_index.md#other-coins-bitcoin-ethereum-etc), and PayPal payments. Additionally, you can use [**Monero**](../../software/cryptocurrency/_index.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Account Security
 
@@ -111,7 +111,7 @@ Certain information stored in [Proton Contacts](https://proton.me/support/proton
 
 Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](../../../wiki/basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](../../../wiki/basics/email-security/_index.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
@@ -156,7 +156,7 @@ However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the softwar
 
 Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](../../../wiki/basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](../../../wiki/basics/email-security/_index.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
@@ -268,7 +268,7 @@ We prefer our recommended providers to collect as little data as possible.
 
 **Best Case:**
 
-- Should accept [anonymous payment options](../../../wiki/advanced/payments.md) ([cryptocurrency](../../software/cryptocurrency/_index.md), cash, gift cards, etc.)
+- Should accept [anonymous payment options](../../../wiki/advanced/payments/_index.md) ([cryptocurrency](../../software/cryptocurrency/_index.md), cash, gift cards, etc.)
 - Should be hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Security

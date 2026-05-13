@@ -3,13 +3,13 @@ title: "Alternative Networks"
 description: These tools allow you to access networks other than the World Wide Web.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
-[{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
+[{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats/_index.md#mass-surveillance-programs)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 ## Anonymizing Networks
 
-When it comes to anonymizing networks, we want to specially note that [Tor](../../../wiki/advanced/tor-overview/_index.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your [:material-incognito: Anonymity](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
+When it comes to anonymizing networks, we want to specially note that [Tor](../../../wiki/advanced/tor-overview/_index.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your [:material-incognito: Anonymity](../../../wiki/basics/common-threats/_index.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -22,7 +22,7 @@ When it comes to anonymizing networks, we want to specially note that [Tor](../.
 
 ### Tor
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
+The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](../../../wiki/basics/common-threats/_index.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
 {{< cards >}}
   {{< card link="https://torproject.org" title="Homepage" icon="home" >}}

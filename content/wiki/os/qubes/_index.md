@@ -16,17 +16,17 @@ Some of the information here and on the Qubes OS documentation may contain confl
 
 </details>
 
-![Qubes architecture](./qubes-trust-level-architecture.png)
+![Qubes architecture](qubes-trust-level-architecture.png)
 <figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
 
 Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
 
-![Colored border](./r4.0-xfce-three-domains-at-work.png)
+![Colored border](r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
 
 ## Why Should I use Qubes?
 
-Qubes OS is useful if your [threat model](../../basics/threat-modeling.md) requires strong security and isolation, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources, but the idea is that if a single qube is compromised it won't affect the rest of the system.
+Qubes OS is useful if your [threat model](../../basics/threat-modeling/_index.md) requires strong security and isolation, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources, but the idea is that if a single qube is compromised it won't affect the rest of the system.
 
 Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for controlling other *qubes* on the host OS, all of which display individual application windows within dom0's desktop environment. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
 

@@ -3,9 +3,9 @@ title: Password Managers
 description: Password managers allow you to securely store and manage passwords and other credentials.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -18,7 +18,7 @@ description: Password managers allow you to securely store and manage passwords 
 
 **Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
-[Introduction to Passwords](../../../wiki/basics/passwords-overview.md)
+[Introduction to Passwords](../../../wiki/basics/passwords-overview/_index.md)
 
 > [!IMPORTANT]
 > Built-in password managers in software like browsers and operating systems are sometimes not as good as dedicated password manager software. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features that standalone offerings have.

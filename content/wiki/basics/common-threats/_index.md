@@ -4,7 +4,7 @@ weight: 30
 description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. <mark>You may be concerned with none, one, a few, or all of these possibilities</mark>, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+Broadly speaking, we categorize our recommendations into the [threats](../threat-modeling/_index.md) or goals that apply to most people. <mark>You may be concerned with none, one, a few, or all of these possibilities</mark>, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 
@@ -130,7 +130,7 @@ Therefore, you should use native applications over web clients whenever possible
 
 </div>
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](../threat-modeling/_index.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
 
 ## Mass Surveillance Programs
 
@@ -186,7 +186,7 @@ Additionally, even companies outside the *AdTech* or tracking industry can share
 
 The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion/_index.md)
+- [View our guide on account deletion :material-arrow-right-drop-circle:](../account-deletion/_index.md)
 
 On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
 
@@ -200,12 +200,12 @@ Censorship online can be carried out (to varying degrees) by actors including to
 
 Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview/_index.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../../tools/software/social-networks/_index.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+People concerned with the threat of censorship can use technologies like [Tor](../../advanced/tor-overview/_index.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../../tools/software/social-networks/_index.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 > [!TIP]
 > While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
 > 
-> You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+> You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../../advanced/dns-overview/_index.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
 
 
 You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.

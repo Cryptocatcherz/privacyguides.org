@@ -4,14 +4,14 @@ weight: 40
 description: An overview of several network architectures commonly used by instant messaging applications.
 ---
 
-There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](../../basics/threat-modeling.md) when deciding which app to use.
+There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](../../basics/threat-modeling/_index.md) when deciding which app to use.
 
 - [Recommended Instant Messengers](../../../tools/services/messengers/_index.md)
 - [Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why)
 
 ## Centralized Networks
 
-![Centralized networks diagram](./network-centralized.svg)
+![Centralized networks diagram](network-centralized.svg)
 
 Centralized messengers are those where all participants are on the same server or network of servers controlled by the same organization.
 
@@ -34,7 +34,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 
 ## Federated Networks
 
-![Federated networks diagram](./network-decentralized.svg)
+![Federated networks diagram](network-decentralized.svg)
 
 Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
 
@@ -57,7 +57,7 @@ When self-hosted, members of a federated server can discover and communicate wit
 
 ## Peer-to-Peer Networks
 
-![P2P diagram](./network-distributed.svg)
+![P2P diagram](network-distributed.svg)
 
 P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recipient without a third-party server.
 
@@ -82,7 +82,7 @@ P2P networks do not use servers, as peers communicate directly between each othe
 
 ## Anonymous Routing
 
-![Anonymous routing diagram](./network-anonymous-routing.svg)
+![Anonymous routing diagram](network-anonymous-routing.svg)
 
 A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
 

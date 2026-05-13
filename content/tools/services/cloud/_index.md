@@ -3,8 +3,8 @@ title: Cloud Storage
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -87,7 +87,7 @@ Peergos secures your files with quantum-resistant E2EE and ensures all data abou
 [{{< badge content="GitHub" >}}](https://github.com/Peergos/web-ui/releases)
 [{{< badge content="Web" >}}](https://peergos.net)
 
-Peergos is built on top of the [InterPlanetary File System (IPFS)](https://ipfs.tech), a peer-to-peer architecture that protects against [Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship).
+Peergos is built on top of the [InterPlanetary File System (IPFS)](https://ipfs.tech), a peer-to-peer architecture that protects against [Censorship](../../../wiki/basics/common-threats/_index.md#avoiding-censorship).
 
 The client, server, and command line interface for Peergos all run from the same binary. Additionally, Peergos includes a [sync engine](https://book.peergos.org/features/sync) (accessible via the native apps) for bi-directionally synchronizing a local folder with a Peergos folder, and a [webdav bridge](https://book.peergos.org/features/webdav) to allow other applications to access your Peergos storage. You can refer to Peergos's documentation for a full overview of their numerous features.
 

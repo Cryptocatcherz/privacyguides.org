@@ -3,7 +3,7 @@ title: File Sharing and Sync
 description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
 
 Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
 
@@ -36,7 +36,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ### OnionShare
 
-**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](../../../wiki/basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
+**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](../../../wiki/basics/common-threats/_index.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
 
 {{< cards >}}
   {{< card link="https://onionshare.org" title="Homepage" icon="home" >}}
@@ -48,7 +48,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 [{{< badge content="Windows" color="red" >}}](https://onionshare.org/#download)
 [{{< badge content="Flathub" >}}](https://flathub.org/apps/org.onionshare.OnionShare)
 
-OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](../../../wiki/basics/common-threats/_index.md#avoiding-censorship){ .pg-blue-gray }.
 
 ### Criteria
 

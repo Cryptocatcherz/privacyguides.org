@@ -48,7 +48,7 @@ These tools provide analysis based on the information they have the ability to a
 ## External Verification Tools
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
 
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
@@ -107,8 +107,8 @@ iMazing automates and interactively guides you through the process of using [MVT
 ## On-Device Verification
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals)
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
+[{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
 
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
@@ -143,4 +143,4 @@ It is important to note that Auditor can only effectively detect changes **after
 
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-If your [threat model](../../../wiki/basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](../alternative-networks/_index.md#orbot) or a [VPN](../../services/vpn/_index.md).
+If your [threat model](../../../wiki/basics/threat-modeling/_index.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](../alternative-networks/_index.md#orbot) or a [VPN](../../services/vpn/_index.md).

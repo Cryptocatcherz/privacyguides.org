@@ -3,10 +3,10 @@ title: Instant Messengers
 description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats.md#security-and-privacy)
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
-[{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats.md#mass-surveillance-programs)
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/_index.md#security-and-privacy)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
+[{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats/_index.md#mass-surveillance-programs)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 <div class="pg-card-logos">
 {{< cards >}}
@@ -60,7 +60,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 ### Molly (Android)
 
-If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](../../../wiki/basics/common-threats.md#attacks-against-specific-individuals){ .pg-red  } you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
+If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](../../../wiki/basics/common-threats/_index.md#attacks-against-specific-individuals){ .pg-red  } you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
 
 **Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
 
@@ -83,7 +83,7 @@ Both versions of Molly provide the same security improvements and support [repro
 
 ## SimpleX Chat
 
-**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](../../../wiki/basics/common-threats/_index.md#avoiding-censorship){ .pg-blue-gray }.
 
 {{< cards >}}
   {{< card link="https://simplex.chat" title="Homepage" icon="home" >}}
@@ -108,7 +108,7 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 ## Briar
 
-**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](../../advanced/alternative-networks/_index.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](../../../wiki/basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](../../advanced/alternative-networks/_index.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](../../../wiki/basics/common-threats/_index.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
 {{< cards >}}
   {{< card link="https://briarproject.org" title="Homepage" icon="home" >}}

@@ -9,7 +9,7 @@ Virtual Private Networks are a way of extending the end of your network to exit 
 
 [:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn){ .md-button }
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../../advanced/dns-overview/_index.md#why-shouldnt-i-use-encrypted-dns).
 
 Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
 
@@ -46,9 +46,9 @@ VPNs cannot encrypt data outside the connection between your device and the VPN 
 
 ## When isn't a VPN suitable?
 
-Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
+Using a VPN in cases where you're using your [real-life or well-known identity](../common-misconceptions/_index.md#complicated-is-better) online is unlikely to be useful. Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
 
-It's important to remember that a VPN will not provide you with absolute anonymity because the VPN provider itself will still have access to your real IP address, destination website information, and often a money trail that can be linked directly back to you. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview/_index.md) in addition to or instead of a VPN.
+It's important to remember that a VPN will not provide you with absolute anonymity because the VPN provider itself will still have access to your real IP address, destination website information, and often a money trail that can be linked directly back to you. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../../advanced/tor-overview/_index.md) in addition to or instead of a VPN.
 
 You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
 
@@ -60,9 +60,9 @@ Another common reason encrypted DNS is recommended is that it prevents DNS spoof
 
 ## Should I use Tor *and* a VPN?
 
-Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
+Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](../threat-modeling/_index.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
 
-If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../advanced/tor-overview/_index.md) page.
+If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../../advanced/tor-overview/_index.md) page.
 
 ## Should I access Tor through VPN providers that provide "Tor nodes"?
 

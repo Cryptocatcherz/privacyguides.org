@@ -4,7 +4,7 @@ description: Our recommended methods for removing your personal information from
 ---
 
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-misconceptions.md)
+[{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-misconceptions/_index.md)
 
 <div class="pg-card-logos">
 {{< cards >}}

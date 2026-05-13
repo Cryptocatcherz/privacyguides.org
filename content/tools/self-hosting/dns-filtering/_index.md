@@ -3,8 +3,8 @@ title: DNS Filtering
 description: For our more technical readers, self-hosting a DNS solution can provide filtering for devices not covered by cloud-based DNS solutions.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats.md#privacy-from-service-providers)
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/_index.md#privacy-from-service-providers)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 **Self-hosting DNS** is useful for providing [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) on controlled platforms, such as smart TVs and other IoT devices, as no client-side software is needed. Keep in mind that the DNS solutions below are typically restricted to your home or local network unless you set up a more advanced configuration.
 

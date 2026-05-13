@@ -3,11 +3,11 @@ title: Browser Extensions
 description: These browser extensions can enhance your browsing experience and protect your privacy.
 ---
 <small>Protects against the following threat(s):</small>
-[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats.md#surveillance-as-a-business-model)
+[{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/_index.md#surveillance-as-a-business-model)
 
 In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface. They have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
-However, some provide functionality which can outweigh these downsides in certain situations, particularly when it comes to [content blocking](../../../wiki/basics/common-threats.md#mass-surveillance-programs).
+However, some provide functionality which can outweigh these downsides in certain situations, particularly when it comes to [content blocking](../../../wiki/basics/common-threats/_index.md#mass-surveillance-programs).
 
 Don't install extensions which you don't immediately have a need for, or ones that duplicate the functionality of your browser. For example, [Brave](../desktop-browsers/_index.md#brave) users don't need to install uBlock Origin, because Brave Shields already provides the same functionality.
 
@@ -49,7 +49,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
 - ...your browser only supports Manifest V3 extensions. This is the case for Chrome [^2] , Edge and most Chromium browsers.
 
-**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [:material-bug-outline: Passive Attacks](../../../wiki/basics/common-threats.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
+**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [:material-bug-outline: Passive Attacks](../../../wiki/basics/common-threats/_index.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
 
 {{< cards >}}
   {{< card link="https://github.com/uBlockOrigin/uBOL-home#readme" title="Repository" icon="code" >}}
