@@ -5,12 +5,12 @@ description: Privacy Guides' Activism section contains tools to support the comm
 hide:
   - toc
   - footer
-cover: activism/banner-activism.webp
+cover: banner-activism.webp
 breadcrumbs: false
 cascade:
   type: docs
 ---
-The **Guides and Tools for Privacy Activists** project from [*Privacy Guides*](../about/_index.md) offers a new way to empower the digital rights community.
+The **Guides and Tools for Privacy Activists** project from [*Privacy Guides*](../about/) offers a new way to empower the digital rights community.
 
 This section contains information to help you become a better defender of privacy rights, both for individuals and organizations.
 
@@ -28,6 +28,6 @@ This section will progressively grow with more tools to support the community in
 
 [:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/_index.md){ .toolbox-button .toolbox-bg }
 
-[:fontawesome-solid-address-card:{ .toolbox-button-icon } DPA Directory](legal/dpa-directory.md){ .toolbox-button .dpadirectory-bg }
+[:fontawesome-solid-address-card:{ .toolbox-button-icon } DPA Directory](legal/dpa-directory/){ .toolbox-button .dpadirectory-bg }
 
 </div>

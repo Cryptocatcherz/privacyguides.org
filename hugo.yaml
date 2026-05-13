@@ -101,7 +101,7 @@ params:
 enableGitInfo: true
 
 outputs:
-  home: [HTML, RSS]
+  home: [HTML, RSS, llms]
   page: [HTML, markdown, RSS]
   section: [HTML, RSS]
 
