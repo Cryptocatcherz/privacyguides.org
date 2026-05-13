@@ -1,0 +1,40 @@
+{{/* prebuild/layouts/index.html */}}
+
+{{ $base := "https://www.privacyguides.org/ghost/api/content/posts/?key=a357e391ed3543ef0dad732ba4&include=tags,authors" }}
+
+{{ $tags := slice "articles" "news" "videos" "livestreams" }}
+{{ range $tags }}
+{{ $taggedBase := printf "%s&filter=tag:%s" $base . }}
+{{ $currentTag := . }}
+
+  {{ with resources.GetRemote $taggedBase }}
+    {{ $json := . | transform.Unmarshal }}
+
+    {{ $maxPages := $json.meta.pagination.pages }}
+
+    {{ range seq 1 $maxPages }}
+      {{ $page := . }}
+      {{ $url := printf "%s&page=%d" $taggedBase $page }}
+
+      {{ with resources.GetRemote $url }}
+        {{ $pagedData := . | transform.Unmarshal }}
+
+        {{ range $pagedData.posts }}
+          {{ $string := jsonify . }}
+          {{ $safeTitle := replace .title "/" "-" }}
+          {{ $filename := printf "%s/%s.md" $currentTag (urlize $safeTitle) }}
+          {{ $safeURL := replace .url "https://www.privacyguides.org/" "" }}
+          {{ $replace1 := replace $string "\"published_at\":\"" "\"date\":\"" }}
+          {{ $replace2 := replace $replace1 "\"updated_at\":\"" "\"modified\":\"" }}
+          {{ $replace3 := replace $replace2 "\"url\":\"https://www.privacyguides.org/" "\"url\":\"" }}
+          {{ $replace4 := printf "%s\n%s" $replace3 .html }}
+          {{ $resource := resources.FromString $filename $replace4 }} 
+          {{ $file := $resource.RelPermalink }}
+        {{ end }}
+
+      {{ end }}
+    {{ end }}
+
+  {{ end }}
+
+{{ end }}
