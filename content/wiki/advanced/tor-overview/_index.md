@@ -4,9 +4,9 @@ weight: 20
 description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
 ---
 
-![Tor logo](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](/assets/img/self-contained-networks/tor.svg){ align=right }
 
-[**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+[**Tor**](../../tools/advanced/alternative-networks/_index.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
 
 [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor){ .md-button }
 
@@ -22,11 +22,11 @@ Tor works by routing your internet traffic through volunteer-operated servers in
 
 Before connecting to Tor, you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
 
-If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [destigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
+If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [destigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../../tools/software/tor/_index.md) without worry.
 
 If you have the ability to access a trusted VPN provider and **any** of the following are true, you almost certainly should connect to Tor through a VPN:
 
-- You already use a [trusted VPN provider](../vpn.md)
+- You already use a [trusted VPN provider](../../tools/services/vpn/_index.md)
 - Your threat model includes an adversary which is capable of extracting information from your ISP
 - Your threat model includes your ISP itself as an adversary
 - Your threat model includes local network administrators before your ISP as an adversary
@@ -35,7 +35,7 @@ Because we already [generally recommend](../basics/vpn-overview.md) that the vas
 
 Connecting directly to Tor will make your connection stand out to any local network administrators or your ISP. Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) in the past by network administrators to identify and deanonymize specific Tor users on their network. On the other hand, connecting to a VPN is almost always less suspicious, because commercial VPN providers are used by everyday consumers for a variety of mundane tasks like bypassing geo-restrictions, even in countries with heavy internet restrictions.
 
-Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal (e.g., through Tor Browser). This creates a connection chain like so:
+Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../../tools/software/tor/_index.md) as normal (e.g., through Tor Browser). This creates a connection chain like so:
 
 - [x] You → VPN → Tor → Internet
 
@@ -57,6 +57,7 @@ Setting up bad configurations like these is difficult to do accidentally, becaus
 
 ---
 
+<!-- TODO: Admonition -->
 <div class="admonition info" markdown>
 <p class="admonition-title">VPN/SSH Fingerprinting</p>
 
@@ -99,17 +100,17 @@ Additionally, Tor Browser is based on Firefox's Extended Support Release builds,
 1. Look for new Critical/High vulnerabilities in Firefox nightly or beta builds, then check if they are exploitable in Tor Browser (this vulnerability period can last weeks).
 2. Chain *multiple* Medium/Low vulnerabilities together until they get the level of access they're looking for (this vulnerability period can last months or longer).
 
-Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes-overview.md) to contain your Tor browsing in a secure virtual machine and protect against leaks.
+Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes/_index.md) to contain your Tor browsing in a secure virtual machine and protect against leaks.
 
 ## Path Building to Clearnet Services
 
 "Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
 
-Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+Every time you [connect to Tor](../../tools/software/tor/_index.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
 
 <figure markdown>
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](/assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](/assets/img/how-tor-works/tor-path-dark.svg#only-dark)
   <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
@@ -144,8 +145,8 @@ The exit node will be chosen at random from all available Tor nodes ran with an 
 Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
 <figure style="width:100%" markdown>
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](/assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](/assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
   <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
 </figure>
 
@@ -164,8 +165,8 @@ Once Tor has built a circuit, data transmission is done as follows:
 Below is an alternative diagram showing the process. Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
 
 <figure markdown>
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
+  ![Tor encryption](/assets/img/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](/assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
   <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
@@ -183,7 +184,7 @@ Though Tor does provide strong privacy guarantees, one must be aware that Tor is
 
 If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
 
-- [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
+- [Tor Browser :material-arrow-right-drop-circle:](../../tools/software/tor/_index.md#tor-browser)
 
 ### Protections provided by bridges
 

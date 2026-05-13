@@ -4,7 +4,7 @@ icon: simple/android
 description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Android logo](/assets/img/android/android.svg){ align=right }
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
@@ -12,11 +12,11 @@ The **Android Open Source Project** is a secure mobile operating system featurin
 [:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md){ .md-button .md-button--primary }
+[Our Android Advice :material-arrow-right-drop-circle:](../../../tools/os/android/_index.md){ .md-button .md-button--primary }
 
 ## Security Protections
 
-Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../../../tools/hardware/mobile-phones/_index.md) and [custom Android OS](../../../tools/os/android/distributions/_index.md) recommendations.
 
 ### Verified Boot
 
@@ -44,7 +44,7 @@ Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of
 
 [**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
 
-A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
+A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../../../tools/hardware/mobile-phones/_index.md#google-pixel).
 
 Android 10:
 
@@ -73,19 +73,13 @@ An app may request a permission for a specific feature it has. For example, any 
 
 [Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
 
-If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
 
-</div>
+> [!NOTE]
+> Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
 
-<div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
-
-Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
-
-</div>
 
 ## Privacy Features
 
@@ -99,7 +93,7 @@ With user profiles, you can impose restrictions on a specific profile, such as: 
 
 [**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
-A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+A **device controller** app such as [Shelter](../../../tools/os/android/general-apps/_index.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 The work profile is dependent on a device controller to function. Features such as *File Shuttle* and *contact search blocking* or any kind of isolation features must be implemented by the controller. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
@@ -127,11 +121,11 @@ If you are using a device with Google services—whether with the stock operatin
 
 ### Advanced Protection Program
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). It is available at no cost to anyone with two or more hardware security keys with [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) support. Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). It is available at no cost to anyone with two or more hardware security keys with [FIDO](../../basics/multi-factor-authentication.md#fido-fast-identity-online) support. Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
 
 The Advanced Protection Program provides enhanced threat monitoring and enables:
 
-- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
+- Stricter two-factor authentication; e.g. that [FIDO](../../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../../basics/account-creation.md#sign-in-with-oauth)
 - Only Google and verified third-party apps can access account data
 - Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
 - Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome

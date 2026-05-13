@@ -48,36 +48,14 @@ menu:
     - identifier: updates
       name: Updates
       weight: 4
-    - identifier: articles
-      name: Articles
-      pageRef: /posts/tag/articles/
-      parent: updates
-    - identifier: videos
-      name: Videos
-      pageRef: /videos/
-      parent: updates
-    - identifier: news
-      name: News
-      pageRef: /news/
-      parent: updates
-    - name: Forum  ↗
+      pageRef: /news
+    - name: Forum
       url: "https://discuss.privacyguides.net"
       weight: 5
-    - identifier: more
-      name: More
-      weight: 6
-    - identifier: communitywiki
-      name: Community Guides  ↗
-      url: "https://discuss.privacyguides.net/c/community-wiki/9411/none"
-      parent: more
     - identifier: about
       name: About
       pageRef: /about
-      parent: more
-    - identifier: glossary
-      name: Glossary
-      pageRef: /glossary
-      parent: more
+      weight: 6
     - name: Search
       weight: 7
       params:

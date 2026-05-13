@@ -12,11 +12,12 @@ Unfortunately, this feature was added without too much thought about the privacy
 You can enhance your privacy and security on Windows without downloading any third-party tools with these guides:
 
 - Initial Installation (coming soon)
-- [Group Policy Settings](group-policies.md)
+- [Group Policy Settings](group-policies/)
 - Privacy Settings (coming soon)
 - Application Sandboxing (coming soon)
 - Security Hardening (coming soon)
 
+<!-- TODO: Admonition -->
 <div class="admonition example" markdown>
 <p class="admonition-title">This section is new</p>
 

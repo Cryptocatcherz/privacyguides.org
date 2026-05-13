@@ -4,14 +4,14 @@ weight: 40
 description: An overview of several network architectures commonly used by instant messaging applications.
 ---
 
-There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](../basics/threat-modeling.md) when deciding which app to use.
+There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](../../basics/threat-modeling.md) when deciding which app to use.
 
-[Recommended Instant Messengers](../real-time-communication.md){ .md-button }
-[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why){ .md-button }
+- [Recommended Instant Messengers](../../../tools/services/messengers/_index.md)
+- [Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why)
 
 ## Centralized Networks
 
-![Centralized networks diagram](../assets/img/layout/network-centralized.svg){ align=left }
+![Centralized networks diagram](./network-centralized.svg)
 
 Centralized messengers are those where all participants are on the same server or network of servers controlled by the same organization.
 
@@ -34,7 +34,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 
 ## Federated Networks
 
-![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
+![Federated networks diagram](./network-decentralized.svg)
 
 Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
 
@@ -57,7 +57,7 @@ When self-hosted, members of a federated server can discover and communicate wit
 
 ## Peer-to-Peer Networks
 
-![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
+![P2P diagram](./network-distributed.svg)
 
 P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recipient without a third-party server.
 
@@ -78,15 +78,15 @@ P2P networks do not use servers, as peers communicate directly between each othe
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
 - Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
 - Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](../vpn.md) or [Tor](../tor.md). Many countries have some form of mass surveillance and/or metadata retention.
+- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](../../../tools/services/vpn/_index.md) or [Tor](../../../tools/software/tor/_index.md). Many countries have some form of mass surveillance and/or metadata retention.
 
 ## Anonymous Routing
 
-![Anonymous routing diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Anonymous routing diagram](./network-anonymous-routing.svg)
 
 A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
 
-There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](tor-overview.md)), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly and only meet through a secret rendezvous node so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages, nor the final destination; only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers."
+There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](../tor-overview.md)), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly and only meet through a secret rendezvous node so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages, nor the final destination; only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers."
 
 Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 

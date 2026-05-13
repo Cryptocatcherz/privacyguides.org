@@ -106,12 +106,9 @@ You can also have it ask for confirmation every time if you leave ChatGPT integr
 
 - [x] Turn on **Confirm Requests**
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
 
-Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
-
-</div>
 
 #### Privacy & Security
 
@@ -135,7 +132,7 @@ Decide whether you want personalized ads based on your usage.
 
 ##### FileVault
 
-On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling [FileVault](../../../tools/software/encryption/_index.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
 
 On older Intel-based Mac computers, FileVault is the only form of disk encryption available by default, and should always be enabled.
 
@@ -163,12 +160,9 @@ macOS employs defense in depth by relying on multiple layers of software and har
 
 ### Software Security
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> macOS allows you to install beta updates. These are unstable and may come with [extra telemetry](https://beta.apple.com/privacy) since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
 
-macOS allows you to install beta updates. These are unstable and may come with [extra telemetry](https://beta.apple.com/privacy) since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
-
-</div>
 
 #### Signed System Volume
 
@@ -186,25 +180,19 @@ System Integrity Protection makes critical file locations read-only to protect a
 
 ##### App Sandbox
 
-On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations){ .pg-viridian } by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
+On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../../basics/common-threats.md#attacks-against-certain-organizations){ .pg-viridian } by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> Software downloaded from outside the official App Store is not required to be sandboxed. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
 
-Software downloaded from outside the official App Store is not required to be sandboxed. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
-
-</div>
 
 You can check if an app uses the App Sandbox in a few ways:
 
 You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> Just because one of an app's processes is sandboxed doesn't mean they all are.
 
-Just because one of an app's processes is sandboxed doesn't mean they all are.
-
-</div>
 
 Alternatively, you can check apps before you run them by running this command in the terminal:
 
@@ -220,7 +208,7 @@ If an app is sandboxed, you should see the following output:
         [Bool] true
 ```
 
-If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
+If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
 
 ##### Hardened Runtime
 

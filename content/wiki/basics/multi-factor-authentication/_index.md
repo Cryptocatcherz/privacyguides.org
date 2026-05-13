@@ -35,7 +35,7 @@ Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against
 
 An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../../tools/hardware/security-keys/_index.md) are not supported [authenticator apps](../../tools/software/multi-factor-authentication/_index.md) are still a good option.
 
 ### Hardware security keys
 
@@ -52,7 +52,7 @@ When logging into a website, all you need to do is to physically touch the secur
 The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](/assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 There are some benefits and disadvantages to using Yubico OTP when compared to TOTP.
@@ -70,7 +70,7 @@ U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikiped
 WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third-party server. Instead, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](/assets/img/multi-factor-authentication/fido.png)
 </figure>
 
 When you create an account, the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
@@ -99,7 +99,7 @@ When configuring your MFA method, keep in mind that it is only as secure as your
 
 You should always have backups for your MFA method. Hardware security keys can get lost, stolen or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../../tools/software/encryption/_index.md#veracrypt-disk)).
 
 ### Initial Set Up
 
@@ -111,7 +111,7 @@ If you have to use email for MFA, make sure that the email account itself is sec
 
 If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
 
-[MFA tools we recommend](../multi-factor-authentication.md){ .md-button }
+[MFA tools we recommend](../../tools/software/multi-factor-authentication/_index.md){ .md-button }
 
 ## More Places to Set Up MFA
 
@@ -133,12 +133,9 @@ The command will prevent an adversary from bypassing MFA when the computer boots
 
 ### Linux
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+> [!WARNING]
+> If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
 
-If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
-
-</div>
 
 The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
 

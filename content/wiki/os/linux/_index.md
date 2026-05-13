@@ -7,7 +7,7 @@ description: Linux is an open-source, privacy-focused desktop operating system a
 
 Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../desktop.md){ .md-button }
+[Our Linux Recommendations :material-arrow-right-drop-circle:](../../../tools/os/desktop/_index.md){ .md-button }
 
 ## Security Notes
 
@@ -15,11 +15,11 @@ There are some notable security concerns with Linux which you should be aware of
 
 - Avoid telemetry that often comes with proprietary operating systems
 - Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
+- Use privacy-focused systems such as [Whonix](../../../tools/os/desktop/_index.md#whonix) or [Tails](../../../tools/os/desktop/_index.md#tails)
 
 ### Open-Source Security
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
+It is a [common misconception](../../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
 
 In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
 
@@ -35,7 +35,7 @@ Additionally, Linux falls behind in implementing [exploit mitigations](https://m
 
 ## Choosing your distribution
 
-Not all Linux distributions are created equal. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
+Not all Linux distributions are created equal. Our [Linux recommendation page](../../../tools/os/desktop/_index.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
 
 ### Release cycle
 
@@ -53,7 +53,7 @@ Traditionally, Linux distributions update by sequentially updating the desired p
 
 Distros which use atomic updates, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
 
-The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
+The atomic update method can achieve reliability with this model and is used for [distributions](../../../tools/os/desktop/_index.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
 
 - [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
@@ -67,7 +67,7 @@ Arch and Arch-based distributions are not recommended for those new to Linux (re
 
 For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](#mandatory-access-control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs that they download from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations){ .pg-viridian }, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
+Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs that they download from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../../basics/common-threats.md#attacks-against-certain-organizations){ .pg-viridian }, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
 
 The AUR should always be used sparingly, and often there is a lot of bad advice on various pages which direct people to blindly use [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) without sufficient warning. Similar warnings apply to the use of third-party Personal Package Archives (PPAs) on Debian-based distributions or Community Projects (COPR) on Fedora.
 
@@ -92,7 +92,7 @@ SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 ### Drive Encryption
 
-Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
+Most Linux distributions have an option within its installer for enabling [LUKS](../../../tools/software/encryption/_index.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
 
 - [Secure Data Erasure :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
 
@@ -155,7 +155,7 @@ MAC address randomization is primarily beneficial for Wi-Fi connections. For Eth
 
 ### Other Identifiers
 
-There are other system identifiers which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](../basics/threat-modeling.md):
+There are other system identifiers which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](../../basics/threat-modeling.md):
 
 - **Hostnames:** Your system's hostname is shared with the networks you connect to. You should avoid including identifying terms like your name or operating system in your hostname, instead sticking to generic terms or random strings.
 - **Usernames:** Similarly, your username is used in a variety of ways across your system. Consider using generic terms like "user" rather than your actual name.

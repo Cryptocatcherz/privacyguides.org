@@ -26,32 +26,35 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
 
 2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
 
-    === "Linux, macOS"
-
-        ```
-        dig +noall +answer privacyguides.org @1.1.1.1
-        dig +noall +answer privacyguides.org @8.8.8.8
-        ```
-    === "Windows"
-
-        ```
-        nslookup privacyguides.org 1.1.1.1
-        nslookup privacyguides.org 8.8.8.8
-        ```
+    {{< tabs >}}
+    {{< tab name="Linux, macOS" >}}
+    ```bash
+    dig +noall +answer privacyguides.org @1.1.1.1
+    dig +noall +answer privacyguides.org @8.8.8.8
+    ```
+    {{< /tab >}}
+    {{< tab name="Windows" >}}
+    ```bash
+    nslookup privacyguides.org 1.1.1.1
+    nslookup privacyguides.org 8.8.8.8
+    ```
+    {{< /tab >}}
+    {{< /tabs >}}
 
 3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
-    === "Wireshark"
-
-        ```
-        wireshark -r /tmp/dns.pcap
-        ```
-
-    === "tshark"
-
-        ```
-        tshark -r /tmp/dns.pcap
-        ```
+    {{< tabs >}}
+    {{< tab name="Wireshark" >}}
+    ```bash
+    wireshark -r /tmp/dns.pcap
+    ```
+    {{< /tab >}}
+    {{< tab name="tshark" >}}
+    ```bash
+    tshark -r /tmp/dns.pcap
+    ```
+    {{< /tab >}}
+    {{< /tabs >}}
 
 If you run the Wireshark command above, the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction, and can aggregate those frames to produce statistical data useful to the network observer.
 
@@ -80,7 +83,7 @@ Encrypted DNS can refer to one of a number of protocols, the most common ones be
 
 [**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Support was first added in web browsers such as Firefox 60 and Chrome 83.
 
-Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, and Android 13 (however, it won't be enabled [by default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). General Linux desktop support is waiting on the systemd [implementation](https://github.com/systemd/systemd/issues/8639) so [installing third-party software is still required](../dns.md#encrypted-dns-proxies).
+Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, and Android 13 (however, it won't be enabled [by default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). General Linux desktop support is waiting on the systemd [implementation](https://github.com/systemd/systemd/issues/8639) so [installing third-party software is still required](../../tools/services/dns/_index.md#encrypted-dns-proxies).
 
 ### Native Operating System Support
 
@@ -98,7 +101,7 @@ Apple does not provide a native interface for creating encrypted DNS profiles. [
 
 #### Linux
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../../tools/services/dns/_index.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## What can an outside party see?
 
@@ -128,7 +131,7 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 
 ## Why **shouldn't** I use encrypted DNS?
 
-In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](../basics/threat-modeling.md). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
+In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](../basics/threat-modeling.md). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](tor-overview.md) or a [VPN](../../tools/services/vpn/_index.md) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
 
 When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
 
@@ -296,7 +299,7 @@ graph TB
 
 Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
 
-[List of recommended DNS servers](../dns.md){ .md-button }
+[List of recommended DNS servers](../../tools/services/dns/_index.md){ .md-button }
 
 ## What is DNSSEC?
 
