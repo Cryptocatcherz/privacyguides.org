@@ -44,7 +44,7 @@ Here are a few examples:
 
 - [**Age Verification**](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) regulations and proposals are growing around the world at a terrifying rate.
 
-- [**Data Brokers**](../../tools/services/data-broker-removals/_index.md) are incessantly exploiting our data due to weak regulations.
+- [**Data Brokers**](../../tools/services/data-broker-removals/index.md) are incessantly exploiting our data due to weak regulations.
 
 - [**Funding cuts**](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/) from new regulations have frequently impacted negatively the organizations and privacy tools we rely on.
 

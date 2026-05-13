@@ -70,7 +70,7 @@ Here are some resources to help you learn more about this social network, and it
 
 - [What is the Fediverse and how it's interconnected (*Stefan Bohacek* project)](https://jointhefediverse.net)
 
-- [Social network recommendations (*Privacy Guides*)](../../tools/software/social-networks/_index.md)
+- [Social network recommendations (*Privacy Guides*)](../../tools/software/social-networks/index.md)
 
 - [Privacy and security on Mastodon (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
 

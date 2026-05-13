@@ -11,7 +11,7 @@ Welcome to our **Privacy Wiki**!
 
 Here, the Privacy Guides community is building *the* comprehensive resource for understanding digital privacy, the threats we face, and the tools we can use to protect ourselves. This wiki is a living document, and we encourage you to contribute if you have something to add.
 
-This is a selection of featured pages, but you can browse the sidebar for more topics, or use the search bar to find something specific. If you're looking for somewhere to start, start [here](basics/why-privacy-matters/_index.md) to learn about why privacy is important, and then check out our [threat modeling guide](basics/threat-modeling/_index.md) to learn how to make informed decisions about the software and services you use.
+This is a selection of featured pages, but you can browse the sidebar for more topics, or use the search bar to find something specific. If you're looking for somewhere to start, start [here](basics/why-privacy-matters/index.md) to learn about why privacy is important, and then check out our [threat modeling guide](basics/threat-modeling/index.md) to learn how to make informed decisions about the software and services you use.
 
 ## Getting Started
 

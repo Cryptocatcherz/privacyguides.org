@@ -117,7 +117,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :page_with_curl: Use it as an alternative to Google Docs!
 
-[More info](../../tools/software/document-collaboration/_index.md#cryptpad){ .md-button .md-button--primary }
+[More info](../../tools/software/document-collaboration/index.md#cryptpad){ .md-button .md-button--primary }
 [:octicons-home-16:](https://cryptpad.fr/){ .card-link title="Homepage" }
 [:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/){ .card-link title="Our CryptPad review" }
 
@@ -131,7 +131,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :speech_balloon: Use it as an [alternative](tip-improve-your-social-media-and-build-resilient-communities.md) to commercial social media such as *X*, *Facebook*, *Instagram*, *Threads*, *TikTok*, or *Bluesky*.
 
-[More info](../../tools/software/social-networks/_index.md#mastodon){ .md-button .md-button--primary }
+[More info](../../tools/software/social-networks/index.md#mastodon){ .md-button .md-button--primary }
 [:octicons-home-16:](https://joinmastodon.org/){ .card-link title="Homepage" }
 [:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/){ .card-link title="Notes on Mastodon Privacy & Security" }
 
@@ -145,7 +145,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :loudspeaker: Use it as a privacy-preserving alternative to *Slack* or *Discord*.
 
-[More info](../../tools/software/social-networks/_index.md#element){ .md-button .md-button--primary }
+[More info](../../tools/software/social-networks/index.md#element){ .md-button .md-button--primary }
 [:octicons-home-16:](https://element.io/){ .card-link title="Homepage" }
 
 </div>
@@ -158,7 +158,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :video_camera: Use it to share videos with your community free from *YouTube*'s control.
 
-[:octicons-home-16: Homepage](../../tools/software/social-networks/_index.md#peertube){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](../../tools/software/social-networks/index.md#peertube){ .md-button .md-button--primary }
 
 </div>
 
@@ -177,10 +177,10 @@ Here are a few privacy-focused tools and services that can help you to organize 
 <details class="info emoji-list-b" markdown>
 <summary>More Alternatives &nbsp;📗</summary>
 
-- **Maps & Navigation:** [Organic Maps](../../tools/software/maps/_index.md#organic-maps) or [OsmAnd](../../tools/software/maps/_index.md#osmand)
-- **Calendar Sync:** [Tuta](../../tools/services/calendar/_index.md#tuta) or [Proton](../../tools/services/calendar/_index.md#proton-calendar)
-- **Cloud Storage:** [Proton Drive](../../tools/services/cloud/_index.md#proton-drive), [Tresorit](../../tools/services/cloud/_index.md#tresorit), or [Peergos](../../tools/services/cloud/_index.md#peergos)
-- **File Sharing:** [OnionShare](../../tools/software/file-sharing/_index.md#onionshare), [Send](../../tools/software/file-sharing/_index.md#send), or [Syncthing](../../tools/software/file-sharing/_index.md#syncthing-p2p)
+- **Maps & Navigation:** [Organic Maps](../../tools/software/maps/index.md#organic-maps) or [OsmAnd](../../tools/software/maps/index.md#osmand)
+- **Calendar Sync:** [Tuta](../../tools/services/calendar/index.md#tuta) or [Proton](../../tools/services/calendar/index.md#proton-calendar)
+- **Cloud Storage:** [Proton Drive](../../tools/services/cloud/index.md#proton-drive), [Tresorit](../../tools/services/cloud/index.md#tresorit), or [Peergos](../../tools/services/cloud/index.md#peergos)
+- **File Sharing:** [OnionShare](../../tools/software/file-sharing/index.md#onionshare), [Send](../../tools/software/file-sharing/index.md#send), or [Syncthing](../../tools/software/file-sharing/index.md#syncthing-p2p)
 
 More tools for community organization could include [LAUTI](https://lauti.org/) for community calendars, and [Mobilizon](https://mobilizon.org/) for events and groups. For more on better alternatives to use, you can check this [tip on why and how to migrate away from Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) for your privacy advocacy work.
 

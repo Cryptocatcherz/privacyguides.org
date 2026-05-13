@@ -12,7 +12,7 @@ If you're looking for a specific solution to something, these are the hardware a
 
 If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net)!
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page. **Want a list of every tool we recommend? Check out our [all tools](./all/_index.md) cheatsheet!**
+For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page. **Want a list of every tool we recommend? Check out our [all tools](./all/index.md) cheatsheet!**
 
 <div class="pg-unstyled-cards">
 {{< cards >}}

@@ -12,7 +12,7 @@ Unfortunately, this feature was added without too much thought about the privacy
 You can enhance your privacy and security on Windows without downloading any third-party tools with these guides:
 
 - Initial Installation (coming soon)
-- [Group Policy Settings](./group-policies/_index.md)
+- [Group Policy Settings](./group-policies/index.md)
 - Privacy Settings (coming soon)
 - Application Sandboxing (coming soon)
 - Security Hardening (coming soon)

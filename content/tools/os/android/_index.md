@@ -13,7 +13,7 @@ description: Our advice for replacing privacy-invasive default Android features 
 
 The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
 
-[General Android Overview](../../../wiki/os/android/_index.md)
+[General Android Overview](../../../wiki/os/android/index.md)
 { .md-button .md-button--primary }
 
 ## Our Advice
@@ -22,12 +22,12 @@ The **Android Open Source Project** (AOSP) is an open-source mobile operating sy
 
 There are many methods of obtaining apps on Android while avoiding Google Play. Whenever possible, try using one of these methods before getting your apps from non-private sources:
 
-[Obtaining Applications](./obtaining-apps/_index.md)
+[Obtaining Applications](./obtaining-apps/index.md)
 { .md-button }
 
 There are also many private alternatives to the apps that come pre-installed on your phone, such as the camera app. Besides the Android apps we recommend throughout this site in general, we've created a list of system utilities specific to Android which you might find useful.
 
-[General App Recommendations](./general-apps/_index.md)
+[General App Recommendations](./general-apps/index.md)
 { .md-button }
 
 ### Install a Custom Distribution
@@ -38,14 +38,14 @@ This problem could be solved by using an alternative Android distribution, commo
 
 Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
 
-[Recommended Distributions](distributions/_index.md)
+[Recommended Distributions](distributions/index.md)
 { .md-button }
 
 ### Avoid Root
 
 [Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). This can decrease privacy should there be an exploit that is assisted by the decreased security. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful Verified Boot. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the attack surface of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (like AdAway) and firewalls which require root access persistently (like AFWall+) are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For content blocking, we suggest encrypted [DNS](../../services/dns/_index.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy-enhancing services such as [Orbot](../../advanced/alternative-networks/_index.md#orbot) or a [real VPN provider](../../services/vpn/_index.md).
+Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (like AdAway) and firewalls which require root access persistently (like AFWall+) are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For content blocking, we suggest encrypted [DNS](../../services/dns/index.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy-enhancing services such as [Orbot](../../advanced/alternative-networks/index.md#orbot) or a [real VPN provider](../../services/vpn/index.md).
 
 AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) approach and may be bypassable in some situations.
 

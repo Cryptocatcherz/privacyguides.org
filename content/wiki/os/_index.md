@@ -2,10 +2,10 @@
 title: Operating Systems
 description: An overview of our operating system-related recommendations for all major computing hardware.
 ---
-We publish configuration guides for the major operating systems, because you can generally improve the amount of data that is collected about you on any option, especially if you use privacy tools like our [recommended web browsers](../../tools/software/desktop-browsers/_index.md) in place of native tools where appropriate. However, some operating systems will be more privacy-respecting inherently, and it will be much harder to achieve an equivalent level of privacy on other choices.
+We publish configuration guides for the major operating systems, because you can generally improve the amount of data that is collected about you on any option, especially if you use privacy tools like our [recommended web browsers](../../tools/software/desktop-browsers/index.md) in place of native tools where appropriate. However, some operating systems will be more privacy-respecting inherently, and it will be much harder to achieve an equivalent level of privacy on other choices.
 
 > [!TIP]
-> You may also wish to explore our [recommended linux distros](../../tools/os/desktop/_index.md) and [recommended Android distros](../../tools/os/android/distributions/_index.md).
+> You may also wish to explore our [recommended linux distros](../../tools/os/desktop/index.md) and [recommended Android distros](../../tools/os/android/distributions/index.md).
 
 ## Mobile Operating Systems
 
