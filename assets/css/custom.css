@@ -184,25 +184,48 @@ h1, .content h1, .content h2, .content h3 {
   --hx-font-sans: "Public Sans", Helvetica, ui-sans-serif, system-ui, sans-serif;
 }
 
-:root:has(body.recommended-privacy-tools) {
+:root:has(body.recommended-privacy-tools), body.privacy-guides .hextra-feature-grid a[href*="tools"] {
   --primary-hue: 200deg;
   --primary-saturation: 37.75%;
   --primary-lightness: 70.39%;
-  --hx-font-sans: "Public Sans", Helvetica, ui-sans-serif, system-ui, sans-serif;
 }
 
-:root:has(body.privacy-wiki) {
+:root:has(body.privacy-wiki), body.privacy-guides .hextra-feature-grid a[href*="wiki"] {
   --primary-hue: 167.57deg;
   --primary-saturation: 97.13%;
   --primary-lightness: 40.98%;
-  --hx-font-sans: "Public Sans", Helvetica, ui-sans-serif, system-ui, sans-serif;
 }
 
-:root:has(body.privacy-activism) {
+:root:has(body.privacy-activism), body.privacy-guides .hextra-feature-grid a[href*="activism"] {
   --primary-hue: 5deg;
   --primary-saturation: 96.43%;
   --primary-lightness: 56.08%;
-  --hx-font-sans: "Public Sans", Helvetica, ui-sans-serif, system-ui, sans-serif;
+}
+
+body.privacy-guides .hextra-feature-grid a[href*="youtube.com"] {
+  --primary-hue: 259.83deg;
+  --primary-saturation: 95.04%;
+  --primary-lightness: 76.27%;
+}
+
+body.privacy-guides .hextra-feature-grid a[href*="discuss.privacyguides.net"] {
+  --primary-hue: 33deg;
+  --primary-saturation: 100%;
+  --primary-lightness: 92.16%;
+}
+
+body.privacy-guides .hextra-feature-grid a[href*="news"] {
+  --primary-hue: 217.97deg;
+  --primary-saturation: 100%;
+  --primary-lightness: 69.02%;
+}
+
+body.privacy-guides .hextra-feature-grid a.pg\:colored-card:has(img) {
+  background: radial-gradient(ellipse at 50% 80%,hsl(var(--primary-hue)var(--primary-saturation)calc(var(--primary-lightness) + calc(calc(100% - var(--primary-lightness))/50)*16)),hsla(0,0%,100%,0));
+}
+
+.hextra-feature-grid img {
+  filter: opacity(85%)
 }
 
 .hextra-nav-container {
