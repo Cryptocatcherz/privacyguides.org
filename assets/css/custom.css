@@ -184,6 +184,41 @@ h1, .content h1, .content h2, .content h3 {
   --hx-font-sans: "Public Sans", Helvetica, ui-sans-serif, system-ui, sans-serif;
 }
 
+:root:has(body.recommended-privacy-tools) {
+  --primary-hue: 200deg;
+  --primary-saturation: 37.75%;
+  --primary-lightness: 70.39%;
+  --hx-font-sans: "Public Sans", Helvetica, ui-sans-serif, system-ui, sans-serif;
+}
+
+:root:has(body.privacy-wiki) {
+  --primary-hue: 167.57deg;
+  --primary-saturation: 97.13%;
+  --primary-lightness: 40.98%;
+  --hx-font-sans: "Public Sans", Helvetica, ui-sans-serif, system-ui, sans-serif;
+}
+
+:root:has(body.privacy-activism) {
+  --primary-hue: 5deg;
+  --primary-saturation: 96.43%;
+  --primary-lightness: 56.08%;
+  --hx-font-sans: "Public Sans", Helvetica, ui-sans-serif, system-ui, sans-serif;
+}
+
+.hextra-nav-container {
+  background: radial-gradient(ellipse at 50% 80%,var(--hx-color-primary-500),hsla(0,0%,100%,0));
+  border-bottom: 1px solid var(--hx-color-primary-500);
+}
+
+.hextra-max-navbar-width a[href*="/about/donate/"] {
+  color: white;
+  background-color: var(--hx-color-primary-800);
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 16px;
+  border-radius: var(--hx-radius-md);
+}
+
 .content :where(a):not(:where([class~=not-prose],
 [class~=not-prose] *)) {
   color:var(--hx-color-primary-800);
@@ -211,13 +246,4 @@ a.footnote-ref {
 
 .pg-unstyled-cards .hextra-card:hover {
   background-color: inherit;
-}
-
-.hextra-max-navbar-width a[href*="/about/donate/"] {
-  color: white;
-  background-color: rgba(255, 0, 0, 0.9);
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-left: 16px;
-  border-radius: .25rem;
 }
