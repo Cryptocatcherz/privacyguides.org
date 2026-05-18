@@ -153,7 +153,6 @@ weight: 30
 <div class="pg-card-logos">
 {{< cards >}}
   {{< card link="mobile-browsers/index.md#brave" title="Brave" image="mobile-browsers/brave.svg" subtitle="Brave Browser includes a built-in content blocker and privacy features, many of which are enabled by default. Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues." >}}
-  {{< card link="mobile-browsers/index.md#cromite-android" title="Cromite" image="mobile-browsers/cromite.svg" subtitle="Cromite is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other privacy and security enhancements. It is a fork of the discontinued Bromite browser." >}}
   {{< card link="mobile-browsers/index.md#safari-ios" title="Safari (iOS)" image="mobile-browsers/safari.svg" subtitle="On iOS, any app that can browse the web is restricted to using an Apple-provided WebKit framework, so a browser like Brave does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems. Safari is the default browser in iOS." >}}
 {{< /cards >}}
 </div>

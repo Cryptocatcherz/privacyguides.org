@@ -152,56 +152,6 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
-## Cromite (Android)
-
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
-
-{{< cards >}}
-  {{< card link="https://cromite.org" title="Homepage" icon="home" >}}
-  {{< card link="https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md" title="Privacy Policy" icon="eye" >}}
-{{< /cards >}}
-
-[{{< badge content="F-Droid" >}}](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-[{{< badge content="GitHub" >}}](https://github.com/uazo/cromite/releases/latest)
-
-### Recommended Configuration
-
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
-
-#### Browsing data
-
-- [x] Select **Close all open tabs on exit**
-
-#### Incognito mode
-
-- [x] Select **Open external links in incognito**
-
-#### Security
-
-- [x] Select **Always use secure connections**
-
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
-
-#### Adblock Plus settings
-
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
-
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
-
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
-
-- [x] (Optional) Select **Enable anti-circumvention and snippets**
-
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
-
-#### Legacy Adblock settings
-
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
-
-- [ ] Uncheck the autoupdate setting
-
-This disables update checks for the unmaintained Bromite adblock filter.
-
 ## Safari (iOS)
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
