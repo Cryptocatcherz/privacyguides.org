@@ -58,7 +58,7 @@ For this review, the words "KeePassium" and "application" refer to both the KeeP
 
 </div>
 
-## :material-apple: Platforms and Compatibility
+## Platforms and Compatibility
 
 KeePassium is written in Apple's Swift programming language and is available for Apple devices.
 
@@ -114,7 +114,7 @@ It's also advisable to enable the backup feature and even keep a backup copy of 
 
 This is important because there is no remote database management done by KeePassium. **You are fully in control of your own data, but you are also fully responsible to protect it.**
 
-## :material-wallet-bifold-outline: Pricing
+## Pricing
 
 KeePassium can be used completely for free!
 
@@ -130,7 +130,7 @@ For example, if you pay for Premium for only one year then stop, you will keep a
 
 ![Screenshot from the KeePassium website's Pricing page with a description of which features are included in each plan.](../assets/images/keepassium-review/keepassium-pricing.webp)
 
-## :octicons-shield-check-16: Security and Trust
+## Security and Trust
 
 Security and trust are without a doubt the most important characteristics of a good password manager.
 
@@ -178,7 +178,7 @@ Interestingly, Cure53 has [audited](https://cure53.de/) many other well-known se
 
 Finally, if you already trust KeePassXC for your desktop password manager, know that KeePassium is one of the apps [suggested](https://keepassxc.org/docs/) by KeePassXC to use on iOS.
 
-## :octicons-lock-16: Privacy and Encryption
+## Privacy and Encryption
 
 Data privacy and encryption are fundamental aspects of any password managers. Because pretty much all data stored in a password manager is highly sensitive data, all data should be protected by strong end-to-end encryption.
 
@@ -244,7 +244,7 @@ Additionally, the LastPass' breach is a great argument in favor of keeping one's
 
 ![Screenshot from the iOS app showing the Encryption Settings.](../assets/images/keepassium-review/keepassium-encryptionoptions.webp){width="400"}
 
-## :octicons-apps-16: Usage and Features
+## Usage and Features
 
 Once solid security and privacy protections have been confirmed, the second important part of a good password manager is how easy it is to use and the features it offers.
 
@@ -652,7 +652,7 @@ Interestingly, KeePassium even uses a quite decent PDF viewer on iOS:
 
 ![Screenshot from the iOS app showing a preview for a PDF file, in this case the document for Privacy by Design by Ann Cavoukian.](../assets/images/keepassium-review/keepassium-pdfviewer.webp){width="400"}
 
-## :material-thumb-up-outline: Nice to have
+## Nice to have
 
 - You can see what was added, changed, or fixed for each KeePassium version from "Settings" in the "What's New" section.
 
@@ -669,7 +669,7 @@ KeePassium not only credits its direct contributors but also lists credits for e
 
 </div>
 
-## :material-thumb-down-outline: Downsides
+## Downsides
 
 Even if KeePassium is a great secure application that is easy and pleasant to use, there are still a few downsides that should be mentioned:
 
@@ -683,7 +683,7 @@ Even if KeePassium is a great secure application that is easy and pleasant to us
 
 - AutoFill on macOS might not work with your favorite browser (if it isn't Safari).
 
-## :octicons-key-16: Conclusion
+## Conclusion
 
 Overall, KeePassium is a privacy-focused, offline-first application, that has clearly prioritized user experience and user interface, while not neglecting security and privacy.
 

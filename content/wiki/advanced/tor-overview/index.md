@@ -8,15 +8,15 @@ description: Tor is a free to use, decentralized network designed for using the 
 
 [**Tor**](../../../tools/advanced/alternative-networks/index.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
 
-[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor)
+[Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor)
 
 Tor works by routing your internet traffic through volunteer-operated servers instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
 
-[:octicons-home-16:](https://torproject.org)
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion)
-[:octicons-info-16:](https://tb-manual.torproject.org)
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor)
-[:octicons-heart-16:](https://donate.torproject.org)
+[Homepage](https://torproject.org)
+[Onion Service](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion)
+[Documentation](https://tb-manual.torproject.org)
+[Source Code](https://gitlab.torproject.org/tpo/core/tor)
+[Contribute](https://donate.torproject.org)
 { .pg:buttons }
 
 ## Safely Connecting to Tor
@@ -180,7 +180,7 @@ Though Tor does provide strong privacy guarantees, one must be aware that Tor is
 
 If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
 
-- [Tor Browser :material-arrow-right-drop-circle:](../../../tools/software/tor/index.md#tor-browser)
+- [Tor Browser](../../../tools/software/tor/index.md#tor-browser)
 
 ### Protections provided by bridges
 

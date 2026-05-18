@@ -223,13 +223,13 @@ Fediverse-connected platforms tend to value users privacy and security much more
 
 You will still need to go through the settings to adjust and harden your privacy preferences, but you'll see already that almost no personal data is required to sign up, and there will be no advertising profile tracking you around (and no ads!).
 
-- [Replacing X and Threads with :material-arrow-right-bold: Mastodon](https://joinmastodon.org/)
-- [Replacing Facebook with :material-arrow-right-bold: Friendica](https://friendi.ca/)
-- [Replacing Instagram with :material-arrow-right-bold: Pixelfed](https://pixelfed.org/)
-- [Replacing YouTube with :material-arrow-right-bold: PeerTube](https://joinpeertube.org/)
-- [Replacing TikTok with :material-arrow-right-bold: Loops](https://joinloops.org/)
-- [Replacing Reddit with :material-arrow-right-bold: Lemmy](https://join-lemmy.org/)
-- [Replacing Meetup or Facebook Groups with :material-arrow-right-bold: Mobilizon](https://mobilizon.org/)
+- [Replacing X and Threads with Mastodon](https://joinmastodon.org/)
+- [Replacing Facebook with Friendica](https://friendi.ca/)
+- [Replacing Instagram with Pixelfed](https://pixelfed.org/)
+- [Replacing YouTube with PeerTube](https://joinpeertube.org/)
+- [Replacing TikTok with Loops](https://joinloops.org/)
+- [Replacing Reddit with Lemmy](https://join-lemmy.org/)
+- [Replacing Meetup or Facebook Groups with Mobilizon](https://mobilizon.org/)
 
 ### Private messaging: One-on-one and group chats
 

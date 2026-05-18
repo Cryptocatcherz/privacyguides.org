@@ -80,41 +80,41 @@ So, what concrete actions can we take *right now* to improve our culture around 
 
 Here are a few practices you can adopt in your daily life to improve the data of the people around you. However, I insist you not just demand others do this for you, but **do this for others too**. Re-shaping our culture needs to start with ourselves:
 
-### :material-camera-off: Ask for consent before sharing/posting photos
+### Ask for consent before sharing/posting photos
 
 Do not post photos of people online without their prior consent. Especially if there are children involved! Before sharing photos of others online, *always* ask for their consent first.
 
-### :material-face-recognition: Be mindful when sharing photos of protests
+### Be mindful when sharing photos of protests
 
 Be very careful when [taking pictures during a protest](https://www.privacyguides.org/articles/2025/01/23/activists-guide-securing-your-smartphone/). There's a lot of nuance to this because it's also important to show protests and make them known (that's usually the goal!), but in some circumstances people might be put in danger if their faces are shown online associated with certain causes.
 
 Be mindful and make sure no one is singled out without consent in your pictures if you post them online. When possible, try to blur/block the faces of the people you couldn't ask for consent.
 
-### :material-car: Blur license plates
+### Blur license plates
 
 When taking photos in the streets and posting them online, be mindful to blur license plates. This might sound extreme but imagine a situation where someone is a victim of domestic violence and their abuser sees their car parked at a shelter, or at someone's place. This information could literally get someone killed. Always keep in mind different people have different [threat models](https://www.privacyguides.org/en/basics/threat-modeling/).
 
-### :material-contacts: Safeguard contact information
+### Safeguard contact information
 
 Never share the contact information of someone with someone else (or something else) without their prior explicit consent. This includes email addresses, phone numbers, legal names, locations, photos, and *especially* home addresses. This information in the wrong hands could literally get someone killed. **Always ask first!**
 
 Additionally, be vigilant when importing your contact list in a new application. This could get it shared further than you intended. Ideally, always keep your contact list in an end-to-end encrypted application only.
 
-### :material-file-eye: Be careful when sharing files from and with others
+### Be careful when sharing files from and with others
 
 If someone trusted you with a file (photo, music, video, PDF, text file, etc.), always ask for consent before sharing this file with someone else.
 
 Additionally, always keep this file only locally or stored in a secure end-to-end encrypted service. If this person gives you consent to share this file, ensure that metadata has been [removed](https://www.privacyguides.org/en/data-redaction/) from it. This person might not be aware of the metadata on this file.
 
-### :material-heart: Keep confidences secret
+### Keep confidences secret
 
 If someone trusts you enough to share something personal with you, do not betray that trust by talking about it with someone else, and *especially* not on unencrypted services such as Gmail or Twitter's DM. In doing so, you would expose this secret to even more unintended recipients. Respect people's trust in you. Do not share confidences.
 
-### :material-message-text: Safeguard and delete private messages on social media
+### Safeguard and delete private messages on social media
 
 If you have private conversations on social media, be mindful not to spread this information elsewhere. If you delete your account, be mindful to also [delete](https://docs.cyd.social/docs/x/delete#delete-my-direct-messages) the information of others you have stored in your private messages. If someone wants to share sensitive information with you, always invite them to move to an end-to-end encrypted [messaging service](https://www.privacyguides.org/en/real-time-communication/) instead.
 
-### :material-heart-box: Safeguard and delete intimate pictures you received
+### Safeguard and delete intimate pictures you received
 
 If someone trust you enough to send you intimate photos of themselves, take this responsibility *extremely* seriously. If they use an end-to-end encrypted service, do not move the photos out of there. If you do, you could inadvertently upload them to an unencrypted service and compromise the security of these pictures.
 
@@ -122,19 +122,19 @@ If your relationship with this person ends, you *should* delete all intimate pic
 
 If you are still unconvinced about this one, maybe have a look at Ted Lasso season 3, [episode 8](https://screenrant.com/ted-lasso-season-3-episode-8-keeley-story-response/) which has a great story demonstrating the dangers related to this.
 
-### :material-cellphone-screenshot: Avoid taking screenshot of people's posts
+### Avoid taking screenshot of people's posts
 
 Each time you take a screenshot of someone's post to repost it somewhere else, you are effectively removing this person's ability to delete their content later. This is horrible for privacy *and* for consent. Instead, use links to other people's posts. That way, if they decide later to delete their content, the link will simply not work anymore, but their right to deletion will remain intact.
 
-### :material-record-circle: Notify guests if you are using a smart speaker
+### Notify guests if you are using a smart speaker
 
 If you are using a smart speaker device in your home such as Amazon's Echo (Alexa), Apple's HomePod (Siri), Google's Nest, inform your guests about it when they enter your home. These devices have the [capacity](https://www.makeuseof.com/tag/alexa-amazon-echo-privacy-risk/) to record all conversations, and there has already been instances of accidental privacy invasion [reported](https://www.cnet.com/home/smart-home/alexa-sent-private-audio-to-a-random-contact-portland-family-says/) about this. Even if you don't mind yourself, offer your guests to *unplug* your smart speaker while they are visiting you. The same is valid for any voice assistant on your phone.
 
-### :material-eye-off: Do not use Windows Recall (or anything similar)
+### Do not use Windows Recall (or anything similar)
 
 If you are a Microsoft user, make sure to [*disable*](https://www.ytechb.com/how-to-uninstall-microsoft-recall-in-windows-11/) Windows Recall from your computer. If it's enabled, this application will [continuously](https://www.theverge.com/2024/6/3/24170305/microsoft-windows-recall-ai-screenshots-security-privacy-issues) take screenshots of your computer, including the faces of anyone video-chatting with you on Signal, the email content of anyone contacting your through Tuta Mail, the secrets of anyone chatting with you on Matrix. Windows Recall completely defeats the protections of anyone using end-to-end encryption to contact you. This is a huge breach of trust! If you somehow use this feature, at least be mindful to disable it each time you communicate with others.
 
-### :fontawesome-solid-glasses: Don't use Meta's Ray-Ban "AI" glasses!
+### Don't use Meta's Ray-Ban "AI" glasses!
 
 Don't use "smart" glasses recording people.
 

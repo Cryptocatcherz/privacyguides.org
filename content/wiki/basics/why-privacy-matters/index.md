@@ -14,25 +14,25 @@ Many people get the concepts of **privacy**, **security**, and **anonymity** con
 <!-- markdownlint-disable-next-line -->
 **Privacy**
 
-:   <mark>Privacy is the assurance that your data is only seen by the parties you intend to view it.</mark> In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+: <mark>Privacy is the assurance that your data is only seen by the parties you intend to view it.</mark> In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
 
 <!-- markdownlint-disable-next-line -->
 **Security**
 
-:   Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+: Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
 
-:   Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+: Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
 <!-- markdownlint-disable-next-line -->
 **Anonymity**
 
-:   Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../../../tools/software/tor/index.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+: Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../../../tools/software/tor/index.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
 
-:   **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+: **Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
 
 All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../../../tools/_index.md) you use.
 
-[:material-book-outline: Learn More About Threat Modeling](../threat-modeling/index.md)
+[Learn More About Threat Modeling](../threat-modeling/index.md)
 { .pg:buttons }
 
 ## Privacy vs. Secrecy
@@ -51,7 +51,8 @@ Take cookie consent forms, for example. You may encounter these dozens of times 
 
 Privacy is something we need to have baked into the [software and services](../../../tools/_index.md) we use by default, you can't bend most apps into being private on your own.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online)
+{ .pg:buttons }
 
 ## Sources
 

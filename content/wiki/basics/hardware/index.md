@@ -40,7 +40,6 @@ Most computers and phones come equipped with a TPM (or a similar secure cryptopr
 > [!NOTE]
 > Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
 
-
 ### Biometrics
 
 Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
@@ -51,7 +50,6 @@ Most implementations of face authentication require you to be looking at your ph
 
 > [!WARNING]
 > Some devices do not have the proper hardware for secure face authentication. There are two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
-
 
 Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
 
@@ -69,8 +67,8 @@ Some threats can't be protected against by your internal components alone. Many 
 
 Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../../../tools/hardware/security-keys/index.md)
-[Learn More about Hardware Keys :material-arrow-right-drop-circle:](../multi-factor-authentication/index.md#hardware-security-keys)
+[Recommended Hardware Keys](../../../tools/hardware/security-keys/index.md)
+[Learn More about Hardware Keys](../multi-factor-authentication/index.md#hardware-security-keys)
 { .pg:buttons }
 
 ### Camera/Microphone
@@ -79,7 +77,6 @@ If you don't want to trust your OS's permission controls to prevent the camera f
 
 > [!WARNING]
 > You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
-
 
 For microphone access, in most cases you will need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or an iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
 
@@ -131,7 +128,6 @@ Your router handles all your network traffic and acts as your first line of defe
 
 > [!NOTE]
 > A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
-
 
 The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser assuming you're on the same network. You can also check in the network settings of your OS for "router" or "gateway".
 

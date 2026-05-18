@@ -66,7 +66,7 @@ Enabling **Airplane Mode** stops your phone from contacting cell towers. You wil
 
 ## Wi-Fi
 
-You can enable hardware address randomization to protect you from tracking across Wi-Fi networks. On the network you are currently connected to, press the :material-information: button:
+You can enable hardware address randomization to protect you from tracking across Wi-Fi networks. On the network you are currently connected to, press the info button:
 
 - [x] Turn on **Private Wi-Fi Address**
 

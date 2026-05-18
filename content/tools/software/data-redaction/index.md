@@ -10,7 +10,6 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 > [!WARNING]
 > You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
 
-
 <div class="pg-card-logos">
 {{< cards >}}
   {{< card link="#mat2" title="MAT2" image="./mat2.svg" subtitle="MAT2 is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for Dolphin, the default file manager of KDE." >}}
@@ -68,10 +67,10 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 On iOS and macOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://apps.apple.com/app/id915249334) for this purpose. Here is an example shortcut you can download to use as is:
 
-[:material-tag-minus: Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9)
+[Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9)
 { .pg:buttons }
 
-You can also use it as a model for your own shortcut; just make sure that the **Preserve Metadata** option under the **Convert** action is unchecked. Once added, you can access the shortcut in the share sheet that appears when you select the :octicons-share-24: Share button. You can select multiple images and invoke the shortcut to remove their metadata all at once.
+You can also use it as a model for your own shortcut; just make sure that the **Preserve Metadata** option under the **Convert** action is unchecked. Once added, you can access the shortcut in the share sheet that appears when you select the Share Share button. You can select multiple images and invoke the shortcut to remove their metadata all at once.
 
 This shortcut removes metadata such as location, device model, lens model, and other camera information. It also sets the image creation date to the time the shortcut was used.
 

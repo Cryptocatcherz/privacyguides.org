@@ -27,7 +27,7 @@ That being said, the United States *certainly* does not have a monopoly on the b
 
 If supporting the European tech industry is something that is important to you, here's a non-exhaustive list of some of our favorites. We have many more recommendations throughout our website if you are interested in learning more about privacy-respecting tech alternatives!
 
-## :material-email: Email Services
+## Email Services
 
 Many people and businesses are tied to Google's Gmail or Microsoft's Outlook products, but there are *far* more secure and private [alternative email providers](https://www.privacyguides.org/en/email/) out there!
 
@@ -42,8 +42,8 @@ Based in Hanover, Germany, **Tuta** is an email service with a focus on security
 
 Free accounts start with 1 GB of storage.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/email/#tuta)
-[:octicons-home-16:](https://tuta.com)
+[More Info](https://www.privacyguides.org/en/email/#tuta)
+[Homepage](https://tuta.com)
 { .pg:buttons }
 
 </div>
@@ -58,13 +58,13 @@ Based in Geneva, Switzerland, **Proton Mail** is an email service with a focus o
 
 The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/email/#proton-mail)
-[:octicons-home-16:](https://proton.me)
+[More Info](https://www.privacyguides.org/en/email/#proton-mail)
+[Homepage](https://proton.me)
 { .pg:buttons }
 
 </div>
 
-## :material-file-document-edit: Office Suites
+## Office Suites
 
 Of course, email isn't the only thing offered by solutions like Google Workspace and Microsoft 365. Many people use their entire suite of [productivity tools](https://www.privacyguides.org/en/document-collaboration/) to manage their businesses and collaborate with others.
 
@@ -80,13 +80,13 @@ Developed and hosted by *XWiki* in Paris, France, **CryptPad** is a complete onl
 
 **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/document-collaboration/#cryptpad)
-[:octicons-home-16:](https://cryptpad.org)
+[More Info](https://www.privacyguides.org/en/document-collaboration/#cryptpad)
+[Homepage](https://cryptpad.org)
 { .pg:buttons }
 
 </div>
 
-:material-star-box: We recently did a [full review of CryptPad](cryptpad-review.md), which you should definitely check out if you might be interested in switching!
+We recently did a [full review of CryptPad](cryptpad-review.md), which you should definitely check out if you might be interested in switching!
 
 ### Nextcloud :flag_de:
 
@@ -98,8 +98,8 @@ Developed and hosted by *XWiki* in Paris, France, **CryptPad** is a complete onl
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/document-collaboration/#nextcloud)
-[:octicons-home-16:](https://nextcloud.com)
+[More Info](https://www.privacyguides.org/en/document-collaboration/#nextcloud)
+[Homepage](https://nextcloud.com)
 { .pg:buttons }
 
 </div>
@@ -114,13 +114,13 @@ Developed and hosted by *XWiki* in Paris, France, **CryptPad** is a complete onl
 
 Web-based editors aren't for everyone. If you need a full-fledged office suite that runs locally on your computer, **LibreOffice** is a fantastic alternative to Microsoft Office.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/office-suites/#libreoffice)
-[:octicons-home-16:](https://libreoffice.org)
+[More Info](https://www.privacyguides.org/en/office-suites/#libreoffice)
+[Homepage](https://libreoffice.org)
 { .pg:buttons }
 
 </div>
 
-## :material-search-web: Search Engines
+## Search Engines
 
 One of the most frequently used tools on the internet is the venerable search engine. Switching from **Google** to an [alternative](https://www.privacyguides.org/en/search-engines/) is one of the biggest impact approaches to improving your privacy that you can make.
 
@@ -135,15 +135,15 @@ Headquartered and developed in the Netherlands, Startpage is one great alternati
 
 **Startpage** is a private search engine. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. However, unlike the name suggests, the feature should not be relied upon for *total* anonymity.
 
-[:octicons-info-16: Homepage](https://www.privacyguides.org/en/search-engines/#startpage)
-[:octicons-home-16:](https://startpage.com)
+[Homepage](https://www.privacyguides.org/en/search-engines/#startpage)
+[Homepage](https://startpage.com)
 { .pg:buttons }
 
 </div>
 
 It is worth noting that [since 2020](relisting-startpage.md), Startpage has been a subsidiary of American company System1. Their operations and employees remain in the Netherlands, and you can choose to utilize only European servers if you wish.
 
-## :material-earth: Web Browsers
+## Web Browsers
 
 Web browsers are historically very tricky to build, and the three major browser engines, Chromium, Gecko (Firefox), and WebKit (Safari) are all *primarily* developed by American companies. This is a space that could certainly use improvement.
 
@@ -157,13 +157,13 @@ One of our [recommended browsers](https://www.privacyguides.org/en/desktop-brows
 
 **Mullvad Browser** is a version of Tor Browser with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against mass surveillance programs. It is developed by the Tor Project and distributed by Mullvad, although it does *not* require the use of Mullvad's VPN.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/desktop-browsers/#mullvad-browser)
-[:octicons-home-16:](https://mullvad.net/en/browser)
+[More Info](https://www.privacyguides.org/en/desktop-browsers/#mullvad-browser)
+[Homepage](https://mullvad.net/en/browser)
 { .pg:buttons }
 
 </div>
 
-## :material-map: Maps & Navigation
+## Maps & Navigation
 
 Mapping and location apps like Google Maps can track your every move, and that data is used by tech companies for a wide variety of purposes, including for military and defense. The best mapping apps for your privacy can be used completely offline:
 
@@ -175,8 +175,8 @@ Mapping and location apps like Google Maps can track your every move, and that d
 
 Based in Estonia, **Organic Maps** is an open source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/maps/#organic-maps)
-[:octicons-home-16:](https://organicmaps.app)
+[More Info](https://www.privacyguides.org/en/maps/#organic-maps)
+[Homepage](https://organicmaps.app)
 { .pg:buttons }
 
 </div>
@@ -189,13 +189,13 @@ Based in Estonia, **Organic Maps** is an open source, community-developed map di
 
 Based in the Netherlands, **OsmAnd** is an offline map and navigation application based on OpenStreetMap, offering turn-by-turn navigation for walking, cycling, driving, as well as public transport. It is open-source and does not collect any user data.
 
-[:octicons-home-16: More Info](https://www.privacyguides.org/en/maps/#osmand)
-[:octicons-home-16:](https://osmand.net)
+[More Info](https://www.privacyguides.org/en/maps/#osmand)
+[Homepage](https://osmand.net)
 { .pg:buttons }
 
 </div>
 
-## :material-form-textbox-password: Password Managers
+## Password Managers
 
 ### KeePassXC :flag_de:
 
@@ -205,13 +205,13 @@ Based in the Netherlands, **OsmAnd** is an offline map and navigation applicatio
 
 **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/passwords/#keepassxc)
-[:octicons-home-16:](https://keepassxc.org)
+[More Info](https://www.privacyguides.org/en/passwords/#keepassxc)
+[Homepage](https://keepassxc.org)
 { .pg:buttons }
 
 </div>
 
-:material-star-box: We recently published an article on [securely using KeePassXC with a YubiKey](installing-keepassxc-and-yubikey.md)!
+We recently published an article on [securely using KeePassXC with a YubiKey](installing-keepassxc-and-yubikey.md)!
 
 ### Proton Pass :flag_ch:
 
@@ -221,13 +221,13 @@ Based in the Netherlands, **OsmAnd** is an offline map and navigation applicatio
 
 **Proton Pass** is an open-source, end-to-end encrypted password manager developed by the Swiss company Proton AG, the team behind Proton Mail. It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
 
-[:octicons-home-16: More Info](https://www.privacyguides.org/en/passwords/#proton-pass)
-[:octicons-home-16:](https://proton.me/pass)
+[More Info](https://www.privacyguides.org/en/passwords/#proton-pass)
+[Homepage](https://proton.me/pass)
 { .pg:buttons }
 
 </div>
 
-## :material-chat-processing: Instant Messengers
+## Instant Messengers
 
 Switching off of WhatsApp, Facebook Messenger, or iMessage in favor of a more [private instant messenger](https://www.privacyguides.org/en/real-time-communication/) is an excellent way to safeguard your chats.
 
@@ -243,8 +243,8 @@ Element is based in the United Kingdom, which is of course no longer in the Euro
 
 Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/real-time-communication/#element)
-[:octicons-home-16:](https://element.io)
+[More Info](https://www.privacyguides.org/en/real-time-communication/#element)
+[Homepage](https://element.io)
 { .pg:buttons }
 
 </div>
@@ -259,8 +259,8 @@ Another open-source option from the United Kingdom, SimpleX chat has very strong
 
 **SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against censorship.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/real-time-communication/#simplex-chat)
-[:octicons-eye-16:](https://simplex.chat)
+[More Info](https://www.privacyguides.org/en/real-time-communication/#simplex-chat)
+[Privacy Policy](https://simplex.chat)
 { .pg:buttons }
 
 </div>
@@ -275,8 +275,8 @@ Briar is an open source project not legally incorporated in any jurisdiction, al
 
 **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network, making it an effective tool at circumventing censorship. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
-[:octicons-info-16: More Info](https://www.privacyguides.org/en/real-time-communication/#briar)
-[:octicons-home-16:](https://briarproject.org)
+[More Info](https://www.privacyguides.org/en/real-time-communication/#briar)
+[Homepage](https://briarproject.org)
 { .pg:buttons }
 
 </div>

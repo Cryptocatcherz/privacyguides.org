@@ -25,7 +25,7 @@ We’re excited to welcome Em (she/her), our new journalist, who will play an im
 
 *Em is also a human rights activist who deeply values inclusivity, diversity, accessibility, and software for the public good. In her free time, you can find Em on Mastodon sharing privacy tips or boosting photos of cats and moss.*
 
-[:material-mastodon: Follow Em at @Em0nM4stodon@infosec.exchange](https://infosec.exchange/@Em0nM4stodon)
+[Follow Em at @Em0nM4stodon@infosec.exchange](https://infosec.exchange/@Em0nM4stodon)
 
 ## Jordan – Content Producer
 
@@ -37,7 +37,7 @@ We also welcome Jordan Warne (they/them), our new content producer who will mana
 
 *Outside producing high-quality videos, Jordan enjoys exploring the Australian bush, capturing intricate details of its flora and fauna through photography.*
 
-[:material-mastodon: Follow Jordan at @jw@social.lol](https://social.lol/@jw)
+[Follow Jordan at @jw@social.lol](https://social.lol/@jw)
 
 ## Kevin – Intern
 
@@ -49,7 +49,7 @@ Last but not least, we are excited to start working with Kevin Pham (he/him), ou
 
 *Besides doom scrolling on social media, he loves cooking new recipes, reading philosophy essays, and perpetuating his caffeine addiction with Vietnamese coffee. Please feel free to reach out to him to discuss anything regarding best operational security practices and threat modeling...or just say hi!*
 
-[:material-mastodon: Follow Kevin at @kevpham@mastodon.social](https://mastodon.social/@kevpham)
+[Follow Kevin at @kevpham@mastodon.social](https://mastodon.social/@kevpham)
 
 ## What This Means for Privacy Guides
 
@@ -60,6 +60,6 @@ We’re excited to see how these talented people will help Privacy Guides contin
 Thank you for being a part of our community, and stay tuned for the exciting new content and updates that will be coming your way soon!
 Welcome aboard, Em, Jordan, and Kevin! Let’s make privacy accessible for everyone. 🚀
 
-[:material-mastodon: Follow Privacy Guides at @privacyguides@neat.computer](https://mastodon.neat.computer/@privacyguides)
+[Follow Privacy Guides at @privacyguides@neat.computer](https://mastodon.neat.computer/@privacyguides)
 
-[:material-youtube: Subscribe to Privacy Guides on YouTube](https://www.youtube.com/@privacyguides)
+[Subscribe to Privacy Guides on YouTube](https://www.youtube.com/@privacyguides)

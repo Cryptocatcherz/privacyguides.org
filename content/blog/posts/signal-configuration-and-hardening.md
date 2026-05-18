@@ -38,14 +38,14 @@ Additionally, your Signal PIN can also double as a registration lock that preven
 
 If you haven't set up a Signal PIN, or have previously opted out of setting one up, follow these steps on Android/iOS:
 
-- Select :material-dots-vertical: → **Settings** → **Account** → **Signal PIN**
+- Select → **Settings** → **Account** → **Signal PIN**
 - Select **Create new PIN**
 
 Signal will prompt you to enter a PIN. We suggest using a strong, alphanumeric PIN that can be stored in a [password manager](https://www.privacyguides.org/en/passwords/).
 
 Once you have done that, or if you already have set up a PIN, make sure that **Registration Lock** is also enabled.
 
-- Select :material-dots-vertical: → **Settings** → **Account** → **Signal PIN**
+- Select → **Settings** → **Account** → **Signal PIN**
 - [x] Turn on **Registration Lock**
 
 !!! Important
@@ -70,7 +70,7 @@ It is best practice to always compare safety numbers with your contacts. This ca
 To view the safety number for a particular contact, you need to follow these steps within Signal:
 
 - Go to a chat with a contact.
-- Select the chat header or :material-dots-vertical: → **View Safety Number**
+- Select the chat header or → **View Safety Number**
 
 Once you've compared the safety numbers on both devices, you can mark that contact as **Verified**.
 
@@ -92,14 +92,14 @@ It is good practice to set up disappearing messages in Signal's settings so that
 
 On Android/iOS:
 
-- Select :material-dots-vertical: → **Settings** → **Privacy**
+- Select → **Settings** → **Privacy**
 - Under **Disappearing messages**, select **Default timer for new chats**
-- Select the desired amount of time and select **Save**
+    - Select the desired amount of time and select **Save**
 
 !!! tip "Override the global default for specific contacts"
 
     - Go to a chat with a contact
-    - Select :material-dots-vertical: on the top right
+    - Select on the top right
     - Select **Disappearing messages**
     - Select the desired amount of time and select **Save**
 
@@ -119,12 +119,12 @@ Your recipient doesn't make any requests unless they open the link on their end.
 
 On Android/iOS:
 
-- Select :material-dots-vertical: → **Settings** → **Chats**
+- Select → **Settings** → **Chats**
 - [ ] Turn off **Generate link previews**
 
 ### Screen Security
 
-Signal allows you to prevent a preview of the app being shown (i.e., in the app switcher) unless you explicitly open it. This option can be found in :material-dots-vertical: → **Settings** → **Privacy**.
+Signal allows you to prevent a preview of the app being shown (i.e., in the app switcher) unless you explicitly open it. This option can be found in → **Settings** → **Privacy**.
 
 === "Android"
 
@@ -142,14 +142,14 @@ To mitigate this, you can leverage the Screen Lock option to require additional 
 
 On Android/iOS:
 
-- Select :material-dots-vertical: → **Settings** → **Privacy**
+- Select → **Settings** → **Privacy**
 - [x] Turn on **Screen Lock**
 
 ### Notification Privacy
 
 Even when your phone is locked, anyone who can lay eyes on the device can read messages and sender names from your lock screen.
 
-On Signal, you have the ability to hide message content and sender name, or just the message content itself. This option can be found in :material-dots-vertical: → **Settings** → **Notifications** → **Show**.
+On Signal, you have the ability to hide message content and sender name, or just the message content itself. This option can be found in → **Settings** → **Notifications** → **Show**.
 
 === "Android"
 
@@ -165,7 +165,7 @@ Signal allows you to relay all calls (including video calls) through the Signal 
 
 On Android/iOS:
 
-- Select :material-dots-vertical: → **Settings** → **Privacy** → **Advanced**
+- Select → **Settings** → **Privacy** → **Advanced**
 - [x] Turn on **Always Relay Calls**
 
 For incoming calls from people who are not in your Contacts app, the call will be relayed through the Signal server regardless of how you've set it up.
@@ -176,7 +176,7 @@ If Signal is blocked in your country, it has a built-in "Censorship Circumventio
 
 On Android/iOS:
 
-- Select :material-dots-vertical: → **Settings** → **Privacy** → **Advanced**
+- Select → **Settings** → **Privacy** → **Advanced**
 - [x] Turn on **Censorship Circumvention**
 
 Additionally, Signal allows you to set up a proxy to bypass censorship.
@@ -193,7 +193,7 @@ Signal allows you to see your call history from your regular phone app. This all
 
 If you use iCloud and you don’t want to share call history on Signal, confirm it’s turned off:
 
-- Select :material-dots-vertical: → **Settings** → **Privacy**
+- Select → **Settings** → **Privacy**
 - [ ] Turn off **Show Calls in Recents**
 
 ## Signal Hardening
@@ -202,7 +202,7 @@ If you use iCloud and you don’t want to share call history on Signal, confirm 
 
 While it may be tempting to link your Signal account to your desktop device for convenience, keep in mind that this extends your trust to an additional and potentially less secure operating system.
 
-Avoid linking your Signal account to a desktop device to reduce your attack surface if your threat model calls for protecting against [:material-bug-outline: Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy){ .pg-orange }.
+Avoid linking your Signal account to a desktop device to reduce your attack surface if your threat model calls for protecting against [Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy){ .pg-orange }.
 
 ### Molly (Android)
 

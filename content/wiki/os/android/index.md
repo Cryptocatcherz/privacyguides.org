@@ -9,12 +9,12 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-[:octicons-home-16:](https://source.android.com)
-[:octicons-info-16:](https://source.android.com/docs)
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main)
+[Homepage](https://source.android.com)
+[Documentation](https://source.android.com/docs)
+[Source Code](https://cs.android.com/android/platform/superproject/main)
 { .pg:buttons }
 
-[Our Android Advice :material-arrow-right-drop-circle:](../../../tools/os/android/_index.md)
+[Our Android Advice](../../../tools/os/android/_index.md)
 { .pg:buttons }
 
 ## Security Protections
@@ -79,16 +79,14 @@ An app may request a permission for a specific feature it has. For example, any 
 > [!WARNING]
 > If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
 
-
 > [!NOTE]
 > Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
-
 
 ## Privacy Features
 
 ### User Profiles
 
-Multiple **user profiles** can be found in :gear: **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
+Multiple **user profiles** can be found in **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
 
 With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles are a more secure method of isolation.
 
@@ -104,7 +102,7 @@ This method is generally less secure than a secondary user profile; however, it 
 
 ### Private Space
 
-**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to :gear: **Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
+**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to **Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
 
 Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
 
@@ -112,7 +110,7 @@ Unlike work profiles, Private Space is a feature native to Android that does not
 
 ### VPN kill switch
 
-Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in **Settings** → **Network & internet** → **VPN** → Settings → **Block connections without VPN**.
 
 ### Global Toggles
 
@@ -151,14 +149,14 @@ If you have an EOL device shipped with Android 10 or above and are unable to run
 
 All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. Disable this feature to limit the data collected about you.
 
-On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
 
 - [x] Select **Delete advertising ID**
 
 On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Check
 
-- :gear: **Settings** → **Google** → **Ads**
-- :gear: **Settings** → **Privacy** → **Ads**
+- **Settings** → **Google** → **Ads**
+- **Settings** → **Privacy** → **Ads**
 
 You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. If not, then make sure to opt out and reset your advertising ID.
 

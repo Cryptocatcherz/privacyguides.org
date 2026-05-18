@@ -43,7 +43,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
     brew install exiftool
     ```
 
-!!! note
+    !!! note
     You can check if ExifTool is installed by running `exiftool -ver`. You should see a version number.
 
 ### Creating the Shortcut
@@ -140,7 +140,7 @@ Windows allows you to place files in a **SendTo** folder which then appear in th
 
 1. ExifTool is a tool for viewing and manipulating image, audio, video, and PDF metadata. We suggest you read the [Installation instructions](https://exiftool.org/install.html#Windows) on the official website.
 
-!!! note
+    !!! note
     You can check if ExifTool is present in your [PATH](https://www.computerhope.com/issues/ch000549.htm) by running `exiftool -ver` in Command Prompt. You should see a version number.
 
 ### Creating the shortcut

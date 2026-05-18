@@ -24,11 +24,11 @@ These are our favorite public DNS resolvers based on their privacy and security 
 
 | DNS Provider | Protocols | Logging / Privacy Policy | [ECS](../../../wiki/advanced/dns-overview/index.md#what-is-edns-client-subnet-ecs) | Filtering | Signed Apple Profile |
 |---|---|---|---|---|---|
-| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html) | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^1] | Anonymized | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardSDNSFilter) | Yes [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | Cleartext <br>DoH/3 <br>DoT | Anonymized[^2] | No | Based on server choice. | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
-| [**Control D Free DNS**](https://controld.com/free-dns) | Cleartext <br>DoH/3 <br>DoT <br>DoQ | No[^3] | No | Based on server choice. | Yes <br>[:simple-apple: iOS](https://docs.controld.com/docs/ios-platform) <br>[:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile) |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH <br>DoT | No[^4] | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock) | Yes [:octicons-link-external-24:](https://github.com/mullvad/encrypted-dns-profiles) |
-| [**Quad9**](https://quad9.net) | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^5] | Optional | Based on server choice. Malware blocking is included by default. | Yes <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
+| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html) | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^1] | Anonymized | Based on server choice. Filter list being used can be found here. [Link](https://github.com/AdguardTeam/AdGuardSDNSFilter) | Yes [Link](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | Cleartext <br>DoH/3 <br>DoT | Anonymized[^2] | No | Based on server choice. | No [Link](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
+| [**Control D Free DNS**](https://controld.com/free-dns) | Cleartext <br>DoH/3 <br>DoT <br>DoQ | No[^3] | No | Based on server choice. | Yes <br>[iOS](https://docs.controld.com/docs/ios-platform) <br>[macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile) |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH <br>DoT | No[^4] | No | Based on server choice. Filter list being used can be found here. [Link](https://github.com/mullvad/dns-adblock) | Yes [Link](https://github.com/mullvad/encrypted-dns-profiles) |
+| [**Quad9**](https://quad9.net) | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^5] | Optional | Based on server choice. Malware blocking is included by default. | Yes <br>[iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
 
 [^1]:
     AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested within the last 24 hours.
@@ -131,7 +131,6 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 
 > [!WARNING]
 > The anonymized DNS feature does [not](../../../wiki/advanced/dns-overview/index.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
-
 
 ## Criteria
 

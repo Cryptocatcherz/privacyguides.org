@@ -80,7 +80,7 @@ Enabling **Airplane Mode** stops your phone from contacting cell towers. You wil
 
 #### Wi-Fi
 
-You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, tap the :material-information: button:
+You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, tap the info button:
 
 - [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
 
@@ -126,7 +126,7 @@ Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/
 
 You can also have it ask for confirmation every time if you leave ChatGPT integration on:
 
-- [x] Turn on **Confirm Requests** 
+- [x] Turn on **Confirm Requests**
 
 If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
 
@@ -156,7 +156,6 @@ iPhones are already resistant to brute-force attacks by making you wait long per
 
 > [!WARNING]
 > With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if you feel comfortable with it.
-
 
 - [x] Turn on **Erase Data**
 
@@ -255,7 +254,6 @@ Sometimes you might want to hand your phone to someone to make a call or do a sp
 > [!WARNING]
 > Guided Access isn't foolproof, as it's possible you could leak data unintentionally or the feature could be bypassed. You should only use Guided Access for situations where you casually hand your phone to someone to use. You should not use it as a tool to protect against advanced adversaries.
 
-
 ### Redacting Elements in Images
 
 If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
@@ -263,7 +261,7 @@ If you need to hide information in a photo, you can use Apple's built-in editing
 You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on supported devices to pixelate faces or remove objects from images.
 
 - Open the **Photos** app and tap the photo you have selected for redaction
-- Tap the :material-tune:
+- Tap **Adjust**
 - Tap the button labeled **Clean Up**
 - Draw a circle around whatever you want to redact. Faces will be pixelated, and it will attempt to delete anything else.
 
@@ -272,7 +270,7 @@ Our warning [against blurring text](../../../tools/software/data-redaction/index
 <div class="annotate" markdown>
 
 - Tap the image you have selected for redaction
-- Tap the :material-tune: → :material-dots-horizontal: (1) → Markup → :material-plus:
+- Tap **Adjust** → **More** (⋯) → Markup → **Add**
 - Select **Add Shape** and choose the square or circle
 - On the toolbar, tap the circle and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
 
@@ -294,7 +292,7 @@ Apple always makes beta versions of iOS available early for those that wish to h
 
 ### Before First Unlock
 
-If your threat model includes [:material-target-account: Targeted Attacks](../../basics/common-threats/index.md#attacks-against-specific-individuals){ .pg-red } that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+If your threat model includes [Targeted Attacks](../../basics/common-threats/index.md#attacks-against-specific-individuals){ .pg-red } that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
 
 iPhones [automatically reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) if they're not unlocked after a period of time.
 

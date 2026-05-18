@@ -29,7 +29,7 @@ The options listed here are available on multiple platforms and great for creati
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/index.md#security-and-privacy)
 
-**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [Service Provider](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
 
 {{< cards >}}
   {{< card link="https://cryptomator.org" title="Homepage" icon="home" >}}

@@ -79,7 +79,7 @@ Click on **About** and type your desired device name into the **Name** field.
 
 You should automatically install all available updates to make sure your Mac has the latest security fixes.
 
-Click the small :material-information-outline: icon next to **Automatic Updates**:
+Click the small icon next to **Automatic Updates**:
 
 - [x] Turn on **Download new updates when available**
 
@@ -108,7 +108,6 @@ You can also have it ask for confirmation every time if you leave ChatGPT integr
 
 > [!WARNING]
 > Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
-
 
 #### Privacy & Security
 
@@ -163,7 +162,6 @@ macOS employs defense in depth by relying on multiple layers of software and har
 > [!WARNING]
 > macOS allows you to install beta updates. These are unstable and may come with [extra telemetry](https://beta.apple.com/privacy) since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
 
-
 #### Signed System Volume
 
 macOS's system components are protected in a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), meaning that neither you nor malware can alter important system files.
@@ -180,11 +178,10 @@ System Integrity Protection makes critical file locations read-only to protect a
 
 ##### App Sandbox
 
-On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../../basics/common-threats/index.md#attacks-against-certain-organizations){ .pg-viridian } by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
+On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [Supply Chain Attacks](../../basics/common-threats/index.md#attacks-against-certain-organizations){ .pg-viridian } by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
 
 > [!WARNING]
-> Software downloaded from outside the official App Store is not required to be sandboxed. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../../basics/common-threats/index.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
-
+> Software downloaded from outside the official App Store is not required to be sandboxed. If your threat model prioritizes defending against [Passive Attacks](../../basics/common-threats/index.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
 
 You can check if an app uses the App Sandbox in a few ways:
 
@@ -192,7 +189,6 @@ You can check if apps that are already running are sandboxed using the [Activity
 
 > [!WARNING]
 > Just because one of an app's processes is sandboxed doesn't mean they all are.
-
 
 Alternatively, you can check apps before you run them by running this command in the terminal:
 

@@ -7,7 +7,7 @@ description: Linux is an open-source, privacy-focused desktop operating system a
 
 Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../../../tools/os/desktop/index.md)
+[Our Linux Recommendations](../../../tools/os/desktop/index.md)
 { .pg:buttons }
 
 ## Security Notes
@@ -68,7 +68,7 @@ Arch and Arch-based distributions are not recommended for those new to Linux (re
 
 For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](#mandatory-access-control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs that they download from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../../basics/common-threats/index.md#attacks-against-certain-organizations){ .pg-viridian }, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
+Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs that they download from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [Supply Chain Attacks](../../basics/common-threats/index.md#attacks-against-certain-organizations){ .pg-viridian }, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
 
 The AUR should always be used sparingly, and often there is a lot of bad advice on various pages which direct people to blindly use [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) without sufficient warning. Similar warnings apply to the use of third-party Personal Package Archives (PPAs) on Debian-based distributions or Community Projects (COPR) on Fedora.
 
@@ -95,7 +95,7 @@ SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 Most Linux distributions have an option within its installer for enabling [LUKS](../../../tools/software/encryption/index.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
 
-- [Secure Data Erasure :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
+- [Secure Data Erasure](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
 
 ### Swap
 

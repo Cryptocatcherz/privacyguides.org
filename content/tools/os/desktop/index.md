@@ -140,7 +140,6 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 > [!WARNING]
 > Tails [doesn't erase](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) the [video memory](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) when shutting down. When you restart your computer after using Tails, it might briefly display the last screen that was displayed in Tails. If you shut down your computer instead of restarting it, the video memory will erase itself automatically after being unpowered for some time.
 
-
 Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy, allowing for the user to be deanonymized.
 
 Tails includes [uBlock Origin](../../software/browser-extensions/index.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
@@ -206,4 +205,4 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
 
 In addition, [our standard criteria](../../../about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
 
-[^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [:material-package-variant-closed-remove: Supply Chain Attacks](../../../wiki/basics/common-threats/index.md#attacks-against-certain-organizations){ .pg-viridian }.
+[^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [Supply Chain Attacks](../../../wiki/basics/common-threats/index.md#attacks-against-certain-organizations){ .pg-viridian }.

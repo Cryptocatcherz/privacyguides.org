@@ -68,7 +68,7 @@ The Mastodon *software* is different from the Mastodon.Social original *instance
 
 </div>
 
-## :octicons-shield-check-16: Improving account security
+## Improving account security
 
 Using a [unique email address](https://www.privacyguides.org/en/email-aliasing/) and a unique and [strong password](https://www.privacyguides.org/en/basics/passwords-overview/) are the starting points for good account security, and this is no different for Mastodon accounts.
 
@@ -160,7 +160,7 @@ If you see a login that isn't legitimate, you should *immediately* revoke access
 
 ![Screenshot of the Mastodon web interface showing the Authentication history page from clicking on the "View authentication history of your account" link on the previous Account settings page.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-accesses-login-history.webp)
 
-## :octicons-lock-16: Adjusting privacy vs discovery
+## Adjusting privacy vs discovery
 
 When using social media, there's usually a sliding scale between privacy and discoverability.
 
@@ -194,7 +194,7 @@ Once you have adjusted the account options to your preferences, click on "Save c
 
 ![Screenshot of the Mastodon web interface showing the Public profile page in Preferences, from the "Privacy and reach" tab. The page is scrolled down to the "Save changes" button at the very bottom of the six unchecked options.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-account-privacy-options.webp)
 
-## :material-message-lock-outline: Selecting post visibility and access
+## Selecting post visibility and access
 
 In addition to your account's privacy preferences, you can also adjust visibility for each post. This is very handy to allow you to pick in a more granular way which information you wish to share more or less openly.
 
@@ -298,7 +298,7 @@ Confirm your choice by clicking on "Save changes" on the upper-right.
 
 ![Screenshot of the Mastodon web interface showing the "Preferences" page in Preferences.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-posts-quote-posts.webp)
 
-## :material-checkbox-marked-circle-outline: Verifying yourself and others
+## Verifying yourself and others
 
 The account verification process on Mastodon is excellent. Not only is it free, but it doesn't require you to provide any official ID or other intrusive documentation to proof your identity. It is a privacy-respectful verification feature.
 
@@ -348,7 +348,7 @@ To add author attributions to your articles, scroll down the same page and simpl
 
 ![Screenshot of the Mastodon web interface showing the Public profile page in Preferences, from the "Verification" tab. The page is scrolled down to the very bottom, showing the option and instructions to add Author attribution to articles.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-verification-author-setup.webp)
 
-## :material-folder-multiple-outline: Deleting and accessing your data
+## Deleting and accessing your data
 
 Data deletion is a fundamental part of data privacy, and a protected right under many privacy laws.
 
@@ -390,7 +390,7 @@ Once you are ready to delete your data (and have downloaded the data you wish to
 
 ![Screenshot of the Mastodon web interface showing the Account deletion page, from the "proceed here" link on the previous "Account" page.](../assets/images/mastodon-tutorial-privacy-and-security/mastodon-deletion-account.webp)
 
-## :octicons-blocked-16: Blocking users and instances
+## Blocking users and instances
 
 You have a lot of control on which information you show and see on Mastodon. Like for other social media, you can block users individually on Mastodon. But additionally, you can also block a whole instance if you aren't happy interacting with it. This, like an individual block, can benefit your privacy by restricting further who can access your posts.
 
@@ -490,7 +490,7 @@ Only report content that violates the policies of your instance, or theirs. Do n
 
 </div>
 
-## :fontawesome-solid-hashtag: Opting out with hashtags
+## Opting out with hashtags
 
 Data privacy and user consent are principles strongly valued by the Fediverse community. Sometimes, developers trying to create tools for the Fediverse or utilizing its user data without prior explicit consent have come into conflict with these values.
 
@@ -506,7 +506,7 @@ Ideally, all data collection should be prohibited until users' consent is obtain
 
 Adding these hashtags (and maybe others in the future) to your profile biography *might* help to opt out certain data collection and certain tools built by developers who do respect users' consent. This can effectively *reduce* data scraping, in some situations. If anything, it is at least a public statement against disrespectful (and sometimes illegal) practices.
 
-## :material-arrow-right-bold-box-outline: Moving to another instance
+## Moving to another instance
 
 The freedom to move from one instance to another can greatly contribute to keeping Mastodon a place that puts its users first.
 
@@ -605,7 +605,7 @@ If your old instance isn't shutting down, you can also keep it of course. But re
 
 </div>
 
-## :material-hand-heart-outline: Consider supporting Mastodon
+## Consider supporting Mastodon
 
 Mastodon is supported by its community! If you enjoy the platform and can contribute, consider supporting the project by:
 

@@ -25,9 +25,9 @@ Consider using a [VPN](../vpn/index.md) or [Tor](../../software/tor/index.md) if
 
 | Provider | Search Index | Tor Hidden Service | Logging / Privacy Policy | Country of Operation |
 |---|---|---|---|---|
-| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence) | :material-check:{ .pg-green } | Anonymized[^1] | United States |
-| [DuckDuckGo](#duckduckgo) | [Bing](https://help.duckduckgo.com/results/sources) | :material-check:{ .pg-green } | Anonymized[^2] | United States |
-| [Startpage](#startpage) | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3] | Netherlands |
+| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence) | Yes | Anonymized[^1] | United States |
+| [DuckDuckGo](#duckduckgo) | [Bing](https://help.duckduckgo.com/results/sources) | Yes | Anonymized[^2] | United States |
+| [Startpage](#startpage) | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | Yes | Anonymized[^3] | Netherlands |
 
 [^1]:
     Brave Search collects aggregated usage metrics, which includes the OS and the user agent. However, they do not collect PII. To serve [anonymous local results](https://search.brave.com/help/anonymous-local-results), IP addresses are temporarily processed, but are not retained.

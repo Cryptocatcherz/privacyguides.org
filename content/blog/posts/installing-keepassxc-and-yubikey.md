@@ -17,7 +17,7 @@ preview:
 
 If you are looking for a good remote password manager you can use from anywhere, there are plenty of excellent [options](https://www.privacyguides.org/en/passwords/) to choose from. However, if you prefer to only store your passwords locally, [KeePassXC](https://www.privacyguides.org/en/passwords/#keepassxc) is what you need. In this tutorial, we will set up KeePassXC to work with [YubiKey](https://www.privacyguides.org/en/security-keys/#yubikey) as an additional factor to secure your local-only password database.<!-- more -->
 
-## :simple-keepassxc: KeePassXC summary
+## KeePassXC summary
 
 KeePassXC is a free, open-source, and desktop-only password manager. The community-driven project was first released in 2012 and is a fork of both the *KeePass Password Safe* application and *KeePassX*, which is no longer actively maintained.
 
@@ -63,7 +63,7 @@ In addition to the features we will set up here, KeePassXC offers the following:
 
 On March 4th, KeePassXC released its most recent update. This update includes the capacity to import Proton Pass databases, to generate passphrases using *mixed* case (a mix of uppercase and lowercase), and many other [useful features](https://keepassxc.org/blog/2025-03-04-2.7.10-released/).
 
-## :material-toolbox: Requirements and preparation
+## Requirements and preparation
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Operating systems</p>
@@ -79,7 +79,7 @@ For this tutorial you will need:
 - [x] Ability to install software on this computer
 - [x] One or two YubiKeys (ideally two)
 
-## :material-download-circle: Setting up KeePassXC
+## Setting up KeePassXC
 
 ### Step 1: Download and Install KeePassXC
 
@@ -182,11 +182,9 @@ No matter if you invent or generate your main password/passphrase, **make sure t
 <div class="admonition success" markdown>
 <p class="admonition-title">This step isn't over yet!</p>
 
-This is where you will be adding your YubiKey to further secure your database. Keep the "Database Credentials" application window open and **continue with the step below** :material-arrow-down-bold:
+This is where you will be adding your YubiKey to further secure your database. Keep the "Database Credentials" application window open and **continue with the step below** </div>
 
-</div>
-
-## :material-shield-key: Securing your database with a YubiKey
+## Securing your database with a YubiKey
 
 To add a YubiKey to secure your KeePassXC database, you will first need to prepare your YubiKey(s) for it, if it's not already ready to use with a [Challenge-Response](https://docs.yubico.com/yesdk/users-manual/application-otp/challenge-response.html) application.
 
@@ -245,7 +243,7 @@ If you do not plug in your YubiKey first, an error will be triggered, and you wi
 
 </div>
 
-## :fontawesome-solid-unlock-keyhole: Using KeePassXC
+## Using KeePassXC
 
 Using KeePassXC is quite simple and resembles most other password manager applications. The biggest difference is that your passwords will remain stored locally, unless you decide to back up your password database to a cloud service of your choice.
 
@@ -411,7 +409,7 @@ You are now logged in, thanks to KeePassXC!
 
 </div>
 
-## :material-hand-heart: Consider supporting KeePassXC
+## Consider supporting KeePassXC
 
 KeePassXC is a free and open-source project built by the community. If you use and love this application, it's always a great idea to support the project if you can.
 

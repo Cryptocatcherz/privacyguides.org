@@ -49,7 +49,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
 - ...your browser only supports Manifest V3 extensions. This is the case for Chrome [^2] , Edge and most Chromium browsers.
 
-**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [:material-bug-outline: Passive Attacks](../../../wiki/basics/common-threats/index.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
+**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [Passive Attacks](../../../wiki/basics/common-threats/index.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
 
 {{< cards >}}
   {{< card link="https://github.com/uBlockOrigin/uBOL-home#readme" title="Repository" icon="code" >}}

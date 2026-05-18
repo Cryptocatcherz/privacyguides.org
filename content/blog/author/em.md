@@ -1,8 +1,8 @@
 ---
 description: Em is the Activism & Outreach Lead at Privacy Guides. She is a public‑interest technologist and researcher who has been working on various independent projects in data privacy, information security, and software engineering since 2018.
 schema:
-  -
-    "@context": https://schema.org
+      -
+        "@context": https://schema.org
     "@type": ProfilePage
     dateCreated: "2025-02-03T19:00:00Z"
     dateModified: "2024-02-03T19:00:00Z"
@@ -29,5 +29,5 @@ schema:
 
 Em is passionate about digital rights, privacy advocacy, solid security, and code for the public good. In her free time, you can find Em on Mastodon giving privacy tips or boosting photos of cats and moss.
 
-[:simple-mastodon: @Em0nM4stodon@infosec.exchange](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange")
+[@Em0nM4stodon@infosec.exchange](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange")
 { .pg:buttons }

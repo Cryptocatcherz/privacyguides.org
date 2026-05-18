@@ -9,15 +9,14 @@ description: Protect your internet browsing from prying eyes by using the Tor ne
 
 **Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](../../../wiki/advanced/tor-overview/index.md)
-[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor)
+[Detailed Tor Overview](../../../wiki/advanced/tor-overview/index.md)
+[Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor)
 { .pg:buttons }
 
 > [!TIP]
 > Before connecting to Tor, please ensure you've read our [overview](../../../wiki/advanced/tor-overview/index.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](../../services/vpn/index.md), but you have to do so **properly** to avoid decreasing your anonymity.
 
-
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](../../../wiki/basics/common-threats/index.md#anonymity-vs-privacy){ .pg-purple } browsing for desktop computers and Android.
+There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [anonymous](../../../wiki/basics/common-threats/index.md#anonymity-vs-privacy){ .pg-purple } browsing for desktop computers and Android.
 
 Some of these apps are better than others; making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
 
@@ -54,7 +53,7 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 ## Onion Browser (iOS)
 
-[:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
+[Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
 **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 

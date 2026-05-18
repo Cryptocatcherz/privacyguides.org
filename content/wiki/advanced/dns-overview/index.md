@@ -254,7 +254,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
         ▸ requestList: 1 item
           ▸ Request
             ▸ reqCert
-              serialNumber
+                  serialNumber
     ```
 
     For the "Response" we can also see the "serial number":
@@ -295,7 +295,7 @@ graph TB
     obnoxious --> | No | ispDNS{Does ISP support<br> encrypted DNS?}
     ispDNS --> | Yes | useISP(Use<br> encrypted DNS<br> with ISP)
     ispDNS --> | No | nothing(Do nothing)
-```
+    ```
 
 Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
 
@@ -345,23 +345,23 @@ This feature does come at a privacy cost, as it tells the DNS server some inform
 
 If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
 
-```bash
+    ```bash
 dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
-```
+    ```
 
 Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
 
-```bash
+    ```bash
 dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
-```
+    ```
 
 If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
 
-```text
+    ```text
 o-o.myaddr.l.google.com. 60 IN TXT "198.51.100.32"
 o-o.myaddr.l.google.com. 60 IN TXT "edns0-client-subnet 198.51.100.0/24"
 ;; Query time: 64 msec
 ;; SERVER: 9.9.9.11#53(9.9.9.11)
 ;; WHEN: Wed Mar 13 10:23:08 CDT 2024
 ;; MSG SIZE  rcvd: 130
-```
+    ```

@@ -23,13 +23,13 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 | Provider | OpenPGP / WKD | IMAP / SMTP | Encrypted Storage | Anonymous Payment Methods |
 |---|---|---|---|---|
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green } | Cash <br>Monero via third party |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Mail only | Cash |
-| [Tuta](#tuta) | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange } | :material-check:{ .pg-green } | Monero via third party <br>Cash via third party |
+| [Proton Mail](#proton-mail) | Yes | Paid plans only | Yes | Cash <br>Monero via third party |
+| [Mailbox Mail](#mailbox-mail) | Yes | Yes | Mail only | Cash |
+| [Tuta](#tuta) | Partial | Partial | Yes | Monero via third party <br>Cash via third party |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](../email-aliasing/index.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
-- [More Information :material-arrow-right-drop-circle:](../email-aliasing/index.md)
+- [More Information](../email-aliasing/index.md)
 
 ## OpenPGP Compatible Services
 
@@ -44,11 +44,10 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 > [!WARNING]
 > When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](../../../wiki/basics/email-security/index.md#email-metadata-overview).
-> 
+>
 > OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
-> 
+>
 > - [How do I protect my private keys?](../../../wiki/basics/email-security/index.md#how-do-i-protect-my-private-keys)
-
 
 ### Proton Mail
 
@@ -77,47 +76,47 @@ Proton Mail has internal crash reports that are **not** shared with third partie
 
 === "Web"
 
-    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+From your inbox, select Settings → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
     - [ ] Disable **Collect usage dignostics**
     - [ ] Disable **Send crash reports**
 
 === "Mobile"
 
-    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+From your inbox, select the menu → **Settings** → select your username.
 
     - [ ] Disable **Send crash reports**
     - [ ] Disable **Collect usage dignostics**
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### Custom Domains and Aliases
 
 Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### Private Payment Methods
 
 Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](../../../wiki/advanced/payments/index.md#other-coins-bitcoin-ethereum-etc), and PayPal payments. Additionally, you can use [**Monero**](../../software/cryptocurrency/index.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
-#### :material-check:{ .pg-green } Account Security
+#### Account Security
 
 Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
 
-#### :material-check:{ .pg-green } Data Security
+#### Data Security
 
 Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
 Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### Email Encryption
 
 Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
 Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](../../../wiki/basics/email-security/index.md#what-is-the-web-key-directory-standard) separately.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### Account Termination
 
 If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### Additional Functionality
 
 Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
 
@@ -134,35 +133,35 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 [{{< badge content="Web" >}}](https://login.mailbox.org)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### Custom Domains and Aliases
 
 Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### Private Payment Methods
 
 Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### Account Security
 
 Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. You can use either TOTP or a [YubiKey](../../hardware/security-keys/index.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](../../../wiki/basics/multi-factor-authentication/index.md#fido-fast-identity-online) are not yet supported.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### Data Security
 
 Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). New messages that you receive will then be immediately encrypted with your public key.
 
 However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. A [standalone option](../calendar/index.md) may be more appropriate for that data.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### Email Encryption
 
 Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
 Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](../../../wiki/basics/email-security/index.md#what-is-the-web-key-directory-standard) separately.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### Account Termination
 
 Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### Additional Functionality
 
 You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
 
@@ -201,31 +200,31 @@ Free accounts start with 1 GB of storage.
 
 Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](../../software/email-clients/index.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### Custom Domains and Aliases
 
 Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### Private Payment Methods
 
 Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](../../software/cryptocurrency/index.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
-#### :material-check:{ .pg-green } Account Security
+#### Account Security
 
 Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
-#### :material-check:{ .pg-green } Data Security
+#### Data Security
 
 Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### Email Encryption
 
 Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### Account Termination
 
 Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### Additional Functionality
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 

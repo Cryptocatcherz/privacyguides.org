@@ -30,9 +30,9 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 | Provider | Countries | WireGuard | Port Forwarding | IPv6 | Anonymous Payments |
 |---|---|---|---|---|---|
-| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Cash |
-| [IVPN](#ivpn) | 41+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-information-outline:{ .pg-blue } Outgoing Only | Monero  Cash |
-| [Mullvad](#mullvad) | 49+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-check:{ .pg-green } | Monero  Cash |
+| [Proton](#proton-vpn) | 127+ | Yes | Partial Support | Limited Support | Cash |
+| [IVPN](#ivpn) | 41+ | Yes | No | Outgoing Only | Monero Cash |
+| [Mullvad](#mullvad) | 49+ | Yes | No | Yes | Monero Cash |
 
 ### Proton VPN
 
@@ -50,7 +50,7 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1437005085)
 [{{< badge content="GitHub" >}}](https://github.com/ProtonVPN/android-app/releases)
 
-#### :material-check:{ .pg-green } 127 Countries
+#### 127 Countries
 
 Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
@@ -60,48 +60,48 @@ Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) 
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### Independently Audited
 
 Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
 
 Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### Open-Source Clients
 
 Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
-#### :material-check:{ .pg-green } Accepts Cash
+#### Accepts Cash
 
 Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](../../../wiki/advanced/payments/index.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### WireGuard Support
 
 Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
 
 Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGuard with their service. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
-#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
+#### Limited IPv6 Support
 
 Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
 
-#### :material-information-outline:{ .pg-info } Remote Port Forwarding
+#### Remote Port Forwarding
 
 Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent applications often support NAT-PMP natively.
 
-#### :material-information-outline:{ .pg-blue } Anti-Censorship
+#### Anti-Censorship
 
 Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or WireGuard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
 
 Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### Mobile Clients
 
 Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
 > [!TIP]
 > On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu. We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
 
-#### :material-alert-outline:{ .pg-orange } Additional Notes
+#### Additional Notes
 
 Proton VPN clients support two-factor authentication on all platforms. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](../../software/tor/index.md#tor-browser) for this purpose.
 
@@ -128,7 +128,7 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 [{{< badge content="Accrescent" >}}](https://accrescent.app/app/net.ivpn.client)
 [{{< badge content="GitHub" >}}](https://github.com/ivpn/android-app/releases)
 
-#### :material-check:{ .pg-green } 41 Countries
+#### 41 Countries
 
 IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
@@ -137,41 +137,41 @@ IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### Independently Audited
 
 IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### Open-Source Clients
 
 As of February 2020 [IVPN applications are now open source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### Accepts Cash and Monero
 
 In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### WireGuard Support
 
 IVPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
 
 IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
-#### :material-information-outline:{ .pg-blue } IPv6 Support
+#### IPv6 Support
 
 IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### Remote Port Forwarding
 
 IVPN previously supported port forwarding, but removed the option in [June 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### Anti-Censorship
 
 IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### Mobile Clients
 
 IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### Additional Notes
 
 IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
@@ -191,7 +191,7 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1488466513)
 [{{< badge content="GitHub" >}}](https://github.com/mullvad/mullvadvpn-app/releases)
 
-#### :material-check:{ .pg-green } 49 Countries
+#### 49 Countries
 
 Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
@@ -200,34 +200,34 @@ Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### Independently Audited
 
 Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### Open-Source Clients
 
 Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### Accepts Cash and Monero
 
 Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### WireGuard Support
 
 Mullvad supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
 
 Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026.
 Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
-#### :material-check:{ .pg-green } IPv6 Support
+#### IPv6 Support
 
 Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) and connect from a device using an IPv6 address.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### Remote Port Forwarding
 
 Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### Anti-Censorship
 
 Mullvad offers several features to help bypass censorship and access the internet freely:
 
@@ -236,11 +236,11 @@ Mullvad offers several features to help bypass censorship and access the interne
 - **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
 - **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### Mobile Clients
 
 Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### Additional Notes
 
 Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
 

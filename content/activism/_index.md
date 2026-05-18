@@ -26,8 +26,8 @@ This section will progressively grow with more tools to support the community in
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/_index.md){ .toolbox-button .toolbox-bg }
+[Privacy Activist Toolbox](toolbox/_index.md){ .toolbox-button .toolbox-bg }
 
-[:fontawesome-solid-address-card:{ .toolbox-button-icon } DPA Directory](legal/dpa-directory/){ .toolbox-button .dpadirectory-bg }
+[DPA Directory](legal/dpa-directory/){ .toolbox-button .dpadirectory-bg }
 
 </div>

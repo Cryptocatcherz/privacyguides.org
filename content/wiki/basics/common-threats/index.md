@@ -6,47 +6,47 @@ description: Your threat model is personal to you, but these are some of the thi
 
 Broadly speaking, we categorize our recommendations into the [threats](../threat-modeling/index.md) or goals that apply to most people. <mark>You may be concerned with none, one, a few, or all of these possibilities</mark>, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">**Anonymity**</span>
 
-:   Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+: Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">**Targeted Attacks**</span>
 
-:   Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+: Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">**Supply Chain Attacks**</span>
 
-:    Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+: Typically, a form of <span class="pg-red">Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">**Passive Attacks**</span>
 
-:   Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+: Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">**Service Providers**</span>
 
-:   Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+: Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">**Mass Surveillance**</span>
 
-:  Protection from government agencies, organizations, websites, and services which work together to track your activities.
+: Protection from government agencies, organizations, websites, and services which work together to track your activities.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">**Surveillance Capitalism**</span>
 
-:   Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+: Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">**Public Exposure**</span>
 
-:   Limiting the information about you that is accessible online—to search engines or the public.
+: Limiting the information about you that is accessible online—to search engines or the public.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">**Censorship**</span>
 
-:   Avoiding censored access to information or being censored yourself when speaking online.
+: Avoiding censored access to information or being censored yourself when speaking online.
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">Supply Chain Attacks</span> and <span class="pg-red">Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">Passive Attacks</span>—like malware affecting their devices.
 
 ## Anonymity vs. Privacy
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">Anonymity</span>
 
 Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
 
@@ -54,7 +54,7 @@ Whistleblowers and journalists, for example, can have a much more extreme threat
 
 ## Security and Privacy
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">Passive Attacks</span>
 
 Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
 
@@ -67,24 +67,22 @@ To minimize the damage that a malicious piece of software *could* do, you should
 >
 > Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../../../tools/os/desktop/index.md#qubes-os).
 
-
 ## Attacks against Specific Individuals
 
-<span class="pg-red">:material-target-account: Targeted Attacks</span>
+<span class="pg-red">Targeted Attacks</span>
 
 Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
 
 > [!TIP]
 > By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
 
-
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
 
 ## Attacks against Certain Organizations
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">Supply Chain Attacks</span>
 
-Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+Supply chain attacks are frequently a form of <span class="pg-red">Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
 
 > [!NOTE]
 > A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
@@ -105,7 +103,7 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 
 ## Privacy from Service Providers
 
-<span class="pg-teal">:material-server-network: Service Providers</span>
+<span class="pg-teal">Service Providers</span>
 
 We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
 
@@ -124,7 +122,7 @@ Even with E2EE, service providers can still profile you based on **metadata**, w
 
 ## Mass Surveillance Programs
 
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
+<span class="pg-blue">Mass Surveillance</span>
 
 Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
 
@@ -150,7 +148,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 ## Surveillance as a Business Model
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">Surveillance Capitalism</span>
 
 > Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
 
@@ -160,11 +158,11 @@ Additionally, even companies outside the *AdTech* or tracking industry can share
 
 ## Limiting Public Information
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">Public Exposure</span>
 
 The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](../account-deletion/index.md)
+- [View our guide on account deletion](../account-deletion/index.md)
 
 On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
 
@@ -172,7 +170,7 @@ If you've already submitted your real information to sites which shouldn't have 
 
 ## Avoiding Censorship
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">Censorship</span>
 
 Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
 
@@ -184,7 +182,6 @@ People concerned with the threat of censorship can use technologies like [Tor](.
 > While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
 >
 > You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../../advanced/dns-overview/index.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
-
 
 You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
 

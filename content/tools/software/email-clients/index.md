@@ -53,19 +53,18 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 > [!WARNING]
 > When replying to someone on a mailing list in Thunderbird Mobile, the "reply" option may also include the mailing list. For more information see [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738).
 
-
 #### Recommended Configuration
 
 <div class="annotate" markdown>
 
 We recommend changing some of these settings to make Thunderbird Desktop a little more private.
 
-These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
+These options can be found in the menu → **Settings** → **Privacy & Security**.
 
 ##### Web Content
 
-- [ ] Uncheck  **Remember websites and links I've visited**
-- [ ] Uncheck  **Accept cookies from sites** (1)
+- [ ] Uncheck **Remember websites and links I've visited**
+- [ ] Uncheck **Accept cookies from sites** (1)
 
 </div>
 
@@ -73,7 +72,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 ##### Telemetry
 
-- [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow Thunderbird to send technical and interaction data to Mozilla**
 
 #### Thunderbird-user.js (advanced)
 

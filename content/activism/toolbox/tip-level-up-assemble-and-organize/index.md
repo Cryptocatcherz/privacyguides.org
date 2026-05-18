@@ -76,7 +76,7 @@ Here are a few ideas of actions you might want to consider in your privacy work:
 @counter-style emoji-list-a {
   system: fixed;
   symbols: "🙌" "🔍" "✊" "✍️" "📃" "🗣️" "🎞️" "📖" "💛" "📚";
-  suffix: "  ";
+suffix: " ";
 </style>
 
 <div class="emoji-list-a" markdown>
@@ -118,8 +118,8 @@ Here are a few privacy-focused tools and services that can help you to organize 
 :page_with_curl: Use it as an alternative to Google Docs!
 
 [More info](../../../tools/software/document-collaboration/index.md#cryptpad)
-[:octicons-home-16:](https://cryptpad.fr/)
-[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
+[Homepage](https://cryptpad.fr/)
+[Review](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
 { .pg:buttons }
 
 </div>
@@ -133,8 +133,8 @@ Here are a few privacy-focused tools and services that can help you to organize 
 :speech_balloon: Use it as an [alternative](../tip-improve-your-social-media-and-build-resilient-communities/) to commercial social media such as *X*, *Facebook*, *Instagram*, *Threads*, *TikTok*, or *Bluesky*.
 
 [More info](../../../tools/software/social-networks/index.md#mastodon)
-[:octicons-home-16:](https://joinmastodon.org/)
-[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
+[Homepage](https://joinmastodon.org/)
+[Review](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
 { .pg:buttons }
 
 </div>
@@ -148,7 +148,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 :loudspeaker: Use it as a privacy-preserving alternative to *Slack* or *Discord*.
 
 [More info](../../../tools/software/social-networks/index.md#element)
-[:octicons-home-16:](https://element.io/)
+[Homepage](https://element.io/)
 { .pg:buttons }
 
 </div>
@@ -161,7 +161,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :video_camera: Use it to share videos with your community free from *YouTube*'s control.
 
-[:octicons-home-16: Homepage](../../../tools/software/social-networks/index.md#peertube)
+[Homepage](../../../tools/software/social-networks/index.md#peertube)
 { .pg:buttons }
 
 </div>
@@ -175,7 +175,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 @counter-style emoji-list-b {
   system: fixed;
   symbols: "🗺️" "📅" "☁️" "📂";
-  suffix: "  ";
+suffix: " ";
 </style>
 
 <details class="info emoji-list-b" markdown>
@@ -214,4 +214,4 @@ More tools for community organization could include [LAUTI](https://lauti.org/) 
 
 - [Campaign accelerator training (*Mobilisation Lab*)](https://mobilisationlab.org/training-coaching/campaign-accelerator-training/)
 
-<button class="toolbox-tip-button-next">[Go back to toolbox index :material-toolbox:](../..)</button>
+<button class="toolbox-tip-button-next">[Go back to toolbox index](../..)</button>

@@ -40,17 +40,17 @@ Additionally, this table provides information about each law, authority, contact
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-earth-africa:{ .toolbox-button-icon } Africa](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
+[Africa](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
 
-[:fontawesome-solid-earth-asia:{ .toolbox-button-icon } Asia](#asia){ .toolbox-button .dpadirectory-button .dpadirectory-button-asia }
+[Asia](#asia){ .toolbox-button .dpadirectory-button .dpadirectory-button-asia }
 
-[:fontawesome-solid-earth-europe:{ .toolbox-button-icon } Europe](#europe){ .toolbox-button .dpadirectory-button .dpadirectory-button-europe }
+[Europe](#europe){ .toolbox-button .dpadirectory-button .dpadirectory-button-europe }
 
-[:fontawesome-solid-earth-america:{ .toolbox-button-icon } North America](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
+[North America](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
 
-[:fontawesome-solid-earth-oceania:{ .toolbox-button-icon } Oceania](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
+[Oceania](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
 
-[:fontawesome-solid-earth-america:{ .toolbox-button-icon } South America](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
+[South America](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
 
 </div>
 
@@ -65,149 +65,149 @@ Additionally, this table provides information about each law, authority, contact
 
 <!-- Table header -->
 <thead>
-<tr role="row">
-  <th role="column">Region</th>
-  <th role="column" class="table-large-cell">Privacy Law</th>
-  <th role="column">Abbreviation</th>
-  <th role="column" class="table-large-cell">DPA</th>
-  <th role="column">Contact</th>
-  <th role="column">Complaint</th>
-</tr>
+  <tr role="row">
+    <th role="column">Region</th>
+    <th role="column" class="table-large-cell">Privacy Law</th>
+    <th role="column">Abbreviation</th>
+    <th role="column" class="table-large-cell">DPA</th>
+    <th role="column">Contact</th>
+    <th role="column">Complaint</th>
+  </tr>
 </thead>
 
 <tbody role="rowgroup">
 
 <!-- Egypt -->
-<tr role="row">
+  <tr role="row">
   <td data-cell="Region" role="rowheader">Egypt</td>
   <td data-cell="Law" role="cell"><a href="https://pdpc.gov.eg/assets/pdf-data/PDPL%20no.%20151%20of%202020%20(ar).pdf" target="_blank">
     Personal Data Protection Law No. 151/2020
-  </a></td>
+    </a></td>
   <td data-cell="Abbreviation" role="cell">PDPL</td>
   <td data-cell="DPA" role="cell"><a href="https://pdpc.gov.eg" target="_blank">
     Personal Data Protection Center (PDPC)
-  </a></td>
-  <td data-cell="Contact" role="cell">TBA</td>
-  <td data-cell="Complaint" role="cell">TBA</td>
-</tr>
+    </a></td>
+    <td data-cell="Contact" role="cell">TBA</td>
+    <td data-cell="Complaint" role="cell">TBA</td>
+  </tr>
 
 <!-- Ghana -->
-<tr role="row">
+  <tr role="row">
   <td data-cell="Region" role="rowheader">Ghana</td>
   <td data-cell="Law" role="cell"><a href="https://dataprotection.org.gh/for-individuals/" target="_blank">
     Data Protection Act of 2012
-  </a></td>
+    </a></td>
   <td data-cell="Abbreviation" role="cell">Act 843</td>
   <td data-cell="DPA" role="cell"><a href="https://dataprotection.org.gh/" target="_blank">
-    Data Protection Commission (DPC)
-  </a></td>
+      Data Protection Commission (DPC)
+    </a></td>
   <td data-cell="Contact" role="cell"><a href="https://dataprotection.org.gh/contact/" target="_blank">Contact Page</a></td>
   <td data-cell="Complaint" role="cell"><a href="https://dataprotection.org.gh/file-a-complaint/" target="_blank">Complaint Link</a></td>
-</tr>
+  </tr>
 
 <!-- Kenya -->
-<tr role="row">
+  <tr role="row">
   <td data-cell="Region" role="rowheader">Kenya</td>
   <td data-cell="Law" role="cell"><a href="https://www.odpc.go.ke/data-protection-laws-kenya/" target="_blank">
     Data Protection Act, 2019
-  </a></td>
+    </a></td>
   <td data-cell="Abbreviation" role="cell">The Act</td>
   <td data-cell="DPA" role="cell"><a href="https://www.odpc.go.ke/" target="_blank">
     Office of the Data Protection Commissioner (ODPC)
-  </a></td>
+    </a></td>
   <td data-cell="Contact" role="cell"><a href="https://www.odpc.go.ke/contact-us/" target="_blank">Contact Page</a></td>
   <td data-cell="Complaint" role="cell"><a href="https://cie.odpc.go.ke/" target="_blank">Complaint Link</a></td>
-</tr>
+  </tr>
 
 <!-- Morocco -->
-<tr role="row">
+  <tr role="row">
   <td data-cell="Region" role="rowheader">Morocco</td>
   <td data-cell="Law" role="cell"><a href="https://www.cndp.ma/loi-09-08/" target="_blank">
     Law No. 09-08 on the protection of individuals with regard to the processing of personal data
-  </a></td>
+    </a></td>
   <td data-cell="Abbreviation" role="cell">Law 09-08</td>
   <td data-cell="DPA" role="cell"><a href="https://www.cndp.ma" target="_blank">
     National Commission for the Protection of Personal Data (CNDP)
-  </a></td>
+    </a></td>
   <td data-cell="Contact" role="cell"><a href="https://www.cndp.ma/contact/" target="_blank">Contact Page</a></td>
   <td data-cell="Complaint" role="cell"><a href="https://www.cndp.ma/deposer-une-plainte/" target="_blank">Complaint Link</a></td>
-</tr>
+  </tr>
 
 <!-- Nigeria -->
-<tr role="row">
+  <tr role="row">
   <td data-cell="Region" role="rowheader">Nigeria</td>
   <td data-cell="Law" role="cell"><a href="https://ndpc.gov.ng/wp-content/uploads/2025/07/NDP-ACT-GAID-2025-MARCH-20TH.pdf" target="_blank">
     Nigeria Data Protection Act
-  </a></td>
+    </a></td>
   <td data-cell="Abbreviation" role="cell">NDP</td>
   <td data-cell="DPA" role="cell"><a href="https://ndpc.gov.ng/" target="_blank">
     Nigeria Data Protection Commission (NDPC)
-  </a></td>
+    </a></td>
   <td data-cell="Contact" role="cell"><a href="https://ndpc.gov.ng/contact/" target="_blank">Contact Page</a></td>
   <td data-cell="Complaint" role="cell"><a href="https://services.ndpc.gov.ng/breach/" target="_blank">Complaint Link</a></td>
-</tr>
+  </tr>
 
 <!-- Senegal -->
-<tr role="row">
+  <tr role="row">
   <td data-cell="Region" role="rowheader">Senegal</td>
   <td data-cell="Law" role="cell"><a href="https://stcc-ssi.sn/wp-content/uploads/2025/03/protection-des-donnees-personnelles.pdf" target="_blank">
     Loi n° 2008-12 du 25 janvier 2008 portant protection des données à caractère personnel
-  </a></td>
+    </a></td>
   <td data-cell="Abbreviation" role="cell">Loi no. 2008-12</td>
   <td data-cell="DPA" role="cell"><a href="https://www.cdp.sn/" target="_blank">
     Commission de Protection des Données Personnelles (CDP)
-  </a></td>
+    </a></td>
   <td data-cell="Contact" role="cell"><a href="https://www.cdp.sn/contact" target="_blank">Contact Page</a></td>
   <td data-cell="Complaint" role="cell"><a href="https://www.cdp.sn/plainte" target="_blank">Complaint Link</a></td>
-</tr>
+  </tr>
 
 <!-- South Africa -->
-<tr role="row">
+  <tr role="row">
   <td data-cell="Region" role="rowheader">South Africa</td>
   <td data-cell="Law" role="cell"><a href="https://inforegulator.org.za/wp-content/uploads/2025/08/PROTECTION-OF-PERSONAL-INFORMATION-ACT-4-OF-2013.pdf" target="_blank">
     Protection of Personal Information Act, 2013
-  </a></td>
+    </a></td>
   <td data-cell="Abbreviation" role="cell">POPIA</td>
   <td data-cell="DPA" role="cell"><a href="https://inforegulator.org.za/" target="_blank">
     Information Regulator
-  </a></td>
+    </a></td>
   <td data-cell="Contact" role="cell"><a href="https://inforegulator.org.za/contact-us/" target="_blank">Contact Page</a></td>
   <td data-cell="Complaint" role="cell"><a href="https://inforegulator.org.za/complaints/" target="_blank">Complaint Link</a></td>
-</tr>
+  </tr>
 
 <!-- Tanzania -->
-<tr role="row">
+  <tr role="row">
   <td data-cell="Region" role="rowheader">Tanzania</td>
   <td data-cell="Law" role="cell"><a href="https://www.pdpc.go.tz/media/media/THE_PERSONAL_DATA_PROTECTION_ACT.pdf" target="_blank">
-    Personal Data Protection Act
-  </a></td>
-  <td data-cell="Abbreviation" role="cell">-</td>
+      Personal Data Protection Act
+    </a></td>
+    <td data-cell="Abbreviation" role="cell">-</td>
   <td data-cell="DPA" role="cell"><a href="https://www.pdpc.go.tz/en/" target="_blank">
-    Personal Data Protection Commission (PDPC)
-  </a></td>
+      Personal Data Protection Commission (PDPC)
+    </a></td>
   <td data-cell="Contact" role="cell"><a href="https://www.pdpc.go.tz/en/data-alliance/alliances/" target="_blank">Contact Page</a></td>
   <td data-cell="Complaint" role="cell"><a href="https://dataprotection.pdpc.go.tz/complaint-form-one" target="_blank">Complaint Link</a></td>
-</tr>
+  </tr>
 
 <!-- Tunisia -->
-<tr role="row">
+  <tr role="row">
   <td data-cell="Region" role="rowheader">Tunisia</td>
   <td data-cell="Law" role="cell"><a href="https://www.inpdp.tn/ressources/loi_2004.pdf" target="_blank">
     Organic Act n° 2004-63 of July 27th 2004 on the protection of personal data
-  </a></td>
+    </a></td>
   <td data-cell="Abbreviation" role="cell">Organic Act No. 2004-63</td>
   <td data-cell="DPA" role="cell"><a href="https://www.inpdp.tn/" target="_blank">
     National Authority for Protection of Personal Data (INPDP)
-  </a></td>
+    </a></td>
   <td data-cell="Contact" role="cell"><a href="https://www.inpdp.tn/contact.html" target="_blank">Contact Page</a></td>
   <td data-cell="Complaint" role="cell"><a href="https://www.inpdp.tn/Formulaires.html" target="_blank">Complaint Link</a></td>
-</tr>
+  </tr>
 
 </tbody>
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button>
+<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
 <br>
 
 ### Asia
@@ -374,7 +374,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button>
+<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
 <br>
 
 ### Europe
@@ -933,7 +933,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button>
+<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
 <br>
 
 ### North America
@@ -956,7 +956,7 @@ Additionally, this table provides information about each law, authority, contact
 
 <tbody role="rowgroup">
 
-  <!-- Canada  -->
+ <!-- Canada -->
   <tr role="row">
     <td data-cell="Region" role="rowheader">Canada</td>
     <td data-cell="Law" role="cell"><a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/" target="_blank">
@@ -1310,7 +1310,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button>
+<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
 <br>
 
 ### Oceania
@@ -1321,7 +1321,7 @@ Additionally, this table provides information about each law, authority, contact
 
 <!-- Table header -->
 <thead>
-<tr role="row">
+  <tr role="row">
     <th role="column">Region</th>
     <th role="column" class="table-large-cell">Privacy Law</th>
     <th role="column">Abbreviation</th>
@@ -1365,7 +1365,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button>
+<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
 <br>
 
 ### South America
@@ -1462,7 +1462,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button>
+<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
 <br>
 
 ## Additional resources

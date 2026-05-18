@@ -49,7 +49,7 @@ One of the wonderful possibility Mastodon offers is to [self-host your own Masto
 
 For this reason, this article will focus on the experience from the **user side**, not the administrator side.
 
-## :octicons-home-16: Choosing a Mastodon instance
+## Choosing a Mastodon instance
 
 The biggest distinction of Mastodon compared to commercial social media is its true decentralization.
 
@@ -94,7 +94,7 @@ Even if the Mastodon migration process doesn't allow for automatic posts transfe
 
 </div>
 
-## :octicons-shield-check-16: How secure is Mastodon
+## How secure is Mastodon
 
 As explained previously, choosing an instance with a competent and trustworthy administration team is fundamental on Mastodon. Due to a plurality of instances, levels of security expertise can greatly vary from one server to another.
 
@@ -144,7 +144,7 @@ While security and privacy are related concepts that can enhance each other, the
 
 Both privacy and security are important to consider for users, and both must be examined when evaluating software.
 
-## :octicons-lock-16: How private is Mastodon
+## How private is Mastodon
 
 When using social media, there are always two sides to data privacy: The data collected by the service, and the data exposed by the user posting content.
 
@@ -208,7 +208,7 @@ Most important of all, because Mastodon has no interest in monetizing your data,
 
 This is completely antithesis to commercial social media. And this alone makes Mastodon fundamentally **much more private than any other big tech platforms**.
 
-## :material-lock-check-outline: Privacy benefits of Mastodon
+## Privacy benefits of Mastodon
 
 Each Mastodon instance will have a different privacy policy that you should consult before creating an account, like for any other platforms. But unless the software was modified, data collection should be similar to what is described here, and remain minimal for the majority of connected instances.
 
@@ -240,7 +240,7 @@ With Mastodon, you are not stuck with only one app. If you don't like the offici
 
 So many services and websites have adopted a hostile stance towards people using privacy protections such as a VPN server, a privacy-focused browser, or running their phone in [Lockdown Mode](https://support.apple.com/en-us/105120). But with Mastodon, you are free to use all the protections you love. **Mastodon isn't hostile to your privacy.**
 
-## :octicons-alert-16: What to stay careful about
+## What to stay careful about
 
 While the privacy benefits of Mastodon are numerous, there are also a few things to keep in mind when using the platform:
 
@@ -317,7 +317,7 @@ Because yes, this choice does burden you to pick who you trust, but **it also em
 
 Be careful who you trust of course, but don't get paralyzed by this choice. Even if this might feel intimidating at first, this fear of choosing isn't worth staying with possibly even less trustworthy big tech administrators.
 
-## :octicons-star-16: Mastodon keeps getting better
+## Mastodon keeps getting better
 
 This article only presents an overview of Mastodon's features, and focuses on the features related to privacy and security. But Mastodon is so much more. It's a social platform that truly respects its community.
 
@@ -340,7 +340,7 @@ To continue learning about Mastodon's privacy and security features, consult the
 
 </div>
 
-## :material-hand-heart-outline: Consider supporting Mastodon
+## Consider supporting Mastodon
 
 Mastodon doesn't sell your data, but it still needs money to survive and thrive. Mastodon is supported by its community!
 

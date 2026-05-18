@@ -22,7 +22,7 @@ preview:
 
 Biometrics are a convenient and secure way to authenticate our devices. Many of us use and trust the biometrics of our devices without much thought, but are they really secure? With so many [options](https://www.biometricsinstitute.org/what-is-biometrics/types-of-biometrics/), which ones are the best?<!-- more -->
 
-## :material-fingerprint: Fingerprint sensors
+## Fingerprint sensors
 
 One of the most recognizable types of biometric authentication has to be the fingerprint reader. The idea is that everyone has a fairly unique fingerprint, so we should be able to distinguish between your fingerprint and someone else's reliably.
 
@@ -35,7 +35,7 @@ There are three main types of fingerprint: loops, whorls, and arches. Fingerprin
 [Finger minutiae](https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/) data is used to identify a fingerprint as unique. This data consists of the points on your fingerprint where lines split, abruptly end, individual dots, etc. Two people can have the same number of arches, loops, and whorls, but they won't have the exact same configurations of minutiae. (1)
 { .annotate }
 
-1. :material-fingerprint: It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
+1. It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
 
 ![Example of finger minutiae including forks (where one line splits into multiple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)](../assets/images/biometrics-explained/finger-minutiae.webp)
 
@@ -45,7 +45,7 @@ Using these details for identification gives several advantages over trying to r
 
 There are [three](https://www.androidauthority.com/how-fingerprint-scanners-work-670934/) main ways we accomplish this in consumer devices: optical sensors, capacitive sensors, and ultrasonic sensors.
 
-### :material-camera: Optical
+### Optical
 
 An optical sensor works by taking a picture of your fingerprint and turning it into data. They are the cheapest and least secure option. Since optical sensors capture two-dimensional images, an attacker may gain access by simply taking a picture of your fingerprint.
 
@@ -57,7 +57,7 @@ Many devices implement one of these sensors under the display.
 
 Optical sensors can struggle in the presence of bright sunlight, which is an issue on a mobile device that you take around with you and use wherever you are.
 
-### :material-lightning-bolt: Capacitive
+### Capacitive
 
 Capacitive sensors measure the electrical conductivity of your finger. These are much more secure than optical sensors since they can't be fooled with an image. They're also tough to fool with prosthetics as different materials will have different electrical properties.
 
@@ -69,7 +69,7 @@ Capacitive sensors won't work if the [tissue is dead](https://www.livescience.co
 
 Conveniently they also don't require a light source under them to work, although they will struggle in the presence of moisture.
 
-### :material-volume-high: Ultrasonic
+### Ultrasonic
 
 Ultrasonic fingerprint sensors use sound to create a detailed 3D representation of your fingerprint using ultrasound waves (sound waves with a frequency greater than 20khz). It's a similar concept to what's used to map the ocean floor: sound is emitted from transducers and bounces off your skin. By measuring the time it takes for the sound to reach the microphones, your phone can create a detailed map of the ridges and valleys in your finger.
 
@@ -91,11 +91,11 @@ They also won't work with gloves and sometimes screen protectors can interfere, 
 
 Fingerprint authentication will protect you against someone filming you surreptitiously while typing in your password or shoulder surfing. This is an especially relevant attack if your threat model includes thieves as a common attack is watching you type your passcode in and then stealing your phone.
 
-## :material-face-recognition: Face unlock
+## Face unlock
 
 Many devices come with the capability to unlock them using your face. The [implementations](https://www.androidauthority.com/face-unlock-smartphones-3043993/) of this technology can vary wildly between manufacturers since a secure implementation requires a lot of special hardware, so many OEMs choose to cheap out. All forms of face unlock are more likely to allow a twin or sibling into your device since their face is more similar to yours than a random person off the street, so keep that in mind in your threat model.
 
-### :material-camera-front: 2D camera-based
+### 2D camera-based
 
 Every phone already has a camera, so why not use it for face unlock?
 
@@ -103,11 +103,11 @@ If you're relying on a plain 2D image, then there's always the possibility that 
 
 This form of face unlock is also less likely to work in low-light conditions than infrared variants.
 
-### :material-heat-wave: 2D infrared-based
+### 2D infrared-based
 
 The next step up in security is an infrared sensor. This requires dedicated hardware to be built into the device, which eats up space and adds cost. But what you get in return is a form of face unlock that's more reliable in low-light conditions and more resistant to photographs.
 
-### :material-cube-scan: 3D mapping
+### 3D mapping
 
 The potential of this technology truly shines when 2D face unlock is combined with an infrared flood illuminator. These are able to shine thousands of invisible infrared dots on your face and record the distance of each one, creating a 3D map of your face. As you can probably imagine, this tech takes up quite a bit of space and adds yet more cost to the device, as well as likely being the main reason for the "notch" on iPhones. This drawback is well worth it though. According to [Apple](https://support.apple.com/en-us/102381):
 
@@ -123,7 +123,7 @@ You'll likely want an implementation with some protection against another person
 
 Some devices allow for unlocking with a facemask. This is less secure than without a facemask, so keep that in mind when enabling this setting.
 
-## :material-eye: Iris sensors
+## Iris sensors
 
 A spy movie classic but newcomer in the consumer electronics field, iris sensors offer authentication via the unique properties of your eyes. The Apple Vision Pro is the most notable example with its [Optic ID](https://support.apple.com/en-us/118483).
 
@@ -131,7 +131,7 @@ It uses near-infrared light to reveal highly unique patterns independent of the 
 
 The extremely short distance this technology operates at makes it very difficult for someone to unlock your device without you noticing, and you can simply close your eyes to prevent someone from forcing you to unlock it.
 
-## :material-matrix: Algorithm
+## Algorithm
 
 Because biometric systems need to translate the physical properties of your body to data, they rely on an algorithm to determine if their reading matches closely enough.
 
@@ -139,7 +139,7 @@ Because biometric systems need to translate the physical properties of your body
 
 There is also independent research into the security of biometric systems. This combination of external and internal rigor helps ensure the security of these systems, although more well known brands like Apple and Google will receive more scrutiny than lesser-known ones.
 
-## :material-keyboard: Typing biometrics
+## Typing biometrics
 
 Companies like [TypingDNA](https://www.typingdna.com) claim to be able to identify users by how they type.
 
@@ -147,11 +147,11 @@ The stated use case is 2FA and continuous authentication for employee devices. L
 
 It could also be used on websites to uniquely identify you, so type in a text editor program then copy/paste into the browser window to avoid this specific type of fingerprinting.
 
-## :material-walk: Gait biometrics
+## Gait biometrics
 
 Possibly the most insidious of the biometric systems in widespread use is gait recognition. Yes, you can be uniquely identified just by how you walk.
 
-### :material-camera: Camera
+### Camera
 
 This technology can work using only 2D footage and doesn't even require close proximity or high resolution sensors like other forms of biometrics. Combined with the huge network of cameras deployed in most cities, you can potentially be identified and tracked around even with a fully covered face.
 
@@ -175,13 +175,13 @@ Model-free approaches don't try to model the human body but instead use the whol
 
 <small aria-hidden="true">Image Credit: <a href="https://doi.org/10.1007/s11227-023-05156-9">Yousef, R.N., Khalil, A.T., Samra, A.S. et al.</a></small>
 
-### :material-axis-arrow: Accelerometer
+### Accelerometer
 
 Accelerometers such as those found in your smartphone can also be used for gait recognition. These need to be worn on a person's body, so they can't be used from long distance like camera-based approaches.
 
 Accelerometers work by measuring the accelerations in 3D space in X, Y, and Z coordinates. They tend to also utilize gyroscopes, which measure the orientation of a device.
 
-### :material-foot-print: Floor sensor
+### Floor sensor
 
 It's possible to identify individuals using [sensors](https://www.amti.biz/product/bms464508/) in the floor that measure the pressure of your steps as you take them. There are already companies offering software/hardware [installations](https://www.scanalyticsinc.com/how-it-works) for tracking customers within a store using this technology.
 
@@ -189,7 +189,7 @@ It's possible to identify individuals using [sensors](https://www.amti.biz/produ
 
 Floor sensors are especially concerning since they're completely invisible to you.
 
-### :material-radar: Radar
+### Radar
 
 Radar works by transmitting a signal and measuring how long it takes for that signal to return, allowing you to measure how far an object is from you. In addition, if an object is moving relative to the sensor, the reflected waves will be a different frequency than when they were transmitted due to the [Doppler effect](https://www.noaa.gov/jetstream/doppler/how-radar-works). This can be used to determine the speed of an object and whether it's moving toward or away from you.
 
@@ -203,13 +203,13 @@ They claim it can uniquely identify individuals as well as penetrate walls, a wo
 
 ## What makes biometrics private?
 
-### :material-cloud-off: Local Storage
+### Local Storage
 
 As with most things, keeping everything on your device is the key to private biometrics. A secure and private biometric authentication system should store any biometric data fully on-device and further, shouldn't make it accessible at all, even to the user. Biometric data is so incredibly sensitive and uniquely identifying that it needs to be treated with the utmost care. For example, apps on your phone don't have direct access to your fingerprint or face data, they must use an [API](https://developer.apple.com/documentation/localauthentication) to use biometric authentication.
 
 On the other end of the spectrum we have companies like [IDEMIA](https://www.idemia.com) which boast about their [Augmented Vision](https://www.idemia.com/wp-content/uploads/2021/01/augmented-vision-platform-idemia-brochure-202102.pdf), designed to take video data from the myriad surveillance cameras littering every US city and track you around everywhere you go. It combines facial recognition, object recognition, plate reading, and much more to create an Orwellian surveillance apparatus that stores all your data in some server somewhere, fully accessible to their customers (or any hackers that want a treasure trove of surveillance data). They also have a product called [Mobile Biometric Check](https://www.idemia.com/wp-content/uploads/2021/02/mobile-biometric-check-idemia-brochure-202007.pdf) that allows cops to use their phone camera to take a picture of your fingerprints and compare them to a database. This is the exact opposite of responsible biometrics.
 
-### :material-chip: Secure Element
+### Secure Element
 
 All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. The secure element provides a secure and tamper-resistant place to store your biometric data separate from the rest of the system, so it can't be easily extracted. Examples include Apple's [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web) and Google's [Titan M](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) series of chips. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
 

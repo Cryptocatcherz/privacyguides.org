@@ -22,7 +22,7 @@ We're seeking a passionate multimedia content creator to spearhead our video pro
 
 This is your chance to enter the tech & educational content creation space, without worrying about sponsors and advertisers diluting your message. We have no commercial interests to interfere with your content, and no agenda beyond simply providing the best privacy information out there. If you're excited about using the power of video to educate and inspire, we want to hear from you!
 
-[Learn more and apply here :material-arrow-right-drop-circle:](https://privacyguides.org/en/about/jobs/content-creator/)
+[Learn more and apply here](https://privacyguides.org/en/about/jobs/content-creator/)
 
 ## Journalist
 
@@ -30,13 +30,13 @@ We are also looking for a skilled journalist to join our team. This role will fo
 
 Other tasks will be to research new subjects to cover, perform interviews, and conduct product and service reviews for our recommendations.
 
-[Learn more and apply here :material-arrow-right-drop-circle:](https://privacyguides.org/en/about/jobs/journalist/)
+[Learn more and apply here](https://privacyguides.org/en/about/jobs/journalist/)
 
 ## News Curation Internship
 
 Finally, we are offering a paid internship position that will focus on staying up-to-date with the latest privacy and security news, interacting with our community, and providing overall support to our volunteers. This role will involve curating relevant articles, reports, and insights to keep our team informed and engaged with current events. This is an excellent opportunity for someone passionate about privacy issues and looking to gain hands-on experience in a non-profit environment. Ideal candidates will have strong research skills and a keen interest in digital rights.
 
-[Learn more and apply here :material-arrow-right-drop-circle:](https://privacyguides.org/en/about/jobs/intern-news/)
+[Learn more and apply here](https://privacyguides.org/en/about/jobs/intern-news/)
 
 ## Join us in making a difference
 

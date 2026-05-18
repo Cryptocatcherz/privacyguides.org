@@ -31,13 +31,13 @@ If you have [cryptocurrency](../../../tools/software/cryptocurrency/index.md), y
 
 When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy (more on this below). Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
 
-- [Online Gift Card Marketplaces :material-arrow-right-drop-circle:](../../../tools/services/financial-services/index.md#gift-card-marketplaces)
+- [Online Gift Card Marketplaces](../../../tools/services/financial-services/index.md#gift-card-marketplaces)
 
 ## Virtual Cards
 
 Another way to protect your information from merchants online is to use virtual, single-use cards which mask your actual banking or billing information. This is primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft. They do **not** assist you in making a purchase completely anonymously, nor do they hide any information from the banking institution themselves. Regular financial institutions which offer virtual cards are subject to "Know Your Customer" (KYC) laws, meaning they may require your ID or other identifying information.
 
-- [Recommended Payment Masking Services :material-arrow-right-drop-circle:](../../../tools/services/financial-services/index.md#payment-masking-services)
+- [Recommended Payment Masking Services](../../../tools/services/financial-services/index.md#payment-masking-services)
 
 These tend to be good options for recurring/subscription payments online, while prepaid gift cards are preferred for one-time transactions.
 
@@ -54,7 +54,7 @@ Cryptocurrencies are a digital form of currency designed to work without central
 
 There are a number of cryptocurrency projects which purport to provide privacy by making transactions anonymous. We recommend using one which provides transaction anonymity **by default** to avoid operational errors.
 
-- [Recommended Cryptocurrency :material-arrow-right-drop-circle:](../../../tools/software/cryptocurrency/index.md#monero)
+- [Recommended Cryptocurrency](../../../tools/software/cryptocurrency/index.md#monero)
 
 Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can trace (at least to some extent) Bitcoin Lightning Network and/or Monero transactions. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million to further develop tools to do so. Due to the secrecy surrounding tools like these, <mark>none of these methods of tracing cryptocurrencies have been independently confirmed.</mark> However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins in their current form only succeed in thwarting mass surveillance.
 

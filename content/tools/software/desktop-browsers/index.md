@@ -19,7 +19,7 @@ If you need to browse the internet anonymously, you should use [Tor](../tor/inde
 
 ## Mullvad Browser
 
-**Mullvad Browser** is a version of [Tor Browser](../tor/index.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](../../../wiki/basics/common-threats/index.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](../../services/vpn/index.md#mullvad), and does **not** require the use of Mullvad's VPN.
+**Mullvad Browser** is a version of [Tor Browser](../tor/index.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [Mass Surveillance](../../../wiki/basics/common-threats/index.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](../../services/vpn/index.md#mullvad), and does **not** require the use of Mullvad's VPN.
 
 {{< cards >}}
   {{< card link="https://mullvad.net/en/browser" title="Homepage" icon="home" >}}
@@ -69,10 +69,9 @@ This is required to prevent advanced forms of tracking, but does come at the cos
 > [!WARNING]
 > Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
-
 ### Recommended Firefox Configuration
 
-These options can be found in :material-menu: → **Settings**.
+These options can be found in the menu → **Settings**.
 
 #### Search
 
@@ -177,10 +176,9 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 > [!WARNING]
 > Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
 
-
 ### Recommended Brave Configuration
 
-These options can be found in :material-menu: → **Settings**.
+These options can be found in the menu → **Settings**.
 
 #### Shields
 

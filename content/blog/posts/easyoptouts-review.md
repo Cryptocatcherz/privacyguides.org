@@ -37,8 +37,8 @@ review:
 
 **EasyOptOuts.com** is a $19.99/year [people-search site removal service](https://www.privacyguides.org/en/data-broker-removals/) which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.<!-- more -->
 
-[:octicons-home-16: Homepage](https://easyoptouts.com)
-[:octicons-eye-16:](https://easyoptouts.com/privacy)
+[Homepage](https://easyoptouts.com)
+[Privacy Policy](https://easyoptouts.com/privacy)
 { .pg:buttons }
 
 ## Background
@@ -87,17 +87,17 @@ Using standard engine search results is one of the most common methods of discov
 
 **Person A (11 Google results):**
 
-- 411.com
-- thatsthem.com
+    - 411.com
+    - thatsthem.com
 - blockshopper.com*
-- fastpeoplesearch.com
-- usphonebook.com
-- spokeo.com
-- truepeoplesearch.com
-- information.com
+    - fastpeoplesearch.com
+    - usphonebook.com
+    - spokeo.com
+    - truepeoplesearch.com
+    - information.com
 - peoplesearch.com*
-- radaris.com
-- peoplefinders.com
+    - radaris.com
+    - peoplefinders.com
 
 </div>
 
@@ -105,14 +105,14 @@ Using standard engine search results is one of the most common methods of discov
 
 **Person B (10 Google results):**
 
-- whitepages.com
-- truepeoplesearch.com
-- usphonebook.com
-- fastpeoplesearch.com
-- spokeo.com
-- radaris.com
-- information.com
-- thatsthem.com
+    - whitepages.com
+    - truepeoplesearch.com
+    - usphonebook.com
+    - fastpeoplesearch.com
+    - spokeo.com
+    - radaris.com
+    - information.com
+    - thatsthem.com
 - idcrawl.com*
 - peekyou.com*
 
@@ -184,14 +184,14 @@ On Google we saw some reduction, but many results with sensitive information rem
 
 **Person A (8 Google results):**
 
-- thatsthem.com
+    - thatsthem.com
 - blockshopper.com*
-- fastpeoplesearch.com
-- usphonebook.com
-- information.com
+    - fastpeoplesearch.com
+    - usphonebook.com
+    - information.com
 - peoplesearch.com*
-- radaris.com
-- fastpeoplesearch.com
+    - radaris.com
+    - fastpeoplesearch.com
 
 </div>
 
@@ -199,11 +199,11 @@ On Google we saw some reduction, but many results with sensitive information rem
 
 **Person B (6 Google results):**
 
-- truepeoplesearch.com
-- usphonebook.com
-- information.com
-- fastpeoplesearch.com
-- thatsthem.com
+    - truepeoplesearch.com
+    - usphonebook.com
+    - information.com
+    - fastpeoplesearch.com
+    - thatsthem.com
 - peekyou.com*
 
 </div>
@@ -239,9 +239,9 @@ Once again, we also searched for their information on Google, and we noticed a r
 
 **Person A (4 Google results):**
 
-- thatsthem.com
+    - thatsthem.com
 - blockshopper.com*
-- fastpeoplesearch.com
+    - fastpeoplesearch.com
 - peoplesearch.com*
 
 </div>
@@ -250,7 +250,7 @@ Once again, we also searched for their information on Google, and we noticed a r
 
 **Person B (2 Google results):**
 
-- thatsthem.com
+    - thatsthem.com
 - peekyou.com*
 
 </div>

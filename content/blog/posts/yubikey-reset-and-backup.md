@@ -33,7 +33,7 @@ Once a YubiKey application is reset, this operation is irreversible and previous
 
 </div>
 
-## :material-shield-key: Why would you need to reset your YubiKey?
+## Why would you need to reset your YubiKey?
 
 Resetting your YubiKey *isn't* something you should be doing regularly.
 
@@ -63,7 +63,7 @@ Keeping a backup of your key is especially important for usages such as setting 
 
 Some services will allow you to register two or more *different* keys to authenticate your account, but other services might only allow you to register one. This is when you want to make sure your have a backup of this key.
 
-## :material-toolbox: Requirements and preparation
+## Requirements and preparation
 
 For this tutorial you will need:
 
@@ -115,7 +115,7 @@ If you do not see the menu on the left (Home, Accounts, Passkeys, Certificates, 
 
 </div>
 
-## :material-key-alert: Resetting your YubiKey to factory defaults
+## Resetting your YubiKey to factory defaults
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Disabling applications</p>
@@ -212,7 +212,7 @@ You can install **ykman CLI** using a package manager such as **pip** or **brew*
 
 #### 6.1. Install ykman CLI
 
-:material-monitor: From any OS, using the **pip** package manager:
+From any OS, using the **pip** package manager:
 
 Open a terminal application and type:
 
@@ -227,11 +227,11 @@ Yubico makes the **ykman CLI** Python program files available on its [website](h
 
 </div>
 
-:material-linux: From Linux (Ubuntu), using the Yubico developer's website:
+From Linux (Ubuntu), using the Yubico developer's website:
 
 On [this page](https://developers.yubico.com/yubikey-manager/Releases/), download the latest **`tar.gz`** file and decompress it. Run the **ykman** Python program using the command line from the directory you have installed it in.
 
-:material-linux: From Linux (Ubuntu), using Yubico's **yubico/stable PPA** type:
+From Linux (Ubuntu), using Yubico's **yubico/stable PPA** type:
 
 Open a terminal application and type:
 
@@ -241,7 +241,7 @@ sudo apt update
 sudo apt install yubikey-manager
 ```
 
-:material-apple: From macOS, using the [Homebrew](https://brew.sh/) package manager:
+From macOS, using the [Homebrew](https://brew.sh/) package manager:
 
 Open a terminal application and type:
 
@@ -249,11 +249,11 @@ Open a terminal application and type:
 brew install ykman
 ```
 
-:material-apple: From macOS, using the Yubico developer's website:
+From macOS, using the Yubico developer's website:
 
 On [this page](https://developers.yubico.com/yubikey-manager/Releases/), download the latest **`mac.pkg`** file, then double-click on it to complete the installation.
 
-:material-microsoft-windows: From Windows, using the Yubico developer's website:
+From Windows, using the Yubico developer's website:
 
 On [this page](https://developers.yubico.com/yubikey-manager/Releases/), download the latest **`win64.msi`** file, then double-click on it to complete the installation.
 
@@ -268,13 +268,13 @@ If you have chosen a different installation path from default, you will need to 
 
 </div>
 
-:material-apple: From macOS, in the terminal navigate to:
+From macOS, in the terminal navigate to:
 
 ``` console { .yaml .copy }
 cd /Applications/Yubico\ Authenticator.app/Contents/MacOS/
 ```
 
-:material-microsoft-windows: From Windows, in the command prompt navigate to:
+From Windows, in the command prompt navigate to:
 
 64-bit Systems:
 
@@ -355,7 +355,7 @@ You can use the **ykman CLI** program to do a lot more with your YubiKey. If you
 
 </div>
 
-## :material-key-change: Setting up and backing up of your YubiKeys
+## Setting up and backing up of your YubiKeys
 
 Now that you have a set of two freshly reset YubiKeys, we will set up your main key while creating a backup of each application that allows it to your spare key. The goal here is to create a spare key that you can safely keep as a backup, in the unfortunate event that you were to lose your main key.
 
@@ -385,7 +385,7 @@ Click on the "Change PUK" button and a section will pop up. Enter a new PUK numb
 
 #### 7.4. Change the default Management key
 
-Click on the "Management key" button and a section will pop up. Enter or generate a "New management key" with a maximum of 64 characters. You can also change the encryption algorithm to "TDES", "AES128", "AES192", or "AES256" and add a pin protection by clicking on "Protect with PIN".  Then click "Save".
+Click on the "Management key" button and a section will pop up. Enter or generate a "New management key" with a maximum of 64 characters. You can also change the encryption algorithm to "TDES", "AES128", "AES192", or "AES256" and add a pin protection by clicking on "Protect with PIN". Then click "Save".
 
 ![Screenshot of the Yubico Authenticator application showing a Change management key popup.](../assets/images/yubikey-reset-and-backup/yubikey-17-config-certificateskey.webp)
 
@@ -775,7 +775,7 @@ Only look at the last "key block" listed, and note its **key ID**. Each "key blo
 Your OpenPGP **key ID** will be a string of numbers and uppercase letters on the **`pub`** line, after the "rsa4096" key type, and separated by a **/** character as follows:
 
 ``` console
-pub     rsa4096/[key_id]
+pub rsa4096/[key_id]
 ```
 
 Note this **[key_id]** for the next steps.
@@ -809,7 +809,7 @@ addkey
 
 When prompted with "Please select what kind of key you want" type `8`.
 
-You will be asked to toggle on or off some subkey options.  Here, we will generate all 3 subkeys at once, but adjust this step to your required usage. You might also need different encryption algorithms for different subkeys (see options available from the previous **`gpg`** program question).
+You will be asked to toggle on or off some subkey options. Here, we will generate all 3 subkeys at once, but adjust this step to your required usage. You might also need different encryption algorithms for different subkeys (see options available from the previous **`gpg`** program question).
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">To generate subkeys separately</p>
@@ -1071,7 +1071,7 @@ If you need additional help to troubleshoot, reset, setup, or copy information t
 
 </div>
 
-## :material-key-chain: Review your configuration
+## Review your configuration
 
 Once you have fully reset and reconfigured your 2 YubiKeys, make sure that you have:
 

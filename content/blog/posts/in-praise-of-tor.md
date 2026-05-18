@@ -24,7 +24,7 @@ You might have heard of Tor in the news a few times, yet never dared to try it y
 
 Today, Tor is easy to use for anyone. It helps not only journalists and activists, but anybody who seeks greater privacy online or access to information regardless of location. But what is Tor exactly? How can Tor help you? And why is it such an important tool?<!-- more -->
 
-## :simple-torbrowser: What is Tor
+## What is Tor
 
 Tor is an overlay network that was specifically designed to protect the privacy of its users. The Tor Network uses multiple layers of encryption and relays in order to protect a person's location and other potential identifiers, such as an IP address.
 
@@ -139,7 +139,7 @@ The [Tor Project](https://www.torproject.org/) is the US-based nonprofit organiz
 
 The nonprofit was founded in 2006 and gets its funding from [various sources](https://www.torproject.org/about/supporters/) including government grants, independent contributors, and individual [donations](https://donate.torproject.org/).
 
-## :octicons-lock-16: What Tor can do
+## What Tor can do
 
 ### Improve Privacy
 
@@ -176,7 +176,7 @@ You can even directly email **<gettor@torproject.org>** and send the name of you
 
 If you want to help people around the world access the internet freely, you can volunteer to run a [Tor Snowflake](https://snowflake.torproject.org/) proxy. For more tech-savvy volunteers, you can also help by running a [Tor Bridge](https://community.torproject.org/relay/setup/bridge/), or even a [WebTunnel Bridge](https://community.torproject.org/relay/setup/webtunnel/).
 
-## :octicons-heart-16: Why Tor is so important
+## Why Tor is so important
 
 ### Tor is vital for human rights and democracy
 
@@ -246,7 +246,7 @@ This would be disastrous for the privacy community, journalists, activists, diss
 
 From a human rights perspective, **we simply cannot afford to lose Tor**.
 
-## :octicons-question-16: Things to consider when using Tor
+## Things to consider when using Tor
 
 ### Tor compared to VPN protections
 
@@ -284,7 +284,7 @@ Depending on what kind of files it is, there are a number of problems that could
 
 If you need to share files through Tor with a *trusted* contact, [OnionShare](https://www.privacyguides.org/en/file-sharing/#onionshare) is a good option.
 
-## :octicons-stop-16: Addressing misconceptions
+## Addressing misconceptions
 
 There has been misconceptions floating around about Tor. Most of them repeat similar misinformation attributed to many other privacy tools: Why using this if you have nothing to hide? But this argument is incredibly flawed and comes from a naive understanding of privacy rights and needs.
 
@@ -357,7 +357,7 @@ Furthermore, unjustified bad reputations can severely hurt funding for tools lik
 
 We all have a responsibility to verify which information we share with others, make sure we stop misinformation at its root, and correct harmful misconceptions everywhere we hear them.
 
-## :material-hand-heart-outline: Tor needs our support
+## Tor needs our support
 
 **Tor is at risk, and needs our help.** Despite its strength and history, Tor isn't safe from the same attacks oppressive regimes and misinformed legislators direct at encryption and many other privacy-enhancing technologies.
 
@@ -395,7 +395,7 @@ There are many ways to help Tor survive and thrive! You can help by:
 
 - Sharing this article 💜
 
-## :octicons-bookmark-16: Onion sites you can visit using the Tor Browser
+## Onion sites you can visit using the Tor Browser
 
 - [Privacy Guides website](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/en/) 💛
 - [Privacy Guides forum](http://discuss.6xotdxvg7pexnean3xu6b7ivs7g52zcwsdbnz4mdm4byivc3yfv65aid.onion/)

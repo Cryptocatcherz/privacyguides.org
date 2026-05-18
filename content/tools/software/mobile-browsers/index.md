@@ -11,7 +11,7 @@ description: These browsers are what we currently recommend for standard/non-ano
   {{< card link="#cromite-android" title="Cromite" image="./cromite.svg" subtitle="Cromite is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other privacy and security enhancements. It is a fork of the discontinued Bromite browser." >}}
   {{< card link="#safari-ios" title="Safari (iOS)" image="./safari.svg" subtitle="On iOS, any app that can browse the web is restricted to using an Apple-provided WebKit framework, so a browser like Brave does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems. Safari is the default browser in iOS." >}}
 {{< /cards >}}
-</div>
+    </div>
 
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](../tor/index.md) instead.
 
@@ -37,11 +37,11 @@ Tor Browser is the only way to truly browse the internet anonymously. When you u
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+These options can be found in the menu → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+These options can be found in the menu → **Settings** → **Shields & Privacy**.
 
 #### Brave shields global defaults
 
@@ -132,19 +132,19 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 #### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+These options can be found in the menu → **Settings** → **Leo**.
 
-<div class="annotate" markdown>
+    <div class="annotate" markdown>
 
 - [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
 
-</div>
+    </div>
 
 1. This option is not present in Brave's iOS app.
 
 #### Search engines
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+These options can be found in the menu → **Settings** → **Search engines**.
 
 - [ ] Uncheck **Show search suggestions**
 
@@ -165,7 +165,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### Recommended Safari Configuration
 
-The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+The following privacy/security-related options can be found in **Settings** → **Apps** → **Safari**.
 
 #### Allow Safari to Access
 
@@ -230,7 +230,7 @@ These settings ensure that websites can only access your camera, microphone, or 
 
 #### Other Privacy Settings
 
-These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+These options can be found in **Settings** → **Apps** → **Safari** → **Advanced**.
 
 ##### Fingerprinting Mitigations
 
@@ -248,7 +248,7 @@ The feature has little privacy concerns on its own, so while you can choose to l
 
 #### Always-on Private Browsing
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the :material-format-list-bulleted: Tab Groups list.
+Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
 
 - [x] Select **Private**
 
@@ -260,11 +260,11 @@ Do note that Private Browsing does not save cookies and website data, so it won'
 
 Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to **Settings** → **iCloud** → **Advanced Data Protection**.
 
 - [x] Turn on **Advanced Data Protection**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
+If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 
 ## Criteria
 

@@ -78,7 +78,7 @@ One metric to determine the strength of a diceware passphrase is how much entrop
       <mn>2</mn>
     </msub>
     <mo form="prefix" stretchy="false">(</mo>
-    <mtext>WordsInList</mtext>
+      <mtext>WordsInList</mtext>
     <mo form="postfix" stretchy="false">)</mo>
   </mrow>
 </math> and the overall entropy of the passphrase is calculated as: <math>
@@ -103,7 +103,7 @@ Therefore, each word in the aforementioned list results in ~12.9 bits of entropy
       <mn>2</mn>
     </msub>
     <mo form="prefix" stretchy="false">(</mo>
-    <mn>7776</mn>
+      <mn>7776</mn>
     <mo form="postfix" stretchy="false">)</mo>
   </mrow>
 </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math>
@@ -122,10 +122,10 @@ Therefore, each word in the aforementioned list results in ~12.9 bits of entropy
 </math>).
 
 The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math>
-  <msup>
-    <mtext>WordsInList</mtext>
-    <mtext>WordsInPhrase</mtext>
-  </msup>
+    <msup>
+      <mtext>WordsInList</mtext>
+      <mtext>WordsInPhrase</mtext>
+    </msup>
 </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
 Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.

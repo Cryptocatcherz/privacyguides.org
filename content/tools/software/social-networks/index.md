@@ -45,7 +45,7 @@ If you are greatly concerned about an existing server censoring your content, th
 
 ## Mastodon
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
+**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
 
 {{< cards >}}
   {{< card link="https://joinmastodon.org" title="Homepage" icon="home" >}}
@@ -113,7 +113,7 @@ If you used our recommended configuration settings above, you should be posting 
 
 ## Element
 
-**Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
+**Element** is the flagship client for the **[Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
 
 {{< cards >}}
   {{< card link="https://element.io" title="Homepage" icon="home" >}}
@@ -134,7 +134,7 @@ To benefit the most from Matrix, it is critical to choose a homeserver which is 
 
 ### Recommended Privacy Settings
 
-From Element's web or desktop app, go to :gear: → **All settings** to find these sections:
+From Element's web or desktop app, go to Settings → **All settings** to find these sections:
 
 #### Sessions
 

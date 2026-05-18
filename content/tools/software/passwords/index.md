@@ -46,7 +46,7 @@ The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 
 ## KeePassium (iOS & macOS)
 
-[:material-star-box: Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
+[Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
 KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
 
