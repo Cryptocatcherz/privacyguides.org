@@ -3,7 +3,8 @@ title: Privacy Guides
 layout: pg-home
 ---
 
-{{< hextra/hero-container image="brand/logos/svg/square/pg-yellow-nobg.svg" imageTitle="Privacy Guides shield logo" imageClass="hx:sm:block hx:hidden" >}}
+<div class=" hextra-feature-grid hx:grid hx:sm:max-lg:grid-cols-2 hx:max-sm:grid-cols-1 hx:gap-4 hx:w-full not-prose" style="--hextra-feature-grid-cols: 2; ">
+<div class="hx:w-full">
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
@@ -24,7 +25,16 @@ layout: pg-home
 {{< hextra/hero-button text="Recommended Tools" link="tools" style="margin-top: 8px; color: white; background-color: var(--hx-color-gray-600);" >}}
 </div>
 
-{{< /hextra/hero-container >}}
+</div>
+<div class="hx:mx-auto hx:sm:block hx:hidden">
+<a class="hx:dark:hidden">
+  <img src="brand/logos/svg/square/pg-yellow-nobg.svg" width="350" height="350" alt="Privacy Guides shield logo">
+</a>
+<a class="hx:hidden hx:dark:block">
+  <img src="brand/logos/svg/square/pg-blue-dark-nobg.svg" width="350" height="350" alt="Privacy Guides shield logo">
+</a>
+</div>
+</div>
 
 <div class="hx:mt-12"></div>
 
