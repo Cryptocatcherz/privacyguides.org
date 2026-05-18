@@ -5,6 +5,9 @@ title: Privacy Guides
 ignoreFiles:
   - "blog"
 
+# use relative links
+relativeURLs: true
+
 # import hextra as module
 module:
   imports:
@@ -95,7 +98,7 @@ params:
     base: "https://github.com/privacyguides/privacyguides.org/edit/main/content"
 
   rss:
-    sections: 
+    sections:
       - docs
 
 enableGitInfo: true

@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Bagnard';
-    src: url("/brand/fonts/Bagnard/Bold.woff") format("woff");
+    src: url("../../brand/fonts/Bagnard/Bold.woff") format("woff");
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Thin.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Thin.ttf") format("truetype");
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Thin%20Italic.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Thin%20Italic.ttf") format("truetype");
     font-weight: 100;
     font-style: italic;
     font-display: swap;
@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/ExtraLight.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/ExtraLight.ttf") format("truetype");
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -30,7 +30,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/ExtraLight%20Italic.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/ExtraLight%20Italic.ttf") format("truetype");
     font-weight: 200;
     font-style: italic;
     font-display: swap;
@@ -38,7 +38,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Light.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Light.ttf") format("truetype");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -46,7 +46,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Light%20Italic.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Light%20Italic.ttf") format("truetype");
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -54,7 +54,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Italic.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Italic.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
     font-display: swap;
@@ -62,7 +62,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Regular.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -70,7 +70,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Medium.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -78,7 +78,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Medium%20Italic.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Medium%20Italic.ttf") format("truetype");
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -86,7 +86,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/SemiBold.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/SemiBold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -94,7 +94,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/SemiBold%20Italic.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/SemiBold%20Italic.ttf") format("truetype");
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -102,7 +102,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Bold.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -110,7 +110,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Bold%20Italic.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Bold%20Italic.ttf") format("truetype");
     font-weight: 700;
     font-style: italic;
     font-display: swap;
@@ -118,7 +118,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/ExtraBold.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/ExtraBold.ttf") format("truetype");
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -126,7 +126,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/ExtraBold%20Italic.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/ExtraBold%20Italic.ttf") format("truetype");
     font-weight: 800;
     font-style: italic;
     font-display: swap;
@@ -134,7 +134,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Black.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Black.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -142,7 +142,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/brand/fonts/Public%20Sans/Black%20Italic.ttf') format('truetype');
+    src: url("../../brand/fonts/Public%20Sans/Black%20Italic.ttf") format("truetype");
     font-weight: 900;
     font-style: italic;
     font-display: swap;
@@ -150,7 +150,7 @@
 
 @font-face {
     font-family: 'DM Mono';
-    src: url('/brand/fonts/DM%20Mono/Regular.woff2') format('woff2');
+    src: url("../../brand/fonts/DM%20Mono/Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -158,7 +158,7 @@
 
 @font-face {
     font-family: 'DM Mono';
-    src: url('/brand/fonts/DM%20Mono/Medium.woff2') format('woff2');
+    src: url("../../brand/fonts/DM%20Mono/Medium.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
