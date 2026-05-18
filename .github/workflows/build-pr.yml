@@ -58,13 +58,6 @@ jobs:
       repo: ${{github.event.pull_request.head.repo.full_name}}
       continue-on-error: false
 
-  build_zimfile:
-    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build zimfile') }}
-    uses: ./.github/workflows/build-zimfile.yml
-    with:
-      ref: ${{github.event.pull_request.head.ref}}
-      repo: ${{github.event.pull_request.head.repo.full_name}}
-
   combine_build:
     needs: build_english
     runs-on: ubuntu-latest
