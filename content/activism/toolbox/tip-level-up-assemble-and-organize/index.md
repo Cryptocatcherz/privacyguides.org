@@ -117,9 +117,10 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :page_with_curl: Use it as an alternative to Google Docs!
 
-[More info](../../../tools/software/document-collaboration/index.md#cryptpad){ .md-button .md-button--primary }
-[:octicons-home-16:](https://cryptpad.fr/){ .card-link title="Homepage" }
-[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/){ .card-link title="Our CryptPad review" }
+[More info](../../../tools/software/document-collaboration/index.md#cryptpad)
+[:octicons-home-16:](https://cryptpad.fr/)
+[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
+{ .pg:buttons }
 
 </div>
 
@@ -131,9 +132,10 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :speech_balloon: Use it as an [alternative](../tip-improve-your-social-media-and-build-resilient-communities/) to commercial social media such as *X*, *Facebook*, *Instagram*, *Threads*, *TikTok*, or *Bluesky*.
 
-[More info](../../../tools/software/social-networks/index.md#mastodon){ .md-button .md-button--primary }
-[:octicons-home-16:](https://joinmastodon.org/){ .card-link title="Homepage" }
-[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/){ .card-link title="Notes on Mastodon Privacy & Security" }
+[More info](../../../tools/software/social-networks/index.md#mastodon)
+[:octicons-home-16:](https://joinmastodon.org/)
+[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
+{ .pg:buttons }
 
 </div>
 
@@ -145,8 +147,9 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :loudspeaker: Use it as a privacy-preserving alternative to *Slack* or *Discord*.
 
-[More info](../../../tools/software/social-networks/index.md#element){ .md-button .md-button--primary }
-[:octicons-home-16:](https://element.io/){ .card-link title="Homepage" }
+[More info](../../../tools/software/social-networks/index.md#element)
+[:octicons-home-16:](https://element.io/)
+{ .pg:buttons }
 
 </div>
 
@@ -158,7 +161,8 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 :video_camera: Use it to share videos with your community free from *YouTube*'s control.
 
-[:octicons-home-16: Homepage](../../../tools/software/social-networks/index.md#peertube){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](../../../tools/software/social-networks/index.md#peertube)
+{ .pg:buttons }
 
 </div>
 

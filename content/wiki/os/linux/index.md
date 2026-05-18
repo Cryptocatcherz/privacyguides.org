@@ -7,7 +7,8 @@ description: Linux is an open-source, privacy-focused desktop operating system a
 
 Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../../../tools/os/desktop/index.md){ .md-button }
+[Our Linux Recommendations :material-arrow-right-drop-circle:](../../../tools/os/desktop/index.md)
+{ .pg:buttons }
 
 ## Security Notes
 

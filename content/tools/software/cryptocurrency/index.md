@@ -15,7 +15,7 @@ title: Cryptocurrency
 Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
 
 [Making Private Payments](../../../wiki/advanced/payments/index.md)
-{ .md-button }
+{ .pg:buttons }
 
 > [!CAUTION]
 > Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
@@ -59,7 +59,7 @@ For maximum privacy (even with a self-custody wallet), you should run your own M
 ### Buying Monero
 
 [General tips for acquiring Monero](../../../wiki/advanced/payments/index.md#acquisition)
-{ .md-button }
+{ .pg:buttons }
 
 There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is *that* you bought Monero, but not how much you own or where you spend it (after it leaves the exchange). Some reputable places to buy Monero include:
 

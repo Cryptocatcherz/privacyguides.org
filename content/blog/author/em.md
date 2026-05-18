@@ -29,4 +29,5 @@ schema:
 
 Em is passionate about digital rights, privacy advocacy, solid security, and code for the public good. In her free time, you can find Em on Mastodon giving privacy tips or boosting photos of cats and moss.
 
-[:simple-mastodon: @Em0nM4stodon@infosec.exchange](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){ .md-button rel=me }
+[:simple-mastodon: @Em0nM4stodon@infosec.exchange](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange")
+{ .pg:buttons }

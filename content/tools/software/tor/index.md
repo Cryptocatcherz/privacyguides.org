@@ -10,9 +10,8 @@ description: Protect your internet browsing from prying eyes by using the Tor ne
 **Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
 
 [Detailed Tor Overview :material-arrow-right-drop-circle:](../../../wiki/advanced/tor-overview/index.md)
-{ .md-button .md-button--primary }
 [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor)
-{ .md-button }
+{ .pg:buttons }
 
 > [!TIP]
 > Before connecting to Tor, please ensure you've read our [overview](../../../wiki/advanced/tor-overview/index.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](../../services/vpn/index.md), but you have to do so **properly** to avoid decreasing your anonymity.

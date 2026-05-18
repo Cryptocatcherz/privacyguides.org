@@ -6,10 +6,10 @@ description: The charitable mission of Privacy Guides relies on contributions fr
 Support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
 
 <!-- markdownlint-disable-next-line -->
-[Become a Member](https://donate.magicgrants.org/privacyguides/membership){ .md-button .md-button--primary data-portal="signup" }
-
-[Become a Member (Cryptocurrency)](https://donate.magicgrants.org/privacyguides/membership){ .md-button }
-[One-Time Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ .md-button }
+[Become a Member](https://donate.magicgrants.org/privacyguides/membership)
+[Become a Member (Cryptocurrency)](https://donate.magicgrants.org/privacyguides/membership)
+[One-Time Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides)
+{ .pg:buttons }
 
 *MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Litecoin (MWEB)**, **Bitcoin**, or **debit/credit card**. You can also donate using [GitHub Sponsors](https://github.com/sponsors/privacyguides).*
 
@@ -49,7 +49,8 @@ The list of active members is updated when the site is built from our donation p
 
 You can support us and share your passion for privacy by buying our merchandise from HelloTux.
 
-[Buy on HelloTux.com](https://hellotux.com/privacyguides){ .md-button }
+[Buy on HelloTux.com](https://hellotux.com/privacyguides)
+{ .pg:buttons }
 
 ## Non-Financial Support
 

@@ -31,9 +31,11 @@ The **Tor** network is a group of volunteer-operated servers that allows you to 
 
 The recommended way to access the Tor network is via the official Tor Browser, which we have covered in more detail on a dedicated page:
 
-[Tor Browser Info :material-arrow-right-drop-circle:](../../software/tor/index.md){ .md-button .md-button--primary }
+[Tor Browser Info :material-arrow-right-drop-circle:](../../software/tor/index.md)
+{ .pg:buttons }
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](../../../wiki/advanced/tor-overview/index.md){ .md-button }
+[Detailed Tor Overview :material-arrow-right-drop-circle:](../../../wiki/advanced/tor-overview/index.md)
+{ .pg:buttons }
 
 You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
 
@@ -79,7 +81,8 @@ People who are censored can use Snowflake proxies to connect to the Tor network.
 
 You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension, because adding third-party extensions can increase your attack surface.
 
-[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html){ .md-button }
+[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html)
+{ .pg:buttons }
 
 Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
 

@@ -299,7 +299,8 @@ graph TB
 
 Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
 
-[List of recommended DNS servers](../../../tools/services/dns/index.md){ .md-button }
+[List of recommended DNS servers](../../../tools/services/dns/index.md)
+{ .pg:buttons }
 
 ## What is DNSSEC?
 

@@ -31,5 +31,6 @@ schema:
 
 [**Jonah Aragon**](https://www.jonaharagon.com) is *Privacy Guides'* editor and Program Director. With over a decade of technical writing experience, his role includes researching and writing for Privacy Guides. He also runs Triplebit, a non-profit ISP behind many privacy-related tools.
 
-[:simple-mastodon: @jonah@neat.computer](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){ .md-button rel=me }
-[:simple-bluesky: @jonaharagon.com](https://bsky.app/profile/jonaharagon.com "@jonaharagon.com"){ .md-button rel=me }
+[:simple-mastodon: @jonah@neat.computer](https://mastodon.neat.computer/@jonah "@jonah@neat.computer")
+[:simple-bluesky: @jonaharagon.com](https://bsky.app/profile/jonaharagon.com "@jonaharagon.com")
+{ .pg:buttons }

@@ -111,7 +111,8 @@ If you have to use email for MFA, make sure that the email account itself is sec
 
 If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
 
-[MFA tools we recommend](../../../tools/software/multi-factor-authentication/index.md){ .md-button }
+[MFA tools we recommend](../../../tools/software/multi-factor-authentication/index.md)
+{ .pg:buttons }
 
 ## More Places to Set Up MFA
 

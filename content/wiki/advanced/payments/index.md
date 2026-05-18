@@ -74,7 +74,8 @@ With cryptocurrency there are two forms of wallets: custodial wallets and self-c
 
 Acquiring [cryptocurrencies](../../../tools/software/cryptocurrency/index.md) like Monero privately can be difficult. P2P marketplaces (platforms which facilitate trades between people) are one option, though the user experience typically suffers. If using an exchange which requires KYC is acceptable for you as long as subsequent transactions can't be traced, it's much easier to purchase Monero on a centralized exchange or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own self-custody wallet to use privately from that point forward.
 
-[Recommended places to buy Monero](../../../tools/software/cryptocurrency/index.md#buying-monero){ .md-button }
+[Recommended places to buy Monero](../../../tools/software/cryptocurrency/index.md#buying-monero)
+{ .pg:buttons }
 
 If you go this route, make sure to purchase Monero at different times and in different amounts than where you will spend it. If you purchase $5000 of Monero at an exchange and make a $5000 purchase in Monero an hour later, those actions could potentially be correlated by an outside observer regardless of which path the Monero took. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
 

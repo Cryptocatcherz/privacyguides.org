@@ -148,7 +148,8 @@ The best way to store your passwords is by using a password manager. They allow 
 
 There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
 
-[List of recommended password managers](../../../tools/software/passwords/index.md){ .md-button }
+[List of recommended password managers](../../../tools/software/passwords/index.md)
+{ .pg:buttons }
 
 > [!IMPORTANT]
 > When using [TOTP codes as multifactor authentication](../multi-factor-authentication/index.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../../../tools/software/multi-factor-authentication/index.md).

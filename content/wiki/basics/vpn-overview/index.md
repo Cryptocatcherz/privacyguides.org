@@ -7,7 +7,8 @@ description: Virtual Private Networks shift risk away from your ISP to a third-p
 
 Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn){ .md-button }
+[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn)
+{ .pg:buttons }
 
 Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../../advanced/dns-overview/index.md#why-shouldnt-i-use-encrypted-dns).
 
@@ -78,7 +79,8 @@ Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/
 
 You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. <mark>Privacy Guides does not make money from recommending external products, and never uses affiliate programs.</mark>
 
-[Our VPN Recommendations](../../../tools/services/vpn/index.md){ .md-button }
+[Our VPN Recommendations](../../../tools/services/vpn/index.md)
+{ .pg:buttons }
 
 ## Modern VPN Alternatives
 

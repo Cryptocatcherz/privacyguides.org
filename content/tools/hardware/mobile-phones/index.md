@@ -17,10 +17,10 @@ The mobile devices listed here provide a long lifespan of guaranteed security up
 </div>
 
 [Recommended Android Distributions :material-arrow-right-drop-circle:](../../os/android/distributions/index.md)
-{ .md-button .md-button--primary }
+{ .pg:buttons }
 
 [Details about Android Security :material-arrow-right-drop-circle:](../../os/android/_index.md#security-protections)
-{ .md-button }
+{ .pg:buttons }
 
 > [!WARNING]
 > End-of-life devices (such as GrapheneOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.

@@ -5,7 +5,8 @@ description: We run a number of web services to test out features and promote co
 
 We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects. Many of these services are available to the public and are detailed below.
 
-[Report an issue](https://discuss.privacyguides.net/c/services/2){ .md-button .md-button--primary }
+[Report an issue](https://discuss.privacyguides.net/c/services/2)
+{ .pg:buttons }
 
 ## Discourse
 

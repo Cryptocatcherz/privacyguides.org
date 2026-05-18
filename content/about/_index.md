@@ -10,19 +10,19 @@ cascade:
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
 
-[Become a Member](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary data-portal="signup" }
-[Homepage](https://www.privacyguides.org){ .card-link title=Homepage }
-[Source Code](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[Become a Member](https://donate.magicgrants.org/privacyguides)
+[Homepage](https://www.privacyguides.org)
+[Source Code](https://github.com/privacyguides/privacyguides.org)
+{ .pg:buttons }
 
 Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever-changing cybersecurity threat landscape.
 
 In addition to our core team, many other people have made contributions to the project. You can too! We're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
-[Job Openings](jobs/)
-
 ## Contact Us
 
-[Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
+[Join the Privacy Guides forum](https://discuss.privacyguides.net)
+{ .pg:buttons }
 
 The best way to get individual help is from our community on Discourse. If you notice an issue with our website, please open a discussion in the [Site Development](https://discuss.privacyguides.net/c/site-development/7) category on our forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
 
@@ -31,7 +31,8 @@ The best way to get individual help is from our community on Discourse. If you n
 
 Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), and [Jordan](https://discuss.privacyguides.net/u/jordan).
 
-[Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
+[Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4)
+{ .pg:buttons }
 
 You may also email the entire team at <team@privacyguides.org>. This is a shared inbox that could be read by any [team member](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), so please consider what sensitive information you share via email accordingly.
 

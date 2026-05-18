@@ -54,8 +54,9 @@ But you shouldn't trust anyone else either.
 
 It was built from the ground up respecting the principles of [Privacy by Design](https://en.wikipedia.org/wiki/Privacy_by_design). All content kept in CryptPad is secured using solid end-to-end encryption, meaning that only the intended recipients can access the content. CryptPad itself cannot read, scan, or utilize your content in any way.
 
-[:octicons-home-16: Website](https://cryptpad.org/){ .md-button }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Website](https://cryptpad.org/)
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/)
+{ .pg:buttons }
 
 CryptPad is developed by a team from the French software company [XWiki](https://www.xwiki.com). Because [CryptPad is open-source](https://github.com/cryptpad), anyone can add contributions to it, inspect its code, or submit feature recommendations.
 

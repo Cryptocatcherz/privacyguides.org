@@ -16,7 +16,7 @@ When using end-to-end encryption (E2EE) technology like OpenPGP, email will stil
 OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](../../../wiki/basics/email-security/index.md#how-do-i-protect-my-private-keys) Consider using a medium that provides forward secrecy:
 
 [Real-time Communication](../../services/messengers/index.md)
-{ .md-button }
+{ .pg:buttons }
 
 </details>
 

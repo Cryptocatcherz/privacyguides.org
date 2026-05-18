@@ -248,6 +248,12 @@ p.pg\:image\:right img {
   margin-left: 1em;
 }
 
+.content :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)),
+.content :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)),
+.content :where(h3):not(:where([class~=not-prose],[class~=not-prose] *)) {
+  color: var(--hx-color-primary-900)
+}
+
 .content :where(a):not(:where([class~=not-prose],
 [class~=not-prose] *)) {
   color:var(--hx-color-primary-800);

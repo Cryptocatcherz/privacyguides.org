@@ -36,11 +36,12 @@ review:
 
 Search the App Store for "Tor Browser" and you'll be flooded with a variety of ways to connect to the Tor network from your iPhone. However, there's only one solution officially [endorsed](https://support.torproject.org/tormobile/tormobile-3/) by the Tor Project themselves: **Onion Browser**.<!-- more -->
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://onionbrowser.com)
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy)
+[:octicons-info-16:](https://onionbrowser.com/faqs)
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser)
+[:octicons-heart-16:](https://onionbrowser.com/donate)
+{ .pg:buttons }
 
 Onion Browser is an open-source app created by Mike Tigas, who has worked closely with Tor Project in the past and was previously an investigative journalist at ProPublica (he is currently an advisor at the FTC). His company still maintains the app, although lately it is primarily [developed](https://github.com/OnionBrowser/OnionBrowser/graphs/contributors) by other maintainers.
 

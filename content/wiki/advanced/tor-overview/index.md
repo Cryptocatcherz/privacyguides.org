@@ -12,11 +12,12 @@ description: Tor is a free to use, decentralized network designed for using the 
 
 Tor works by routing your internet traffic through volunteer-operated servers instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
 
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-home-16:](https://torproject.org)
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion)
+[:octicons-info-16:](https://tb-manual.torproject.org)
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor)
+[:octicons-heart-16:](https://donate.torproject.org)
+{ .pg:buttons }
 
 ## Safely Connecting to Tor
 

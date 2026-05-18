@@ -9,11 +9,13 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
+[:octicons-home-16:](https://source.android.com)
+[:octicons-info-16:](https://source.android.com/docs)
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main)
+{ .pg:buttons }
 
-[Our Android Advice :material-arrow-right-drop-circle:](../../../tools/os/android/_index.md){ .md-button .md-button--primary }
+[Our Android Advice :material-arrow-right-drop-circle:](../../../tools/os/android/_index.md)
+{ .pg:buttons }
 
 ## Security Protections
 
