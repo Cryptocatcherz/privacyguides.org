@@ -34,15 +34,6 @@ layout: pg-home
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Privacy Tools"
-    subtitle="The essential tools you need to safeguard your digital privacy, chosen by community consensus."
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="pg-home-privacy-tools.png"
-    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(0, 0, 0, 0.15),hsla(0,0%,100%,0));"
-    link="tools"
-  >}}
-  {{< hextra/feature-card
     title="Privacy Wiki"
     subtitle="A comprehensive resource for understanding digital privacy concepts and best practices."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
@@ -50,15 +41,6 @@ layout: pg-home
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(53, 142, 62, 0.15),hsla(0,0%,100%,0));"
     link="wiki"
-  >}}
-  {{< hextra/feature-card
-    title="Privacy Forum"
-    subtitle="Join the conversation, get answers, and connect with others who share your commitment to digital privacy."
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="pg-home-privacy-forum.png"
-    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(59, 202, 221, 0.15),hsla(0,0%,100%,0));"
-    link="https://discuss.privacyguides.net"
   >}}
   {{< hextra/feature-card
     title="Educational Videos"
@@ -70,13 +52,31 @@ layout: pg-home
     link="https://youtube.com/@PrivacyGuides"
   >}}
   {{< hextra/feature-card
-    title="For Advocates"
+    title="Activism Toolbox"
     subtitle="Get involved in privacy activism and help us build a more private internet."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     image="pg-home-privacy-activism.png"
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221, 59, 59, 0.15),hsla(0,0%,100%,0));"
     link="activism"
+  >}}
+  {{< hextra/feature-card
+    title="Privacy Tools"
+    subtitle="The essential tools you need to safeguard your digital privacy, chosen by community consensus."
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
+    image="pg-home-privacy-tools.png"
+    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(0, 0, 0, 0.15),hsla(0,0%,100%,0));"
+    link="tools"
+  >}}
+  {{< hextra/feature-card
+    title="Community Forum"
+    subtitle="Join the conversation, get answers, and connect with others who share your commitment to digital privacy."
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
+    image="pg-home-privacy-forum.png"
+    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(59, 202, 221, 0.15),hsla(0,0%,100%,0));"
+    link="https://discuss.privacyguides.net"
   >}}
   {{< hextra/feature-card
     title="News Briefs"
