@@ -5,8 +5,17 @@
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
 		"mhutchie.git-graph",
-        "esbenp.prettier-vscode",
-        "tamasfe.even-better-toml",
-        "budparr.language-hugo-vscode"
+    "esbenp.prettier-vscode",
+    "tamasfe.even-better-toml",
+    "budparr.language-hugo-vscode",
+    "EditorConfig.EditorConfig",
+    "github.vscode-github-actions",
+    "bierner.github-markdown-preview",
+    "ms-vsliveshare.vsliveshare",
+    "ltex-plus.vscode-ltex-plus",
+    "yzhang.markdown-all-in-one",
+    "redhat.vscode-yaml",
+    "rvben.rumdl",
+    "kaellarkin.hugo-shortcode-syntax"
 	]
 }

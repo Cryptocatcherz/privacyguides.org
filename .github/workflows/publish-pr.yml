@@ -93,26 +93,44 @@ jobs:
     needs: metadata
     permissions:
       contents: read
+    runs-on: ubuntu-latest
+    outputs:
+      address: ${{ steps.deployment.outputs.address }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: site-build-combined.tar.gz
+          merge-multiple: true
 
-    uses: privacyguides/webserver/.github/workflows/deploy-garage-preview.yml@main
-    with:
-      alias: ${{ needs.metadata.outputs.pr_number }}
-      bucket: ${{ vars.PREVIEW_GARAGE_BUCKET }}
-      hostname: ${{ vars.PREVIEW_GARAGE_HOSTNAME }}
-    secrets:
-      PREVIEW_GARAGE_KEY_ID: ${{ secrets.PREVIEW_GARAGE_KEY_ID }}
-      PREVIEW_GARAGE_SECRET_KEY: ${{ secrets.PREVIEW_GARAGE_SECRET_KEY }}
+      - run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+          ls -la public/
+
+      - name: Limit length of site alias to 12
+        run: echo "SHORT_ALIAS=$(echo "${{ needs.metadata.outputs.pr_number }}" | cut -c1-12)" >> "$GITHUB_ENV"
+
+      - uses: hkdobrev/minio-deploy-action@v1
+        with:
+          endpoint: https://${{ vars.PREVIEW_GARAGE_HOSTNAME }}
+          bucket:  ${{ vars.PREVIEW_GARAGE_BUCKET }}
+          access_key: ${{ secrets.PREVIEW_GARAGE_KEY_ID }}
+          secret_key: ${{ secrets.PREVIEW_GARAGE_SECRET_KEY }}
+          source_dir: "public/"
+          target_dir: "/${{ env.SHORT_ALIAS }}/"
+
+      - id: deployment
+        run: |
+          echo "address=https://pr${{ env.SHORT_ALIAS }}.unreviewed.privacyguides.dev/en/" >> "$GITHUB_OUTPUT"
 
   comment:
     permissions:
       pull-requests: write
-    needs: [deploy_garage, metadata]
+    needs: deploy_garage
     runs-on: ubuntu-latest
     env:
       address: ${{ needs.deploy_garage.outputs.address }}
     steps:
       - uses: thollander/actions-comment-pull-request@v2.5.0
-        if: ${{ needs.metadata.outputs.privileged == 'true' }}
         with:
           pr_number: ${{ needs.metadata.outputs.pr_number }}
           message: |
@@ -122,19 +140,4 @@ jobs:
             | :---: | ---- |
             | <span aria-hidden="true">🔨</span> Latest commit | ${{ needs.metadata.outputs.sha }} |
             | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
-          comment_tag: deployment
-
-      - uses: thollander/actions-comment-pull-request@v2.5.0
-        if: ${{ needs.metadata.outputs.privileged == 'false' }}
-        with:
-          pr_number: ${{ needs.metadata.outputs.pr_number }}
-          message: |
-            ### <span aria-hidden="true">✅</span> Your preview is ready!
-
-            |  Name | Link |
-            | :---: | ---- |
-            | <span aria-hidden="true">🔨</span> Latest commit | ${{ needs.metadata.outputs.sha }} |
-            | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
-
-            Please note that this preview was built from an untrusted source, so it was not granted access to all mkdocs-material features. Maintainers should ensure this PR has been reviewed locally with a full build before merging.
           comment_tag: deployment
