@@ -212,3 +212,12 @@ a.footnote-ref {
 .pg-unstyled-cards .hextra-card:hover {
   background-color: inherit;
 }
+
+.hextra-max-navbar-width a[href*="/about/donate/"] {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.9);
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 16px;
+  border-radius: .25rem;
+}

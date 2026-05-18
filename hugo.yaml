@@ -52,15 +52,13 @@ menu:
     - name: Activism
       pageRef: /activism
       weight: 3
-    - identifier: updates
-      name: Updates
+    - name: Updates
       weight: 4
       pageRef: /news
     - name: Forum
       url: "https://discuss.privacyguides.net"
       weight: 5
-    - identifier: about
-      name: About
+    - name: About
       pageRef: /about
       weight: 6
     - name: Search
@@ -70,8 +68,6 @@ menu:
     - name: Donate
       weight: 8
       pageRef: donate
-      params:
-        icon: heart
 
 params:
   navbar:
