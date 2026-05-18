@@ -5,7 +5,8 @@ breadcrumbs: false
 cascade:
   type: docs
 ---
-![Privacy Guides logo](./pg-yellow.svg){ align=right }
+![Privacy Guides logo](./pg-yellow.svg)
+{ .pg:image:right }
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
 
@@ -25,7 +26,8 @@ In addition to our core team, many other people have made contributions to the p
 
 The best way to get individual help is from our community on Discourse. If you notice an issue with our website, please open a discussion in the [Site Development](https://discuss.privacyguides.net/c/site-development/7) category on our forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
 
-![Signal contact QR code](./signal-contact-qr.png){ align=right }
+![Signal contact QR code](./signal-contact-qr.png)
+{ .pg:image:right }
 
 Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), and [Jordan](https://discuss.privacyguides.net/u/jordan).
 
