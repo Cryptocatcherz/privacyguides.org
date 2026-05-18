@@ -6,68 +6,50 @@ description: The charitable mission of Privacy Guides relies on contributions fr
 Support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
 
 <!-- markdownlint-disable-next-line -->
-[:material-heart:{ .pg-red } Become a Member](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
+[Become a Member](https://donate.magicgrants.org/privacyguides/membership){ .md-button .md-button--primary data-portal="signup" }
 
-[Become a Member (Cryptocurrency)](https://donate.magicgrants.org/privacyguides/membership){ class="md-button" }
-[One-Time Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button" }
+[Become a Member (Cryptocurrency)](https://donate.magicgrants.org/privacyguides/membership){ .md-button }
+[One-Time Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ .md-button }
 
-<small markdown>
-
-MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Litecoin (MWEB)**, **Bitcoin**, or **debit/credit card**. You can also donate using [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides).
-
-</small>
+*MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Litecoin (MWEB)**, **Bitcoin**, or **debit/credit card**. You can also donate using [GitHub Sponsors](https://github.com/sponsors/privacyguides).*
 
 ## Foundations & Organizations
 
-=== "Current Supporters"
+{{< tabs >}}
+{{< tab name="Current Supporters" >}}
 
-    Thank you to these organizations who significantly support Privacy Guides. (1)
-    { .annotate }
+Thank you to these organizations who significantly support Privacy Guides.[^org-members]
 
-    1. Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](../donation-acceptance-policy/).
+[^org-members]: Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](../donation-acceptance-policy/).
 
-    <div class="mdx-specialthanks" markdown>
+[![Power Up Privacy](./power-up-privacy.webp)](https://powerupprivacy.com){rel="nofollow" target="_blank" title="Power Up Privacy"}
+[![DeleteMe](./deleteme.webp)](https://joindeleteme.com){rel="nofollow" target="_blank" title="DeleteMe"}
 
-    [![Power Up Privacy]](https://powerupprivacy.com){ rel=nofollow target=_blank title="Power Up Privacy" }
-    [![DeleteMe]](https://joindeleteme.com){ rel=nofollow target=_blank title="DeleteMe" }
+{{< /tab >}}
+{{< tab name="Past Supporters" >}}
 
-      [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
-      [DeleteMe]: ../assets/img/donors/deleteme.webp
+Thank you to these organizations who have substantially supported our project in the past.
 
-    </div>
+- [Safing](https://safing.io){rel="nofollow" target="_blank"}: 2019 – 2021
 
-=== "Past Supporters"
-
-    Thank you to these organizations who have substantially supported our project in the past.
-
-    - [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Active Members
 
-Privacy Guides would not be possible without these individuals who generously donate on a monthly or yearly basis. (1)
-{ .annotate }
+Privacy Guides would not be possible without these individuals who generously donate on a monthly or yearly basis.[^active-members]
 
-1. If you [become a member](https://donate.magicgrants.org/privacyguides/membership) and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you don't make your membership public on the forum, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
+[^active-members]: If you [become a member](https://donate.magicgrants.org/privacyguides/membership) and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you don't make your membership public on the forum, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
 
-<div class="mdx-donors" data-mdx-component="donors">
-<div class="mdx-donors__list">
+The list of active members is updated when the site is built from our donation platform. After you [become a member](https://donate.magicgrants.org/privacyguides/membership) and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you can choose whether your name appears on the published donate page.
 
---8<-- "includes/members.md"
-
-</div>
-</div>
-
-<small markdown>
-
-This is a list of our **active** [members](https://donate.magicgrants.org/privacyguides/membership), plus donors on GitHub, who have chosen to make their donation public. Hundreds more have donated in the past or privately, and their support is hugely appreciated as well.
-
-</small>
+*This is a list of our **active** [members](https://donate.magicgrants.org/privacyguides/membership), plus donors on GitHub, who have chosen to make their donation public. Hundreds more have donated in the past or privately, and their support is hugely appreciated as well.*
 
 ## Merchandise
 
 You can support us and share your passion for privacy by buying our merchandise from HelloTux.
 
-[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+[Buy on HelloTux.com](https://hellotux.com/privacyguides){ .md-button }
 
 ## Non-Financial Support
 
@@ -113,12 +95,12 @@ We use donations for a variety of purposes, including:
 
 **Online Services**
 
-:   We host [internet services](../services/) for testing and showcasing different privacy-products we like and [recommend](../../tools/_index.md). Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
+:   We host [internet services](../services/) for testing and showcasing different privacy-products we like and [recommend](../../tools/). Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
 
 **Product Purchases**
 
-:   We occasionally purchase products and services for the purposes of testing our [recommended tools](../../tools/_index.md).
+:   We occasionally purchase products and services for the purposes of testing our [recommended tools](../../tools/).
 
-Thank you to all those who support our mission! :material-heart:{ .pg-red }
+Thank you to all those who support our mission!
 
 We strictly **do not** use donations to support political campaigns/candidates or attempt to influence legislation. Earnings will **not** inure to the benefit of any private shareholder or individual.

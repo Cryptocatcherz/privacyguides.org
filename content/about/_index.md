@@ -5,31 +5,31 @@ breadcrumbs: false
 cascade:
   type: docs
 ---
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Privacy Guides logo](./pg-yellow.svg){ align=right }
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
 
-[:material-heart:{.pg-red} Become a Member](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary data-portal="signup" }
-[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[Become a Member](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary data-portal="signup" }
+[Homepage](https://www.privacyguides.org){ .card-link title=Homepage }
+[Source Code](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 
 Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever-changing cybersecurity threat landscape.
 
 In addition to our core team, many other people have made contributions to the project. You can too! We're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
-[Job Openings :material-arrow-right-drop-circle:](jobs/)
+[Job Openings](jobs/)
 
-## :material-email-edit: Contact Us
+## Contact Us
 
-[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
+[Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
 The best way to get individual help is from our community on Discourse. If you notice an issue with our website, please open a discussion in the [Site Development](https://discuss.privacyguides.net/c/site-development/7) category on our forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
 
-![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
+![Signal contact QR code](./signal-contact-qr.png){ align=right }
 
 Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), and [Jordan](https://discuss.privacyguides.net/u/jordan).
 
-[:simple-signal: Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
+[Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
 You may also email the entire team at <team@privacyguides.org>. This is a shared inbox that could be read by any [team member](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), so please consider what sensitive information you share via email accordingly.
 
@@ -39,149 +39,103 @@ You can also use OpenPGP to contact us via email, if you feel comfortable with y
 
 If you need an alternative secure channel, please request one via any contact method including social media, and we will work with you to establish one. Please do not share any sensitive information with us before we have established an appropriately secure discussion channel.
 
-## :material-account-tie: Executive Committee
-<!-- markdownlint-disable MD030 -->
+## Executive Committee
 
 The project executive committee consists of five volunteers charged with management of the [MAGIC Privacy Guides Fund](https://magicgrants.org/funds/privacy_guides), making most critical project-related decisions.
 
-<div class="grid cards" markdown>
+### Daniel Gray
 
--   :polar_bear:{ .lg .middle } **Daniel Gray**
+Founder
 
-    ---
+- [Forum profile](https://discuss.privacyguides.net/u/dngray)
+- [GitHub](https://github.com/dngray)
+- [Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
+- [Email](mailto:dngray@privacyguides.org)
 
-    :material-text-account: Founder
+### Freddy
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
+Founder
 
-    [:material-github:](<https://github.com/dngray> "GitHub")
-    [:material-mastodon:](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-    [:material-email:](mailto:dngray@privacyguides.org "Email")
+- [Forum profile](https://discuss.privacyguides.net/u/freddy)
+- [GitHub](https://github.com/freddy-m)
+- [Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+- [Email](mailto:freddy@privacyguides.org)
 
--   :detective:{ .lg .middle } **Freddy**
+### Jonah Aragon
 
-    ---
+Founder, Program Director
 
-    :material-text-account: Founder
+- [Forum profile](https://discuss.privacyguides.net/u/jonah)
+- [Homepage](https://www.jonaharagon.com)
+- [GitHub](https://github.com/jonaharagon)
+- [Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
+- [Email](mailto:jonah@privacyguides.org)
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+### Niek de Wilde
 
-    [:material-github:](https://github.com/freddy-m "GitHub")
-    [:material-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    [:material-email:](mailto:freddy@privacyguides.org "Email")
+Founder
 
--   :robot:{ .lg .middle } **Jonah Aragon**
+- [Forum profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+- [GitHub](https://github.com/blacklight447)
+- [Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+- [Email](mailto:niekdewilde@privacyguides.org)
 
-    ---
+### Olivia
 
-    :material-text-account: Founder, Program Director
+Founder
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
+- [Forum profile](https://discuss.privacyguides.net/u/olivia)
+- [GitHub](https://github.com/hook9)
+- [Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-    [:material-home:](https://www.jonaharagon.com "Homepage")
-    [:material-github:](https://github.com/jonaharagon "GitHub")
-    [:material-mastodon:](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-    [:material-email:](mailto:jonah@privacyguides.org "Email")
-
--   :cactus:{ .lg .middle } **Niek de Wilde**
-
-    ---
-
-    :material-text-account: Founder
-
-    [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
-
-    [:material-github:](https://github.com/blacklight447 "GitHub")
-    [:material-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-    [:material-email:](mailto:niekdewilde@privacyguides.org "Email")
-
--   :smirk_cat:{ .lg .middle } **Olivia**
-
-    ---
-
-    :material-text-account: Founder
-
-    [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
-
-    [:material-github:](https://github.com/hook9 "GitHub")
-    [:material-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
-
-</div>
-
-## :material-account-edit: Staff
+## Staff
 
 Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
 
-<div class="grid cards" markdown>
+### Jordan Warne
 
--   :jack_o_lantern:{ .lg .middle } **Em**
+Digital Content Producer
 
-    ---
+- [Forum profile](https://discuss.privacyguides.net/u/Jordan)
+- [GitHub](https://github.com/jordan-warne)
+- [Mastodon](https://social.lol/@jw "@jw@social.lol"){rel=me}
+- [Email](mailto:jordan@privacyguides.org)
 
-    :material-text-account: Activism and Outreach
+### Nate Bartram
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/em)
+Digital Content Producer
 
-    [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
-    [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
-    [:material-email:](mailto:em@privacyguides.org "Email")
+- [Forum profile](https://discuss.privacyguides.net/u/nateb)
+- [GitHub](https://github.com/tnonate)
+- [Mastodon](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
+- [Email](mailto:nate@privacyguides.org)
 
--   :full_moon_with_face:{ .lg .middle } **Jordan Warne**
-
-    ---
-
-    :material-text-account: Digital Content Producer
-
-    [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
-
-    [:material-github:](https://github.com/jordan-warne "GitHub")
-    [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
-    [:material-email:](mailto:jordan@privacyguides.org "Email")
-
--   :video_camera:{ .lg .middle } **Nate Bartram**
-
-    ---
-
-    :material-text-account: Digital Content Producer
-
-    [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
-
-    [:material-github:](https://github.com/tnonate "GitHub")
-    [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
-    [:material-email:](mailto:nate@privacyguides.org "Email")
-
-</div>
-
-## :material-check-decagram: Social Media
+## Social Media
 
 We have a general policy of avoiding links to centralized social media profiles and other websites outside our control. This means that in places like our website footer and other areas, we only link to platforms we fully control, such as our Mastodon and PeerTube accounts or Matrix channels.
 
 However, Privacy Guides *does* have social media accounts on a wide variety of platforms, in the hope of reaching new users who aren't yet familiar with our content. We try to make this a "one-way street" where those accounts link to privacyguides.org, and not the other way around. However, this creates some confusion about which accounts are actually run by the Privacy Guides team. For reference, we will list all of our accounts here:
 
-<div class="grid cards" markdown>
-
-- [:simple-discourse: **Forum**](https://discuss.privacyguides.net)
-- [:simple-matrix: **Matrix Space**](https://matrix.to/#/#privacyguides:matrix.org)
-- [:simple-mastodon: **Mastodon**](https://mastodon.neat.computer/@privacyguides)
-- [:simple-peertube: **PeerTube**](https://neat.tube/c/privacyguides)
-- [:simple-bluesky: Bluesky](https://bsky.app/profile/privacyguides.org)
-- [:simple-codeberg: Codeberg](https://codeberg.org/privacyguides)
-- [:simple-github: GitHub](https://github.com/privacyguides)
-- [:simple-gitlab: GitLab](https://gitlab.com/privacyguides)
-- [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/company/privacyguides)
-- [:simple-reddit: Reddit](https://reddit.com/r/PrivacyGuides)
-- [:simple-x: X (Twitter)](https://x.com/privacy_guides)
-- [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
-- [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
-- [:simple-facebook: Facebook](https://www.facebook.com/PrivacyGuides.org)
-- [:simple-instagram: Instagram](https://www.instagram.com/privacy.guides/)
-- [:simple-threads: Threads](https://www.threads.net/@privacy.guides)
-
-</div>
+- [Forum](https://discuss.privacyguides.net)
+- [Matrix Space](https://matrix.to/#/#privacyguides:matrix.org)
+- [Mastodon](https://mastodon.neat.computer/@privacyguides)
+- [PeerTube](https://neat.tube/c/privacyguides)
+- [Bluesky](https://bsky.app/profile/privacyguides.org)
+- [Codeberg](https://codeberg.org/privacyguides)
+- [GitHub](https://github.com/privacyguides)
+- [GitLab](https://gitlab.com/privacyguides)
+- [LinkedIn](https://linkedin.com/company/privacyguides)
+- [Reddit](https://reddit.com/r/PrivacyGuides)
+- [X (Twitter)](https://x.com/privacy_guides)
+- [YouTube](https://youtube.com/@privacyguides)
+- [TikTok](https://www.tiktok.com/@privacyguides)
+- [Facebook](https://www.facebook.com/PrivacyGuides.org)
+- [Instagram](https://www.instagram.com/privacy.guides/)
+- [Threads](https://www.threads.net/@privacy.guides)
 
 To reiterate, this is not an endorsement of any platform, and we generally discourage following us on most social media platforms.
 
-## :material-newspaper: In The Media
+## In The Media
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
 
@@ -193,9 +147,9 @@ To reiterate, this is not an endorsement of any platform, and we generally disco
 
 Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) and [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
 
-## :material-history: History
+## History
 
-Privacy Guides was launched in September 2021 as a continuation of the [defunct](privacytools/) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
+Privacy Guides was launched in September 2021 as a continuation of the [defunct](./privacytools/) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
 
 In 2022, we completed the transition of our main website framework from Jekyll to MkDocs, using the `mkdocs-material` documentation software. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
 
@@ -209,14 +163,12 @@ In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providi
 
 We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
 
-## :material-license: Site License
+## Site License
 
-<div class="admonition danger" markdown>
+> [!IMPORTANT]
+>
+> The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
-The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
-
-</div>
-
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
+Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
 
 You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.
