@@ -32,8 +32,6 @@
     <img src="https://badges.crowdin.net/privacyguides/localized.svg"></a>
   <a href="https://github.com/sponsors/privacyguides#sponsors">
     <img src="https://img.shields.io/github/sponsors/privacyguides"></a>
-  <a href="https://squidfunk.github.io/mkdocs-material/">
-    <img src="https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white"></a>
   <a href="https://github.com/privacyguides/privacyguides.org/actions/workflows/publish-release.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/privacyguides/privacyguides.org/publish-release.yml?label=release"></a></p>
 </div>
@@ -42,7 +40,7 @@
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer team members and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
 
-The current list of team members can be found on [the executive committee page](https://www.privacyguides.org/en/about/#executive-committee). Additionally, [many people](#contributors) have made contributions to the project, and you can too!
+The current list of team members can be found on [the executive committee page](https://www.privacyguides.org/en/about/#executive-committee). Additionally, many people have made contributions to the project, and you can too!
 
 *Featured on: [Tweakers](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html), [The New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy), [Wired](https://wired.com/story/firefox-mozilla-2022), and [Fast Company](https://www.fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again).*
 
@@ -57,13 +55,6 @@ The current list of team members can be found on [the executive committee page](
     - Browse our [open issues](https://github.com/privacyguides/privacyguides.org/issues) to see what needs to be updated
     - View the list of [approved topics waiting for a PR](https://discuss.privacyguides.net/tag/approved)
     - Read some writing tips in our [style guide](https://www.privacyguides.org/en/meta/writing-style)
-
-All contributors to the site are listed [here](#contributors). If you have contributed to the website or project, please [add yourself](https://github.com/privacyguides/privacyguides.org/issues/2524) to the list or ask @jonaharagon to make the change.
-
-## Mirrors
-
-- **GitHub Pages:** [privacyguides.github.io/privacyguides.org](https://privacyguides.github.io/privacyguides.org/en/)
-- **BunnyCDN:** [privacyguides-org-production.b-cdn.net](https://privacyguides-org-production.b-cdn.net/en/)
 
 ### Alternative Networks
 
@@ -82,7 +73,7 @@ All contributors to the site are listed [here](#contributors). If you have contr
 
 ## License
 
-Copyright &copy; 2019 - 2024 [Privacy Guides contributors](#contributors).
+Copyright &copy; 2019–2026 Privacy Guides contributors.
 
 Privacy Guides content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
 

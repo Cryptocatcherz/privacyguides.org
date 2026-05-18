@@ -17,13 +17,8 @@ You can enhance your privacy and security on Windows without downloading any thi
 - Application Sandboxing (coming soon)
 - Security Hardening (coming soon)
 
-<!-- TODO: Admonition -->
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-This section is a work in progress, because it takes considerably more time and effort to make a Windows installation more privacy-friendly than other operating systems.
-
-</div>
+> [!NOTE]
+> This section is a work in progress, because it takes considerably more time and effort to make a Windows installation more privacy-friendly than other operating systems.
 
 ## Privacy Notes
 

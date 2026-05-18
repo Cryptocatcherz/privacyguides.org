@@ -26,13 +26,8 @@ You should avoid changing passwords that you have to remember (such as your pass
 
 When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](../threat-modeling/index.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
-<!-- TODO: Admonition -->
-<div class="admonition tip" markdown>
-<p class="admonition-title">Checking for data breaches</p>
-
-If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../../../tools/software/news-aggregators/index.md).
-
-</div>
+> [!TIP]
+> If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../../../tools/software/news-aggregators/index.md).
 
 ## Creating strong passwords
 
@@ -64,13 +59,8 @@ To generate a diceware passphrase using real dice, follow these steps:
 
 4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
 
-<!-- TODO: Admonition -->
-<div class="admonition warning" markdown>
-<p class="admonition-title">Important</p>
-
-You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
-
-</div>
+> [!IMPORTANT]
+> You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
 
 If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
@@ -160,17 +150,12 @@ There are many good options to choose from, both cloud-based and local. Choose o
 
 [List of recommended password managers](../../../tools/software/passwords/index.md){ .md-button }
 
-<!-- TODO: Admonition -->
-<div class="admonition warning" markdown>
-<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
-
-When using [TOTP codes as multifactor authentication](../multi-factor-authentication/index.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../../../tools/software/multi-factor-authentication/index.md).
-
-Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
-
-Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
-
-</div>
+> [!IMPORTANT]
+> When using [TOTP codes as multifactor authentication](../multi-factor-authentication/index.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../../../tools/software/multi-factor-authentication/index.md).
+>
+> Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
+>
+> Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
 
 ### Backups
 

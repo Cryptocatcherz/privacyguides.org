@@ -45,15 +45,10 @@ These tend to be good options for recurring/subscription payments online, while 
 
 Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
 
-<!-- TODO: Admonition -->
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-The vast majority of cryptocurrencies operate on a **transparent** blockchain, meaning that every transaction's details are public knowledge. This includes most well-known cryptocurrencies like Bitcoin and Ethereum. Transactions with these cryptocurrencies should not be considered private and will not protect your anonymity.
-
-Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust. Transactions are irreversible and do not include any consumer protections.
-
-</div>
+> [!CAUTION]
+> The vast majority of cryptocurrencies operate on a **transparent** blockchain, meaning that every transaction's details are public knowledge. This includes most well-known cryptocurrencies like Bitcoin and Ethereum. Transactions with these cryptocurrencies should not be considered private and will not protect your anonymity.
+>
+> Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust. Transactions are irreversible and do not include any consumer protections.
 
 ### Privacy Coins
 
@@ -89,10 +84,5 @@ When you're making a payment in person with cash, make sure to keep your in-pers
 
 When purchasing online, ideally you should do so over [Tor](../tor-overview/index.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../../../tools/services/vpn/index.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
 
-<!-- TODO: Admonition -->
-<div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
-
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../../../about/notices.md).
-
-</div>
+> [!NOTE]
+> The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../../../about/notices.md).
