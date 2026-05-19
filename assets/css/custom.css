@@ -253,26 +253,37 @@ p.pg\:image\:right img {
 }
 
 html.light {
-  .content :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)),
-  .content :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)),
-  .content :where(h3):not(:where([class~=not-prose],[class~=not-prose] *)) {
-    color: var(--hx-color-primary-900)
-  }
-  .content :where(a):not(:where([class~=not-prose],
-  [class~=not-prose] *)) {
-    color:var(--hx-color-primary-900);
+  .content {
+    :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)),
+    :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)),
+    :where(h3):not(:where([class~=not-prose],[class~=not-prose] *)) {
+      color: var(--hx-color-primary-900)
+    }
+    :where(a):not(:where([class~=not-prose],
+    [class~=not-prose] *)) {
+      color:var(--hx-color-primary-900);
+    }
+    mark {
+      background-color: #ffff0080;
+    }
   }
 }
 
 html.dark {
-  .content :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)),
-  .content :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)),
-  .content :where(h3):not(:where([class~=not-prose],[class~=not-prose] *)) {
-    color: var(--hx-color-primary-200)
-  }
-  .content :where(a):not(:where([class~=not-prose],
-  [class~=not-prose] *)) {
-    color:var(--hx-color-primary-300);
+  .content {
+    :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)),
+    :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)),
+    :where(h3):not(:where([class~=not-prose],[class~=not-prose] *)) {
+      color: var(--hx-color-primary-200)
+    }
+    :where(a):not(:where([class~=not-prose],
+    [class~=not-prose] *)) {
+      color:var(--hx-color-primary-300);
+    }
+    mark {
+      background-color: #4287ff4d;
+      color: white;
+    }
   }
 }
 
@@ -297,6 +308,28 @@ a.footnote-ref {
 
 .pg-unstyled-cards .hextra-card:hover {
   background-color: inherit;
+}
+
+.content .pg\:buttons {
+  a {
+    background-color: var(--hx-color-gray-300);
+    color: var(--hx-color-gray-700);
+    text-decoration: none;
+    padding: 1em;
+    border-radius: var(--hx-radius-md);
+    font-weight: 600;
+    line-height: 4em;
+  }
+  a:hover {
+    background-color: var(--hx-color-gray-400);
+  }
+  a:first-of-type {
+    background-color: var(--hx-color-primary-900);
+    color: var(--hx-color-primary-100)
+  }
+  a:first-of-type:hover {
+    background-color: var(--hx-color-primary-800);
+  }
 }
 
 /*********** Activism Section ***********/

@@ -105,6 +105,7 @@ outputs:
   section: [HTML, RSS]
 
 defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
 languages:
   en:
     languageName: English

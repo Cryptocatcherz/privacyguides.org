@@ -2,6 +2,20 @@
 title: Donate
 description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
 ---
+<style>
+.hextra-tabs-panel img {
+  height: 3.25rem;
+}
+.hextra-tabs-panel ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+.hextra-tabs-panel ul li {
+  margin-right: 1em;
+}
+</style>
+
 <!-- markdownlint-disable MD036 -->
 Support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
 
@@ -9,7 +23,7 @@ Support our mission to defend digital rights and spread the word about mass surv
 [Become a Member](https://donate.magicgrants.org/privacyguides/membership)
 [Become a Member (Cryptocurrency)](https://donate.magicgrants.org/privacyguides/membership)
 [One-Time Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides)
-{ .pg:buttons }
+{ .pg:buttons .pg:buttons:red }
 
 *MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Litecoin (MWEB)**, **Bitcoin**, or **debit/credit card**. You can also donate using [GitHub Sponsors](https://github.com/sponsors/privacyguides).*
 
@@ -18,19 +32,17 @@ Support our mission to defend digital rights and spread the word about mass surv
 {{< tabs >}}
 {{< tab name="Current Supporters" >}}
 
-Thank you to these organizations who significantly support Privacy Guides.[^org-members]
+Thank you to these organizations who significantly support Privacy Guides.
 
-[^org-members]: Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](../donation-acceptance-policy/).
-
-[![Power Up Privacy](./power-up-privacy.webp)](https://powerupprivacy.com){rel="nofollow" target="_blank" title="Power Up Privacy"}
-[![DeleteMe](./deleteme.webp)](https://joindeleteme.com){rel="nofollow" target="_blank" title="DeleteMe"}
+- [![Power Up Privacy](./power-up-privacy.webp)](https://powerupprivacy.com "Power Up Privacy")
+- [![DeleteMe](./deleteme.webp)](https://joindeleteme.com "DeleteMe")
 
 {{< /tab >}}
 {{< tab name="Past Supporters" >}}
 
 Thank you to these organizations who have substantially supported our project in the past.
 
-- [Safing](https://safing.io){rel="nofollow" target="_blank"}: 2019 – 2021
+- [Safing](https://safing.io): 2019 – 2021
 
 {{< /tab >}}
 {{< /tabs >}}
@@ -60,9 +72,11 @@ It takes a lot of people and [work](https://github.com/privacyguides/privacyguid
 
 ### What is an organizational membership?
 
-Organizational membership to Privacy Guides is open to any company, private foundation, or organization that donates at least $5,000 per year. While Privacy Guides does not endorse private companies or their products, we're grateful for their contributions. Your donation may be tax-deductible, and we will provide you with a receipt.
+Organizational membership[^org-members] to Privacy Guides is open to any company, private foundation, or organization that donates at least $5,000 per year. While Privacy Guides does not endorse private companies or their products, we're grateful for their contributions. Your donation may be tax-deductible, and we will provide you with a receipt.
 
 You can become an organizational member by reaching out to <info@magicgrants.org> for more information.
+
+[^org-members]: Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](../donation-acceptance-policy/).
 
 ### How are organizational members recognized?
 

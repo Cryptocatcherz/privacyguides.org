@@ -28,10 +28,10 @@ layout: pg-home
 </div>
 <div class="hx:mx-auto hx:sm:block hx:hidden">
 <a class="hx:dark:hidden">
-  <img src="brand/logos/svg/square/pg-yellow-nobg.svg" width="350" height="350" alt="Privacy Guides shield logo">
+  <img src="/brand/logos/svg/square/pg-yellow-nobg.svg" width="350" height="350" alt="Privacy Guides shield logo">
 </a>
 <a class="hx:hidden hx:dark:block">
-  <img src="brand/logos/svg/square/pg-blue-dark-nobg.svg" width="350" height="350" alt="Privacy Guides shield logo">
+  <img src="/brand/logos/svg/square/pg-blue-dark-nobg.svg" width="350" height="350" alt="Privacy Guides shield logo">
 </a>
 </div>
 </div>
