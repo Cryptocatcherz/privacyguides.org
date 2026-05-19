@@ -1,6 +1,9 @@
 ---
 title: Data Removal Services
 description: Our recommended methods for removing your personal information from data brokers and people search sites.
+aliases:
+- /data-broker-removals
+- /en/data-broker-removals
 ---
 
 <small>Protects against the following threat(s):</small>

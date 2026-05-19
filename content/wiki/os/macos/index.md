@@ -2,6 +2,9 @@
 title: macOS Overview
 icon: material/apple-finder
 description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+aliases:
+- /os/macos-overview
+- /en/os/macos-overview
 ---
 **macOS** is a Unix operating system developed by Apple for their Mac computers. To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
 

@@ -1,6 +1,9 @@
 ---
 title: Instant Messengers
 description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
+aliases:
+- /real-time-communication
+- /en/real-time-communication
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/index.md#security-and-privacy)

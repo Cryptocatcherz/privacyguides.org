@@ -1,6 +1,9 @@
 ---
 title: VPN Services
 description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
+aliases:
+- /vpn
+- /en/vpn
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/index.md#surveillance-as-a-business-model)

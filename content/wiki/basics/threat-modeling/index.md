@@ -3,6 +3,9 @@ meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy G
 title: "Threat Modeling"
 weight: 20
 description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+aliases:
+- /basics/threat-modeling
+- /en/basics/threat-modeling
 ---
 
 Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!

@@ -4,6 +4,8 @@ description: To give actionable privacy advices, it's essential to consider ever
 icon: fontawesome/solid/users-between-lines
 cover: banner-toolbox-tip-everyone.webp
 weight: 8
+aliases:
+- /en/activism/toolbox/tip-consider-everyones-unique-situation
 ---
 Everyone has different needs, and everyone faces different dangers when their personal data gets exposed.
 

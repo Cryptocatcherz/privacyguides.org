@@ -1,6 +1,9 @@
 ---
 title: "Desktop/PC"
 description: Linux distributions are commonly recommended for privacy protection and software freedom.
+aliases:
+- /desktop
+- /en/desktop
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/index.md#surveillance-as-a-business-model)

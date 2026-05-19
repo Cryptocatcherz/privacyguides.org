@@ -4,6 +4,8 @@ description: If you've been a privacy advocate for a while, maybe it's time to l
 icon: fontawesome/solid/fist-raised
 cover: banner-toolbox-tip-organize.webp
 weight: 25
+aliases:
+- /en/activism/toolbox/tip-level-up-assemble-and-organize
 ---
 If you've been a privacy advocate for a while, maybe it's time to level up and **grow as a leader** in your community.
 

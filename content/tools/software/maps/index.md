@@ -1,6 +1,9 @@
 ---
 title: Maps and Navigation
 description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
+aliases:
+- /maps
+- /en/maps
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/index.md#surveillance-as-a-business-model)

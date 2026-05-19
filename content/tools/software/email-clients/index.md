@@ -1,6 +1,9 @@
 ---
 title: "Email Clients"
 description: These email clients are privacy-respecting and support OpenPGP email encryption.
+aliases:
+- /email-clients
+- /en/email-clients
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

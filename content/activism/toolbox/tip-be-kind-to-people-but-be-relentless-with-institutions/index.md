@@ -4,6 +4,8 @@ description: Kindness and patience are essential qualities for privacy advocates
 icon: fontawesome/solid/hands-holding-circle
 cover: banner-toolbox-tip-kind.webp
 weight: 11
+aliases:
+- /en/activism/toolbox/tip-be-kind-to-people-but-be-relentless-with-institutions
 ---
 Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions.
 

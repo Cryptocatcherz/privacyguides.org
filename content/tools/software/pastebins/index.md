@@ -1,6 +1,9 @@
 ---
 title: "Pastebins"
 description: These tools allow you to have full control of any pasted data you share to other parties.
+aliases:
+- /pastebins
+- /en/pastebins
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

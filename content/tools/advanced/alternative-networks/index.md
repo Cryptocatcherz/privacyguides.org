@@ -2,6 +2,8 @@
 title: "Alternative Networks"
 description: These tools allow you to access networks other than the World Wide Web.
 aliases:
+- /alternative-networks
+- /en/alternative-networks
 - /tools/advanced
 ---
 <small>Protects against the following threat(s):</small>

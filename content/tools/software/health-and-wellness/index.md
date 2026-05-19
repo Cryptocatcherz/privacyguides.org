@@ -1,6 +1,9 @@
 ---
 title: "Health and Wellness"
 description: These applications are what we currently recommend for all health- and fitness-related activites on your phone.
+aliases:
+- /health-and-wellness
+- /en/health-and-wellness
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

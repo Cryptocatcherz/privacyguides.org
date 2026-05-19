@@ -1,6 +1,9 @@
 ---
 title: "Frontends"
 description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
+aliases:
+- /frontends
+- /en/frontends
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/index.md#surveillance-as-a-business-model)

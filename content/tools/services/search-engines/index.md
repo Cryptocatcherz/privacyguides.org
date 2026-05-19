@@ -1,6 +1,9 @@
 ---
 title: Search Engines
 description: Use privacy-respecting search engines which don't build an advertising profile based on your searches.
+aliases:
+- /search-engines
+- /en/search-engines
 ---
 
 <small>Protects against the following threat(s):</small>

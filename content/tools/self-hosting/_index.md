@@ -5,4 +5,7 @@ weight: 60
 build:
   list: local
   render: link
+aliases:
+- /self-hosting
+- /en/self-hosting
 ---

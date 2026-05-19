@@ -2,6 +2,9 @@
 title: "Types of Communication Networks"
 weight: 40
 description: An overview of several network architectures commonly used by instant messaging applications.
+aliases:
+- /advanced/communication-network-types
+- /en/advanced/communication-network-types
 ---
 
 There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](../../basics/threat-modeling/index.md) when deciding which app to use.

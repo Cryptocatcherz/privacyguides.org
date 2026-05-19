@@ -1,6 +1,9 @@
 ---
 title: Alternative Distributions
 description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+aliases:
+- /android/distributions
+- /en/android/distributions
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../../wiki/basics/common-threats/index.md#attacks-against-specific-individuals)

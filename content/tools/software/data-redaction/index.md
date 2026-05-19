@@ -1,6 +1,9 @@
 ---
 title: "Data and Metadata Redaction"
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+aliases:
+- /data-redaction
+- /en/data-redaction
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Public Exposure" color="green" >}}](../../../wiki/basics/common-threats/index.md#limiting-public-information)

@@ -1,6 +1,8 @@
 ---
 title: "Privacy Policy"
 description: We do not sell or share your data with any third-parties.
+aliases:
+- /en/privacy
 ---
 ## What is Privacy Guides?
 

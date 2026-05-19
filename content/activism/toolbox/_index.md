@@ -2,6 +2,8 @@
 title: "Privacy Activist Toolbox"
 description: The Privacy Activist Toolbox is a unique resource with tips for anyone interested in becoming a better privacy rights activist, or anyone who wants to start.
 toc: true
+aliases:
+- /en/activism/toolbox
 ---
 The **Privacy Activist Toolbox** is a resource for anyone interested in becoming a better privacy rights activist, or anyone who wants to start advocating for privacy rights.
 

@@ -1,6 +1,9 @@
 ---
 title: "General Apps"
 description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+aliases:
+- /android/general-apps
+- /en/android/general-apps
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../../wiki/basics/common-threats/index.md#security-and-privacy)

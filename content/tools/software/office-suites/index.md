@@ -1,6 +1,9 @@
 ---
 title: "Office Suites"
 description: These office suites offer their full functionality without an account and can be used offline.
+aliases:
+- /office-suites
+- /en/office-suites
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

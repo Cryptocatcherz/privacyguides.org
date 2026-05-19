@@ -1,6 +1,8 @@
 ---
 title: Privacy Guides
 layout: pg-home
+aliases:
+- /en
 ---
 
 <div class=" hextra-feature-grid hx:grid hx:sm:max-lg:grid-cols-2 hx:max-sm:grid-cols-1 hx:gap-4 hx:w-full not-prose" style="--hextra-feature-grid-cols: 2; ">

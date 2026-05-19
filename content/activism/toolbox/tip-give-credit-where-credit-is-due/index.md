@@ -4,6 +4,8 @@ description: To succeed with our movement to defend privacy rights, we must supp
 icon: fontawesome/solid/thumbs-up
 cover: banner-toolbox-tip-credit.webp
 weight: 14
+aliases:
+- /en/activism/toolbox/tip-give-credit-where-credit-is-due
 ---
 To succeed in our battle, we must **support each other**. One good way to accomplish this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly.
 

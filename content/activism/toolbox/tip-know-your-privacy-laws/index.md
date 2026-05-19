@@ -4,6 +4,8 @@ description: Being well-informed about the data protection regulations in your o
 icon: fontawesome/solid/balance-scale
 cover: banner-toolbox-tip-laws.webp
 weight: 1
+aliases:
+- /en/activism/toolbox/tip-know-your-privacy-laws
 ---
 Being well-informed about the **data protection regulations** in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others.
 

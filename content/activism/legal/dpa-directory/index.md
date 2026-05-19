@@ -4,7 +4,8 @@ description: The DPA Directory is a tool to help you find the principal consumer
 # sidebar:
 #   hide: true
 aliases:
-  - /activism/legal
+- /activism/legal
+- /en/activism/legal/dpa-directory
 ---
 
 <style>

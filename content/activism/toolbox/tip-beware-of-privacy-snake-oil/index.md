@@ -4,6 +4,8 @@ description: In your privacy advocacy, it's important to recommend tools that re
 icon: fontawesome/solid/skull-crossbones
 cover: banner-toolbox-tip-snakeoil.webp
 weight: 3
+aliases:
+- /en/activism/toolbox/tip-beware-of-privacy-snake-oil
 ---
 In your privacy advocacy, it's essential to use and recommend tools that *reliably* protect privacy. For this, you need to **investigate and remain highly skeptical** of any dangerous or unproven marketing claims.
 

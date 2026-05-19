@@ -4,6 +4,8 @@ description: People in the privacy community can have different views that can c
 icon: fontawesome/solid/handshake-angle
 cover: banner-toolbox-tip-alliances.webp
 weight: 12
+aliases:
+- /en/activism/toolbox/tip-start-alliances-not-wars
 ---
 The privacy community consists of a patchwork of individuals, activists, organizations, and businesses that sometimes hold quite different views. These divergences can create conflict and friction at times.
 

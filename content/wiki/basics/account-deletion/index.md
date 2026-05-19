@@ -2,6 +2,9 @@
 title: Account Deletion
 weight: 60
 description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
+aliases:
+- /basics/account-deletion
+- /en/basics/account-deletion
 ---
 Over time, it can be easy to accumulate a number of online accounts, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to data breaches. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 

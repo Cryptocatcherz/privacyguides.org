@@ -2,6 +2,9 @@
 title: "Device Integrity"
 description: These tools can be used to check your devices for compromise.
 robots: nofollow, max-snippet:-1, max-image-preview:large
+aliases:
+- /device-integrity
+- /en/device-integrity
 ---
 These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
 

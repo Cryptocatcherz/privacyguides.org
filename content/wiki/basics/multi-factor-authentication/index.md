@@ -2,6 +2,9 @@
 title: Multifactor Authentication
 weight: 80
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+aliases:
+- /basics/multi-factor-authentication
+- /en/basics/multi-factor-authentication
 ---
 **Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
 

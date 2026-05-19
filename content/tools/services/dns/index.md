@@ -1,6 +1,9 @@
 ---
 title: DNS Resolvers
 description: We recommend choosing these encrypted DNS providers to replace your ISP's default configuration.
+aliases:
+- /dns
+- /en/dns
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/index.md#surveillance-as-a-business-model)

@@ -1,5 +1,8 @@
 ---
 title: Local Password Managers
+aliases:
+- /passwords
+- /en/passwords
 ---
 These options allow you to manage an encrypted password database locally.
 

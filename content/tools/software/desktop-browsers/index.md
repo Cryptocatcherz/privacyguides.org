@@ -1,6 +1,9 @@
 ---
 title: Desktop Browsers
 description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+aliases:
+- /desktop-browsers
+- /en/desktop-browsers
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/index.md#surveillance-as-a-business-model)

@@ -9,6 +9,8 @@ cover: banner-activism.webp
 breadcrumbs: false
 cascade:
   type: docs
+aliases:
+- /en/activism
 ---
 The **Guides and Tools for Privacy Activists** project from [*Privacy Guides*](../about/) offers a new way to empower the digital rights community.
 

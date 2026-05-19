@@ -2,6 +2,9 @@
 title: Private Payments
 weight: 30
 description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
+aliases:
+- /advanced/payments
+- /en/advanced/payments
 ---
 Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
 

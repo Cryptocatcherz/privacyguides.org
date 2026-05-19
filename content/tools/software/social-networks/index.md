@@ -1,6 +1,9 @@
 ---
 title: Social Networks
 description: Find a new social network that doesn’t pry into your data or monetize your profile.
+aliases:
+- /social-networks
+- /en/social-networks
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats/index.md#avoiding-censorship)

@@ -4,6 +4,10 @@ description: Privacy Guides is a socially motivated website that provides inform
 breadcrumbs: false
 cascade:
   type: docs
+aliases:
+- /about/contributors
+- /en/about
+- /en/about/contributors
 ---
 ![Privacy Guides logo](./pg-yellow.svg)
 { .pg:image:right }

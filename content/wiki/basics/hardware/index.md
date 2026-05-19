@@ -2,6 +2,9 @@
 title: "Choosing Your Hardware"
 weight: 90
 description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+aliases:
+- /basics/hardware
+- /en/basics/hardware
 ---
 
 When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.

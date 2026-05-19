@@ -4,6 +4,8 @@ description: Submitting an official complaint for violation of your privacy righ
 icon: fontawesome/solid/gavel
 cover: banner-toolbox-tip-report.webp
 weight: 2
+aliases:
+- /en/activism/toolbox/tip-report-privacy-violations
 ---
 Once you are [informed on your local privacy laws](../tip-know-your-privacy-laws/), it's important to get familiar with the process to **report violations of the law**. Submitting an official complaint is often simple, and can have a significant impact both for yourself and for your community.
 

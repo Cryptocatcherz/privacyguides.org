@@ -2,6 +2,8 @@
 title: "AI Chat"
 description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
 aliases:
+- /ai-chat
+- /en/ai-chat
 - /tools/software
 ---
 <small>Protects against the following threat(s):</small>

@@ -1,6 +1,9 @@
 ---
 title: Multifactor Authentication
 description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third party.
+aliases:
+- /multi-factor-authentication
+- /en/multi-factor-authentication
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/index.md#attacks-against-specific-individuals)

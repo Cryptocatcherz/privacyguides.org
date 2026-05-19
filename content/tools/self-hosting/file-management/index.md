@@ -1,6 +1,9 @@
 ---
 title: File Management
 description: For our more technical readers, self-hosting file management tools can provide additional privacy assurances by having maximum control over your data.
+aliases:
+- /self-hosting/file-management
+- /en/self-hosting/file-management
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

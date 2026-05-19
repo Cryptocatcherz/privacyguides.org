@@ -3,7 +3,9 @@ title: "DNS Overview"
 weight: 10
 description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
 aliases:
+- /advanced/dns-overview
 - /wiki/advanced
+- /en/advanced/dns-overview
 ---
 
 The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.

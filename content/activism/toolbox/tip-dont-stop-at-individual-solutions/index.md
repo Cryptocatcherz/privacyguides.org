@@ -4,6 +4,8 @@ description: When we think about privacy, we often focus on technical individual
 icon: fontawesome/solid/users-rays
 cover: banner-toolbox-tip-expand.webp
 weight: 6
+aliases:
+- /en/activism/toolbox/tip-dont-stop-at-individual-solutions
 ---
 When we think about our privacy, we often focus on the technical tools we can use to protect it. While this is an important *component*, it's crucial not to lose sight of how regulations and invasive practices impact us collectively.
 

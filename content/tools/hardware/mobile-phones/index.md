@@ -2,6 +2,8 @@
 title: Mobile Phones
 description: These mobile devices provide the best hardware security support for custom Android operating systems.
 aliases:
+- /mobile-phones
+- /en/mobile-phones
 - /tools/hardware
 ---
 <small>Protects against the following threat(s):</small>

@@ -1,6 +1,9 @@
 ---
 title: "Language Tools"
 description: These language tools do not send your input text to a server and can be used offline and self-hosted.
+aliases:
+- /language-tools
+- /en/language-tools
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

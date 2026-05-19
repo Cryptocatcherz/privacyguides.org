@@ -2,6 +2,8 @@
 title: Calendar Sync
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 aliases:
+- /calendar
+- /en/calendar
 - /tools/services
 ---
 

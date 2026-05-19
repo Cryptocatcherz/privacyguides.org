@@ -3,6 +3,9 @@ meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy 
 title: Email Security
 weight: 100
 description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+aliases:
+- /basics/email-security
+- /en/basics/email-security
 ---
 
 Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add end-to-end encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.

@@ -4,6 +4,8 @@ description: If you are developing a privacy-focused application or website, it'
 icon: fontawesome/solid/cat
 cover: banner-toolbox-tip-cute.webp
 weight: 18
+aliases:
+- /en/activism/toolbox/tip-make-it-cute
 ---
 If you are developing a privacy-focused application or website, it's important that you **do not neglect the design** aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Make it cute!
 

@@ -2,6 +2,9 @@
 title: "Common Threats"
 weight: 30
 description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+aliases:
+- /basics/common-threats
+- /en/basics/common-threats
 ---
 
 Broadly speaking, we categorize our recommendations into the [threats](../threat-modeling/index.md) or goals that apply to most people. <mark>You may be concerned with none, one, a few, or all of these possibilities</mark>, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.

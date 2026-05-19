@@ -1,6 +1,9 @@
 ---
 title: Cloud Storage
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+aliases:
+- /cloud
+- /en/cloud
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/index.md#security-and-privacy)

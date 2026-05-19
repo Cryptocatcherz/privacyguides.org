@@ -1,6 +1,9 @@
 ---
 title: "Email Aliasing"
 description: An email aliasing service allows you to easily generate a new email address for every website you register for.
+aliases:
+- /email-aliasing
+- /en/email-aliasing
 ---
 
 <small>Protects against the following threat(s):</small>

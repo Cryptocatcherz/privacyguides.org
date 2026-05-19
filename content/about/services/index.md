@@ -1,6 +1,8 @@
 ---
 title: Privacy Guides Services
 description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
+aliases:
+- /en/about/services
 ---
 
 We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects. Many of these services are available to the public and are detailed below.

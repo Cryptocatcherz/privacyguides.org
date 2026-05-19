@@ -4,6 +4,8 @@ description: Commercial social media platforms represent one of the biggest sour
 icon: fontawesome/solid/seedling
 cover: banner-toolbox-tip-plant.webp
 weight: 5
+aliases:
+- /en/activism/toolbox/tip-improve-your-social-media-and-build-resilient-communities
 ---
 Commercial social media platforms represent one of the biggest source of data exploitation. Facebook, Instagram, Threads, TikTok, and X all exploit their users' data to generate billions in profit every year. By staying active on these platforms, we continue to feed the beast and indirectly support this invasion of privacy rights.
 

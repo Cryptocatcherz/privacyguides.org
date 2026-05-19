@@ -1,6 +1,9 @@
 ---
 title: "Router Firmware"
 description: Alternative operating systems for securing your router or Wi-Fi access point.
+aliases:
+- /router
+- /en/router
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/index.md#surveillance-as-a-business-model)

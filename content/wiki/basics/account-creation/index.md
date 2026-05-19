@@ -3,6 +3,9 @@ meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
 title: "Account Creation"
 weight: 50
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+aliases:
+- /basics/account-creation
+- /en/basics/account-creation
 ---
 
 Often people sign up for services without thinking. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.

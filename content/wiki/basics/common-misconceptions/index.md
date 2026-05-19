@@ -2,6 +2,9 @@
 title: "Common Misconceptions"
 weight: 40
 description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+aliases:
+- /basics/common-misconceptions
+- /en/basics/common-misconceptions
 ---
 
 ## "Open-source software is always secure" or "Proprietary software is more secure"

@@ -4,4 +4,7 @@ description: An overview of our operating system-related recommendations for all
 build:
   list: local
   render: link
+aliases:
+- /os
+- /en/os
 ---

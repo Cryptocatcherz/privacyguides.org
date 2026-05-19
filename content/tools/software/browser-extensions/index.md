@@ -1,6 +1,9 @@
 ---
 title: Browser Extensions
 description: These browser extensions can enhance your browsing experience and protect your privacy.
+aliases:
+- /browser-extensions
+- /en/browser-extensions
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Surveillance Capitalism" color="purple" >}}](../../../wiki/basics/common-threats/index.md#surveillance-as-a-business-model)

@@ -1,6 +1,9 @@
 ---
 title: Email Servers
 description: For our more technical readers, self-hosting your own email can provide additional privacy assurances by having maximum control over your data.
+aliases:
+- /self-hosting/email-servers
+- /en/self-hosting/email-servers
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

@@ -1,6 +1,9 @@
 ---
 title: Email Services
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+aliases:
+- /email
+- /en/email
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

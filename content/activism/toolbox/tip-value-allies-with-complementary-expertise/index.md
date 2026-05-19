@@ -4,6 +4,8 @@ description: In privacy like everywhere else, diversity is a strength. If you wa
 icon: fontawesome/solid/circle-half-stroke
 cover: banner-toolbox-tip-complement.webp
 weight: 13
+aliases:
+- /en/activism/toolbox/tip-value-allies-with-complementary-expertise
 ---
 In privacy, like in other areas of life, **diversity is an incredible strength**. If you want your community to have a broad understanding of threat models, and be able to address issues on multiple levels, you need to value a diversity of expertises.
 

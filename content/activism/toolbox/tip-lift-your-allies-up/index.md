@@ -4,6 +4,8 @@ description: The battle for privacy rights is difficult, and its defenders are s
 icon: fontawesome/solid/hand-holding-hand
 cover: banner-toolbox-tip-lift.webp
 weight: 9
+aliases:
+- /en/activism/toolbox/tip-lift-your-allies-up
 ---
 At times, it might feel like the privacy community is niche and isolated.
 

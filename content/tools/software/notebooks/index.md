@@ -1,6 +1,9 @@
 ---
 title: "Notebooks"
 description: These encrypted note-taking apps let you keep track of your notes without giving them to a third party.
+aliases:
+- /notebooks
+- /en/notebooks
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

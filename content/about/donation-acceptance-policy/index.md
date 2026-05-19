@@ -1,6 +1,8 @@
 ---
 title: Donation Acceptance Policy
 description: Privacy Guides aspires to obtain funding from a wide variety of sources to reduce our dependency on any single donor. Please consider donating!
+aliases:
+- /en/about/donation-acceptance-policy
 ---
 
 Privacy Guides takes the ethical responsibility of making unbiased recommendations on its website very seriously.

@@ -1,6 +1,9 @@
 ---
 title: "News Aggregators"
 description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+aliases:
+- /news-aggregators
+- /en/news-aggregators
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

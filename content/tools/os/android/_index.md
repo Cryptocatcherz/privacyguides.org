@@ -2,6 +2,8 @@
 title: "Android"
 description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
 aliases:
+- /android
+- /en/android
 - /tools/os
 ---
 <style>

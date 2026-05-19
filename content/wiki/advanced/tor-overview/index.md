@@ -2,6 +2,9 @@
 title: "Tor Overview"
 weight: 20
 description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
+aliases:
+- /advanced/tor-overview
+- /en/advanced/tor-overview
 ---
 
 ![Tor logo](tor.svg)

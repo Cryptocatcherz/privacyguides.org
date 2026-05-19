@@ -4,6 +4,8 @@ description: The battle for privacy will be a long one. This isn't a sprint, it'
 icon: fontawesome/solid/battery-quarter
 cover: banner-toolbox-tip-rest.webp
 weight: 23
+aliases:
+- /en/activism/toolbox/tip-take-time-to-rest
 ---
 The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon.
 

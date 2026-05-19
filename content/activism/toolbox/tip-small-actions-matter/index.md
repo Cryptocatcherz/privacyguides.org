@@ -4,6 +4,8 @@ description: There is so much to do to improve privacy rights. So much, that it'
 icon: fontawesome/solid/puzzle-piece
 cover: banner-toolbox-tip-small.webp
 weight: 22
+aliases:
+- /en/activism/toolbox/tip-small-actions-matter
 ---
 There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But **everything helps**. Every small improvement counts, and every small victory should be celebrated.
 

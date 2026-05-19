@@ -4,6 +4,8 @@ description: Privacy isn't just about the tools, or just about the laws, or just
 icon: fontawesome/solid/globe
 cover: banner-toolbox-tip-landscape.webp
 weight: 7
+aliases:
+- /en/activism/toolbox/tip-keep-in-mind-the-whole-landscape
 ---
 Privacy isn't just about the tools, the laws, or the practices of any individual or organization. It's about *all* of that. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically.
 

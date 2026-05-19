@@ -1,6 +1,9 @@
 ---
 title: Photo Backups
 description: These photo backup tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
+aliases:
+- /photo-management
+- /en/photo-management
 ---
 
 <small>Protects against the following threat(s):</small>

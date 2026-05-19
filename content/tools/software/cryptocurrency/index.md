@@ -1,6 +1,9 @@
 ---
 description: Unlike most cryptocurrencies, these ones provide transaction privacy by default. Monero is our top choice for obfuscating transaction information.
 title: Cryptocurrency
+aliases:
+- /cryptocurrency
+- /en/cryptocurrency
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Mass Surveillance" color="blue" >}}](../../../wiki/basics/common-threats/index.md#mass-surveillance-programs)
