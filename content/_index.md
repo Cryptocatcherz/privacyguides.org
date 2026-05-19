@@ -8,14 +8,14 @@ layout: pg-home
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  Consumer Data Privacy&nbsp;<br class="hx:sm:block hx:hidden" />Advocacy &amp; Resources
+  Consumer Data Privacy Advocacy &amp; Resources
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  <strong>Privacy Guides</strong> is the only impartial, non-profit project<br class="hx:sm:block hx:hidden" />
-  focused on building a <strong>strong privacy advocacy</strong> community <br class="hx:sm:block hx:hidden" />
+  <strong>Privacy Guides</strong> is the only impartial, non-profit project
+  focused on building a <strong>strong privacy advocacy</strong> community
   and delivering the best <strong>digital privacy education</strong> on the internet.
 {{< /hextra/hero-subtitle >}}
 </div>

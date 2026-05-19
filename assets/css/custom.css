@@ -254,9 +254,7 @@ p.pg\:image\:right img {
 
 html.light {
   .content {
-    :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)),
-    :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)),
-    :where(h3):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)) {
       color: var(--hx-color-primary-900)
     }
     :where(a):not(:where([class~=not-prose],
@@ -271,9 +269,7 @@ html.light {
 
 html.dark {
   .content {
-    :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)),
-    :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)),
-    :where(h3):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)) {
       color: var(--hx-color-primary-200)
     }
     :where(a):not(:where([class~=not-prose],
