@@ -15,13 +15,13 @@ Here are things you can do to **support your privacy comrades**:
 
 We live in a world of social connections. Regrettably, when we moved these connections online, we also gave power to large corporations to monitor and monetize our social relationships and communications.
 
-Many privacy advocates will choose, rightly so, to completely [leave](../tip-migrate-outside-the-surveillance-ecosystem/) those abusive platforms. Sadly, a side effect of this is often severed relationships with loved ones, who refuse to join us on better, privacy-respectful environments. It's unfortunately common to lose friends when we quit Facebook, or refuse to join a Discord server. Taking a stand for our privacy values can come at the cost of some painful social losses.
+Many privacy advocates will choose, rightly so, to completely [leave](../tip-migrate-outside-the-surveillance-ecosystem/index.md) those abusive platforms. Sadly, a side effect of this is often severed relationships with loved ones, who refuse to join us on better, privacy-respectful environments. It's unfortunately common to lose friends when we quit Facebook, or refuse to join a Discord server. Taking a stand for our privacy values can come at the cost of some painful social losses.
 
 Moreover, fighting to protect privacy rights while reading about attacks on those rights every day in the news can be draining.
 
 Most advocates have experienced moments of great discouragement, and feelings of helplessness while facing the magnitude of the task at hand. <mark>Social support is a matter of survival</mark> to recharge and continue this long battle for human rights.
 
-This is why we must work to rebuild communities of our own. Supportive privacy communities that are [kind](../tip-be-kind-to-people-but-be-relentless-with-institutions/), [inclusive](../tip-keep-your-posts-and-community-inclusive/), and [accessible](../tip-be-mindful-of-accessibility/).
+This is why we must work to rebuild communities of our own. Supportive privacy communities that are [kind](../tip-be-kind-to-people-but-be-relentless-with-institutions/index.md), [inclusive](../tip-keep-your-posts-and-community-inclusive/index.md), and [accessible](../tip-be-mindful-of-accessibility/index.md).
 
 ## Stay vigilant to spot signs of distress and fatigue
 
@@ -59,4 +59,4 @@ Here are a few things you can do to support your privacy comrades in times of ne
 
 - [Take care and prevent an activist burnout (*Activist Handbook*)](https://activisthandbook.org/wellbeing)
 
-- [Build communities on privacy-respectful social networks, and invite your privacy comrades to join you there (*Privacy Guides*)](../tip-improve-your-social-media-and-build-resilient-communities/)
+- [Build communities on privacy-respectful social networks, and invite your privacy comrades to join you there (*Privacy Guides*)](../tip-improve-your-social-media-and-build-resilient-communities/index.md)

@@ -78,13 +78,13 @@ Organizational membership[^org-members] to Privacy Guides is open to any company
 
 You can become an organizational member by reaching out to <info@magicgrants.org> for more information.
 
-[^org-members]: Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](../donation-acceptance-policy/).
+[^org-members]: Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](../donation-acceptance-policy/index.md).
 
 ### How are organizational members recognized?
 
 Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate. Organizational member links include the `rel="nofollow"` attribute: We adopted this policy to screen out potential abuse of our program and site to raise the rank of third parties in search algorithms. Unfortunately, this is a growing problem for nonprofits. This was a complex decision since we know many of the sincere supporters behind these companies, but we decided that it was the best choice for us.
 
-Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](../donation-acceptance-policy/).
+Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](../donation-acceptance-policy/index.md).
 
 ### What is an active membership?
 
@@ -112,11 +112,11 @@ We use donations for a variety of purposes, including:
 
 **Online Services**
 
-:   We host [internet services](../services/) for testing and showcasing different privacy-products we like and [recommend](../../tools/). Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
+:   We host [internet services](../services/index.md) for testing and showcasing different privacy-products we like and [recommend](../../tools/_index.md). Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
 
 **Product Purchases**
 
-:   We occasionally purchase products and services for the purposes of testing our [recommended tools](../../tools/).
+:   We occasionally purchase products and services for the purposes of testing our [recommended tools](../../tools/_index.md).
 
 Thank you to all those who support our mission!
 

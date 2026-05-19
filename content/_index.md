@@ -59,7 +59,7 @@ aliases:
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] pg:colored-card"
     image="pg-home-youtube.png"
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    link="https://youtube.com/@PrivacyGuides"
+    link="https://www.privacyguides.org/videos/"
   >}}
   {{< hextra/feature-card
     title="Activism Toolbox"
@@ -91,7 +91,7 @@ aliases:
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] pg:colored-card"
     image="pg-home-privacy-news.png"
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    link="news"
+    link="https://www.privacyguides.org/news/"
   >}}
 {{< /hextra/feature-grid >}}
 
@@ -111,7 +111,7 @@ aliases:
   {{< hextra/feature-card
     title="Articles"
     subtitle="Read the latest articles from our team of privacy experts and guest contributors."
-    link="articles"
+    link="https://www.privacyguides.org/articles/"
     icon="book-open"
   >}}
   {{< hextra/feature-card

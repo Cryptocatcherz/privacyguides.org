@@ -37,7 +37,7 @@ A data subject is simply anyone from whom personal information is collected by a
 
 If your jurisdiction is protected by one or more privacy laws, it should be relatively easy to find this information online.
 
-To start your research, you can look at [Privacy Guides' DPA Directory](../../legal/dpa-directory/) and check if your region is listed there. If it is, you will see what is the main consumer privacy law for this region, and you can click on the link to learn more about it.
+To start your research, you can look at [Privacy Guides' DPA Directory](../../legal/dpa-directory/index.md) and check if your region is listed there. If it is, you will see what is the main consumer privacy law for this region, and you can click on the link to learn more about it.
 
 If your region isn't listed in our DPA Directory, or if you are looking for another more specific privacy-related law, you should be able to find this information online simply using a [trustworthy search engine](../../../tools/services/search-engines/index.md). Look for keywords with your location (be specific about country + states/provinces/region) and "privacy laws" or "data protection regulations."
 
@@ -88,7 +88,7 @@ Once you've found the official governmental documentation describing the data pr
 
 ## More resources
 
-- [Directory of comprehensive consumer privacy laws worldwide (*Privacy Guides*)](../../legal/dpa-directory/)
+- [Directory of comprehensive consumer privacy laws worldwide (*Privacy Guides*)](../../legal/dpa-directory/index.md)
 
 - [Map of data protection and privacy legislation worldwide (*UN Trade and Development*)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
 

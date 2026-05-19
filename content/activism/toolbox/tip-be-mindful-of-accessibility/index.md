@@ -7,7 +7,7 @@ weight: 17
 aliases:
 - /en/activism/toolbox/tip-be-mindful-of-accessibility
 ---
-**Accessibility** is indispensable to [inclusivity](../tip-keep-your-posts-and-community-inclusive/), and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
+**Accessibility** is indispensable to [inclusivity](../tip-keep-your-posts-and-community-inclusive/index.md), and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
 
 Here's what you can do to improve accessibility for your privacy-related content and communities:
 
@@ -141,13 +141,13 @@ Another aspect of accessibility that is often overlooked is financial accessibil
 
 ### Beginners accessibility
 
-[Welcoming beginners](../tip-welcome-beginners/) is crucial in all the work we do. To keep your content and events accessible to beginners, it's important to be mindful of the language you use, the ways you present content, and the places where you promote your events.
+[Welcoming beginners](../tip-welcome-beginners/index.md) is crucial in all the work we do. To keep your content and events accessible to beginners, it's important to be mindful of the language you use, the ways you present content, and the places where you promote your events.
 
 - Always explain acronyms with whole words before only using the letters only.
 
 - Be careful when using jargon, try to be explicit and use simple words and analogies.
 
-- Beware of gatekeeping. Try to stay aware of newcomers that might be quiet or isolated from the group. [Be inclusive](../tip-keep-your-posts-and-community-inclusive/) and invite them to participate.
+- Beware of gatekeeping. Try to stay aware of newcomers that might be quiet or isolated from the group. [Be inclusive](../tip-keep-your-posts-and-community-inclusive/index.md) and invite them to participate.
 
 - Specify that your event welcomes beginners.
 

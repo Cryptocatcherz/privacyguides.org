@@ -56,17 +56,17 @@ Here are some ideas of what you can do to become a privacy activist in your comm
 
 <div class="emoji-list-a" markdown>
 
-- [**Spread** the words of your allies.](../tip-lift-your-allies-up/) Repost social media campaigns from digital rights organizations you like, and write about it on your own platforms. Encourage people to participate if there is a call to action.
+- [**Spread** the words of your allies.](../tip-lift-your-allies-up/index.md) Repost social media campaigns from digital rights organizations you like, and write about it on your own platforms. Encourage people to participate if there is a call to action.
 
 - **Write** about the privacy issues you care about. Inform the public with accurate information and effective ways of action to push back against invasive technologies and legislations. This can be through your social networks, personal blog, or even a book!
 
-- [**Participate**](../tip-small-actions-matter/) in the actions organized by others. Reply positively to social media posts related to privacy rights, repost the content of your allies, sign petitions, report violations, join an online forum, and contact your representatives about privacy rights in your region of the world.
+- [**Participate**](../tip-small-actions-matter/index.md) in the actions organized by others. Reply positively to social media posts related to privacy rights, repost the content of your allies, sign petitions, report violations, join an online forum, and contact your representatives about privacy rights in your region of the world.
 
-- [**Refuse**](../tip-refuse-to-participate/) to participate in privacy-invasive requests, and refuse to use privacy-invasive technologies as much as doable for your situation. Sometimes doing nothing can be a powerful action. Try to prioritize your privacy principles over [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/), and report on your refusal experiences on social networks and with your local communities.
+- [**Refuse**](../tip-refuse-to-participate/index.md) to participate in privacy-invasive requests, and refuse to use privacy-invasive technologies as much as doable for your situation. Sometimes doing nothing can be a powerful action. Try to prioritize your privacy principles over [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/), and report on your refusal experiences on social networks and with your local communities.
 
-- [**Join or build** communities](https://discuss.privacyguides.net/) with people sharing your privacy values. Be a positive contributor and lift your allies up. [Support your privacy comrades](../tip-support-your-privacy-comrades/) and [ask for help](../tip-take-time-to-rest/) when you need it yourself. Look for nonprofit organizations seeking volunteers.
+- [**Join or build** communities](https://discuss.privacyguides.net/) with people sharing your privacy values. Be a positive contributor and lift your allies up. [Support your privacy comrades](../tip-support-your-privacy-comrades/index.md) and [ask for help](../tip-take-time-to-rest/index.md) when you need it yourself. Look for nonprofit organizations seeking volunteers.
 
-- [**Contribute** financially](../../../about/donate/) if you can. If you cannot afford to participate in time, consider donating money. There are many digital rights nonprofit organizations that could do *so much more* if only they had more funding. Offering financial support when you can is a meaningful way to contribute to the privacy rights movement.
+- [**Contribute** financially](../../../about/donate/index.md) if you can. If you cannot afford to participate in time, consider donating money. There are many digital rights nonprofit organizations that could do *so much more* if only they had more funding. Offering financial support when you can is a meaningful way to contribute to the privacy rights movement.
 
 - **Go** to local meetups related to privacy and digital rights. Meet people who share your values in-person, and grow your network to find allies in your area.
 

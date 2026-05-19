@@ -9,7 +9,7 @@ aliases:
 ---
 There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But **everything helps**. Every small improvement counts, and every small victory should be celebrated.
 
-Even if you don't feel like you have the [energy](../tip-take-time-to-rest/) to move a mountain today, there are plenty of small actions you can do.
+Even if you don't feel like you have the [energy](../tip-take-time-to-rest/index.md) to move a mountain today, there are plenty of small actions you can do.
 
 Moreover, you don't have to move this mountain alone! If you push on it a little today, and a thousand people join you tomorrow, then a thousand more the day after, this mountain will eventually move.
 
@@ -17,13 +17,13 @@ Here's why every action and each victory matter, no matter how small:
 
 ## Small actions cumulate over time, and with numbers
 
-Discouragement often emerges from envisioning too much of what's left to do at once. While it's important to [expand your perspective](../tip-dont-stop-at-individual-solutions/), when it comes to action, it's also important to segment the task at hand into smaller bites.
+Discouragement often emerges from envisioning too much of what's left to do at once. While it's important to [expand your perspective](../tip-dont-stop-at-individual-solutions/index.md), when it comes to action, it's also important to segment the task at hand into smaller bites.
 
 Even if you do not have the resources to organize a large campaign around a privacy issue, do not minimize the power that you have.
 
 All the <mark>small contributions you can make will culminate over time</mark>, and end up having a significant impact overall.
 
-Additionally, you are [not alone](../tip-lift-your-allies-up/) in this battle. If you can make a small contribution today, and perhaps convince one or two other advocates to do the same, you have already contributed significantly to the movement.
+Additionally, you are [not alone](../tip-lift-your-allies-up/index.md) in this battle. If you can make a small contribution today, and perhaps convince one or two other advocates to do the same, you have already contributed significantly to the movement.
 
 ## Divide your big ideas in small bites
 

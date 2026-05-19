@@ -7,7 +7,7 @@ aliases:
 
 Privacy Guides takes the ethical responsibility of making unbiased recommendations on its website very seriously.
 
-Privacy Guides aspires to obtain funding from a wide variety of sources to reduce our dependency on any single donor. Please consider [donating](../donate/)!
+Privacy Guides aspires to obtain funding from a wide variety of sources to reduce our dependency on any single donor. Please consider [donating](../donate/index.md)!
 
 ## What we **can** accept
 
@@ -31,7 +31,7 @@ Privacy Guides will only accept such gifts that are legal and consistent with ou
 
 - Accept donations from privacy-related companies and non-profits.
 - Apply for grant programs.
-- Accept free versions of software or hardware to test and review, while being mindful of possible differences in versions that could differ from a regular customer experience. ([More details](../executive-policy/#ep1-freely-provided-product-samples))
+- Accept free versions of software or hardware to test and review, while being mindful of possible differences in versions that could differ from a regular customer experience. ([More details](../executive-policy/index.md#ep1-freely-provided-product-samples))
 - Accept discounted versions of software or hardware that assist our operations (for example, discounted software costs made available to non-profits).
 
 ## Restrictions on gifts

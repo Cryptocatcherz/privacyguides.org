@@ -7,7 +7,7 @@ weight: 2
 aliases:
 - /en/activism/toolbox/tip-report-privacy-violations
 ---
-Once you are [informed on your local privacy laws](../tip-know-your-privacy-laws/), it's important to get familiar with the process to **report violations of the law**. Submitting an official complaint is often simple, and can have a significant impact both for yourself and for your community.
+Once you are [informed on your local privacy laws](../tip-know-your-privacy-laws/index.md), it's important to get familiar with the process to **report violations of the law**. Submitting an official complaint is often simple, and can have a significant impact both for yourself and for your community.
 
 Here's why and how you should report violations of your local privacy laws:
 
@@ -20,7 +20,7 @@ Here's why and how you should report violations of your local privacy laws:
 
 For many (if not most) privacy regulations, there isn't a mechanism to systematically audit every single organization collecting data from people located in its jurisdiction.
 
-Unless the enforcing authority decides to investigate an especially important abuse, the process often relies on individual complaints reporting violations of [**data subject**](../tip-know-your-privacy-laws/#where-is-the-data-subject) rights in order to trigger an investigation.
+Unless the enforcing authority decides to investigate an especially important abuse, the process often relies on individual complaints reporting violations of [**data subject**](../tip-know-your-privacy-laws/index.md#where-is-the-data-subject) rights in order to trigger an investigation.
 
 If you believe that your privacy rights have been violated by an organization, infringing your local privacy regulations, you can likely report this violation to the entity responsible for enforcing the law, the **Data Protection Authority** (DPA).
 
@@ -89,7 +89,7 @@ Most regulations will have a clear process to submit an official complaint.
 Once you've found the official documentation for your local privacy law(s), read through it to find who is responsible for enforcing the law (who is your DPA), and what the complaint process is.
 
 > [!TIP]
-> To help you find the official documentation for your local privacy law, the authority mandated to enforce it, and the contact links to ask questions or place a complaint, Privacy Guides has put together this handy [DPA Directory](../../legal/dpa-directory/).
+> To help you find the official documentation for your local privacy law, the authority mandated to enforce it, and the contact links to ask questions or place a complaint, Privacy Guides has put together this handy [DPA Directory](../../legal/dpa-directory/index.md).
 
 Before submitting a complaint, you may want to:
 
@@ -155,7 +155,7 @@ When sending an official complaint, make sure to:
 
 <div class="emoji-list-c" markdown>
 
-- [Privacy Laws and Data Protection Authority Directory (*Privacy Guides*)](../../legal/dpa-directory/)
+- [Privacy Laws and Data Protection Authority Directory (*Privacy Guides*)](../../legal/dpa-directory/index.md)
 
 - [European Union Member States Data Protection Authorities - List and Map (*EDPB*)](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)
 

@@ -40,15 +40,15 @@ Here are a few tips that can help you become a positive leader in your community
 
 - **Learn to delegate work** and split-up tasks. Do not try to do it all by yourself. Delegating and trusting others to do the work will also help prevent activism burnout.
 
-- **Trust the members of your group** according to their unique skill sets, and reach out to them when their [unique expertise](../tip-value-allies-with-complementary-expertise/) or experience is relevant to another part of the project.
+- **Trust the members of your group** according to their unique skill sets, and reach out to them when their [unique expertise](../tip-value-allies-with-complementary-expertise/index.md) or experience is relevant to another part of the project.
 
-- **Show appreciation** both in private and in public, and [give credit](../tip-give-credit-where-credit-is-due/) where credit is due. This is incredibly important to retain the dedicated members of your group, and to attract new advocates.
+- **Show appreciation** both in private and in public, and [give credit](../tip-give-credit-where-credit-is-due/index.md) where credit is due. This is incredibly important to retain the dedicated members of your group, and to attract new advocates.
 
 - **Inspire and support** your group members to reach their full potential, and to become the best privacy advocates they can be. Make sure their needs are met, and that they feel safe coming to you for requests.
 
-- **Build a team that is inclusive and diverse.** A [diverse team](../tip-keep-your-posts-and-community-inclusive/) will help your group gain a broader perspective, and be able to do more by having access to a diversity of experiences, skills, and networks. It will also help your message reach more people.
+- **Build a team that is inclusive and diverse.** A [diverse team](../tip-keep-your-posts-and-community-inclusive/index.md) will help your group gain a broader perspective, and be able to do more by having access to a diversity of experiences, skills, and networks. It will also help your message reach more people.
 
-- **Lead by example** adopting principles of [integrity](../tip-stay-true-to-your-principles/), transparency, and work-life balance. Valorize and exemplify these behaviors within your group.
+- **Lead by example** adopting principles of [integrity](../tip-stay-true-to-your-principles/index.md), transparency, and work-life balance. Valorize and exemplify these behaviors within your group.
 
 - **Plan and organize projects transparently.** Make sure the members of your group are aware of the direction you have in mind, and that they support it. Avoiding surprises internally will make your members feel safer, and will help with retention and satisfaction.
 
@@ -58,7 +58,7 @@ Here are a few tips that can help you become a positive leader in your community
 
 - **Organize leisure opportunities** for your group to discuss together about things other than work, and bound as a team. This will help improve communication, increase morale, and build better relationships within your group, as well as nurture a sense of belonging. Don't make this mandatory, however. Respect everyone's personal availabilities and boundaries.
 
-- **Be (temporarily) replaceable.** If all the work your group does depends on your presence, all your projects will stop when you need to rest. This is a recipe for disaster, because you need to be able to [take time off](../tip-take-time-to-rest/) as much as any other members of your group. Have a backup plan ready, and communicate it with your group in advance. That way, if you fall sick, have to travel, or need time to take care of your family for a while, you will be able to take the time you need. Until you come back, you will be able to rest fully without stress, knowing your projects will keep running well despite your absence.
+- **Be (temporarily) replaceable.** If all the work your group does depends on your presence, all your projects will stop when you need to rest. This is a recipe for disaster, because you need to be able to [take time off](../tip-take-time-to-rest/index.md) as much as any other members of your group. Have a backup plan ready, and communicate it with your group in advance. That way, if you fall sick, have to travel, or need time to take care of your family for a while, you will be able to take the time you need. Until you come back, you will be able to rest fully without stress, knowing your projects will keep running well despite your absence.
 
 ## Bigger projects to organize
 

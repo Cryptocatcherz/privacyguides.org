@@ -23,7 +23,7 @@ While it might be ambitious to expect people who aren't even aware of privacy is
 
 Each time we use a platform, tool, or service that is privacy-invasive in our practice, we also contribute in normalizing the use of privacy-abusive software.
 
-It's not always easy to [leave Big Tech](../tip-migrate-outside-the-surveillance-ecosystem/) and adopt more privacy-preserving technologies in our daily work. Nevertheless, it's an essential part of our advocacy.
+It's not always easy to [leave Big Tech](../tip-migrate-outside-the-surveillance-ecosystem/index.md) and adopt more privacy-preserving technologies in our daily work. Nevertheless, it's an essential part of our advocacy.
 
 When we use products that do not reflect the values we are asking people to adopt, we not only undermine our own credibility as privacy advocates, but we also harm the privacy rights movement as a whole. It's crucial to lead by example and publicly refuse to use and participate in privacy-abusive platforms, as much as feasible for our situation.
 
@@ -43,15 +43,15 @@ There are many ways to refuse to participate in privacy-invasive practices and p
 
 <div class="emoji-list-a" markdown>
 
-- Use an [ad blocker](https://www.privacyguides.org/en/browser-extensions/) everywhere you can.
+- Use an [ad blocker](../../../tools/software/browser-extensions/index.md) everywhere you can.
 
 - Categorically and obstinately reject all cookies, every single time.
 
 - Read apps' privacy-labels, and always favor applications that are the least intrusive.
 
-- Migrate [away from abusive Big Tech](../tip-migrate-outside-the-surveillance-ecosystem/) products and platforms.
+- Migrate [away from abusive Big Tech](../tip-migrate-outside-the-surveillance-ecosystem/index.md) products and platforms.
 
-- Try to move out or reduce your usage of [privacy-exploiting social media](../tip-improve-your-social-media-and-build-resilient-communities/).
+- Try to move out or reduce your usage of [privacy-exploiting social media](../tip-improve-your-social-media-and-build-resilient-communities/index.md).
 
 - Each time you install a new application or create a new account, go through the settings to disable all the privacy-invasive features you can disable. Make sure to disable any AI features as well.
 
@@ -61,7 +61,7 @@ There are many ways to refuse to participate in privacy-invasive practices and p
 
 - Refuse to provide an official piece of ID online for purposes that aren't strictly necessary, such as government requests. Do not comply with intrusive [age-verification](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) processes. Leave your account abandoned instead, or [delete it](../../../wiki/basics/account-deletion/index.md) if you still can. Additionally, consider contacting your government representatives and the platform's complaint email to voice your privacy concerns about such practice.
 
-- [Report privacy violations](../tip-report-privacy-violations/) of your local privacy laws whenever you can.
+- [Report privacy violations](../tip-report-privacy-violations/index.md) of your local privacy laws whenever you can.
 
 - Depending on your position, refuse to collect or share personal information on others without their prior, explicit, and informed consent (unless you are *legally* required). Be mindful of the software or third-party partners you use that could inadvertently share more information about others than you intended, such as [website telemetry](https://sebastiangreger.net/2014/02/privacy-aware-design-replacing-google-analytics/) or [social media buttons](https://www.tunnelbear.com/blog/why-we-created-our-own-social-media-buttons-on-our-website/).
 

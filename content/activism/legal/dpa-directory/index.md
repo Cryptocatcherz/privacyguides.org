@@ -19,9 +19,9 @@ The **Data Protection Authority** (DPA) **Directory** is a tool to help you find
 Additionally, this table provides information about each law, authority, contact information for questions, and a link to place a complaint for violation of the law with each authority.
 
 > [!TIP]
-> For more information on how to find a specific privacy law that might not be listed here, and what to look for when reading it, consult the Privacy Activist Toolbox tip to [Know Your Privacy Laws](../../toolbox/tip-know-your-privacy-laws/).
+> For more information on how to find a specific privacy law that might not be listed here, and what to look for when reading it, consult the Privacy Activist Toolbox tip to [Know Your Privacy Laws](../../toolbox/tip-know-your-privacy-laws/index.md).
 >
-> For more information on how to proceed when reporting a privacy law violation, consult the Privacy Activist Toolbox tip to [Report Privacy Violations](../../toolbox/tip-report-privacy-violations/).
+> For more information on how to proceed when reporting a privacy law violation, consult the Privacy Activist Toolbox tip to [Report Privacy Violations](../../toolbox/tip-report-privacy-violations/index.md).
 
 ## Scope and limitations
 

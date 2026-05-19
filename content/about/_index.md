@@ -156,7 +156,7 @@ Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-fire
 
 ## History
 
-Privacy Guides was launched in September 2021 as a continuation of the [defunct](./privacytools/) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
+Privacy Guides was launched in September 2021 as a continuation of the [defunct](privacytools/index.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
 
 In 2022, we completed the transition of our main website framework from Jekyll to MkDocs, using the `mkdocs-material` documentation software. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
 

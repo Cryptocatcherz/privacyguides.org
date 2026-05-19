@@ -15,7 +15,7 @@ Here's how you can **minimize your presence on commercial social media**, and sl
 
 Moving away from large commercial platforms can be a complex process, but it's a very important one nonetheless.
 
-[Reducing our dependence on Big Tech](../tip-migrate-outside-the-surveillance-ecosystem/), including for social media platforms, is essential in our fight for better privacy rights.
+[Reducing our dependence on Big Tech](../tip-migrate-outside-the-surveillance-ecosystem/index.md), including for social media platforms, is essential in our fight for better privacy rights.
 
 Not only this allows us to stop feeding a surveillance machine that grows ever hungry for data every month, but it gives us an opportunity to build much more resilient communities, and support platforms that aren't devouring peoples' privacy.
 

@@ -25,7 +25,7 @@ This has many annoying side effects, such as having limited energy and a flesh-a
 
 In our society's hustle culture, it's counterproductive that we often value overwork more than strategic rest.
 
-The thing is, overwork isn't a sustainable strategy for the long battle ahead of us. <mark>What we need to succeed is privacy activists who will fight by our side for a very long time.</mark> We need endurance and persistence. And for this to happen, we need ourselves and our [privacy comrades](../tip-support-your-privacy-comrades/) to be well-rested, by taking pauses and adopting the strategies we all need to recharge.
+The thing is, overwork isn't a sustainable strategy for the long battle ahead of us. <mark>What we need to succeed is privacy activists who will fight by our side for a very long time.</mark> We need endurance and persistence. And for this to happen, we need ourselves and our [privacy comrades](../tip-support-your-privacy-comrades/index.md) to be well-rested, by taking pauses and adopting the strategies we all need to recharge.
 
 We need our movement to stay away from the often toxic hustle culture we have all observed from Big Tech companies, and instead embrace a culture of mutual support that encourages self-care.
 
@@ -68,9 +68,9 @@ Additionally, the fact that we have to incessantly push against a tidal wave of 
 
 - **Find friends:** Find a [community of peers](https://discuss.privacyguides.net/) you can talk to. Exchange resources and seek support from your community. Remember that you aren't alone in this battle.
 
-- **Split the work:** Delegate tasks to privacy comrades. Seek allies and [alliances](../tip-start-alliances-not-wars/). Reach out for help, and don't take all the responsibilities of your projects on your own shoulders. Build a team, and learn to trust others with the work.
+- **Split the work:** Delegate tasks to privacy comrades. Seek allies and [alliances](../tip-start-alliances-not-wars/index.md). Reach out for help, and don't take all the responsibilities of your projects on your own shoulders. Build a team, and learn to trust others with the work.
 
-- **Celebrate!** Take the time to celebrate each victory, no matter how small. Celebrate with your peers too, and never miss an opportunity to [congratulate](../tip-give-credit-where-credit-is-due/) everyone's hard work.
+- **Celebrate!** Take the time to celebrate each victory, no matter how small. Celebrate with your peers too, and never miss an opportunity to [congratulate](../tip-give-credit-where-credit-is-due/index.md) everyone's hard work.
 
 - **Take vacations:** Plan longer breaks through the year with activities that will have nothing to do with your privacy advocacy work. Make sure they are long enough that you have time to even miss the privacy battlefield, and come back eagerly once you are fully rested.
 
@@ -80,7 +80,7 @@ Additionally, the fact that we have to incessantly push against a tidal wave of 
 
 - **Call for help:** If you feel like you are at the end of your rope and might be experiencing symptoms of [burnout](https://www.webmd.com/mental-health/burnout-symptoms-signs), seek professional help to support you.
 
-- **Support others:** Don't forget to [support your privacy comrades](../tip-support-your-privacy-comrades/) when you feel well-enough yourself, to prevent exhaustion as a community.
+- **Support others:** Don't forget to [support your privacy comrades](../tip-support-your-privacy-comrades/index.md) when you feel well-enough yourself, to prevent exhaustion as a community.
 
 </div>
 

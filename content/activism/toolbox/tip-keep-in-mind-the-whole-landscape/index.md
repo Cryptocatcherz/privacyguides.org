@@ -95,7 +95,7 @@ Here are a few practices to improve our culture surrounding data privacy that yo
 
 ## More resources
 
-- **Technology:** [Privacy tools and technology recommendations (*Privacy Guides*)](https://www.privacyguides.org/en/tools/)
+- **Technology:** [Privacy tools and technology recommendations (*Privacy Guides*)](../../../tools/_index.md)
 
 - **Legislative:** [How governments and laws shape our digital lives (*Privacy Guides*)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
 

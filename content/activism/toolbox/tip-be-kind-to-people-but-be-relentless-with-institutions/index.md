@@ -21,7 +21,7 @@ Sadly, it's not rare to see replies to beginners' posts by more advanced peers o
 
 Furthermore, aggression is a horrible strategy to bring more people to your cause, which should be your ultimate goal as a privacy rights advocate and activist.
 
-Instead, be gentle and [develop your empathy skills](https://www.verywellmind.com/what-is-empathy-2795562). Write from a place of compassion, to gradually attract more and more [new people](../tip-welcome-beginners/) to the cause.
+Instead, be gentle and [develop your empathy skills](https://www.verywellmind.com/what-is-empathy-2795562). Write from a place of compassion, to gradually attract more and more [new people](../tip-welcome-beginners/index.md) to the cause.
 
 Stay patient and compassionate, even when people ask questions that might sound obvious to you. Be patient when people don't understand the first time you explain something. Happily clarify with simpler terms when needed, without being condescending.
 

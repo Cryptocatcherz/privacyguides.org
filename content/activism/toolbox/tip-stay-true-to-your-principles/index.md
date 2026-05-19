@@ -39,7 +39,7 @@ There are many things you can do to stay true to your principles, both in your o
 
 Here are a few examples of practices and good habits you might want to adopt:
 
-- Make sure to [inform yourself about the privacy laws](../tip-know-your-privacy-laws/) you have to comply with in your work, and go above and beyond to respect them carefully.
+- Make sure to [inform yourself about the privacy laws](../tip-know-your-privacy-laws/index.md) you have to comply with in your work, and go above and beyond to respect them carefully.
 
 - Create a [Code of Ethics](https://www.wikihow.com/Develop-a-Code-of-Ethics) for your group or organization, and ensure it includes a special emphasis on enforcing your privacy values.
 

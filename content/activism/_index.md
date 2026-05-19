@@ -12,7 +12,7 @@ cascade:
 aliases:
 - /en/activism
 ---
-The **Guides and Tools for Privacy Activists** project from [*Privacy Guides*](../about/) offers a new way to empower the digital rights community.
+The **Guides and Tools for Privacy Activists** project from [*Privacy Guides*](../about/_index.md) offers a new way to empower the digital rights community.
 
 This section contains information to help you become a better defender of privacy rights, both for individuals and organizations.
 

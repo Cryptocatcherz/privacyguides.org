@@ -15,7 +15,7 @@ Here's what you can do to safeguard the data of your privacy comrades:
 
 There are many ways we might collect the data of others in the course of our advocacy, sometimes without even realizing it.
 
-It's important to develop an awareness of the data we collect and share ourselves, and protect the data of others with the greatest care. Not only is this critical for [integrity](../tip-stay-true-to-your-principles/), but it's also fundamental to build and keep the trust of our allies. This in return is essential to build and grow our movement.
+It's important to develop an awareness of the data we collect and share ourselves, and protect the data of others with the greatest care. Not only is this critical for [integrity](../tip-stay-true-to-your-principles/index.md), but it's also fundamental to build and keep the trust of our allies. This in return is essential to build and grow our movement.
 
 Here are a some examples of other people's data we might collect or share in the context of our privacy advocacy work, whether intentionally or inadvertently:
 

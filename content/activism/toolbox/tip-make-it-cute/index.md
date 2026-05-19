@@ -35,7 +35,7 @@ If you've already done your homework to build the best app for people to protect
 
 <div class="emoji-list-a" markdown>
 
-- Make sure that your app or website is [accessible](../tip-be-mindful-of-accessibility/) as much as possible. Accessibility will not only make more people able to use your application, but it's likely to also improve user experience for everyone.
+- Make sure that your app or website is [accessible](../tip-be-mindful-of-accessibility/index.md) as much as possible. Accessibility will not only make more people able to use your application, but it's likely to also improve user experience for everyone.
 
 - Wrap your product in a pretty package. If you can afford it, hire a professional designer to polish your app or website interface, as well as your organization's logo and promotional material. Design can truly be a make-or-break moment. Do not neglect it!
 

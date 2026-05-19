@@ -25,7 +25,7 @@ When people from different localities join our group, this helps us to regionali
 
 Inclusivity allows diversity to thrive, and diversity will make it easier for your group to be inclusive.
 
-Of course, for all those benefits to happen, it's crucial that [group leaders](../tip-level-up-assemble-and-organize/) be good listeners, and actively nurture diversity and inclusivity.
+Of course, for all those benefits to happen, it's crucial that [group leaders](../tip-level-up-assemble-and-organize/index.md) be good listeners, and actively nurture diversity and inclusivity.
 
 ## Beware of gatekeeping
 
@@ -63,9 +63,9 @@ There are many things you can do to keep your community inclusive and diverse. H
 
 - **Normalize the use of pronouns:** If you are in a leadership position, it's especially important to lead by example and display your preferred pronouns in your social media profiles, email signatures, and other relevant contexts. Encourage everyone on your team or in your group to do the same. This helps to normalize the practice, and makes a clear statement that your community is inclusive and welcoming to transgender and gender diverse people.
 
-- **Give credit:** Make sure to appropriately [give credit](../tip-give-credit-where-credit-is-due/) where credit is due, and make people feel supported and seen. Recognition and appreciation are fundamental to inclusion.
+- **Give credit:** Make sure to appropriately [give credit](../tip-give-credit-where-credit-is-due/index.md) where credit is due, and make people feel supported and seen. Recognition and appreciation are fundamental to inclusion.
 
-- **Prioritize accessibility:** [Accessibility](../tip-be-mindful-of-accessibility/) should never be an afterthought, it should be designed in your content and events right from the start. Make sure that your website or software follows [accessibility standards](https://www.w3.org/WAI/standards-guidelines/wcag/), uses [alt text](https://webaim.org/techniques/alttext/) everywhere you can, and ensure that your [in-person events](https://parkpeople.ca/make-your-event-accessible-and-inclusive/) are accessible and enjoyable for everyone. Reach out to people experiencing disabilities to ask how you could improve accessibility for your content and events.
+- **Prioritize accessibility:** [Accessibility](../tip-be-mindful-of-accessibility/index.md) should never be an afterthought, it should be designed in your content and events right from the start. Make sure that your website or software follows [accessibility standards](https://www.w3.org/WAI/standards-guidelines/wcag/), uses [alt text](https://webaim.org/techniques/alttext/) everywhere you can, and ensure that your [in-person events](https://parkpeople.ca/make-your-event-accessible-and-inclusive/) are accessible and enjoyable for everyone. Reach out to people experiencing disabilities to ask how you could improve accessibility for your content and events.
 
 - **Moderate your community:** To keep your spaces inclusive, it's important to remove bad actors promptly. This is critical if you host a platform where people exchange together such as a forum, but it's also true for replies to your social media posts, your Signal groups, or your in-person gatherings. Whenever you become aware of a reply or answer that is abusive or bigoted, make sure to intervene quickly. If you neglect to moderate the community you are responsible for adequately, marginalized people targeted by these attacks will leave your community, and bad actors will prosper and multiply.
 

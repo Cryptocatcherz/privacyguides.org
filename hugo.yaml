@@ -106,11 +106,12 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 languages:
   en:
-    baseURL: https://en.privacyguides.org
     languageName: English
     weight: 1
+    # baseURL: https://en.privacyguides.org
+    contentDir: 'content'
   # fr:
-  #   baseURL: https://fr.privacyguides.org
   #   languageName: Français
   #   weight: 2
-  #   disabled: true
+  #   baseURL: https://fr.privacyguides.org
+  #   contentDir: 'translations/fr'
