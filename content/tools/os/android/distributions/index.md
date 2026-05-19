@@ -25,7 +25,7 @@ We recommend installing GrapheneOS if you have a Google Pixel as it provides imp
 
 ## GrapheneOS
 
-{{< title-card >}}
+{{< title-card logo="./grapheneos.svg" >}}
 
 **GrapheneOS** is the best choice when it comes to privacy and security.
 

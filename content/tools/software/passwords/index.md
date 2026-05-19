@@ -17,7 +17,7 @@ These options allow you to manage an encrypted password database locally.
 
 ## KeePassXC
 
-{{< title-card >}}
+{{< title-card logo="./keepassxc.svg" >}}
 
 **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
@@ -39,7 +39,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 ## KeePassDX (Android)
 
-{{< title-card >}}
+{{< title-card logo="./keepassdx.svg" >}}
 
 **KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
 
@@ -59,7 +59,7 @@ The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 
 [Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
-{{< title-card >}}
+{{< title-card logo="./keepassium.svg" >}}
 
 **KeePassium** is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
 
@@ -78,7 +78,7 @@ KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepass
 
 ## Gopass (CLI)
 
-{{< title-card >}}
+{{< title-card logo="./gopass.svg" >}}
 
 **Gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
 

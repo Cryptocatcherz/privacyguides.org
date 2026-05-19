@@ -20,7 +20,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 
 ## OpenWrt
 
-{{< title-card >}}
+{{< title-card logo="./openwrt.svg" >}}
 
 **OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. It includes util-linux, uClibc, and BusyBox. All the components have been optimized for home routers.
 
@@ -35,7 +35,7 @@ You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to 
 
 ## OPNsense
 
-{{< title-card >}}
+{{< title-card logo="./opnsense.svg" >}}
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
 

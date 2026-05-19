@@ -47,7 +47,7 @@ Consider using a [VPN](../vpn/index.md) or [Tor](../../software/tor/index.md) if
 
 ### Brave Search
 
-{{< title-card >}}
+{{< title-card logo="./brave-search.svg" >}}
 
 **Brave Search** is a search engine developed by Brave. It includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
 
@@ -64,7 +64,7 @@ We recommend you disable [Anonymous usage metrics](https://search.brave.com/help
 
 ### DuckDuckGo
 
-{{< title-card >}}
+{{< title-card logo="./duckduckgo.svg" >}}
 
 **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and a variety of [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
 
@@ -81,7 +81,7 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 
 ### Startpage
 
-{{< title-card >}}
+{{< title-card logo="./startpage.svg" >}}
 
 **Startpage** is a private search engine. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](../../software/tor/index.md#tor-browser) instead.
 
@@ -102,7 +102,7 @@ A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregate
 
 ### SearXNG
 
-{{< title-card >}}
+{{< title-card logo="./searxng.svg" >}}
 
 **SearXNG** is an open-source, self-hostable, metasearch engine. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
 

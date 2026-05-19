@@ -26,7 +26,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 ### Standard Notes
 
-{{< title-card >}}
+{{< title-card logo="./standard-notes.svg" >}}
 
 **Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors.
 
@@ -51,7 +51,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 ### Notesnook
 
-{{< title-card >}}
+{{< title-card logo="./notesnook.svg" >}}
 
 **Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
 
@@ -77,7 +77,7 @@ It features sync functionality that allows you to access your notes on multiple 
 
 ### Joplin
 
-{{< title-card >}}
+{{< title-card logo="./joplin.svg" >}}
 
 **Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
 
@@ -103,7 +103,7 @@ Joplin [does not support](https://github.com/laurent22/joplin/issues/289) passwo
 
 ### Cryptee
 
-{{< title-card >}}
+{{< title-card logo="./cryptee.svg" >}}
 
 **Cryptee** is an open-source, web-based E2EE document editor and photo storage application.
 
@@ -124,7 +124,7 @@ Cryptee is a PWA, which means that it works seamlessly across all modern devices
 
 ### Org-mode
 
-{{< title-card >}}
+{{< title-card logo="./org-mode.svg" >}}
 
 **Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. File synchronization is possible with tools like [Syncthing](../file-sharing/index.md#syncthing-p2p).
 

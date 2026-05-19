@@ -66,7 +66,7 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 
 ### Kobold.cpp
 
-{{< title-card >}}
+{{< title-card logo="./kobold.png" >}}
 
 **Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
 
@@ -90,7 +90,7 @@ Kobold.cpp allows you to modify parameters such as the AI model temperature and 
 
 ### Ollama (CLI)
 
-{{< title-card >}}
+{{< title-card logo="./ollama.png" >}}
 
 **Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
 
@@ -111,7 +111,7 @@ Ollama simplifies the process of setting up a local AI chat by downloading the A
 
 ### Llamafile
 
-{{< title-card >}}
+{{< title-card logo="./llamafile.webp" >}}
 
 **Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
 

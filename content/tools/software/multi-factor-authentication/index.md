@@ -24,7 +24,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 ## Ente Auth
 
-{{< title-card >}}
+{{< title-card logo="./ente-auth.svg" >}}
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
 
@@ -44,7 +44,7 @@ The server-side source code and infrastructure which underpins Ente Auth (if use
 
 ## Aegis Authenticator (Android)
 
-{{< title-card >}}
+{{< title-card logo="./aegis.png" >}}
 
 **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
 

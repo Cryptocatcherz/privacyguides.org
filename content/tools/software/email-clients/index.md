@@ -39,7 +39,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 ### Thunderbird
 
-{{< title-card >}}
+{{< title-card logo="./thunderbird.svg" >}}
 
 **Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
@@ -89,7 +89,7 @@ These options can be found in the menu → **Settings** → **Privacy & Security
 
 ### Apple Mail (macOS)
 
-{{< title-card >}}
+{{< title-card logo="./applemail.png" >}}
 
 **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](../encryption/index.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
@@ -104,7 +104,7 @@ Apple Mail has the ability to load remote content in the background or block it 
 
 ### FairEmail (Android)
 
-{{< title-card >}}
+{{< title-card logo="./fairemail.svg" >}}
 
 **FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
@@ -120,7 +120,7 @@ Apple Mail has the ability to load remote content in the background or block it 
 
 ### GNOME Evolution (GNOME)
 
-{{< title-card >}}
+{{< title-card logo="./evolution.svg" >}}
 
 **Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. Evolution has extensive [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) to help you get started.
 
@@ -135,7 +135,7 @@ Apple Mail has the ability to load remote content in the background or block it 
 
 ### Kontact (KDE)
 
-{{< title-card >}}
+{{< title-card logo="./kontact.svg" >}}
 
 **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
 
@@ -151,7 +151,7 @@ Apple Mail has the ability to load remote content in the background or block it 
 
 ### Mailvelope (Browser)
 
-{{< title-card >}}
+{{< title-card logo="./mailvelope.svg" >}}
 
 **Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
@@ -168,7 +168,7 @@ Apple Mail has the ability to load remote content in the background or block it 
 
 ### NeoMutt (CLI)
 
-{{< title-card >}}
+{{< title-card logo="./mutt.svg" >}}
 
 **NeoMutt** is an open-source command line email reader for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
 

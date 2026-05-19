@@ -60,7 +60,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 ### Control D
 
-{{< title-card >}}
+{{< title-card logo="./control-d.svg" >}}
 
 **Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
 
@@ -82,7 +82,7 @@ In addition to their paid plans, they offer a number of preconfigured DNS resolv
 
 ### NextDNS
 
-{{< title-card >}}
+{{< title-card logo="./nextdns.svg" >}}
 
 **NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
 
@@ -113,7 +113,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](..
 
 ### RethinkDNS
 
-{{< title-card >}}
+{{< title-card logo="./rethinkdns.svg" >}}
 
 **RethinkDNS** is an open-source Android client that supports [DoH](../../../wiki/advanced/dns-overview/index.md#dns-over-https-doh), [DoT](../../../wiki/advanced/dns-overview/index.md#dns-over-tls-dot), [DNSCrypt](../../../wiki/advanced/dns-overview/index.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
 
@@ -131,7 +131,7 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 
 ### DNSCrypt-Proxy
 
-{{< title-card >}}
+{{< title-card logo="./dnscrypt-proxy.svg" >}}
 
 **DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](../../../wiki/advanced/dns-overview/index.md#dnscrypt), [DoH](../../../wiki/advanced/dns-overview/index.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 

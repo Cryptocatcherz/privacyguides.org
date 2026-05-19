@@ -26,7 +26,7 @@ Don't install extensions which you don't immediately have a need for, or ones th
 
 ### uBlock Origin
 
-{{< title-card >}}
+{{< title-card logo="./ublock_origin.svg" >}}
 
 **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
 
@@ -56,7 +56,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
 - ...your browser only supports Manifest V3 extensions. This is the case for Chrome [^2] , Edge and most Chromium browsers.
 
-{{< title-card >}}
+{{< title-card logo="./ublock_origin_lite.svg" >}}
 
 **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [Passive Attacks](../../../wiki/basics/common-threats/index.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
 
@@ -83,7 +83,7 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 We recommend [Safari](../mobile-browsers/index.md#safari-ios) for iOS users, which unfortunately is only supported by uBlock Origin **Lite**. Luckily, AdGuard provides an adequate alternative:
 
-{{< title-card >}}
+{{< title-card logo="./adguard.svg" >}}
 
 **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 

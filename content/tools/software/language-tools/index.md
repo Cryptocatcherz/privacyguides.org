@@ -22,7 +22,7 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 
 ### LanguageTool
 
-{{< title-card >}}
+{{< title-card logo="./languagetool.svg" >}}
 
 **LanguageTool** is a multilingual grammar, style, and spell checker that supports more than 20 languages. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
 
@@ -46,7 +46,7 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 
 ### LibreTranslate
 
-{{< title-card >}}
+{{< title-card logo="./libretranslate.png" >}}
 
 **LibreTranslate** is a free and open-source machine translation web interface and API server. It uses [Argos Translate](https://github.com/argosopentech/argos-translate) models on the backend for translations.
 

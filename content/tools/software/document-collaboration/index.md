@@ -18,7 +18,7 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 
 ## CryptPad
 
-{{< title-card >}}
+{{< title-card logo="./cryptpad.svg" >}}
 
 **CryptPad** is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily.
 

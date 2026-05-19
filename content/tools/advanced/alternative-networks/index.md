@@ -26,7 +26,7 @@ When it comes to anonymizing networks, we want to specially note that [Tor](../.
 
 ### Tor
 
-{{< title-card >}}
+{{< title-card logo="./tor.svg" >}}
 
 The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective [Censorship](../../../wiki/basics/common-threats/index.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
@@ -52,7 +52,7 @@ You can access the Tor network using other tools; making this determination come
 
 #### Orbot
 
-{{< title-card >}}
+{{< title-card logo="./tor.svg" >}}
 
 **Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
 
@@ -82,7 +82,7 @@ Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can a
 
 #### Snowflake
 
-{{< title-card >}}
+{{< title-card logo="./tor.svg" >}}
 
 **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
 
@@ -106,7 +106,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 
 ### I2P (The Invisible Internet Project)
 
-{{< title-card >}}
+{{< title-card logo="./i2p.svg" >}}
 
 **I2P** is a network layer which encrypts your connections and routes them via a network of computers distributed around the world. It is mainly focused on creating an alternative, privacy-protecting network rather than making regular internet connections anonymous.
 

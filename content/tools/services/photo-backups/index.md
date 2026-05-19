@@ -20,7 +20,7 @@ Most cloud **photo backup** solutions like Google Photos, Flickr, and Amazon Pho
 
 ## Ente Photos
 
-{{< title-card >}}
+{{< title-card logo="./ente.svg" >}}
 
 **Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 

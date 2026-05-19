@@ -26,7 +26,7 @@ If these alternatives do not fit your needs, we suggest you look into using encr
 
 ## Proton Drive
 
-{{< title-card >}}
+{{< title-card logo="./protondrive.svg" >}}
 
 **Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](../email/index.md#proton-mail).
 
@@ -48,7 +48,7 @@ The Proton Drive web application has been independently audited by Securitum in 
 
 ## Tresorit
 
-{{< title-card >}}
+{{< title-card logo="./tresorit.svg" >}}
 
 **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
 
@@ -82,7 +82,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 ## Peergos
 
-{{< title-card >}}
+{{< title-card logo="./peergos.svg" >}}
 
 **Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc.
 

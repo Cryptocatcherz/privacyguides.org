@@ -23,7 +23,7 @@ Advanced system administrators may consider setting up their own **email server*
 
 ## Stalwart
 
-{{< title-card >}}
+{{< title-card logo="./stalwart.svg" >}}
 
 **Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security and features, making it easy to use immediately. It has web-based administration with TOTP 2FA support and allows you to enter your public PGP key to encrypt **all** incoming messages.
 
@@ -42,7 +42,7 @@ We use Stalwart for our own internal email at *Privacy Guides*.
 
 ## Mailcow
 
-{{< title-card >}}
+{{< title-card logo="./mailcow.svg" >}}
 
 **Mailcow** is an advanced mail server perfect for those with Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
@@ -55,7 +55,7 @@ We use Stalwart for our own internal email at *Privacy Guides*.
 
 ## Mail-in-a-Box
 
-{{< title-card >}}
+{{< title-card logo="./mail-in-a-box.svg" >}}
 
 **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
 

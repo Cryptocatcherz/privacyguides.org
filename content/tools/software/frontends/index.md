@@ -30,7 +30,7 @@ When you are using an instance run by someone else, make sure to read the privac
 
 ### Redlib
 
-{{< title-card >}}
+{{< title-card logo="./redlib.svg" >}}
 
 **Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. You can access Redlib through a number of public instances.
 
@@ -53,7 +53,7 @@ When you are using an instance run by someone else, make sure to read the privac
 
 ### ProxiTok
 
-{{< title-card >}}
+{{< title-card logo="./proxitok.svg" >}}
 
 **ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
 
@@ -76,7 +76,7 @@ There are a number of public instances, with some that offer a [Tor](../tor/inde
 
 ### Invidious
 
-{{< title-card >}}
+{{< title-card logo="./invidious.svg" >}}
 
 **Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
@@ -99,7 +99,7 @@ There are a number of public instances, with some that offer a [Tor](../tor/inde
 
 ### Piped
 
-{{< title-card >}}
+{{< title-card logo="./piped.svg" >}}
 
 **Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
@@ -118,7 +118,7 @@ Piped requires JavaScript in order to function and there are a number of public 
 
 ### FreeTube
 
-{{< title-card >}}
+{{< title-card logo="./freetube.svg" >}}
 
 **FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). FreeTube extracts data from YouTube using its built-in API based on [YouTube.js](https://github.com/LuanRT/YouTube.js) or the [Invidious](#invidious) API. You can configure either as the default, with the other serving as a fallback.
 
@@ -144,7 +144,7 @@ By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube op
 
 ### LibreTube (Android)
 
-{{< title-card >}}
+{{< title-card logo="./libretube.svg" >}}
 
 **LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
 
@@ -167,7 +167,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, LibreTube
 
 ### NewPipe (Android)
 
-{{< title-card >}}
+{{< title-card logo="./newpipe.svg" >}}
 
 **NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 

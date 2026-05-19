@@ -19,7 +19,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ## LibreOffice
 
-{{< title-card >}}
+{{< title-card logo="./libreoffice.svg" >}}
 
 **LibreOffice** is a free and open-source office suite with extensive functionality.
 
@@ -39,7 +39,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ## OnlyOffice
 
-{{< title-card >}}
+{{< title-card logo="./onlyoffice.svg" >}}
 
 **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
 

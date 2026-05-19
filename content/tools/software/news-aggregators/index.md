@@ -25,7 +25,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ### Akregator
 
-{{< title-card >}}
+{{< title-card logo="./akregator.svg" >}}
 
 **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
 
@@ -40,7 +40,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ### NewsFlash
 
-{{< title-card >}}
+{{< title-card logo="./newsflash.png" >}}
 
 **NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). It has a search feature and a pre-defined list of sources that you can add directly.
 
@@ -55,7 +55,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ### Feeder
 
-{{< title-card >}}
+{{< title-card logo="./feeder.png" >}}
 
 **Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds.
 
@@ -73,7 +73,7 @@ It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedi
 
 ### Miniflux
 
-{{< title-card >}}
+{{< title-card logo="./miniflux.svg" >}}
 
 **Miniflux** is a web-based news aggregator that you can self-host.
 
@@ -88,7 +88,7 @@ It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedi
 
 ### NetNewsWire
 
-{{< title-card >}}
+{{< title-card logo="./netnewswire.png" >}}
 
 **NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
 
@@ -106,7 +106,7 @@ It supports conventional feed formats and includes built-in support for Reddit f
 
 ### Newsboat
 
-{{< title-card >}}
+{{< title-card logo="./newsboat.svg" >}}
 
 **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 

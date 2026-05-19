@@ -31,7 +31,7 @@ There are a number of services which provide "virtual debit cards" which you can
 
 ### Privacy.com (US)
 
-{{< title-card >}}
+{{< title-card logo="./privacy_com.svg" >}}
 
 **Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. Their paid plans provide higher limits on the number of cards that can be created each month.
 
@@ -46,7 +46,7 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
 ### MySudo (US, Paid)
 
-{{< title-card >}}
+{{< title-card logo="./mysudo.svg" >}}
 
 **MySudo** provides up to 9 virtual cards depending on the plan you purchase. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](../email-aliasing/index.md) for extensive email aliasing use.
 
@@ -81,7 +81,7 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 ### Coincards
 
-{{< title-card >}}
+{{< title-card logo="./coincards.svg" >}}
 
 **Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 

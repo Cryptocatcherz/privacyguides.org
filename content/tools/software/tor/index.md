@@ -34,7 +34,7 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 ## Tor Browser
 
-{{< title-card >}}
+{{< title-card logo="./tor.svg" >}}
 
 **Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
@@ -62,7 +62,7 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 [Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
-{{< title-card >}}
+{{< title-card logo="./onion_browser.svg" >}}
 
 **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 

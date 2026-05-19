@@ -22,7 +22,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 ### PhotoPrism
 
-{{< title-card >}}
+{{< title-card logo="./photoprism.svg" >}}
 
 **PhotoPrism** is a platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
@@ -37,7 +37,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 ### FreedomBox
 
-{{< title-card >}}
+{{< title-card logo="./freedombox.svg" >}}
 
 **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications for use cases like sharing files.
 
@@ -50,7 +50,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 ### Nextcloud
 
-{{< title-card >}}
+{{< title-card logo="./nextcloud.svg" >}}
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 

@@ -63,7 +63,7 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 ## EasyOptOuts <small>Paid</small>
 
-{{< title-card >}}
+{{< title-card logo="./easyoptouts.svg" >}}
 
 **EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
 
@@ -91,7 +91,7 @@ Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-revi
 > 
 > While Google is not a data broker themselves *per se*, as they don't sell or share your data with outside parties, some may find this relationship unacceptable. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
 
-{{< title-card >}}
+{{< title-card logo="./google.svg" >}}
 
 **Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appears in Google search results. If any personal information is found, you can request its removal.
 

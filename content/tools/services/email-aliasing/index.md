@@ -52,7 +52,7 @@ Using an aliasing service requires trusting both your email provider and your al
 
 ### Addy.io
 
-{{< title-card >}}
+{{< title-card logo="./addy.svg" >}}
 
 **Addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited ["standard" aliases](https://addy.io/faq/#what-is-a-standard-alias).
 
@@ -86,7 +86,7 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 
 ### SimpleLogin
 
-{{< title-card >}}
+{{< title-card logo="./simplelogin.svg" >}}
 
 **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
 

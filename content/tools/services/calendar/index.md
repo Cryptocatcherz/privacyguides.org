@@ -22,7 +22,7 @@ aliases:
 
 ## Tuta
 
-{{< title-card >}}
+{{< title-card logo="../email/tuta.svg" >}}
 
 **Tuta** offers a free and encrypted calendar across their supported platforms. Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
@@ -46,7 +46,7 @@ Multiple calendars and extended sharing functionality are limited to paid subscr
 
 ## Proton Calendar
 
-{{< title-card >}}
+{{< title-card logo="./proton-calendar.svg" >}}
 
 **Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
 

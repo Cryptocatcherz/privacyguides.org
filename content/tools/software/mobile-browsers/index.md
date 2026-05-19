@@ -20,7 +20,7 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 ## Brave
 
-{{< title-card >}}
+{{< title-card logo="./brave.svg" >}}
 
 **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
@@ -163,7 +163,7 @@ These options can be found in the menu → **Settings** → **Search engines**.
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
 
-{{< title-card >}}
+{{< title-card logo="./safari.svg" >}}
 
 **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 

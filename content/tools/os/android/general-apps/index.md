@@ -22,7 +22,7 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
 If your device is on Android 15 or greater, we recommend using the native [Private Space](../_index.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
 
-{{< title-card >}}
+{{< title-card logo="./shelter.svg" >}}
 
 **Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
 
@@ -46,7 +46,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Public Exposure" color="green" >}}](../../../../wiki/basics/common-threats/index.md#limiting-public-information)
 
-{{< title-card >}}
+{{< title-card logo="./secure_camera.svg" >}}
 
 **Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
@@ -78,7 +78,7 @@ Main privacy features include:
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../../wiki/basics/common-threats/index.md#attacks-against-specific-individuals)
 
-{{< title-card >}}
+{{< title-card logo="./secure_pdf_viewer.svg" >}}
 
 **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
 

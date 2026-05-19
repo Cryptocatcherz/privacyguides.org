@@ -269,6 +269,16 @@ html.light {
       .hextra-card {
         background-color: var(--hx-color-gray-50);
       }
+      img {
+        float: right;
+        margin-top: 0;
+        max-width: 100px;
+        max-height: 100px;
+        margin: 0em 0em 1em 2em;
+      }
+      p:first-of-type {
+        margin-top: 0;
+      }
     }
   }
   nav.hextra-toc li:has(~ li a.hextra-toc-active) > a {

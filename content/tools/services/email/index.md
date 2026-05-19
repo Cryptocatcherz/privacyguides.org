@@ -38,13 +38,6 @@ In addition to (or instead of) an email provider recommended here, you may wish 
 
 These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](../../../wiki/basics/email-security/index.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
 
-<div class="grid cards" markdown>
-
-- ![Proton Mail logo](./protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](./mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
-
-</div>
-
 > [!WARNING]
 > When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](../../../wiki/basics/email-security/index.md#email-metadata-overview).
 >
@@ -54,7 +47,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 ### Proton Mail
 
-{{< title-card >}}
+{{< title-card logo="./protonmail.svg" >}}
 
 **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
 
@@ -129,7 +122,7 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ### Mailbox Mail
 
-{{< title-card >}}
+{{< title-card logo="./mailbox-mail.svg" >}}
 
 **Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox Mail is based in Berlin, Germany.
 
@@ -184,15 +177,9 @@ Mailbox Mail has a digital legacy feature for all plans. You can choose whether 
 
 These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between different providers.
 
-<div class="grid cards" markdown>
-
-- ![Tuta logo](./tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](./tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
-
-</div>
-
 ### Tuta
 
-{{< title-card >}}
+{{< title-card logo="./tuta.svg" >}}
 
 **Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
 

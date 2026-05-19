@@ -32,7 +32,7 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
 ### Bitwarden
 
-{{< title-card >}}
+{{< title-card logo="./bitwarden.svg" >}}
 
 **Bitwarden** is a free and open-source password and passkey manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
 
@@ -63,7 +63,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 ### Proton Pass
 
-{{< title-card >}}
+{{< title-card logo="./protonpass.svg" >}}
 
 **Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](../email/index.md#proton-mail). It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
 
@@ -92,7 +92,7 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 ### 1Password
 
-{{< title-card >}}
+{{< title-card logo="./1password.svg" >}}
 
 **1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up).
 
@@ -122,7 +122,7 @@ Your 1Password vault is secured with both your master password and a randomized 
 
 ### Psono
 
-{{< title-card >}}
+{{< title-card logo="./psono.svg" >}}
 
 **Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
 

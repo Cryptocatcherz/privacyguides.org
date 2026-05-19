@@ -23,7 +23,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ## MAT2
 
-{{< title-card >}}
+{{< title-card logo="./mat2.svg" >}}
 
 **MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
@@ -41,7 +41,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ## ExifEraser (Android)
 
-{{< title-card >}}
+{{< title-card logo="./exiferaser.svg" >}}
 
 **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
@@ -87,7 +87,7 @@ This shortcut removes metadata such as location, device model, lens model, and o
 
 ## ExifTool (CLI)
 
-{{< title-card >}}
+{{< title-card logo="./exiftool.png" >}}
 
 **ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 

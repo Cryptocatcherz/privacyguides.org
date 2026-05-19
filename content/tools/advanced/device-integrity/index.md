@@ -66,7 +66,7 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 
 ### Mobile Verification Toolkit
 
-{{< title-card >}}
+{{< title-card logo="./mvt.webp" >}}
 
 **Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 
@@ -99,7 +99,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 ### iMazing (iOS)
 
-{{< title-card >}}
+{{< title-card logo="./imazing.png" >}}
 
 **iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
 
@@ -129,7 +129,7 @@ These are apps you can install which check your device and operating system for 
 
 ### Auditor (Android)
 
-{{< title-card >}}
+{{< title-card logo="./auditor.svg" >}}
 
 **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
 

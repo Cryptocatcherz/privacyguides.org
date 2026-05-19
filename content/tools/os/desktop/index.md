@@ -31,7 +31,7 @@ Linux distributions are commonly recommended for privacy protection and software
 
 ### Fedora Linux
 
-{{< title-card >}}
+{{< title-card logo="./fedora.svg" >}}
 
 **Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. These new technologies often come with improvements in security, privacy, and usability in general.
 
@@ -48,7 +48,7 @@ Fedora has a semi-rolling release cycle. While some packages like the desktop en
 
 ### openSUSE Tumbleweed
 
-{{< title-card >}}
+{{< title-card logo="./opensuse-tumbleweed.svg" >}}
 
 **openSUSE Tumbleweed** is a stable rolling release distribution.
 
@@ -67,7 +67,7 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 ### Arch Linux
 
-{{< title-card >}}
+{{< title-card logo="./archlinux.svg" >}}
 
 **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
@@ -90,7 +90,7 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
 
 ### Fedora Atomic Desktops
 
-{{< title-card >}}
+{{< title-card logo="./fedora.svg" >}}
 
 **Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
@@ -113,7 +113,7 @@ As an alternative to Flatpaks, there is the option of [Toolbx](https://docs.fedo
 
 ### NixOS
 
-{{< title-card >}}
+{{< title-card logo="./nixos.svg" >}}
 
 **NixOS** is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
 
@@ -138,7 +138,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 ### Whonix
 
-{{< title-card >}}
+{{< title-card logo="./whonix.svg" >}}
 
 **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and [anonymity](../../../wiki/basics/common-threats/index.md#anonymity-vs-privacy) on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
 
@@ -157,7 +157,7 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 
 ### Tails
 
-{{< title-card >}}
+{{< title-card logo="./tails.svg" >}}
 
 **Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](../../software/tor/index.md) to preserve privacy and [anonymity](../../../wiki/basics/common-threats/index.md#anonymity-vs-privacy) while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
 
@@ -184,7 +184,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 ### Qubes OS
 
-{{< title-card >}}
+{{< title-card logo="./qubes_os.svg" >}}
 
 **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
 
@@ -201,7 +201,7 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 
 ### Secureblue
 
-{{< title-card >}}
+{{< title-card logo="./secureblue.svg" >}}
 
 **Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
 
@@ -220,7 +220,7 @@ Secureblue also provides GrapheneOS's [hardened memory allocator](https://github
 
 While we [recommend against](../../../wiki/os/linux/index.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
 
-{{< title-card >}}
+{{< title-card logo="./kicksecure.svg" >}}
 
 **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. It also serves as the base OS for [Whonix](#whonix).
 

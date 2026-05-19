@@ -25,7 +25,7 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 
 ## Monero
 
-{{< title-card >}}
+{{< title-card logo="./monero.svg" >}}
 
 **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [Anonymity](../../../wiki/basics/common-threats/index.md#anonymity-vs-privacy){ .pg-purple }. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
 
