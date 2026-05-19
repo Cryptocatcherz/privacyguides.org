@@ -1,6 +1,8 @@
 ---
 title: "Alternative Networks"
 description: These tools allow you to access networks other than the World Wide Web.
+aliases:
+- /tools/advanced
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

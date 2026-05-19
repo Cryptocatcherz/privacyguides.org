@@ -1,6 +1,8 @@
 ---
 title: DNS Filtering
 description: For our more technical readers, self-hosting a DNS solution can provide filtering for devices not covered by cloud-based DNS solutions.
+aliases:
+- /tools/self-hosting
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

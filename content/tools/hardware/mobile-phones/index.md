@@ -1,6 +1,8 @@
 ---
 title: Mobile Phones
 description: These mobile devices provide the best hardware security support for custom Android operating systems.
+aliases:
+- /tools/hardware
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/index.md#attacks-against-specific-individuals)

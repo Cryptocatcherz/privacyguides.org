@@ -392,6 +392,8 @@ We [**recommend**](../services/dns/index.md#recommended-providers) a number of e
   {{< card link="../os/router-firmware/#opnsense" title="OPNsense" image="../os/router-firmware/opnsense.svg" subtitle="OPNsense is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins." >}}
 {{< /cards >}}
 
+## Advanced
+
 ### Alternative Networks
 
 {{< cards >}}

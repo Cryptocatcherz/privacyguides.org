@@ -1,9 +1,17 @@
 ---
 title: "Data Protection Authorities"
 description: The DPA Directory is a tool to help you find the principal consumer privacy law in your region, the authority mandated to enforce it, and how to report violations.
-sidebar:
-  hide: true
+# sidebar:
+#   hide: true
+aliases:
+  - /activism/legal
 ---
+
+<style>
+nav.hextra-toc.hx\:order-last.hx\:hidden.hx\:w-64.hx\:shrink-0.hx\:xl\:block.hx\:print\:hidden.hx\:px-4 {
+  display: none;
+}
+</style>
 
 The **Data Protection Authority** (DPA) **Directory** is a tool to help you find the main consumer privacy law in your region, and the authority mandated to enforce the law.
 

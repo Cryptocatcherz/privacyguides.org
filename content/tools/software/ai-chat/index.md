@@ -1,6 +1,8 @@
 ---
 title: "AI Chat"
 description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
+aliases:
+- /tools/software
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Service Providers" color="indigo" >}}](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers)

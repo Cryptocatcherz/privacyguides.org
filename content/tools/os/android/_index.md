@@ -1,6 +1,8 @@
 ---
 title: "Android"
 description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
+aliases:
+- /tools/os
 ---
 <style>
   .pg-width-120 {

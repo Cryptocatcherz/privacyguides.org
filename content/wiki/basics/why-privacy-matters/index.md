@@ -2,6 +2,8 @@
 title: "Why Privacy Matters"
 weight: 10
 description: In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not.
+aliases:
+- /wiki/basics
 ---
 In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. <mark>Your privacy is up for grabs</mark>, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
 

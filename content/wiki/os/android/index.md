@@ -3,6 +3,8 @@ title: Android Overview
 icon: simple/android
 description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 robots: nofollow, max-snippet:-1, max-image-preview:large
+aliases:
+- /wiki/os
 ---
 ![Android logo](android.svg)
 { .pg:image:right }

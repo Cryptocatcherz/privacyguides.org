@@ -1,6 +1,5 @@
 ---
-title: Advanced Topics
-weight: 20
+title: Legal Resources
 build:
   list: local
   render: link
