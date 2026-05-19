@@ -21,13 +21,13 @@ These tools can be used to validate the integrity of your mobile devices and che
 
 It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
 
-## General Advice
+## Advice
 
 The majority of system-level exploits on modern mobile devices—especially zero-click compromises—are non-persistent, meaning they will not remain or run automatically after a reboot. For this reason, we highly recommend rebooting your device regularly. We recommend everybody reboot their devices once a week at minimum, but if non-persistent malware is of particular concern for you, we and many security experts recommend a daily reboot schedule.
 
 This means an attacker would have to regularly re-infect your device to retain access, although we'll note this is not impossible. Rebooting your device also will not protect you against *persistent* malware, but this is less common on mobile devices due to modern security features like secure/verified boot.
 
-## Post-Compromise Information & Disclaimer
+### Post-Compromise Information & Disclaimer
 
 If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
 
@@ -57,9 +57,9 @@ External verification tools run on your computer and scan your mobile device for
 
 > [!CAUTION]
 > Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
-> 
+>
 > Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
-> 
+>
 > Such support is available to civil society through [Amnesty International's Security Lab](https://amnesty.org/en/tech) or [Access Now’s Digital Security Helpline](https://accessnow.org/help).
 
 These tools can trigger false-positives. If any of these tools finds indicators of compromise, you need to dig deeper to determine your actual risk. Some reports may be false positives based on websites you've visited in the past, and findings which are many years old are likely either false-positives or indicate previous (and no longer active) compromise.

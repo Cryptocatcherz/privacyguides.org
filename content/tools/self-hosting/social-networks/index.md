@@ -24,11 +24,13 @@ These privacy-respecting **social networks** allow you to participate in online 
 
 A growing problem among social media platforms is censorship in two different forms. First, they often acquiesce to illegitimate censorship requests, either from malicious governments or their own internal policies. Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
 
+## Recommendations
+
 The social networks we recommend solve the issue of censorship by operating atop an open and decentralized social networking protocol. They also don't require an account merely to view publicly available content.
 
 You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](../../services/messengers/index.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
 
-## Decentralization
+### Decentralization
 
 Decentralized social networks are built on an architecture that is fundamentally different than mainstream social media platforms, yet quite similar to the underlying structure of email. Instead of opening an account under a single, unified service like you would for Facebook or Discord, you instead choose an independent, public server to join. The server you join can communicate with and discover other servers; this aspect of decentralization is also known as *federation*.
 
@@ -36,7 +38,7 @@ A significant benefit of this decentralized model is that there is no central au
 
 A caveat of this decentralized model is that each server is its own legal entity, with its own privacy policy, terms of use, administration team, and moderators. While many of these servers are far *less* restrictive and more privacy-respecting than traditional social media platforms, some can be far *more* restrictive or potentially *worse* for your privacy. Typically, the software on which the social network runs does not discriminate between these administrators or place any limitations on their powers.
 
-## Censorship Resistance
+### Censorship Resistance
 
 While censorship in decentralized social networks does not exist on a network level, it is very possible to experience censorship on a server level depending on a server's administrator. Administrators have the power to *defederate* from other servers, which leads to limiting the content you can view and the people you can interact with.
 

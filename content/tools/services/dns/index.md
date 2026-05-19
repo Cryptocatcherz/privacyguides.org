@@ -21,8 +21,6 @@ Encrypted **DNS** with third-party servers should only be used to get around bas
 
 [Learn more about DNS](../../../wiki/advanced/dns-overview/index.md)
 
-## Recommended Providers
-
 These are our favorite public DNS resolvers based on their privacy and security characteristics, and their worldwide performance. Some of these services offer basic DNS-level blocking of malware or trackers depending on the server you choose, but if you want to be able to see and customize what is blocked, you should use a dedicated DNS filtering product instead.
 
 | DNS Provider | Protocols | Logging / Privacy Policy | [ECS](../../../wiki/advanced/dns-overview/index.md#what-is-edns-client-subnet-ecs) | Filtering | Signed Apple Profile |
