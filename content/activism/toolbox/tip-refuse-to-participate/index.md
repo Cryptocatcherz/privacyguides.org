@@ -3,6 +3,7 @@ title: Refuse to Participate
 description: As privacy activists, we must be a voice for resistance and take a stand against abusive practices, by refusing to comply with privacy-intrusive requests.
 icon: fontawesome/solid/xmark-circle
 cover: banner-toolbox-tip-refuse.webp
+weight: 19
 ---
 As privacy advocates and activists, it's important to **be a voice for resistance** and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software.
 

@@ -3,6 +3,7 @@ title: Report Privacy Violations
 description: Submitting an official complaint for violation of your privacy rights is often simple, and can have a significant positive impact for your community.
 icon: fontawesome/solid/gavel
 cover: banner-toolbox-tip-report.webp
+weight: 2
 ---
 Once you are [informed on your local privacy laws](../tip-know-your-privacy-laws/), it's important to get familiar with the process to **report violations of the law**. Submitting an official complaint is often simple, and can have a significant impact both for yourself and for your community.
 

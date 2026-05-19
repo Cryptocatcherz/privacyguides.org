@@ -3,6 +3,7 @@ title: Give Credit Where Credit Is Due
 description: To succeed with our movement to defend privacy rights, we must support each other. One good way to do this is to give credit where credit is due.
 icon: fontawesome/solid/thumbs-up
 cover: banner-toolbox-tip-credit.webp
+weight: 14
 ---
 To succeed in our battle, we must **support each other**. One good way to accomplish this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly.
 

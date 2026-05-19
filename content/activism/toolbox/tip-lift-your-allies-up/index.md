@@ -3,6 +3,7 @@ title: Lift Your Allies Up
 description: The battle for privacy rights is difficult, and its defenders are scattered. This is why it's essential to support and uplift each other, every time we can.
 icon: fontawesome/solid/hand-holding-hand
 cover: banner-toolbox-tip-lift.webp
+weight: 9
 ---
 At times, it might feel like the privacy community is niche and isolated.
 

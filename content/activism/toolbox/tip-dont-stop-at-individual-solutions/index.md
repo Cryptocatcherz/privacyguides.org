@@ -3,6 +3,7 @@ title: Don't Stop at Individual Solutions, Consider The Collective Impact
 description: When we think about privacy, we often focus on technical individual solutions. But it's also crucial to consider the collective impact of privacy issues.
 icon: fontawesome/solid/users-rays
 cover: banner-toolbox-tip-expand.webp
+weight: 6
 ---
 When we think about our privacy, we often focus on the technical tools we can use to protect it. While this is an important *component*, it's crucial not to lose sight of how regulations and invasive practices impact us collectively.
 

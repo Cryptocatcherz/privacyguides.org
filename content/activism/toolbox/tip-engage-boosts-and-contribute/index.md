@@ -3,6 +3,7 @@ title: Engage, Boost, and Contribute
 description: Once you have the knowledge, motivation, and energy to fight for privacy rights, it's time to act! Learn more on what you can do to be a privacy activist.
 icon: fontawesome/solid/bullhorn
 cover: banner-toolbox-tip-engage.webp
+weight: 24
 ---
 Once you have the knowledge, motivation, and energy, **it's time to act**! Perhaps you've read all the tips here, or have read through our [Knowledge Base](../../../wiki/basics/why-privacy-matters/index.md) already! But you don't need to know that much about privacy to start contributing.
 

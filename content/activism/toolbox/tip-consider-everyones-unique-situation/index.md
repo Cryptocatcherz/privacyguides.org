@@ -3,6 +3,7 @@ title: Consider Everyone's Unique Situation
 description: To give actionable privacy advices, it's essential to consider everyone's situation. Learn more on how you can evaluate each person's unique threat model.
 icon: fontawesome/solid/users-between-lines
 cover: banner-toolbox-tip-everyone.webp
+weight: 8
 ---
 Everyone has different needs, and everyone faces different dangers when their personal data gets exposed.
 

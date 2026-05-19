@@ -3,6 +3,7 @@ title: Take Time to Rest, But Come Back to Fight With Us
 description: The battle for privacy will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you must learn to rest when you need it.
 icon: fontawesome/solid/battery-quarter
 cover: banner-toolbox-tip-rest.webp
+weight: 23
 ---
 The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon.
 

@@ -324,24 +324,28 @@ a.footnote-ref {
     grid-gap: 1em 5em;
 }
 
-.toolbox-button-grid .toolbox-button {
+.content .toolbox-button-grid p {
+  margin-top: auto;
+  color: white;
+  a {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 1.1em;
     font-weight: bold;
     line-height: 1;
     height: 11em;
     width: 11em;
     color: white;
-    padding: 5px;
-    border: 2px solid var(--hx-color-primary-500);
+    padding: 1em;
     border-radius: 12px;
     cursor: pointer;
+    text-decoration: none;
+  }
 }
 
-.md-typeset .toolbox-button-grid .toolbox-button:hover, .md-typeset .toolbox-button-grid .toolbox-button:focus {
+.toolbox-button-grid a:hover, .toolbox-button-grid a:focus {
     position: relative;
     transform: scale(1.08);
     /* box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.3); */
@@ -355,9 +359,12 @@ a.footnote-ref {
     overflow: visible;
 }
 
-.toolbox-button-grid .toolbox-button-icon svg {
+.toolbox-button-grid .hextra-icon svg {
     width: 5em;
+    height: 5em;
     overflow: visible;
+    margin-bottom: 1.4em;
+    fill: white;
 }
 
 /* Toolbox Button Colors*/
@@ -366,39 +373,39 @@ a.footnote-ref {
     color: #2d2d2d !important;
 }
 
-.toolbox-bg-legal {
+.toolbox-bg-legal a {
     background-color: var(--color-toolbox-legal);
 }
 
-.toolbox-bg-tools {
+.toolbox-bg-tools a {
     background-color: var(--color-toolbox-tools);
 }
 
-.toolbox-bg-perspective {
+.toolbox-bg-perspective a {
     background-color: var(--color-toolbox-perspective);
 }
 
-.toolbox-bg-community {
+.toolbox-bg-community a {
     background-color: var(--color-toolbox-community);
 }
 
-.toolbox-bg-alliances {
+.toolbox-bg-alliances a {
     background-color: var(--color-toolbox-alliances);
 }
 
-.toolbox-bg-accessibility {
+.toolbox-bg-accessibility a {
     background-color: var(--color-toolbox-accessibility);
 }
 
-.toolbox-bg-integrity {
+.toolbox-bg-integrity a {
     background-color: var(--color-toolbox-integrity);
 }
 
-.toolbox-bg-persistence {
+.toolbox-bg-persistence a {
     background-color: var(--color-toolbox-persistence);
 }
 
-.toolbox-bg-action {
+.toolbox-bg-action a {
     background-color: var(--color-toolbox-action);
 }
 
@@ -417,9 +424,23 @@ a.footnote-ref {
 }
 
 .toolbox-tip-card-list {
+  h2 {
+    margin-bottom: 1em;
+  }
   a, a:hover {
     text-decoration: none;
-    color:
+  }
+}
+
+.light .toolbox-tip-card-list {
+  h3, a {
+    color: black;
+  }
+}
+
+.dark .toolbox-tip-card-list {
+  h3, a {
+    color: white;
   }
 }
 

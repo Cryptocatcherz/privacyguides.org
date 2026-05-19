@@ -13,33 +13,42 @@ By clicking on any of the tips listed on this page, you can access more informat
 
 ## Toolbox Compartments
 
-<div class="toolbox-button-grid" markdown>
+<div class="toolbox-button-grid hx:mt-12" markdown>
 
-[Check<br>Your Laws](#check-your-laws){ .toolbox-button .toolbox-bg-legal }
+[{{< icon "fontawesome-solid-scale-balanced" >}} Check<br>Your Laws](#check-your-laws)
+{ .toolbox-bg-legal }
 
-[Choose<br>Your Tools](#choose-your-tools){ .toolbox-button .toolbox-bg-tools }
+[{{< icon "fontawesome-solid-toolbox" >}} Choose<br>Your Tools](#choose-your-tools)
+{ .toolbox-bg-tools }
 
-[Expand Your<br>Perspective](#expand-your-perspective){ .toolbox-button .toolbox-bg-perspective }
+[{{< icon "fontawesome-solid-users-rays" >}} Expand Your<br>Perspective](#expand-your-perspective)
+{ .toolbox-bg-perspective }
 
-[Support The<br>Community](#support-the-community){ .toolbox-button .toolbox-bg-community }
+[{{< icon "fontawesome-solid-hands-holding-circle" >}} Support The<br>Community](#support-the-community)
+{ .toolbox-bg-community }
 
-[Build<br>Alliances](#build-alliances){ .toolbox-button .toolbox-bg-alliances }
+[{{< icon "fontawesome-solid-handshake-angle" >}} Build<br>Alliances](#build-alliances)
+{ .toolbox-bg-alliances }
 
-[Make It<br>Accessible](#make-it-accessible){ .toolbox-button .toolbox-bg-accessibility }
+[{{< icon "fontawesome-solid-heart-circle-check" >}} Make It<br>Accessible](#make-it-accessible)
+{ .toolbox-bg-accessibility }
 
-[Uphold<br>Integrity](#uphold-integrity){ .toolbox-button .toolbox-bg-integrity }
+[{{< icon "fontawesome-solid-star" >}} Uphold<br>Integrity](#uphold-integrity)
+{ .toolbox-bg-integrity }
 
-[Stay<br>Persistent](#stay-persistent){ .toolbox-button .toolbox-bg-persistence }
+[{{< icon "fontawesome-solid-heart" >}} Stay<br>Persistent](#stay-persistent)
+{ .toolbox-bg-persistence }
 
-[Take<br>Action!](#take-action){ .toolbox-button .toolbox-bg-action }
+[{{< icon "fontawesome-solid-hand-fist" >}} Take<br>Action!](#take-action)
+{ .toolbox-bg-action }
 
 </div>
 
 ---
 
-## Check Your Laws
-
 <div class="toolbox-tip-card-list hx:mt-6 hx:mb-6">
+
+## Check Your Laws
 
 <a href="tip-know-your-privacy-laws">
 <div class="toolbox-tip-card toolbox-border-legal">
@@ -71,8 +80,8 @@ Learn More {{< icon "arrow-circle-right" >}}
 </div>
 </a>
 
-<button class="toolbox-button-top">[{{< icon "arrow-circle-up" >}}Back to top](#toolbox-compartments)</button>
-<br>
+
+
 
 ## Choose Your Tools
 
@@ -121,8 +130,8 @@ Learn More {{< icon "arrow-circle-right" >}}
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top](#toolbox-compartments)</button>
-<br>
+
+
 
 ## Expand Your Perspective
 
@@ -171,8 +180,8 @@ Learn More {{< icon "arrow-circle-right" >}}
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top](#toolbox-compartments)</button>
-<br>
+
+
 
 ## Support The Community
 
@@ -221,8 +230,8 @@ Learn More {{< icon "arrow-circle-right" >}}
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top](#toolbox-compartments)</button>
-<br>
+
+
 
 ## Build Alliances
 
@@ -271,8 +280,8 @@ Learn More {{< icon "arrow-circle-right" >}}
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top](#toolbox-compartments)</button>
-<br>
+
+
 
 ## Make It Accessible
 
@@ -336,8 +345,8 @@ Learn More {{< icon "arrow-circle-right" >}}
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top](#toolbox-compartments)</button>
-<br>
+
+
 
 ## Uphold Integrity
 
@@ -386,8 +395,8 @@ Learn More {{< icon "arrow-circle-right" >}}
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top](#toolbox-compartments)</button>
-<br>
+
+
 
 ## Stay Persistent
 
@@ -421,8 +430,8 @@ Learn More {{< icon "arrow-circle-right" >}}
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top](#toolbox-compartments)</button>
-<br>
+
+
 
 ## Take Action!
 
@@ -456,7 +465,7 @@ Learn More {{< icon "arrow-circle-right" >}}
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top](#toolbox-compartments)</button>
-<br>
+
+
 
 </div>

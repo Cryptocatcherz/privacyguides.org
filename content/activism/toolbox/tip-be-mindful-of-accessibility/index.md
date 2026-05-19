@@ -3,6 +3,7 @@ title: Be Mindful of Accessibility
 description: Accessibility should always be a priority in our work. To make our privacy communities welcoming to all, we must integrate it in our practice from the start.
 icon: fontawesome/solid/heart-circle-check
 cover: banner-toolbox-tip-accessibility.webp
+weight: 17
 ---
 **Accessibility** is indispensable to [inclusivity](../tip-keep-your-posts-and-community-inclusive/), and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
 

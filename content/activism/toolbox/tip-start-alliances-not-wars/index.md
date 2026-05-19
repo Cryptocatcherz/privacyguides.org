@@ -3,6 +3,7 @@ title: Start Alliances, Not Wars
 description: People in the privacy community can have different views that can create conflicts at times. For our community to thrive, we must start alliances, not wars.
 icon: fontawesome/solid/handshake-angle
 cover: banner-toolbox-tip-alliances.webp
+weight: 12
 ---
 The privacy community consists of a patchwork of individuals, activists, organizations, and businesses that sometimes hold quite different views. These divergences can create conflict and friction at times.
 

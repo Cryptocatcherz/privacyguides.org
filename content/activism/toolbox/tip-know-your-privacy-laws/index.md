@@ -3,6 +3,7 @@ title: Know Your Privacy Laws
 description: Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset in your battles for better privacy rights.
 icon: fontawesome/solid/balance-scale
 cover: banner-toolbox-tip-laws.webp
+weight: 1
 ---
 Being well-informed about the **data protection regulations** in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others.
 
@@ -14,8 +15,17 @@ Here's what to look for when searching information about your local privacy laws
 
 For most privacy regulations, legal protections will be applicable to **data subjects** who are citizens or reside in a specific region or country.
 
-<div class="admonition info inline end" markdown>
-<p class="admonition-title">What is a data subject?</p>
+Contrary to what many believe, it's generally *your* local regulations that protect you, regardless of where the organization collecting your personal data is located (in addition, organizations are also subjected to their own local regulations).
+
+Organizations that meet the data subject's local privacy law criteria are legally bound to comply with the laws of each region or country where their data subjects are residing (i.e. where they are conducting business).
+
+There are a lot of nuances and regional variations to this, but in general you should focus on *where* the data subject is residing.
+
+<details class="hx:last-of-type:mb-0 hx:rounded-lg hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-2 hx:mt-4 hx:group" open>
+<summary class="hx:flex hx:items-center hx:cursor-pointer hx:select-none hx:list-none hx:p-1 hx:rounded-sm hx:transition-colors hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800 hx:before:mr-1 hx:before:inline-block hx:before:transition-transform hx:before:content-[''] hx:dark:before:invert hx:rtl:before:rotate-180 hx:group-open:before:rotate-90">
+<strong class="hx:text-lg">What is a data subject?</strong>
+</summary>
+<div class="hx:p-2 hx:overflow-hidden">
 
 Different laws might use different terms for this. Sometimes, a regulation might simply refer to a *person*, an *individual*, a *consumer*, a *patient*, or a *customer*.
 
@@ -24,12 +34,7 @@ Other times, the equivalent expression used will be a *data subject*.
 A data subject is simply anyone from whom personal information is collected by an organization. **Data subject** will be used as an umbrella term on this page.
 
 </div>
-
-Contrary to what many believe, it's generally *your* local regulations that protect you, regardless of where the organization collecting your personal data is located (in addition, organizations are also subjected to their own local regulations).
-
-Organizations that meet the data subject's local privacy law criteria are legally bound to comply with the laws of each region or country where their data subjects are residing (i.e. where they are conducting business).
-
-There are a lot of nuances and regional variations to this, but in general you should focus on *where* the data subject is residing.
+</details>
 
 ## Finding your local regulations
 
@@ -41,20 +46,16 @@ If your region isn't listed in our DPA Directory, or if you are looking for anot
 
 Always make sure to find a result that is from an official government source.
 
-<div class="admonition warning inline end" markdown>
-<p class="admonition-title">Beware of AI-generated information!</p>
-
-Be careful to research this *without* using an automated chatbot or AI-generated information. These tools can have a high error rate, and the information displayed might not be reliable. Be sure to find the official government documentation in order to get the proper *legal* information.
-
-</div>
+> [!TIP]
+> Be careful to research this *without* using an automated chatbot or AI-generated information. These tools can have a high error rate, and the information displayed might not be reliable. Be sure to find the official government documentation in order to get the proper *legal* information.
 
 While researching about your privacy protections, keep in mind that:
 
-- [x] You might benefit from multiple privacy laws at once. For example, many regions have separate regulations specifically designed to protect health data, children's data, or employees' data.
+- You might benefit from multiple privacy laws at once. For example, many regions have separate regulations specifically designed to protect health data, children's data, or employees' data.
 
-- [x] You might benefit from protections by different government levels at once, such as federal, provincial, state level, etc. Look for them all!
+- You might benefit from protections by different government levels at once, such as federal, provincial, state level, etc. Look for them all!
 
-- [ ] Your region might unfortunately not be protected by any significant privacy regulations at this time. If this is the case for you: It's time to contact your local representatives and advocate for a local privacy law!
+- Your region might unfortunately **not** be protected by any significant privacy regulations at this time. If this is the case for you: It's time to contact your local representatives and advocate for a local privacy law!
 
 ## What to look for in a privacy law
 

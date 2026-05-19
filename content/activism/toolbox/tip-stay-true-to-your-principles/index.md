@@ -3,6 +3,7 @@ title: Stay True to Your Principles
 description: If you manage a digital rights group, it's important to make sure you aren't subjecting your contributors to the privacy-invasive tech you're fighting against.
 icon: fontawesome/solid/star
 cover: banner-toolbox-tip-principles.webp
+weight: 20
 ---
 If you manage a digital rights group, meetup, chat room, event, or organization even, make sure you aren't subjecting your members and contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see organizations and communities that aren't following their own privacy advice for internal practices.
 
