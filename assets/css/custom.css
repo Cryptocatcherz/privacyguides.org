@@ -271,6 +271,10 @@ html.light {
       }
     }
   }
+  nav.hextra-toc li:has(~ li a.hextra-toc-active) > a {
+    color: var(--hx-color-gray-400);
+    opacity: 0.85;
+  }
 }
 
 html.dark {
@@ -292,6 +296,10 @@ html.dark {
         background-color: var(--hx-color-gray-900);
       }
     }
+  }
+  nav.hextra-toc li:has(~ li a.hextra-toc-active) > a {
+    color: var(--hx-color-gray-500);
+    opacity: 0.9;
   }
 }
 
