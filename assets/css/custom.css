@@ -233,13 +233,17 @@ body.privacy-guides .hextra-feature-grid a.pg\:colored-card:has(img) {
   border-bottom: 1px solid var(--hx-color-primary-500);
 }
 
-.hextra-max-navbar-width a[href*="/about/donate/"] {
+.hextra-max-navbar-width a.hx\:text-sm[href*="/about/donate/"] {
   color: white;
   background-color: var(--hx-color-primary-800);
   font-weight: 900;
   text-transform: uppercase;
   margin-left: 16px;
   border-radius: var(--hx-radius-md);
+}
+
+.hextra-search-wrapper {
+  margin-right: 1em;
 }
 
 p.pg\:image\:right img {
@@ -501,7 +505,7 @@ a.footnote-ref {
 /* Toolbox Button Top Style */
 .toolbox-button-top {
     font-size: 0.7rem;
-    float: right;
+    text-align: right;
 }
 
 .toolbox-button-top a, .toolbox-button-top a:visited {
@@ -511,7 +515,7 @@ a.footnote-ref {
 /* DPA Directory */
 
 .dpadirectory-table {
-    padding: 1rem;
+    padding-top: 1rem;
     border-collapse: collapse;
     width: 100%;
     line-height: 1.05rem;
