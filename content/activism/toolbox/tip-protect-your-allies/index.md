@@ -21,38 +21,38 @@ Here are a some examples of other people's data we might collect or share in the
 
 <div markdown>
 
-- [ ] Contact information (personal advocacy or professional work)
-- [ ] Donation information (including legal names, emails, and phone numbers)
-- [ ] Purchase information (including legal names and shipping addresses)
-- [ ] Mailing list email addresses
-- [ ] Email content
-- [ ] Instant messaging content
-- [ ] Forum post content
-- [ ] Login credentials
-- [ ] Internet Protocol (IP) addresses
-- [ ] Website telemetry data
-- [ ] Website cookies and fingerprinting data
-- [ ] Chatbot logs
-- [ ] Survey answers
-- [ ] Shared documents
+- Contact information (personal advocacy or professional work)
+- Donation information (including legal names, emails, and phone numbers)
+- Purchase information (including legal names and shipping addresses)
+- Mailing list email addresses
+- Email content
+- Instant messaging content
+- Forum post content
+- Login credentials
+- Internet Protocol (IP) addresses
+- Website telemetry data
+- Website cookies and fingerprinting data
+- Chatbot logs
+- Survey answers
+- Shared documents
 
 </div>
 
 <div markdown>
 
-- [ ] Shared photos and images
-- [ ] Legal names of people on work contracts or partnership agreements
-- [ ] Home addresses of people on work contracts or partnership agreements
-- [ ] Resumes and cover letters from job applicants
-- [ ] Recordings or screenshots of video or audio meetings
-- [ ] Behind-the-scene video footage from interviews
-- [ ] Videos we take during meetups, events, or protests
-- [ ] Photos we take during meetups, events, or protests
-- [ ] License plates information from event photos or event parking lot management
-- [ ] Security camera footage
-- [ ] Dietary restrictions/preferences and health information for events
-- [ ] Screenshots of people's social media posts
-- [ ] And so much more
+- Shared photos and images
+- Legal names of people on work contracts or partnership agreements
+- Home addresses of people on work contracts or partnership agreements
+- Resumes and cover letters from job applicants
+- Recordings or screenshots of video or audio meetings
+- Behind-the-scene video footage from interviews
+- Videos we take during meetups, events, or protests
+- Photos we take during meetups, events, or protests
+- License plates information from event photos or event parking lot management
+- Security camera footage
+- Dietary restrictions/preferences and health information for events
+- Screenshots of people's social media posts
+- And so much more
 
 </div>
 
@@ -78,27 +78,27 @@ Regardless of the data we have to collect, we should always make sure to:
 
 ### Some practices to normalize in our advocacy work
 
-- [x] Asking for consent before sharing someone's information (legal name, location, contact information, photos, etc.).
+- Asking for consent before sharing someone's information (legal name, location, contact information, photos, etc.).
 
-- [x] Asking people what name and pronouns they want to be referred to publicly.
+- Asking people what name and pronouns they want to be referred to publicly.
 
-- [x] Asking people how (and if) they would like to be credited publicly.
+- Asking people how (and if) they would like to be credited publicly.
 
-- [x] Asking for permission before using the quote of someone else in our own work.
+- Asking for permission before using the quote of someone else in our own work.
 
-- [x] Asking for permission before publishing a screenshot of someone else's post.
+- Asking for permission before publishing a screenshot of someone else's post.
 
-- [x] Respecting people's choices to show their face publicly or not.
+- Respecting people's choices to show their face publicly or not.
 
-- [x] Asking for consent before taking photos at meetups or events.
+- Asking for consent before taking photos at meetups or events.
 
-- [x] Blurring the faces of strangers in crowd photos (especially for children).
+- Blurring the faces of strangers in crowd photos (especially for children).
 
-- [x] Using consent badges for photo permission at event, or ideally forbidding taking nonconsensual photos entirely.
+- Using consent badges for photo permission at event, or ideally forbidding taking nonconsensual photos entirely.
 
-- [x] Warning people in advance when there are recording technologies on premise (such as smart speakers or other recording devices).
+- Warning people in advance when there are recording technologies on premise (such as smart speakers or other recording devices).
 
-- [x] Not requiring guests to sign up for events. Making sure all the information is public, without requiring to provide any personal information in order to participate.
+- Not requiring guests to sign up for events. Making sure all the information is public, without requiring to provide any personal information in order to participate.
 
 ## More resources
 

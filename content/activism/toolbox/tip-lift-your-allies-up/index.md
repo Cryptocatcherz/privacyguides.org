@@ -17,17 +17,17 @@ It's easy to get lost in our own niche advocacy, and lose track of what others i
 
 Nevertheless, if we want to [**build a movement**](../tip-start-alliances-not-wars/) (and to succeed, we must) we need all the help we can get, from every person and organization sharing our values.
 
-- [x] Whenever you see an organization with a campaign compatible with your mission, lift them up!
+- Whenever you see an organization with a campaign compatible with your mission, lift them up!
 
-- [x] Even if you are an organization yourself, lift others up too!
+- Even if you are an organization yourself, lift others up too!
 
-- [x] Even if you are also working on a similar project, lift them up with you!
+- Even if you are also working on a similar project, lift them up with you!
 
 It doesn't matter if you are working on something comparable yourself, or if perhaps you would word their work slightly differently.  As long as the message is aligned with your mission and values, spread the words of your allies loud and far!
 
 By lifting each other up, we will broaden the reach of the message we share, and ultimately this serves our goals and our community too.
 
-In privacy advocacy, we truly need to adopt the mindset: ==The more, the merrier.==
+In privacy advocacy, we truly need to adopt the mindset: <mark>The more, the merrier.</mark>
 
 ## Concrete ways to support and lift your allies up
 

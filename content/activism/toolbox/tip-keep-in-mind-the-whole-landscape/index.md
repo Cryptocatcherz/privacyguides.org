@@ -69,27 +69,27 @@ We must work together to develop and promote a culture of consent around data co
 
 Here are a few practices to improve our culture surrounding data privacy that you can adopt yourself, and help promote in your advocacy work:
 
-- [x] Never publish photos or information about children online.
+- Never publish photos or information about children online.
 
-- [x] Don't post pictures of others online without their explicit consent.
+- Don't post pictures of others online without their explicit consent.
 
-- [x] If posting photos that include others cannot be avoided, blur the faces of non-consenting people before publication.
+- If posting photos that include others cannot be avoided, blur the faces of non-consenting people before publication.
 
-- [x] Blur any visible vehicle license plates before publishing photos.
+- Blur any visible vehicle license plates before publishing photos.
 
-- [x] Avoid taking screenshots of other people's posts without their consent (as this prevents them from exercising their right to delete).
+- Avoid taking screenshots of other people's posts without their consent (as this prevents them from exercising their right to delete).
 
-- [x] Never share the location or contact information of someone without their explicit consent.
+- Never share the location or contact information of someone without their explicit consent.
 
-- [x] Block external applications from accessing the contact information of others (e.g. don't allow the Facebook app to access your contacts).
+- Block external applications from accessing the contact information of others (e.g. don't allow the Facebook app to access your contacts).
 
-- [x] Be mindful of how one's computer or phone stores and records other people's information. Never use an application that scans content with potential information about others, such as AI note-takers, AI assistants, or applications like Microsoft's Recall.
+- Be mindful of how one's computer or phone stores and records other people's information. Never use an application that scans content with potential information about others, such as AI note-takers, AI assistants, or applications like Microsoft's Recall.
 
-- [x] Never share the files of others with a third-party person or application without their prior permission.
+- Never share the files of others with a third-party person or application without their prior permission.
 
-- [x] Unplug smart devices equipped with a microphone or camera at home before any guests enter. If this isn't possible for some reason, then inform your guests about these devices *before* they enter your home, and *before* the device collects any information about them.
+- Unplug smart devices equipped with a microphone or camera at home before any guests enter. If this isn't possible for some reason, then inform your guests about these devices *before* they enter your home, and *before* the device collects any information about them.
 
-- [x] Never use devices like Meta's Ray-Ban glasses, i.e. devices equipped with a microphone and/or camera that might record others without their consent.
+- Never use devices like Meta's Ray-Ban glasses, i.e. devices equipped with a microphone and/or camera that might record others without their consent.
 
 ## More resources
 

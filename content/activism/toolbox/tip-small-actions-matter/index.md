@@ -19,7 +19,7 @@ Discouragement often emerges from envisioning too much of what's left to do at o
 
 Even if you do not have the resources to organize a large campaign around a privacy issue, do not minimize the power that you have.
 
-All the ==small contributions you can make will culminate over time==, and end up having a significant impact overall.
+All the <mark>small contributions you can make will culminate over time</mark>, and end up having a significant impact overall.
 
 Additionally, you are [not alone](../tip-lift-your-allies-up/) in this battle. If you can make a small contribution today, and perhaps convince one or two other advocates to do the same, you have already contributed significantly to the movement.
 

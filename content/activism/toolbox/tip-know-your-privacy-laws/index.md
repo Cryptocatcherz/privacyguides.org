@@ -21,11 +21,7 @@ Organizations that meet the data subject's local privacy law criteria are legall
 
 There are a lot of nuances and regional variations to this, but in general you should focus on *where* the data subject is residing.
 
-<details class="hx:last-of-type:mb-0 hx:rounded-lg hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-2 hx:mt-4 hx:group" open>
-<summary class="hx:flex hx:items-center hx:cursor-pointer hx:select-none hx:list-none hx:p-1 hx:rounded-sm hx:transition-colors hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800 hx:before:mr-1 hx:before:inline-block hx:before:transition-transform hx:before:content-[''] hx:dark:before:invert hx:rtl:before:rotate-180 hx:group-open:before:rotate-90">
-<strong class="hx:text-lg">What is a data subject?</strong>
-</summary>
-<div class="hx:p-2 hx:overflow-hidden">
+{{< details title="What is a data subject?" >}}
 
 Different laws might use different terms for this. Sometimes, a regulation might simply refer to a *person*, an *individual*, a *consumer*, a *patient*, or a *customer*.
 
@@ -33,8 +29,7 @@ Other times, the equivalent expression used will be a *data subject*.
 
 A data subject is simply anyone from whom personal information is collected by an organization. **Data subject** will be used as an umbrella term on this page.
 
-</div>
-</details>
+{{< /details >}}
 
 ## Finding your local regulations
 

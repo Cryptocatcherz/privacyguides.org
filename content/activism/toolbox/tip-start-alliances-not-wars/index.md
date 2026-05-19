@@ -15,7 +15,7 @@ Here's how you can nurture alliances, instead of fueling conflicts:
 
 ## Acknowledge that you cannot win this battle alone, neither as a person nor as a single organization
 
-To fight for privacy rights in this hostile environment, **we need to create a movement**. Effective movements grow from collaboration, not from competition. ==You cannot do it alone.==
+To fight for privacy rights in this hostile environment, **we need to create a movement**. Effective movements grow from collaboration, not from competition. <mark>You cannot do it alone.</mark>
 
 Attacks on digital rights have increased exponentially in the past few years. Not one organization, and certainly not one person, can solve these complex issues on their own. Not even the most prominent ones.
 
@@ -37,7 +37,7 @@ By promoting privacy rights *together*, we all participate in growing a movement
 
 Competition, and especially when this competition leads to businesses and organizations badmouthing each other, ends up damaging the whole movement, therefore impacting negatively all of our goals.
 
-Additionally, tearing down perceived competitors sharing your values isn't a good look for you. It's draining for people already in the community, and often repulsive to potential new people on the outside. ==This behavior often results in pushing away newcomers== that were initially interested in joining our movement. This is bad for your competitors, sure, but it's *also* bad for *you*.
+Additionally, tearing down perceived competitors sharing your values isn't a good look for you. It's draining for people already in the community, and often repulsive to potential new people on the outside. <mark>This behavior often results in pushing away newcomers</mark> that were initially interested in joining our movement. This is bad for your competitors, sure, but it's *also* bad for *you*.
 
 Newcomers get confused when they receive competing new information. Confusion leads to *inertia*, and inertia in the current Big Tech ecosystem means staying with Gmail instead of moving to Tuta or Proton mail, or any other privacy-focused email services. This is a bad outcome for *all* of us.
 
@@ -100,12 +100,13 @@ Here are a few ways that might help to reduce the impact of infighting within th
     **Host:** [EDRi](https://edri.org/)<br>
     **Participants:** ApTI, Bits of Freedom, Chaos Computer Club, Digital Courage, EFF, Epicenter Works, Internet Society, La Quadrature du Net, and more.
 
-    <section class="admonition success" markdown>
-    <p class="admonition-title">Coalition donation page example</p>
+    {{< details title="Coalition donation page example" closed="true" >}}
 
     EDRi's *Stop Scanning Me* coalition provides a great example of collaboration with a [donation page](https://stopscanningme.eu/en/donate.html) listing all the coalition members with their countries of origin, and linking to external donation pages. EDRi humbly listed their own donation link at the bottom. We need more strong coalitions like this.
 
-    </section><hr>
+    {{< /details >}}
+
+    <hr>
 
 - **Campaign:** [**The Nameless Coalition (2015)**](https://act.eff.org/action/dear-facebook-authentic-names-are-authentically-dangerous-for-your-users)
 

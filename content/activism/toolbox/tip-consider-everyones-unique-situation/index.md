@@ -33,8 +33,7 @@ To establish a threat model, ask the following questions:
 
 Ask, rinse, and repeat for each type of information. The answers to these questions will be unique for each person or organization. This is their unique threat model.
 
-<details class="danger" markdown>
-<summary>Example scenario: Threat of stalking</summary>
+{{< details title="Example scenario: Threat of stalking" closed="true" >}}
 
 **Needs:** Alice is a young celebrity sharing a lot of information about herself on social media. As part of her work, she has to be able to share photos of herself, her legal name, some of her travel information, and details about her personal life.
 
@@ -44,10 +43,9 @@ Ask, rinse, and repeat for each type of information. The answers to these questi
 
 **Information to protect and solutions:** Everywhere that Alice is required to share her home address must be protected. She should use a PO box every time her personal address isn't absolutely necessary. She should make sure to only share her address with trusted people that are informed about this danger. And she should inspect all of her photos and metadata carefully, to make sure her location is never precisely [revealed](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers).
 
-</details>
+{{< /details >}}
 
-<details class="danger" markdown>
-<summary>Example scenario: Surveillance Capitalism</summary>
+{{< details title="Example scenario: Surveillance Capitalism" closed="true" >}}
 
 **Needs:** Bob feels uncomfortable with companies using his information without his consent. He doesn't trust what they might do with this information later, or whom they might sell it to. He is especially worried about how companies and governments might use facial recognition with him.
 
@@ -57,9 +55,9 @@ Ask, rinse, and repeat for each type of information. The answers to these questi
 
 **Information to protect and solutions:** To prevent this, Bob should not post any photos of his face online. He should make sure to only choose profile pictures that don't show his face for social media, and inspect any other photos posted to make sure his face doesn't show up on reflective surfaces. He should also inform his friends and family that he doesn't want photos of himself to be posted online, and he should protect his phone camera roll and cloud storage from getting [scanned](https://www.forbes.com/sites/zakdoffman/2026/01/15/google-upgrade-starts-scanning-all-your-photos-be-very-careful/) by remotely controlled AI. Bob should also opt out of any online platforms demanding a facial scan or photo ID in order to [verify his age](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) or identity.
 
-</details>
+{{< /details >}}
 
-## Respect people's choices when it comes to their own privacy, even if they are different from yours
+## Respect people's choices when it comes to their own privacy
 
 When advising others on data privacy, it's easy to get carried away and forget that other people might have different threat models from our own.
 

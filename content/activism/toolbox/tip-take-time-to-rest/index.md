@@ -23,7 +23,7 @@ This has many annoying side effects, such as having limited energy and a flesh-a
 
 In our society's hustle culture, it's counterproductive that we often value overwork more than strategic rest.
 
-The thing is, overwork isn't a sustainable strategy for the long battle ahead of us. ==What we need to succeed is privacy activists who will fight by our side for a very long time.== We need endurance and persistence. And for this to happen, we need ourselves and our [privacy comrades](../tip-support-your-privacy-comrades/) to be well-rested, by taking pauses and adopting the strategies we all need to recharge.
+The thing is, overwork isn't a sustainable strategy for the long battle ahead of us. <mark>What we need to succeed is privacy activists who will fight by our side for a very long time.</mark> We need endurance and persistence. And for this to happen, we need ourselves and our [privacy comrades](../tip-support-your-privacy-comrades/) to be well-rested, by taking pauses and adopting the strategies we all need to recharge.
 
 We need our movement to stay away from the often toxic hustle culture we have all observed from Big Tech companies, and instead embrace a culture of mutual support that encourages self-care.
 
@@ -33,12 +33,8 @@ We need to move at a *sustainable* pace, and build a powerful privacy rights mov
 
 The important part isn't to fight for privacy rights 24/7. What matters most is that once you are well-rested after taking some time off, you come back to the battlefield to fight with us again.
 
-<div class="admonition quote toolbox-quote" markdown>
-<p class="admonition-title toolbox-quote">Successful social change activists learn to be the tortoise rather than the hare. Looking after yourself and your family is important.</p>
-
-<p class="toolbox-quote-source" markdown>Source: [*The Activists' Handbook* by Aidan Ricketts](https://aidanricketts.com/the-activists-handbook/)</p>
-
-</div>
+> Successful social change activists learn to be the tortoise rather than the hare. Looking after yourself and your family is important.
+> <small>—Source: [*The Activists' Handbook* by Aidan Ricketts](https://aidanricketts.com/the-activists-handbook/)</small>
 
 ## Tips to help prevent privacy activism burnout
 

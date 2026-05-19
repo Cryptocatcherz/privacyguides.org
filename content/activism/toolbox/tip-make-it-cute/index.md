@@ -13,7 +13,7 @@ Here's why you should make your design appealing and accessible to everyone:
 
 Quality design for User Interface (UI) and User Experience (UX) is fundamental to product adoption. Unfortunately, this is regularly neglected by developers working on privacy-focused projects. Often, this is due to lack of resources, but sometimes it's simply an oversight.
 
-The problem is that if your application or website isn't appealing visually, is awkward to use, difficult to understand, or use jargon inaccessible to newcomers, ==people who aren't already in your community are much less likely to adopt your product==, regardless of the privacy benefits it offers. Trying to tell people a billion times they should switch to using your app will be no help at all if it's unpleasant to use on a daily basis.
+The problem is that if your application or website isn't appealing visually, is awkward to use, difficult to understand, or use jargon inaccessible to newcomers, <mark>people who aren't already in your community are much less likely to adopt your product</mark>, regardless of the privacy benefits it offers. Trying to tell people a billion times they should switch to using your app will be no help at all if it's unpleasant to use on a daily basis.
 
 When your app is ugly, fewer people want to use it, and fewer people benefit from its protections. Minimizing the importance of visual appeal and ease-of-use will only impact your goals negatively.
 

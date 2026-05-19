@@ -11,7 +11,7 @@ Here's how you can refuse to comply with privacy-abusive practices, and why it's
 
 ## The risk of complying with privacy-invasive requests
 
-Requests to invade our privacy are part of our daily lives in today's world. Whether it's a store cashier banally asking for our phone number after a purchase, or a prominent facial scan at the airport with no clear instructions on how to opt out, ==privacy-invasive requests have become so normalized== that most people barely notice them anymore.
+Requests to invade our privacy are part of our daily lives in today's world. Whether it's a store cashier banally asking for our phone number after a purchase, or a prominent facial scan at the airport with no clear instructions on how to opt out, <mark>privacy-invasive requests have become so normalized</mark> that most people barely notice them anymore.
 
 The problem is, each time we mindlessly comply because we are tired, rushed, or failed to even notice how unnecessary and intrusive this is, we directly contribute in normalizing bad practices even more.
 

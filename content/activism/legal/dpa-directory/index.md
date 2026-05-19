@@ -1,8 +1,8 @@
 ---
 title: "Data Protection Authorities"
 description: The DPA Directory is a tool to help you find the principal consumer privacy law in your region, the authority mandated to enforce it, and how to report violations.
-#icon: fontawesome/solid/address-card
-cover: banner-activism-dpadirectory.webp
+sidebar:
+  hide: true
 ---
 
 <small>Last update: 2026-03-30</small>
@@ -12,10 +12,9 @@ The **Data Protection Authority** (DPA) **Directory** is a tool to help you find
 Additionally, this table provides information about each law, authority, contact information for questions, and a link to place a complaint for violation of the law with each authority.
 
 > [!TIP]
-> **More information on privacy laws and reporting violations**
+> For more information on how to find a specific privacy law that might not be listed here, and what to look for when reading it, consult the Privacy Activist Toolbox tip to [Know Your Privacy Laws](../../toolbox/tip-know-your-privacy-laws/).
 >
-> - For more information on how to find a specific privacy law that might not be listed here, and what to look for when reading it, consult the Privacy Activist Toolbox tip to [Know Your Privacy Laws](../../toolbox/tip-know-your-privacy-laws/).
-> - For more information on how to proceed when reporting a privacy law violation, consult the Privacy Activist Toolbox tip to [Report Privacy Violations](../../toolbox/tip-report-privacy-violations/).
+> For more information on how to proceed when reporting a privacy law violation, consult the Privacy Activist Toolbox tip to [Report Privacy Violations](../../toolbox/tip-report-privacy-violations/).
 
 ## Scope and limitations
 
@@ -29,28 +28,32 @@ Additionally, this table provides information about each law, authority, contact
 
 - Remember that your data *could* be protected by a privacy regulation that isn't listed here. This will depend on the region, circumstances, and type of data involved.
 
-> [!WARNING]
-> **Privacy warning**
->
+> [!CAUTION]
 > When sharing personal information with a DPA, keep in mind this information could be shared with the subject of the complaint, and/or displayed publicly. Make sure to consult your DPA's privacy notice first, or ask anonymously how your complaint data might be shared before sending any sensitive information.
 >
 > For example, the DPA for the state of Oregon in the United States specifies that: \"Any information submitted to this form is subject to Oregon’s Public Records Law. You may choose not to include personally identifiable data that you do not wish to be subject to public records requests.\"
 
 ## The Directory
 
-<div class="toolbox-button-grid" markdown>
+<div class="toolbox-button-grid hx:mt-12" markdown>
 
-[Africa](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
+[{{< icon "fontawesome-solid-earth-africa" >}} Africa](#africa)
+{ .dpadirectory-button .dpadirectory-button-africa }
 
-[Asia](#asia){ .toolbox-button .dpadirectory-button .dpadirectory-button-asia }
+[{{< icon "fontawesome-solid-earth-asia" >}} Asia](#asia)
+{ .dpadirectory-button .dpadirectory-button-asia }
 
-[Europe](#europe){ .toolbox-button .dpadirectory-button .dpadirectory-button-europe }
+[{{< icon "fontawesome-solid-earth-europe" >}} Europe](#europe)
+{ .dpadirectory-button .dpadirectory-button-europe }
 
-[North America](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
+[{{< icon "fontawesome-solid-earth-americas" >}} North America](#north-america)
+{ .dpadirectory-button .dpadirectory-button-northamerica }
 
-[Oceania](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
+[{{< icon "fontawesome-solid-earth-oceania" >}} Oceania](#oceania)
+{ .dpadirectory-button .dpadirectory-button-oceania }
 
-[South America](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
+[{{< icon "fontawesome-solid-earth-americas" >}} South America](#south-america)
+{ .dpadirectory-button .dpadirectory-button-southamerica }
 
 </div>
 
@@ -207,7 +210,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
+
 <br>
 
 ### Asia
@@ -374,7 +377,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
+
 <br>
 
 ### Europe
@@ -719,7 +722,7 @@ Additionally, this table provides information about each law, authority, contact
     <td data-cell="Complaint" role="cell"><a href="https://autoriteitpersoonsgegevens.nl/en/submitting-a-tip-off-or-a-complaint-to-the-ap" target="_blank">Complaint Link</a></td>
   </tr>
 
-    <!-- North Macedonia -->
+  <!-- North Macedonia -->
   <tr role="row">
     <td data-cell="Region" role="rowheader">North Macedonia</td>
     <td data-cell="Law" role="cell"><a href="https://azlp.mk/wp-content/uploads/2022/12/lpdp_2020.pdf" target="_blank">
@@ -933,7 +936,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
+
 <br>
 
 ### North America
@@ -1310,7 +1313,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
+
 <br>
 
 ### Oceania
@@ -1365,7 +1368,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
+
 <br>
 
 ### South America
@@ -1462,7 +1465,7 @@ Additionally, this table provides information about each law, authority, contact
 </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu](#the-directory)</button>
+
 <br>
 
 ## Additional resources

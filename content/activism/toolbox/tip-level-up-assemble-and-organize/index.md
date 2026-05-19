@@ -17,7 +17,7 @@ There are many styles and scales of leadership. It could mean starting small by 
 
 Regardless of the scale, it's important to become a *good* leader to lift your community up, which will benefit the whole movement.
 
-Becoming a positive leader in your community doesn't mean running everything, and it doesn't mean being the only one taking decisions while telling others what to do either. First and foremost, ==it means supporting and inspiring people== to become the best privacy advocates they can be.
+Becoming a positive leader in your community doesn't mean running everything, and it doesn't mean being the only one taking decisions while telling others what to do either. First and foremost, <mark>it means supporting and inspiring people</mark> to become the best privacy advocates they can be.
 
 ## Supporting others
 
@@ -25,12 +25,8 @@ Being a good leader is primarily being a good listener. A good leader will be at
 
 A good leader maximizes the activism strength and energy of each member. This allows the community to thrive, and multiplies the positive impact of everyone's effort.
 
-<div class="admonition quote toolbox-quote" markdown>
-<p class="admonition-title toolbox-quote">Good leaders are the key to community organizing. They do not tell other people what to do, but help others to take charge. They do not grab center stage, but nudge others into the limelight.</p>
-
-<p class="toolbox-quote-source" markdown>Source: [The Citizen's Handbook](https://citizenshandbook.org/1_08_lead.html)</p>
-
-</div>
+> Good leaders are the key to community organizing. They do not tell other people what to do, but help others to take charge. They do not grab center stage, but nudge others into the limelight.
+> <small>— Source: [The Citizen's Handbook](https://citizenshandbook.org/1_08_lead.html)</small>
 
 ## Keys to positive leadership
 
@@ -40,27 +36,27 @@ A good conductor ensures that each part is played in harmony with each other, to
 
 Here are a few tips that can help you become a positive leader in your community:
 
-- [x] **Learn to delegate work** and split-up tasks. Do not try to do it all by yourself. Delegating and trusting others to do the work will also help prevent activism burnout.
+- **Learn to delegate work** and split-up tasks. Do not try to do it all by yourself. Delegating and trusting others to do the work will also help prevent activism burnout.
 
-- [x] **Trust the members of your group** according to their unique skill sets, and reach out to them when their [unique expertise](../tip-value-allies-with-complementary-expertise/) or experience is relevant to another part of the project.
+- **Trust the members of your group** according to their unique skill sets, and reach out to them when their [unique expertise](../tip-value-allies-with-complementary-expertise/) or experience is relevant to another part of the project.
 
-- [x] **Show appreciation** both in private and in public, and [give credit](../tip-give-credit-where-credit-is-due/) where credit is due. This is incredibly important to retain the dedicated members of your group, and to attract new advocates.
+- **Show appreciation** both in private and in public, and [give credit](../tip-give-credit-where-credit-is-due/) where credit is due. This is incredibly important to retain the dedicated members of your group, and to attract new advocates.
 
-- [x] **Inspire and support** your group members to reach their full potential, and to become the best privacy advocates they can be. Make sure their needs are met, and that they feel safe coming to you for requests.
+- **Inspire and support** your group members to reach their full potential, and to become the best privacy advocates they can be. Make sure their needs are met, and that they feel safe coming to you for requests.
 
-- [x] **Build a team that is inclusive and diverse.** A [diverse team](../tip-keep-your-posts-and-community-inclusive/) will help your group gain a broader perspective, and be able to do more by having access to a diversity of experiences, skills, and networks. It will also help your message reach more people.
+- **Build a team that is inclusive and diverse.** A [diverse team](../tip-keep-your-posts-and-community-inclusive/) will help your group gain a broader perspective, and be able to do more by having access to a diversity of experiences, skills, and networks. It will also help your message reach more people.
 
-- [x] **Lead by example** adopting principles of [integrity](../tip-stay-true-to-your-principles/), transparency, and work-life balance. Valorize and exemplify these behaviors within your group.
+- **Lead by example** adopting principles of [integrity](../tip-stay-true-to-your-principles/), transparency, and work-life balance. Valorize and exemplify these behaviors within your group.
 
-- [x] **Plan and organize projects transparently.** Make sure the members of your group are aware of the direction you have in mind, and that they support it. Avoiding surprises internally will make your members feel safer, and will help with retention and satisfaction.
+- **Plan and organize projects transparently.** Make sure the members of your group are aware of the direction you have in mind, and that they support it. Avoiding surprises internally will make your members feel safer, and will help with retention and satisfaction.
 
-- [x] **Regularly ask** the members of your group which tasks they prefer to do, and in which direction they want to go. Your group members should enjoy what they are doing, otherwise they will not stick around. Review this regularly, as situations can change and evolve.
+- **Regularly ask** the members of your group which tasks they prefer to do, and in which direction they want to go. Your group members should enjoy what they are doing, otherwise they will not stick around. Review this regularly, as situations can change and evolve.
 
-- [x] **Make sure your group members have all the rest and resources they need.** This is essential if you want a motivated team, with members that will invest the best of themselves in your group projects.
+- **Make sure your group members have all the rest and resources they need.** This is essential if you want a motivated team, with members that will invest the best of themselves in your group projects.
 
-- [x] **Organize leisure opportunities** for your group to discuss together about things other than work, and bound as a team. This will help improve communication, increase morale, and build better relationships within your group, as well as nurture a sense of belonging. Don't make this mandatory, however. Respect everyone's personal availabilities and boundaries.
+- **Organize leisure opportunities** for your group to discuss together about things other than work, and bound as a team. This will help improve communication, increase morale, and build better relationships within your group, as well as nurture a sense of belonging. Don't make this mandatory, however. Respect everyone's personal availabilities and boundaries.
 
-- [x] **Be (temporarily) replaceable.** If all the work your group does depends on your presence, all your projects will stop when you need to rest. This is a recipe for disaster, because you need to be able to [take time off](../tip-take-time-to-rest/) as much as any other members of your group. Have a backup plan ready, and communicate it with your group in advance. That way, if you fall sick, have to travel, or need time to take care of your family for a while, you will be able to take the time you need. Until you come back, you will be able to rest fully without stress, knowing your projects will keep running well despite your absence.
+- **Be (temporarily) replaceable.** If all the work your group does depends on your presence, all your projects will stop when you need to rest. This is a recipe for disaster, because you need to be able to [take time off](../tip-take-time-to-rest/) as much as any other members of your group. Have a backup plan ready, and communicate it with your group in advance. That way, if you fall sick, have to travel, or need time to take care of your family for a while, you will be able to take the time you need. Until you come back, you will be able to rest fully without stress, knowing your projects will keep running well despite your absence.
 
 ## Bigger projects to organize
 
@@ -104,93 +100,6 @@ suffix: " ";
 
 </div>
 
-## Tools that can help you to assemble and organize
-
-Here are a few privacy-focused tools and services that can help you to organize your groups and actions:
-
-<div class="grid" markdown>
-
-<div class="admonition recommendation" markdown>
-
-![CryptPad logo](../../../tools/software/document-collaboration/cryptpad.svg){ align=right }
-
-**CryptPad** is a free open-source collaborative office suite that uses end-to-end encryption.
-
-:page_with_curl: Use it as an alternative to Google Docs!
-
-[More info](../../../tools/software/document-collaboration/index.md#cryptpad)
-[Homepage](https://cryptpad.fr/)
-[Review](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
-{ .pg:buttons }
-
-</div>
-
-<div class="admonition recommendation" markdown>
-
-![Mastodon logo](../../../tools/software/social-networks/mastodon.svg){ align=right }
-
-**Mastodon** is a free and open-source microblogging social network.
-
-:speech_balloon: Use it as an [alternative](../tip-improve-your-social-media-and-build-resilient-communities/) to commercial social media such as *X*, *Facebook*, *Instagram*, *Threads*, *TikTok*, or *Bluesky*.
-
-[More info](../../../tools/software/social-networks/index.md#mastodon)
-[Homepage](https://joinmastodon.org/)
-[Review](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
-{ .pg:buttons }
-
-</div>
-
-<div class="admonition recommendation" markdown>
-
-![Element logo](../../../tools/software/social-networks/element.svg){ align=right }
-
-**Element** is a free open-source client for the [Matrix](https://matrix.org/) open standard for chat-room group communication.
-
-:loudspeaker: Use it as a privacy-preserving alternative to *Slack* or *Discord*.
-
-[More info](../../../tools/software/social-networks/index.md#element)
-[Homepage](https://element.io/)
-{ .pg:buttons }
-
-</div>
-
-<div class="admonition recommendation" markdown>
-
-![PeerTube logo](../../../tools/software/social-networks/peertube.svg){ align=right }
-
-**PeerTube** is a free open-source video platform developed by the French nonprofit [Framasoft](https://framasoft.org/en/).
-
-:video_camera: Use it to share videos with your community free from *YouTube*'s control.
-
-[Homepage](../../../tools/software/social-networks/index.md#peertube)
-{ .pg:buttons }
-
-</div>
-
-</div>
-
-<style>
-.emoji-list-b ul {
-  list-style: emoji-list-b;
-}
-@counter-style emoji-list-b {
-  system: fixed;
-  symbols: "🗺️" "📅" "☁️" "📂";
-suffix: " ";
-</style>
-
-<details class="info emoji-list-b" markdown>
-<summary>More Alternatives &nbsp;📗</summary>
-
-- **Maps & Navigation:** [Organic Maps](../../../tools/software/maps/index.md#organic-maps) or [OsmAnd](../../../tools/software/maps/index.md#osmand)
-- **Calendar Sync:** [Tuta](../../../tools/services/calendar/index.md#tuta) or [Proton](../../../tools/services/calendar/index.md#proton-calendar)
-- **Cloud Storage:** [Proton Drive](../../../tools/services/cloud/index.md#proton-drive), [Tresorit](../../../tools/services/cloud/index.md#tresorit), or [Peergos](../../../tools/services/cloud/index.md#peergos)
-- **File Sharing:** [OnionShare](../../../tools/software/file-sharing/index.md#onionshare), [Send](../../../tools/software/file-sharing/index.md#send), or [Syncthing](../../../tools/software/file-sharing/index.md#syncthing-p2p)
-
-More tools for community organization could include [LAUTI](https://lauti.org/) for community calendars, and [Mobilizon](https://mobilizon.org/) for events and groups. For more on better alternatives to use, you can check this [tip on why and how to migrate away from Big Tech](../tip-migrate-outside-the-surveillance-ecosystem/) for your privacy advocacy work.
-
-</details>
-
 ## More resources
 
 ### Leadership
@@ -214,5 +123,3 @@ More tools for community organization could include [LAUTI](https://lauti.org/) 
 - [Develop your activist strategy: Writing a strategy for your movement (*Activist Handbook*)](https://activisthandbook.org/strategy/develop)
 
 - [Campaign accelerator training (*Mobilisation Lab*)](https://mobilisationlab.org/training-coaching/campaign-accelerator-training/)
-
-<button class="toolbox-tip-button-next">[Go back to toolbox index](../..)</button>

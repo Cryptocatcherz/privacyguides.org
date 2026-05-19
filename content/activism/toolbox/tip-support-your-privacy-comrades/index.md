@@ -17,7 +17,7 @@ Many privacy advocates will choose, rightly so, to completely [leave](../tip-mig
 
 Moreover, fighting to protect privacy rights while reading about attacks on those rights every day in the news can be draining.
 
-Most advocates have experienced moments of great discouragement, and feelings of helplessness while facing the magnitude of the task at hand. ==Social support is a matter of survival== to recharge and continue this long battle for human rights.
+Most advocates have experienced moments of great discouragement, and feelings of helplessness while facing the magnitude of the task at hand. <mark>Social support is a matter of survival</mark> to recharge and continue this long battle for human rights.
 
 This is why we must work to rebuild communities of our own. Supportive privacy communities that are [kind](../tip-be-kind-to-people-but-be-relentless-with-institutions/), [inclusive](../tip-keep-your-posts-and-community-inclusive/), and [accessible](../tip-be-mindful-of-accessibility/).
 
@@ -31,21 +31,21 @@ Some people will periodically take time off from the internet to rest, which can
 
 Here are a few things you can do to support your privacy comrades in times of need:
 
-- [x] Work on strengthening your empathy skills, and demonstrate more compassion. This is a superpower to take care of your community.
+- Work on strengthening your empathy skills, and demonstrate more compassion. This is a superpower to take care of your community.
 
-- [x] Tell them you understand this is difficult, and that you are here to help if they need support.
+- Tell them you understand this is difficult, and that you are here to help if they need support.
 
-- [x] Ask if they would like to talk more about their difficulties in private.
+- Ask if they would like to talk more about their difficulties in private.
 
-- [x] Offer your time to talk with them on a privacy-respectful chat, audio, or video call, if this is something you are comfortable doing.
+- Offer your time to talk with them on a privacy-respectful chat, audio, or video call, if this is something you are comfortable doing.
 
-- [x] Invite them to join your community or group of like-minded people, if you think they might be a good fit.
+- Invite them to join your community or group of like-minded people, if you think they might be a good fit.
 
-- [x] Organize a group or event to socialize with your privacy comrades regularly, offline or online, in a privacy-respectful way.
+- Organize a group or event to socialize with your privacy comrades regularly, offline or online, in a privacy-respectful way.
 
-- [x] Depending on circumstances (and only if they might be open to it), refer them to a helpful resource in private. However, be careful not to fall into [the advice trap](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice), unless they specifically asked for advice.
+- Depending on circumstances (and only if they might be open to it), refer them to a helpful resource in private. However, be careful not to fall into [the advice trap](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice), unless they specifically asked for advice.
 
-- [x] Stay kind and do not take it personally if they refuse your help or disagree with your [*solicited* advice](https://www.verywellmind.com/whats-behind-different-types-of-unsolicited-advice-3144961). Let them know the door is always open to reach out to you whenever they might need help later.
+- Stay kind and do not take it personally if they refuse your help or disagree with your [*solicited* advice](https://www.verywellmind.com/whats-behind-different-types-of-unsolicited-advice-3144961). Let them know the door is always open to reach out to you whenever they might need help later.
 
 ## More resources
 

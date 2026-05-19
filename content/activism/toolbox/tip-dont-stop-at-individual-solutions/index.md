@@ -23,19 +23,19 @@ If we only think of *individual* solutions when a corporation exploits our data,
 
 Here are a few questions you can ask yourself whenever a new privacy issue arises in the news, to help expand your perspective beyond individual solutions:
 
-- [ ] What are potential mitigation solutions, and who will realistically be able to use them?
+- What are potential mitigation solutions, and who will realistically be able to use them?
 
-- [ ] What will happen to the people who don't have the resources (in time, in money, in knowledge) to protect themselves individually?
+- What will happen to the people who don't have the resources (in time, in money, in knowledge) to protect themselves individually?
 
-- [ ] Will this issue impact some communities more than others? Who will this affect the most negatively?
+- Will this issue impact some communities more than others? Who will this affect the most negatively?
 
-- [ ] What will be the impact for the people who *cannot* protect themselves individually?
+- What will be the impact for the people who *cannot* protect themselves individually?
 
-- [ ] What will be the impact for the people who *can* protect themselves individually?
+- What will be the impact for the people who *can* protect themselves individually?
 
-- [ ] Are there other solutions that could be adopted to fight this issue for *everyone* at once, without relying on *individual* harm mitigations.
+- Are there other solutions that could be adopted to fight this issue for *everyone* at once, without relying on *individual* harm mitigations.
 
-- [ ] How can we fight against this issue in a way that will benefit *everyone* impacted, including the people who aren't even aware of the issue?
+- How can we fight against this issue in a way that will benefit *everyone* impacted, including the people who aren't even aware of the issue?
 
 ## More resources
 

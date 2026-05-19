@@ -17,7 +17,7 @@ Moving away from large commercial platforms can be a complex process, but it's a
 
 Not only this allows us to stop feeding a surveillance machine that grows ever hungry for data every month, but it gives us an opportunity to build much more resilient communities, and support platforms that aren't devouring peoples' privacy.
 
-Many are reluctant to quit commercial social media, despite the many issues that have only become worse in the past few years. It's not always easy to leave a place that feels like home and rebuild elsewhere. However, ==when the house is on fire, it's time to leave.==
+Many are reluctant to quit commercial social media, despite the many issues that have only become worse in the past few years. It's not always easy to leave a place that feels like home and rebuild elsewhere. However, <mark>when the house is on fire, it's time to leave.</mark>
 
 The more we produce content, and the more we engage with our community on these privacy-invasive platforms, the more we contribute to sustain these predatory corporations making money and thriving at the expense of our followers' data.
 
@@ -49,7 +49,7 @@ Perhaps you are already convinced to leave exploitive social media platforms for
 
 One such network is the [**Fediverse**](https://en.wikipedia.org/wiki/Fediverse), a decentralized collection of interconnected applications and servers that can communicate with each other.
 
-The Fediverse was built from a desire for social connection, not from greed for profits. ==This is a fundamental difference that leads to substantial benefits.== Most servers that are part of the Fediverse network are hosted by volunteers who simply want to support their communities.
+The Fediverse was built from a desire for social connection, not from greed for profits. <mark>This is a fundamental difference that leads to substantial benefits.</mark> Most servers that are part of the Fediverse network are hosted by volunteers who simply want to support their communities.
 
 There are many applications that can connect to the Fediverse, the most famous probably being the microblogging platform [Mastodon](https://joinmastodon.org/). But you could also choose to join an app more similar to Instagram with [Pixelfed](https://pixelfed.org/), or more similar to YouTube with [PeerTube](https://joinpeertube.org/). They all connect together!
 

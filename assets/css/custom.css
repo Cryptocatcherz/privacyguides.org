@@ -508,54 +508,7 @@ a.footnote-ref {
     color: var(--md-default-fg-color--light);
 }
 
-/* Toolbox Tip Button Next */
-.toolbox-tip-button-next {
-    float: right;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-/* Toolbox Tip Quote Box */
-.toolbox-quote {
-    margin-top: 15px !important;
-    font-family: bagnard !important;
-    font-size: 1em !important;
-    font-weight: 400 !important;
-    background: #9e9e9e1a !important;
-}
-
-.toolbox-quote .admonition-title {
-    background-color: transparent !important;
-}
-
-.toolbox-quote-source {
-    font-family: var(--md-text-font-family) !important;
-    text-align: right;
-    font-size: 0.7em !important;
-    font-weight: 400 !important;
-}
-
-.toolbox-quote.quote>.admonition-title.toolbox-quote::before {
-  transform: rotate(180deg);
-}
-.toolbox-quote .admonition-title.toolbox-quote::after {
-  background-color: #9e9e9e;
-  mask-image: var(--md-admonition-icon--quote);
-  content: "";
-  height: 1rem;
-  mask-position: center;
-  mask-repeat: no-repeat;
-  mask-size: contain;
-  position: absolute;
-  bottom: .75em;
-  width: 2rem;
-}
-
 /* DPA Directory */
-.table-wrapper {
-    width: min(900px, 100% -3rem);
-    margin-inline: auto;
-}
 
 .dpadirectory-table {
     padding: 1rem;
@@ -571,42 +524,35 @@ a.footnote-ref {
 /* Column Width - Region */
 .dpadirectory-table th:first-child {
     min-width: 110px;
-    width: 110px;
 }
 
 /* Column Width - Law */
 .dpadirectory-table th:nth-child(2) {
     min-width: 140px;
-    width: 140px;
 }
 
 /* Column Width - Abbreviation */
 .dpadirectory-table th:nth-child(3) {
     min-width: 100px;
-    width: 100px;
 }
 
 /* Column Width - DPA */
 .dpadirectory-table th:nth-child(4) {
     min-width: 150px;
-    width: 150px;
 }
 
 /* Column Width - Contact */
 .dpadirectory-table th:nth-child(5) {
     min-width: 85px;
-    width: 85px;
 }
 
 /* Column Width - Complaint */
 .dpadirectory-table th:nth-child(6) {
     min-width: 110px;
-    width: 110px;
 }
 
 .dpadirectory-table caption, th, td {
-    padding: 0.8rem;
-    font-size: 0.65rem;
+    padding: 1rem;
     text-align: left;
 }
 
@@ -623,11 +569,7 @@ a.footnote-ref {
 }
 
 .dpadirectory-table th {
-    border-bottom: 3px solid var(--md-default-fg-color--light);
-}
-
-.dpadirectory-table tr {
-    background: var(--md-default-bg-color--light);
+    border-bottom: none;
 }
 
 .dpadirectory-table tr:nth-of-type(2n) {
@@ -635,12 +577,11 @@ a.footnote-ref {
 }
 
 .dpadirectory-table tr {
-    border: 3px solid transparent;
-    border-bottom: 0.5px solid var(--md-default-fg-color--light);
+    border: none;
 }
 
 .dpadirectory-table tr:hover {
-    border: 3px solid var(--md-default-fg-color--light);
+    border: none;
 }
 
 .dpadirectory-table td {
@@ -712,31 +653,38 @@ a.footnote-ref {
 }
 
 /* DPA Directory Buttons */
-.dpadirectory-button {
-    color: #000000 !important;
+.content .toolbox-button-grid .dpadirectory-button {
+  a {
+    color: #000000;
+  }
+  svg {
+    fill: black;
+    width: 6em;
+    height: 6em;
+  }
 }
 
-.dpadirectory-button-africa {
+.dpadirectory-button-africa a {
     background-color: var(--color-dpadirectory-africa);
 }
 
-.dpadirectory-button-asia {
+.dpadirectory-button-asia a {
     background-color: var(--color-dpadirectory-asia);
 }
 
-.dpadirectory-button-europe {
+.dpadirectory-button-europe a {
     background-color: var(--color-dpadirectory-europe);
 }
 
-.dpadirectory-button-northamerica {
+.dpadirectory-button-northamerica a {
     background-color: var(--color-dpadirectory-northamerica);
 }
 
-.dpadirectory-button-oceania {
+.dpadirectory-button-oceania a {
     background-color: var(--color-dpadirectory-oceania);
 }
 
-.dpadirectory-button-southamerica {
+.dpadirectory-button-southamerica a {
     background-color: var(--color-dpadirectory-southamerica);
 }
 

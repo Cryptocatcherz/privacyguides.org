@@ -13,7 +13,7 @@ Here's how you can **integrate kindness in your work**, while being relentless w
 
 Whenever you talk with individuals in your privacy work, make sure to **stay kind and calm** when communicating with them.
 
-Perhaps you are posting on social media, replying to posts or emails, answering questions after a talk, or writing advices on the best privacy tools to use. No matter the context, when communicating with individuals, ==kindness is your greatest asset== to persuade and bring more people to the movement.
+Perhaps you are posting on social media, replying to posts or emails, answering questions after a talk, or writing advices on the best privacy tools to use. No matter the context, when communicating with individuals, <mark>kindness is your greatest asset</mark> to persuade and bring more people to the movement.
 
 Sadly, it's not rare to see replies to beginners' posts by more advanced peers online that are humiliating and berating their uninformed or misinformed questions. People don't learn and don't change their mind by being yelled at. Aggression isn't an effective way to communicate.
 
@@ -35,7 +35,7 @@ Whether you are trying to report a privacy-abusive corporate practice, push back
 
 Respect and politeness are vital here as well. Violence or threat to representatives of these institutions would only be detrimental to your goals. However, patience shouldn't be extended to privacy-abusive organizations that aren't demonstrating any realistic intentions to improve.
 
-==To bring significant changes to institutions and corporations, your message must be loud and clear.==
+<mark>To bring significant changes to institutions and corporations, your message must be loud and clear.</mark>
 
 You should try to bring as many people and allied organizations to your cause, and be as loud as possible in the media. Your campaign must be powerful enough to grab media's attention, and to send a firm message that the people want change and will not back down.
 

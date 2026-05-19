@@ -15,12 +15,8 @@ Here's what you can do to become a privacy activist:
 
 Being a privacy activist means actively taking part in the movement to protect and improve fundamental privacy rights for everyone.
 
-<div class="admonition quote toolbox-quote" markdown>
-<p class="admonition-title toolbox-quote">We want to help redefine 'activist' to a term that can include anyone who wants to work collectively to create social change. You don't have to be an expert, and you don't have to spend every waking minute trying to do 'activism'. You just have to be a person who wants to create change with other people.</p>
-
-<p class="toolbox-quote-source" markdown>Source: [*Activist Handbook*](https://activisthandbook.org/theory/what-is-activism#our-response-take-the-%E2%80%98expert%E2%80%99-out-of-%E2%80%98activism%E2%80%99)</p>
-
-</div>
+> We want to help redefine 'activist' to a term that can include anyone who wants to work collectively to create social change. You don't have to be an expert, and you don't have to spend every waking minute trying to do 'activism'. You just have to be a person who wants to create change with other people.
+> <small>— Source: [*Activist Handbook*](https://activisthandbook.org/theory/what-is-activism#our-response-take-the-%E2%80%98expert%E2%80%99-out-of-%E2%80%98activism%E2%80%99)</small>
 
 There are many ways to actively engage in the privacy rights movement.
 
@@ -32,15 +28,15 @@ Perhaps you like to write, to draw, to record videos, or to build applications? 
 
 Ask yourself these questions:
 
-- [ ] What do I enjoy doing that could also be useful to the cause?
+- What do I enjoy doing that could also be useful to the cause?
 
-- [ ] What are my interests? What do I want to learn more about?
+- What are my interests? What do I want to learn more about?
 
-- [ ] Which skills and social networks do I already have?
+- Which skills and social networks do I already have?
 
-- [ ] How much time do I have to contribute each week?
+- How much time do I have to contribute each week?
 
-- [ ] Who around me shares my privacy values and could be an ally?
+- Who around me shares my privacy values and could be an ally?
 
 ## Things you can do to engage, boost, and contribute
 
@@ -78,12 +74,8 @@ Here are some ideas of what you can do to become a privacy activist in your comm
 
 </div>
 
-<div class="admonition quote toolbox-quote" markdown>
-<p class="admonition-title toolbox-quote">People who do activism reclaim their own agency in deciding what kind of world they want to live in.</p>
-
-<p class="toolbox-quote-source" markdown>Source: [*Activist Handbook*](https://activisthandbook.org/theory/what-is-activism#personal-is-political)</p>
-
-</div>
+> People who do activism reclaim their own agency in deciding what kind of world they want to live in.
+> <small>— Source: [*Activist Handbook*](https://activisthandbook.org/theory/what-is-activism#personal-is-political)</small>
 
 ## More resources
 

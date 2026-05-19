@@ -9,14 +9,10 @@ Once you are [informed on your local privacy laws](../tip-know-your-privacy-laws
 
 Here's why and how you should report violations of your local privacy laws:
 
-<div class="admonition note" markdown>
-<p class="admonition-title">International variations</p>
-
-There are hundreds of privacy regulations currently in effect in the world. Moreover, each country might have multiple privacy laws protecting different regions/states/provinces, and different types of data (health data, children's data, employees' data, etc.).
-
-This tip cannot cover each regulation individually. There will be variations for each privacy law applicable. Read this tip as a general advice and a starting point to guide you through your own regional research.
-
-</div>
+> [!NOTE]
+> There are hundreds of privacy regulations currently in effect in the world. Moreover, each country might have multiple privacy laws protecting different regions/states/provinces, and different types of data (health data, children's data, employees' data, etc.).
+>
+>This tip cannot cover each regulation individually. There will be variations for each privacy law applicable. Read this tip as a general advice and a starting point to guide you through your own regional research.
 
 ## Why reporting violations matters
 
@@ -26,14 +22,13 @@ Unless the enforcing authority decides to investigate an especially important ab
 
 If you believe that your privacy rights have been violated by an organization, infringing your local privacy regulations, you can likely report this violation to the entity responsible for enforcing the law, the **Data Protection Authority** (DPA).
 
-<div class="admonition info inline end" markdown>
-<p class="admonition-title">What is a Data Protection Authority?</p>
+{{< details title="What is a Data Protection Authority?" >}}
 
 Again, different laws might use different terms for this, depending on the region. For example, in Canada the enforcing authority for a privacy law is often called a *Privacy Commissioner*. In Europe, the term used is a *Data Protection Authority*. In the state of California in the United States, the entity responsible for enforcing the California Consumer Privacy Act (CCPA) is the *California Privacy Protection Agency*.
 
 This text will use **Data Protection Authority** or **DPA** as an umbrella term to refer to any authorities mandated to enforce a privacy regulation.
 
-</div>
+{{< /details >}}
 
 Reporting even small violations can help improve privacy rights not only for yourself but for everyone else as well.
 
@@ -91,12 +86,8 @@ Most regulations will have a clear process to submit an official complaint.
 
 Once you've found the official documentation for your local privacy law(s), read through it to find who is responsible for enforcing the law (who is your DPA), and what the complaint process is.
 
-<div class="admonition success" markdown>
-<p class="admonition-title">Finding your local privacy law and enforcement authority</p>
-
-To help you find the official documentation for your local privacy law, the authority mandated to enforce it, and the contact links to ask questions or place a complaint, Privacy Guides has put together this handy [DPA Directory](../../legal/dpa-directory/).
-
-</div>
+> [!TIP]
+> To help you find the official documentation for your local privacy law, the authority mandated to enforce it, and the contact links to ask questions or place a complaint, Privacy Guides has put together this handy [DPA Directory](../../legal/dpa-directory/).
 
 Before submitting a complaint, you may want to:
 

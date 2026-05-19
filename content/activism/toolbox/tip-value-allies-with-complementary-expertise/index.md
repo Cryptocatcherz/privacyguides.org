@@ -19,7 +19,7 @@ Being an expert in privacy can mean so many things. No two specialists have the 
 
 Whatever your own privacy expertise might be, make sure to always stay aware of the [bigger picture](../tip-keep-in-mind-the-whole-landscape/), and recognize that other privacy specialists might have knowledge entirely different from yours. Your knowledge might intersect, or you might not share any at all.
 
-This doesn't mean they are any less valuable. On the contrary, this ==diversity of knowledge gives us the best chance to succeed== in our common cause.
+This doesn't mean they are any less valuable. On the contrary, this <mark>diversity of knowledge gives us the best chance to succeed</mark> in our common cause.
 
 ## Respect people with different knowledge
 

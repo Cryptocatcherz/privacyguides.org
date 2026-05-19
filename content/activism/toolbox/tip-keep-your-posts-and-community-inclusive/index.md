@@ -19,7 +19,7 @@ When people with different lived experiences and identities join our group, it e
 
 When people from different localities join our group, this helps us to regionalize our content and communication to make it accessible to people all around the world, and expand our network. And when people with different mentalities join our group, it helps us to reach out to people with different ways of thinking more easily.
 
-==The more diverse is a team, the more resources it has to understand and support a diverse population of people== interested (or potentially interested) in privacy rights.
+<mark>The more diverse is a team, the more resources it has to understand and support a diverse population of people</mark> interested (or potentially interested) in privacy rights.
 
 Inclusivity allows diversity to thrive, and diversity will make it easier for your group to be inclusive.
 

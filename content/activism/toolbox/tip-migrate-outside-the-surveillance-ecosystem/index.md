@@ -39,18 +39,14 @@ While using the most popular mainstream tools and platforms for our work might s
 
     Because a better world *is* actually possible, right now. It might not be as easy and as convenient, but it's certainly possible to thrive outside the Big Tech surveillance apparatus, especially for privacy activists and digital rights organizations.
 
-    As the saying goes: ==If not us, then who? If not now, then when?==
+    As the saying goes: <mark>If not us, then who? If not now, then when?</mark>
 
 </div>
 
 ## How to migrate away from privacy-harmful tools and choose better alternatives
 
-<div class="admonition question inline end" markdown>
-<p class="admonition-title">What is the best tool?</p>
-
-For each proposed alternative, you should always first consider your own [threat model](../../../wiki/basics/threat-modeling/index.md). One tool might be ideal for one person or organization, but another tool might be better for another. Make sure to understand well your threat model in order to choose the tools that are the best for your unique situation.
-
-</div>
+> [!IMPORTANT]
+> For each proposed alternative, you should always first consider your own [threat model](../../../wiki/basics/threat-modeling/index.md). One tool might be ideal for one person or organization, but another tool might be better for another. Make sure to understand well your threat model in order to choose the tools that are the best for your unique situation.
 
 There are two good news about this:
 
@@ -65,6 +61,9 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 <style>
 .emoji-list-b ul {
   list-style: tools-individuals;
+  li {
+    margin-bottom: 1.5em;
+  }
 }
 @counter-style tools-individuals {
   system: fixed;
@@ -80,16 +79,12 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 - **[Email communication](../../../tools/services/email/index.md):** Migrate to a privacy-respectful email service that offers end-to-end encryption, such as Proton Mail or Tuta. Make sure to inform yourself about the limitations of email privacy when using email for sensitive communication.
 
-    <section class="admonition success inline end" markdown>
-    <p class="admonition-title">Service providers disclosure and compatibility</p>
-
-    If you use your own custom domain name for email addresses, let the people you communicate with know what your service provider is.
-
-    That way, they will know that if they use a compatible service provider, they might benefit from end-to-end encryption protections for the content of their communications with you without requiring any additional steps.
-
-    For example, this is the case when emailing from a Proton Mail account to another Proton Mail account, or from a Tuta Mail account to another Tuta Mail account.
-
-    </section>
+  > [!TIP]
+  > If you use your own custom domain name for email addresses, let the people you communicate with know what your service provider is.
+  >
+  > That way, they will know that if they use a compatible service provider, they might benefit from end-to-end encryption protections for the content of their communications with you without requiring any additional steps.
+  >
+  > For example, this is the case when emailing from a Proton Mail account to another Proton Mail account, or from a Tuta Mail account to another Tuta Mail account.
 
 - **[Document storing and sharing](../../../tools/software/document-collaboration/index.md):** Move away from privacy-invasive Google products to store and share documents. Instead, use an end-to-end encrypted solution such as [CryptPad](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/) for your collaborative documents and forms. Proton Drive also offers collaborative documents with *Proton Docs* and *Sheets*.
 
@@ -113,9 +108,9 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 - **[Social media](../../../tools/software/social-networks/index.md):** Move away from commercial social media platforms. Mainstream platforms are almost all abusing their users' data. By keeping an account there, you are indirectly encouraging your followers to stay there as well, perpetuating the platform's abuse.
 
-    While you may want to keep a minimal presence to advertise that you have now moved your activity to a more privacy-respectful platform, you should keep your engagement there to a minimum.
+  While you may want to keep a minimal presence to advertise that you have now moved your activity to a more privacy-respectful platform, you should keep your engagement there to a minimum.
 
-    Instead, migrate your advocacy work to better social networks that aren't abusing users' data, and encourage your followers to migrate with you. Choose and support a platform that is more aligned with your privacy values, such as [Mastodon](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/) or any other open-source non-commercial applications connected to the [Fediverse](https://blog.elenarossini.com/fediverse-video/).
+  Instead, migrate your advocacy work to better social networks that aren't abusing users' data, and encourage your followers to migrate with you. Choose and support a platform that is more aligned with your privacy values, such as [Mastodon](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/) or any other open-source non-commercial applications connected to the [Fediverse](https://blog.elenarossini.com/fediverse-video/).
 
 </div>
 
