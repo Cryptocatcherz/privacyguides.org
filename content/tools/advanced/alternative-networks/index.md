@@ -26,12 +26,16 @@ When it comes to anonymizing networks, we want to specially note that [Tor](../.
 
 ### Tor
 
+{{< title-card >}}
+
 The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective [Censorship](../../../wiki/basics/common-threats/index.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
 {{< cards >}}
   {{< card link="https://torproject.org" title="Homepage" icon="home" >}}
   {{< card link="https://tb-manual.torproject.org" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 The recommended way to access the Tor network is via the official Tor Browser, which we have covered in more detail on a dedicated page:
 
@@ -48,12 +52,16 @@ You can access the Tor network using other tools; making this determination come
 
 #### Orbot
 
+{{< title-card >}}
+
 **Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
 
 {{< cards >}}
   {{< card link="https://orbot.app" title="Homepage" icon="home" >}}
   {{< card link="https://orbot.app/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=org.torproject.android)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1609461599)
@@ -74,6 +82,8 @@ Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can a
 
 #### Snowflake
 
+{{< title-card >}}
+
 **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
 
 People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
@@ -82,6 +92,8 @@ People who are censored can use Snowflake proxies to connect to the Tor network.
   {{< card link="https://snowflake.torproject.org" title="Homepage" icon="home" >}}
   {{< card link="https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension, because adding third-party extensions can increase your attack surface.
 
@@ -94,12 +106,16 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 
 ### I2P (The Invisible Internet Project)
 
+{{< title-card >}}
+
 **I2P** is a network layer which encrypts your connections and routes them via a network of computers distributed around the world. It is mainly focused on creating an alternative, privacy-protecting network rather than making regular internet connections anonymous.
 
 {{< cards >}}
   {{< card link="https://geti2p.net/en" title="Homepage" icon="home" >}}
   {{< card link="https://geti2p.net/en/about/software" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=net.i2p.android)
 [{{< badge content="Android" >}}](https://geti2p.net/en/download#android)

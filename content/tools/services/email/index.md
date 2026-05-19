@@ -54,6 +54,8 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 ### Proton Mail
 
+{{< title-card >}}
+
 **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
 
 The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
@@ -62,6 +64,8 @@ The Proton Free plan comes with 500 MB of Mail storage, which you can increase u
   {{< card link="https://proton.me/mail" title="Homepage" icon="home" >}}
   {{< card link="https://proton.me/mail/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://proton.me/mail/bridge#download)
 [{{< badge content="macOS" color="indigo" >}}](https://proton.me/mail/bridge#download)
@@ -125,6 +129,8 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ### Mailbox Mail
 
+{{< title-card >}}
+
 **Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox Mail is based in Berlin, Germany.
 
 Accounts start with up to 2 GB storage, which can be upgraded as needed.
@@ -133,6 +139,8 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
   {{< card link="https://mailbox.org" title="Homepage" icon="home" >}}
   {{< card link="https://mailbox.org/en/data-protection-privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Web" >}}](https://login.mailbox.org)
 
@@ -184,6 +192,8 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 ### Tuta
 
+{{< title-card >}}
+
 **Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
 
 Free accounts start with 1 GB of storage.
@@ -192,6 +202,8 @@ Free accounts start with 1 GB of storage.
   {{< card link="https://tuta.com" title="Homepage" icon="home" >}}
   {{< card link="https://tuta.com/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://tuta.com/#download)
 [{{< badge content="macOS" color="indigo" >}}](https://tuta.com/#download)

@@ -21,6 +21,8 @@ The recommendations here do not collect personally identifying information (PII)
 
 ## Organic Maps
 
+{{< title-card >}}
+
 **Organic Maps** is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
 
 Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
@@ -29,6 +31,8 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
   {{< card link="https://organicmaps.app" title="Homepage" icon="home" >}}
   {{< card link="https://organicmaps.app/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://flathub.org/apps/app.organicmaps.desktop)
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=app.organicmaps)
@@ -39,12 +43,16 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 ## OsmAnd
 
+{{< title-card >}}
+
 **OsmAnd** is an open-source, offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. You can find a detailed overview of OsmAnd's supported [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) on the OpenStreet Map Wiki.
 
 {{< cards >}}
   {{< card link="https://osmand.net" title="Homepage" icon="home" >}}
   {{< card link="https://osmand.net/docs/legal/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=net.osmand)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/us/app/id934850257)

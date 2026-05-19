@@ -24,12 +24,16 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 ## Ente Auth
 
+{{< title-card >}}
+
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
 
 {{< cards >}}
   {{< card link="https://ente.com/auth" title="Homepage" icon="home" >}}
   {{< card link="https://ente.com/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=io.ente.auth)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id6444121398)
@@ -40,12 +44,16 @@ The server-side source code and infrastructure which underpins Ente Auth (if use
 
 ## Aegis Authenticator (Android)
 
+{{< title-card >}}
+
 **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
 
 {{< cards >}}
   {{< card link="https://getaegis.app" title="Homepage" icon="home" >}}
   {{< card link="https://getaegis.app/aegis/privacy.html" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
 [{{< badge content="GitHub" >}}](https://github.com/beemdevelopment/Aegis/releases)

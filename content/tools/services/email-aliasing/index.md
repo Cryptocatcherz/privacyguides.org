@@ -52,12 +52,16 @@ Using an aliasing service requires trusting both your email provider and your al
 
 ### Addy.io
 
+{{< title-card >}}
+
 **Addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited ["standard" aliases](https://addy.io/faq/#what-is-a-standard-alias).
 
 {{< cards >}}
   {{< card link="https://addy.io" title="Homepage" icon="home" >}}
   {{< card link="https://addy.io/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://addy.io/faq/#is-there-an-android-app)
 [{{< badge content="App Store" color="blue" >}}](https://addy.io/faq/#is-there-an-ios-app)
@@ -82,12 +86,16 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 
 ### SimpleLogin
 
+{{< title-card >}}
+
 **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
 
 {{< cards >}}
   {{< card link="https://simplelogin.io" title="Homepage" icon="home" >}}
   {{< card link="https://simplelogin.io/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1494359858)

@@ -32,12 +32,16 @@ The options listed here are available on multiple platforms and great for creati
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Passive Attacks" color="amber" >}}](../../../wiki/basics/common-threats/index.md#security-and-privacy)
 
+{{< title-card >}}
+
 **Cryptomator** is an encryption solution designed for privately saving files to any cloud [Service Provider](../../../wiki/basics/common-threats/index.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
 
 {{< cards >}}
   {{< card link="https://cryptomator.org" title="Homepage" icon="home" >}}
   {{< card link="https://cryptomator.org/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://cryptomator.org/downloads)
 [{{< badge content="macOS" color="indigo" >}}](https://cryptomator.org/downloads)
@@ -60,12 +64,16 @@ Cryptomator's documentation details its intended [security target](https://docs.
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../wiki/basics/common-threats/index.md#attacks-against-specific-individuals)
 
+{{< title-card >}}
+
 **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
 
 {{< cards >}}
   {{< card link="https://veracrypt.fr" title="Homepage" icon="home" >}}
   {{< card link="https://veracrypt.fr/en/Documentation.html" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://veracrypt.fr/en/Downloads.html)
 [{{< badge content="macOS" color="indigo" >}}](https://veracrypt.fr/en/Downloads.html)
@@ -94,6 +102,8 @@ Powering off your devices when they’re not in use provides the highest level o
 
 ### BitLocker
 
+{{< title-card >}}
+
 **BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
 {{< cards >}}
@@ -101,11 +111,15 @@ Powering off your devices when they’re not in use provides the highest level o
   {{< card link="https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 BitLocker is [officially supported](https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf) on the Pro, Enterprise, and Education editions of Windows. The Home edition only supports automatic [Device Encryption](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-cf7e2b6f-3e70-4882-9532-18633605b7df) and must meet specific hardware requirements. If you’re using the Home edition, we recommend [upgrading to Pro](https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818), which can be done without reinstalling Windows or losing your files.
 
 Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key) feature, configured through the appropriate [group policy](../../../wiki/os/windows/group-policies/index.md#bitlocker-drive-encryption) settings. The PIN is rate limited and the TPM will panic and lock access to the encryption key either permanently or for a period of time if someone attempts to brute force access.
 
 ### FileVault
+
+{{< title-card >}}
 
 **FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault takes advantage of the [hardware security capabilities](../../../wiki/os/macos/index.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
@@ -114,9 +128,13 @@ Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://
   {{< card link="https://support.apple.com/guide/security/welcome/web" title="Platform Security" icon="home" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 We advise against using your iCloud account for recovery; instead, you should securely store a local recovery key on a separate storage device.
 
 ### Linux Unified Key Setup
+
+{{< title-card >}}
 
 **LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
 
@@ -124,6 +142,8 @@ We advise against using your iCloud account for recovery; instead, you should se
   {{< card link="https://gitlab.com/cryptsetup/cryptsetup" title="Repository" icon="code" >}}
   {{< card link="https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 <details class="example" markdown>
 <summary>Creating and opening encrypted containers</summary>
@@ -160,6 +180,8 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 ### Kryptor
 
+{{< title-card >}}
+
 **Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
 
 {{< cards >}}
@@ -167,11 +189,15 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
   {{< card link="https://kryptor.co.uk/features#privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Linux" color="yellow" >}}](https://kryptor.co.uk)
 [{{< badge content="macOS" color="indigo" >}}](https://kryptor.co.uk)
 [{{< badge content="Windows" color="red" >}}](https://kryptor.co.uk)
 
 ### Tomb
+
+{{< title-card >}}
 
 **Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
@@ -179,6 +205,8 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
   {{< card link="https://dyne.org/software/tomb" title="Homepage" icon="home" >}}
   {{< card link="https://github.com/dyne/Tomb/wiki" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 ## OpenPGP
 
@@ -200,6 +228,8 @@ When encrypting with PGP, you have the option to configure different options in 
 
 ### GNU Privacy Guard
 
+{{< title-card >}}
+
 **GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
 
 {{< cards >}}
@@ -207,11 +237,15 @@ When encrypting with PGP, you have the option to configure different options in 
   {{< card link="https://gnupg.org/privacy-policy.html" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Linux" color="yellow" >}}](https://gnupg.org/download/index.html#binary)
 [{{< badge content="macOS" color="indigo" >}}](https://gpgtools.org)
 [{{< badge content="Windows" color="red" >}}](https://gpg4win.org/download.html)
 
 ### GPG4win
+
+{{< title-card >}}
 
 **GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that can assist you in using GPG on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
 
@@ -220,9 +254,13 @@ When encrypting with PGP, you have the option to configure different options in 
   {{< card link="https://gpg4win.org/privacy-policy.html" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Windows" color="red" >}}](https://gpg4win.org/download.html)
 
 ### GPG Suite
+
+{{< title-card >}}
 
 **GPG Suite** provides OpenPGP support for [Apple Mail](../email-clients/index.md#apple-mail-macos) and other email clients on macOS.
 
@@ -233,11 +271,15 @@ We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com
   {{< card link="https://gpgtools.org/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="macOS" color="indigo" >}}](https://gpgtools.org)
 
 Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable release for macOS Sonoma and later.
 
 ### OpenKeychain
+
+{{< title-card >}}
 
 **OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](../email-clients/index.md#thunderbird), [FairEmail](../email-clients/index.md#fairemail-android), and other Android apps to provide encryption support.
 
@@ -245,6 +287,8 @@ Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable 
   {{< card link="https://openkeychain.org" title="Homepage" icon="home" >}}
   {{< card link="https://openkeychain.org/help/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 

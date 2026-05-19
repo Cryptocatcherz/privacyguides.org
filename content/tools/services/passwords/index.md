@@ -32,12 +32,16 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
 ### Bitwarden
 
+{{< title-card >}}
+
 **Bitwarden** is a free and open-source password and passkey manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
 
 {{< cards >}}
   {{< card link="https://bitwarden.com" title="Homepage" icon="home" >}}
   {{< card link="https://bitwarden.com/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://bitwarden.com/download)
 [{{< badge content="macOS" color="indigo" >}}](https://bitwarden.com/download)
@@ -59,12 +63,16 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 ### Proton Pass
 
+{{< title-card >}}
+
 **Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](../email/index.md#proton-mail). It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
 
 {{< cards >}}
   {{< card link="https://proton.me/pass" title="Homepage" icon="home" >}}
   {{< card link="https://proton.me/pass/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Windows" color="red" >}}](https://proton.me/pass/download)
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=proton.android.pass)
@@ -84,6 +92,8 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 ### 1Password
 
+{{< title-card >}}
+
 **1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up).
 
 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password is closed source; however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
@@ -92,6 +102,8 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
   {{< card link="https://1password.com" title="Homepage" icon="home" >}}
   {{< card link="https://1password.com/legal/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://1password.com/downloads/linux)
 [{{< badge content="macOS" color="indigo" >}}](https://1password.com/downloads/mac)
@@ -110,12 +122,16 @@ Your 1Password vault is secured with both your master password and a randomized 
 
 ### Psono
 
+{{< title-card >}}
+
 **Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
 
 {{< cards >}}
   {{< card link="https://psono.com" title="Homepage" icon="home" >}}
   {{< card link="https://psono.com/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.psono.psono)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1545581224)

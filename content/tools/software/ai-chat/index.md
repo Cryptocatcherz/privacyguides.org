@@ -66,6 +66,8 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 
 ### Kobold.cpp
 
+{{< title-card >}}
+
 **Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
 
 In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools such as [Whisper](https://github.com/ggerganov/whisper.cpp).
@@ -74,6 +76,8 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
   {{< card link="https://github.com/LostRuins/koboldcpp#readme" title="Repository" icon="code" >}}
   {{< card link="https://github.com/LostRuins/koboldcpp/wiki" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://github.com/LostRuins/koboldcpp/releases)
 [{{< badge content="macOS" color="indigo" >}}](https://github.com/LostRuins/koboldcpp/releases)
@@ -86,6 +90,8 @@ Kobold.cpp allows you to modify parameters such as the AI model temperature and 
 
 ### Ollama (CLI)
 
+{{< title-card >}}
+
 **Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
 
 In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
@@ -95,6 +101,8 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
   {{< card link="https://github.com/ollama/ollama#readme" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Linux" color="yellow" >}}](https://ollama.com/download/linux)
 [{{< badge content="macOS" color="indigo" >}}](https://ollama.com/download/mac)
 [{{< badge content="Windows" color="red" >}}](https://ollama.com/download/windows)
@@ -102,6 +110,8 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 Ollama simplifies the process of setting up a local AI chat by downloading the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, Ollama maintains their own [model library](https://ollama.com/library) where they host the files of various AI models. This ensures that models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
 
 ### Llamafile
+
+{{< title-card >}}
 
 **Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
 
@@ -111,6 +121,8 @@ Llamafile also supports LLaVA. However, it doesn't support speech recognition or
   {{< card link="https://github.com/Mozilla-Ocho/llamafile#readme" title="Repository" icon="code" >}}
   {{< card link="https://github.com/Mozilla-Ocho/llamafile#quickstart" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 [{{< badge content="macOS" color="indigo" >}}](https://github.com/Mozilla-Ocho/llamafile#quickstart)

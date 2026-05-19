@@ -26,6 +26,8 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 ### Standard Notes
 
+{{< title-card >}}
+
 **Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors.
 
 Standard Notes has also undergone multiple [independent audits](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
@@ -34,6 +36,8 @@ Standard Notes has also undergone multiple [independent audits](https://standard
   {{< card link="https://standardnotes.com" title="Homepage" icon="home" >}}
   {{< card link="https://standardnotes.com/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://standardnotes.com)
 [{{< badge content="macOS" color="indigo" >}}](https://standardnotes.com)
@@ -47,6 +51,8 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 ### Notesnook
 
+{{< title-card >}}
+
 **Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
 
 It features sync functionality that allows you to access your notes on multiple platforms. You can easily import your notes from Evernote, OneNote, and other apps using their [official importer](https://importer.notesnook.com).
@@ -55,6 +61,8 @@ It features sync functionality that allows you to access your notes on multiple 
   {{< card link="https://notesnook.com" title="Homepage" icon="home" >}}
   {{< card link="https://notesnook.com/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://notesnook.com/downloads)
 [{{< badge content="macOS" color="indigo" >}}](https://notesnook.com/downloads)
@@ -69,6 +77,8 @@ It features sync functionality that allows you to access your notes on multiple 
 
 ### Joplin
 
+{{< title-card >}}
+
 **Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
 
 It can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
@@ -77,6 +87,8 @@ It can sync through Nextcloud, Dropbox, and more. It also offers easy import fro
   {{< card link="https://joplinapp.org" title="Homepage" icon="home" >}}
   {{< card link="https://joplinapp.org/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://joplinapp.org/#desktop-applications)
 [{{< badge content="macOS" color="indigo" >}}](https://joplinapp.org/#desktop-applications)
@@ -91,6 +103,8 @@ Joplin [does not support](https://github.com/laurent22/joplin/issues/289) passwo
 
 ### Cryptee
 
+{{< title-card >}}
+
 **Cryptee** is an open-source, web-based E2EE document editor and photo storage application.
 
 Cryptee offers 100 MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
@@ -100,6 +114,8 @@ Cryptee offers 100 MB of storage for free, with paid options if you need more. 
   {{< card link="https://crypt.ee/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Web" >}}](https://crypt.ee/download)
 
 Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
@@ -108,12 +124,16 @@ Cryptee is a PWA, which means that it works seamlessly across all modern devices
 
 ### Org-mode
 
+{{< title-card >}}
+
 **Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. File synchronization is possible with tools like [Syncthing](../file-sharing/index.md#syncthing-p2p).
 
 {{< cards >}}
   {{< card link="https://orgmode.org" title="Homepage" icon="home" >}}
   {{< card link="https://orgmode.org/manuals.html" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 ## Criteria
 

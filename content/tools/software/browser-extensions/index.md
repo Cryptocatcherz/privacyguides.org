@@ -26,12 +26,16 @@ Don't install extensions which you don't immediately have a need for, or ones th
 
 ### uBlock Origin
 
+{{< title-card >}}
+
 **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
 
 {{< cards >}}
   {{< card link="https://github.com/gorhill/uBlock#readme" title="Repository" icon="code" >}}
   {{< card link="https://github.com/gorhill/uBlock/wiki/Privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Firefox" >}}](https://addons.mozilla.org/firefox/addon/ublock-origin)
 [{{< badge content="Chrome" >}}](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
@@ -52,12 +56,16 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 - ...you want a more resource (memory/CPU) efficient content blocker[^1]
 - ...your browser only supports Manifest V3 extensions. This is the case for Chrome [^2] , Edge and most Chromium browsers.
 
+{{< title-card >}}
+
 **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [Passive Attacks](../../../wiki/basics/common-threats/index.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
 
 {{< cards >}}
   {{< card link="https://github.com/uBlockOrigin/uBOL-home#readme" title="Repository" icon="code" >}}
   {{< card link="https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Chrome" >}}](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 [{{< badge content="Edge" >}}](https://microsoftedge.microsoft.com/addons/detail/cimighlppcgcoapaliogpjjdehbnofhn)
@@ -75,12 +83,16 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 We recommend [Safari](../mobile-browsers/index.md#safari-ios) for iOS users, which unfortunately is only supported by uBlock Origin **Lite**. Luckily, AdGuard provides an adequate alternative:
 
+{{< title-card >}}
+
 **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
 {{< cards >}}
   {{< card link="https://adguard.com/en/adguard-ios/overview.html" title="Homepage" icon="home" >}}
   {{< card link="https://adguard.com/privacy/ios.html" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1047223162)
 

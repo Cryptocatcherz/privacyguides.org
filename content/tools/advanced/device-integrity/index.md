@@ -66,12 +66,16 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 
 ### Mobile Verification Toolkit
 
+{{< title-card >}}
+
 **Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 
 {{< cards >}}
   {{< card link="https://mvt.re" title="Homepage" icon="home" >}}
   {{< card link="https://github.com/mvt-project/mvt" title="Source code" icon="code" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="macOS" color="indigo" >}}](https://docs.mvt.re/en/latest/install)
 [{{< badge content="Linux" color="yellow" >}}](https://docs.mvt.re/en/latest/install)
@@ -95,12 +99,16 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 ### iMazing (iOS)
 
+{{< title-card >}}
+
 **iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
 
 {{< cards >}}
   {{< card link="https://imazing.com" title="Homepage" icon="home" >}}
   {{< card link="https://imazing.com/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Windows" color="red" >}}](https://imazing.com/download)
 [{{< badge content="macOS" color="indigo" >}}](https://imazing.com/download)
@@ -121,12 +129,16 @@ These are apps you can install which check your device and operating system for 
 
 ### Auditor (Android)
 
+{{< title-card >}}
+
 **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
 
 {{< cards >}}
   {{< card link="https://attestation.app" title="Homepage" icon="home" >}}
   {{< card link="https://attestation.app/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
 [{{< badge content="GitHub" >}}](https://github.com/GrapheneOS/Auditor/releases)

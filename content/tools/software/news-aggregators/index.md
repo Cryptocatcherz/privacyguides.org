@@ -25,6 +25,8 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ### Akregator
 
+{{< title-card >}}
+
 **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
 
 {{< cards >}}
@@ -32,9 +34,13 @@ A **news aggregator** is software which aggregates digital content from online n
   {{< card link="https://kde.org/privacypolicy-apps" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Flathub" >}}](https://flathub.org/apps/details/org.kde.akregator)
 
 ### NewsFlash
+
+{{< title-card >}}
 
 **NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). It has a search feature and a pre-defined list of sources that you can add directly.
 
@@ -43,9 +49,13 @@ A **news aggregator** is software which aggregates digital content from online n
   {{< card link="https://gitlab.com/news-flash/news_flash_gtk/-/wikis/home" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Flathub" >}}](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
 
 ### Feeder
+
+{{< title-card >}}
 
 **Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds.
 
@@ -56,10 +66,14 @@ It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedi
   {{< card link="https://github.com/spacecowboy/Feeder/wiki" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 [{{< badge content="GitHub" >}}](https://github.com/spacecowboy/Feeder/releases)
 
 ### Miniflux
+
+{{< title-card >}}
 
 **Miniflux** is a web-based news aggregator that you can self-host.
 
@@ -70,7 +84,11 @@ It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedi
   {{< card link="https://miniflux.app/docs/index#user-guide" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 ### NetNewsWire
+
+{{< title-card >}}
 
 **NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
 
@@ -81,10 +99,14 @@ It supports conventional feed formats and includes built-in support for Reddit f
   {{< card link="https://netnewswire.com/privacypolicy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="macOS" color="indigo" >}}](https://netnewswire.com)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1480640210)
 
 ### Newsboat
+
+{{< title-card >}}
 
 **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
@@ -92,6 +114,8 @@ It supports conventional feed formats and includes built-in support for Reddit f
   {{< card link="https://newsboat.org" title="Homepage" icon="home" >}}
   {{< card link="https://newsboat.org/releases/2.38/docs/newsboat.html" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 ## Criteria
 

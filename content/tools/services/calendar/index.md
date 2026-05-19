@@ -22,6 +22,8 @@ aliases:
 
 ## Tuta
 
+{{< title-card >}}
+
 **Tuta** offers a free and encrypted calendar across their supported platforms. Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
 Multiple calendars and extended sharing functionality are limited to paid subscribers.
@@ -30,6 +32,8 @@ Multiple calendars and extended sharing functionality are limited to paid subscr
   {{< card link="https://tuta.com/calendar" title="Homepage" icon="home" >}}
   {{< card link="https://tuta.com/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://tuta.com/blog/desktop-clients)
 [{{< badge content="macOS" color="indigo" >}}](https://tuta.com/blog/desktop-clients)
@@ -42,6 +46,8 @@ Multiple calendars and extended sharing functionality are limited to paid subscr
 
 ## Proton Calendar
 
+{{< title-card >}}
+
 **Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
 
 Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
@@ -50,6 +56,8 @@ Those on the free tier have access to 3 calendars, whereas paid subscribers can 
   {{< card link="https://proton.me/calendar" title="Homepage" icon="home" >}}
   {{< card link="https://proton.me/calendar/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1514709943)

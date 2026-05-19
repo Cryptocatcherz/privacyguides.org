@@ -264,6 +264,12 @@ html.light {
     mark {
       background-color: #ffff0080;
     }
+    .pg\:title-card {
+      background-color: var(--hx-color-gray-100);
+      .hextra-card {
+        background-color: var(--hx-color-gray-50);
+      }
+    }
   }
 }
 
@@ -279,6 +285,12 @@ html.dark {
     mark {
       background-color: #4287ff4d;
       color: white;
+    }
+    .pg\:title-card {
+      background-color: var(--hx-color-gray-800);
+      .hextra-card {
+        background-color: var(--hx-color-gray-900);
+      }
     }
   }
 }

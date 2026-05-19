@@ -20,6 +20,8 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 ## Brave
 
+{{< title-card >}}
+
 **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
@@ -28,6 +30,8 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
   {{< card link="https://brave.com" title="Homepage" icon="home" >}}
   {{< card link="https://brave.com/privacy/browser" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.brave.browser)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1052879175)
@@ -159,12 +163,16 @@ These options can be found in the menu → **Settings** → **Search engines**.
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
 
+{{< title-card >}}
+
 **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
 {{< cards >}}
   {{< card link="https://apple.com/safari" title="Homepage" icon="home" >}}
   {{< card link="https://apple.com/legal/privacy/data/en/safari" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 ### Recommended Safari Configuration
 

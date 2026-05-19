@@ -19,12 +19,16 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ## LibreOffice
 
+{{< title-card >}}
+
 **LibreOffice** is a free and open-source office suite with extensive functionality.
 
 {{< cards >}}
   {{< card link="https://libreoffice.org" title="Homepage" icon="home" >}}
   {{< card link="https://libreoffice.org/about-us/privacy/privacy-policy-en" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://libreoffice.org/download/download)
 [{{< badge content="macOS" color="indigo" >}}](https://libreoffice.org/download/download)
@@ -35,12 +39,16 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ## OnlyOffice
 
+{{< title-card >}}
+
 **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
 
 {{< cards >}}
   {{< card link="https://onlyoffice.com" title="Homepage" icon="home" >}}
   {{< card link="https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://onlyoffice.com/download-desktop.aspx)
 [{{< badge content="macOS" color="indigo" >}}](https://onlyoffice.com/download-desktop.aspx)

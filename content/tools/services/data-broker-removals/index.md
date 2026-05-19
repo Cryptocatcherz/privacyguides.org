@@ -63,12 +63,16 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 ## EasyOptOuts <small>Paid</small>
 
+{{< title-card >}}
+
 **EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
 
 {{< cards >}}
   {{< card link="https://easyoptouts.com" title="Homepage" icon="home" >}}
   {{< card link="https://easyoptouts.com/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 Some websites supported by EasyOptOuts are publicly searchable. In those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
 
@@ -87,12 +91,16 @@ Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-revi
 > 
 > While Google is not a data broker themselves *per se*, as they don't sell or share your data with outside parties, some may find this relationship unacceptable. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
 
+{{< title-card >}}
+
 **Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appears in Google search results. If any personal information is found, you can request its removal.
 
 {{< cards >}}
   {{< card link="https://myactivity.google.com/results-about-you" title="Web Tool" icon="external-link" >}}
   {{< card link="https://policies.google.com/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 Google publishes [help documentation](https://support.google.com/websearch/answer/12719076) for this tool.
 

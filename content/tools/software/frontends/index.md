@@ -30,12 +30,16 @@ When you are using an instance run by someone else, make sure to read the privac
 
 ### Redlib
 
+{{< title-card >}}
+
 **Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. You can access Redlib through a number of public instances.
 
 {{< cards >}}
   {{< card link="https://github.com/redlib-org/redlib#readme" title="Repository" icon="code" >}}
   {{< card link="https://github.com/redlib-org/redlib-instances/blob/main/instances.md" title="Public Instances" icon="server" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 > [!NOTE]
 > The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](../tor/index.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
@@ -49,6 +53,8 @@ When you are using an instance run by someone else, make sure to read the privac
 
 ### ProxiTok
 
+{{< title-card >}}
+
 **ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
 
 There are a number of public instances, with some that offer a [Tor](../tor/index.md) onion service or an [I2P](../../advanced/alternative-networks/index.md#i2p-the-invisible-internet-project) eepsite.
@@ -57,6 +63,8 @@ There are a number of public instances, with some that offer a [Tor](../tor/inde
   {{< card link="https://github.com/pablouser1/ProxiTok#readme" title="Repository" icon="code" >}}
   {{< card link="https://github.com/pablouser1/ProxiTok/wiki/Public-instances" title="Public Instances" icon="server" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 > [!TIP]
 > ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](../tor/index.md#tor-browser) on the Safest security level.
@@ -68,6 +76,8 @@ There are a number of public instances, with some that offer a [Tor](../tor/inde
 
 ### Invidious
 
+{{< title-card >}}
+
 **Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
 There are a number of public instances, with some that offer a [Tor](../tor/index.md) onion service or an [I2P](../../advanced/alternative-networks/index.md#i2p-the-invisible-internet-project) eepsite.
@@ -76,6 +86,8 @@ There are a number of public instances, with some that offer a [Tor](../tor/inde
   {{< card link="https://invidious.io" title="Homepage" icon="home" >}}
   {{< card link="https://docs.invidious.io/instances" title="Public Instances" icon="server" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 > [!WARNING]
 > Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
@@ -87,6 +99,8 @@ There are a number of public instances, with some that offer a [Tor](../tor/inde
 
 ### Piped
 
+{{< title-card >}}
+
 **Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
 Piped requires JavaScript in order to function and there are a number of public instances.
@@ -96,11 +110,15 @@ Piped requires JavaScript in order to function and there are a number of public 
   {{< card link="https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md" title="Public Instances" icon="server" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 > [!TIP]
 > Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
 
 ### FreeTube
+
+{{< title-card >}}
 
 **FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). FreeTube extracts data from YouTube using its built-in API based on [YouTube.js](https://github.com/LuanRT/YouTube.js) or the [Invidious](#invidious) API. You can configure either as the default, with the other serving as a fallback.
 
@@ -110,6 +128,8 @@ When using FreeTube, your subscription list, playlists, watch history and search
   {{< card link="https://freetubeapp.io" title="Homepage" icon="home" >}}
   {{< card link="https://freetubeapp.io/privacy.php" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://freetubeapp.io/#download)
 [{{< badge content="macOS" color="indigo" >}}](https://freetubeapp.io/#download)
@@ -124,6 +144,8 @@ By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube op
 
 ### LibreTube (Android)
 
+{{< title-card >}}
+
 **LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
 
 Your subscription list and playlists are saved locally on your Android device.
@@ -132,6 +154,8 @@ Your subscription list and playlists are saved locally on your Android device.
   {{< card link="https://libretube.dev" title="Homepage" icon="home" >}}
   {{< card link="https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="GitHub" >}}](https://github.com/libre-tube/LibreTube/releases)
 
@@ -143,6 +167,8 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, LibreTube
 
 ### NewPipe (Android)
 
+{{< title-card >}}
+
 **NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 Your subscription list and playlists are saved locally on your Android device.
@@ -151,6 +177,8 @@ Your subscription list and playlists are saved locally on your Android device.
   {{< card link="https://newpipe.net" title="Homepage" icon="home" >}}
   {{< card link="https://newpipe.net/legal/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="GitHub" >}}](https://github.com/TeamNewPipe/NewPipe/releases)
 

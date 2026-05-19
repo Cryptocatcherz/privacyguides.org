@@ -17,12 +17,16 @@ These options allow you to manage an encrypted password database locally.
 
 ## KeePassXC
 
+{{< title-card >}}
+
 **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 {{< cards >}}
   {{< card link="https://keepassxc.org" title="Homepage" icon="home" >}}
   {{< card link="https://keepassxc.org/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://keepassxc.org/download/#linux)
 [{{< badge content="macOS" color="indigo" >}}](https://keepassxc.org/download/#mac)
@@ -35,12 +39,16 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 ## KeePassDX (Android)
 
+{{< title-card >}}
+
 **KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
 
 {{< cards >}}
   {{< card link="https://keepassdx.com" title="Homepage" icon="home" >}}
   {{< card link="https://github.com/Kunzisoft/KeePassDX/wiki" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
 [{{< badge content="GitHub" >}}](https://github.com/Kunzisoft/KeePassDX/releases)
@@ -51,12 +59,16 @@ The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 
 [Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
-KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
+{{< title-card >}}
+
+**KeePassium** is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
 
 {{< cards >}}
   {{< card link="https://keepassium.com" title="Homepage" icon="home" >}}
   {{< card link="https://keepassium.com/privacy/app" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/us/app/id1435127111)
 
@@ -66,12 +78,16 @@ KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepass
 
 ## Gopass (CLI)
 
+{{< title-card >}}
+
 **Gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
 
 {{< cards >}}
   {{< card link="https://gopass.pw" title="Homepage" icon="home" >}}
   {{< card link="https://github.com/gopasspw/gopass/tree/master/docs" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://gopass.pw/#install-linux)
 [{{< badge content="macOS" color="indigo" >}}](https://gopass.pw/#install-macos)

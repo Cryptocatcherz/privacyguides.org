@@ -39,12 +39,16 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 ### Proton VPN
 
+{{< title-card >}}
+
 **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
 
 {{< cards >}}
   {{< card link="https://protonvpn.com" title="Homepage" icon="home" >}}
   {{< card link="https://protonvpn.com/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://protonvpn.com/support/linux-vpn-setup)
 [{{< badge content="macOS" color="indigo" >}}](https://protonvpn.com/download-macos)
@@ -116,12 +120,16 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 
 ### IVPN
 
+{{< title-card >}}
+
 **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar and does not offer a free trial.
 
 {{< cards >}}
   {{< card link="https://ivpn.net" title="Homepage" icon="home" >}}
   {{< card link="https://ivpn.net/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://ivpn.net/apps-linux)
 [{{< badge content="macOS" color="indigo" >}}](https://ivpn.net/apps-macos)
@@ -180,12 +188,16 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 ### Mullvad
 
+{{< title-card >}}
+
 **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since 2009. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
 
 {{< cards >}}
   {{< card link="https://mullvad.net" title="Homepage" icon="home" >}}
   {{< card link="https://mullvad.net/en/help/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://mullvad.net/en/download/linux)
 [{{< badge content="macOS" color="indigo" >}}](https://mullvad.net/en/download/macos)

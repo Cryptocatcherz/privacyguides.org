@@ -22,12 +22,16 @@ If you need to browse the internet anonymously, you should use [Tor](../tor/inde
 
 ## Mullvad Browser
 
+{{< title-card >}}
+
 **Mullvad Browser** is a version of [Tor Browser](../tor/index.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [Mass Surveillance](../../../wiki/basics/common-threats/index.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](../../services/vpn/index.md#mullvad), and does **not** require the use of Mullvad's VPN.
 
 {{< cards >}}
   {{< card link="https://mullvad.net/en/browser" title="Homepage" icon="home" >}}
   {{< card link="https://mullvad.net/en/help/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://mullvad.net/en/download/browser/linux)
 [{{< badge content="macOS" color="indigo" >}}](https://mullvad.net/en/download/browser/macos)
@@ -57,12 +61,16 @@ This is required to prevent advanced forms of tracking, but does come at the cos
 
 ## Firefox
 
+{{< title-card >}}
+
 **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
 {{< cards >}}
   {{< card link="https://firefox.com" title="Homepage" icon="home" >}}
   {{< card link="https://mozilla.org/privacy/firefox" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://mozilla.org/firefox/linux)
 [{{< badge content="macOS" color="indigo" >}}](https://mozilla.org/firefox/mac)
@@ -161,6 +169,8 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 ## Brave
 
+{{< title-card >}}
+
 **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
@@ -169,6 +179,8 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
   {{< card link="https://brave.com" title="Homepage" icon="home" >}}
   {{< card link="https://brave.com/privacy/browser" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://brave.com/linux)
 [{{< badge content="macOS" color="indigo" >}}](https://brave.com/download)

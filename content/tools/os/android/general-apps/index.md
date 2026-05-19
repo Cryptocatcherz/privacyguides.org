@@ -22,6 +22,8 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
 If your device is on Android 15 or greater, we recommend using the native [Private Space](../_index.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
 
+{{< title-card >}}
+
 **Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
 
 Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
@@ -30,6 +32,8 @@ Shelter supports blocking contact search cross profiles and sharing files across
   {{< card link="https://gitea.angry.im/PeterCxy/Shelter#shelter" title="Repository" icon="code" >}}
   {{< card link="https://patreon.com/PeterCxy" title="Contribute" icon="heart" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 > [!WARNING]
 > When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
@@ -42,12 +46,16 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Public Exposure" color="green" >}}](../../../../wiki/basics/common-threats/index.md#limiting-public-information)
 
+{{< title-card >}}
+
 **Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
 {{< cards >}}
   {{< card link="https://github.com/GrapheneOS/Camera#readme" title="Repository" icon="code" >}}
   {{< card link="https://grapheneos.org/usage#camera" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 [{{< badge content="GitHub" >}}](https://github.com/GrapheneOS/Camera/releases)
@@ -70,6 +78,8 @@ Main privacy features include:
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Targeted Attacks" color="red" >}}](../../../../wiki/basics/common-threats/index.md#attacks-against-specific-individuals)
 
+{{< title-card >}}
+
 **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
 
 [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
@@ -78,6 +88,8 @@ Main privacy features include:
   {{< card link="https://github.com/GrapheneOS/PdfViewer#readme" title="Repository" icon="code" >}}
   {{< card link="https://grapheneos.org/donate" title="Contribute" icon="heart" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
 [{{< badge content="GitHub" >}}](https://github.com/GrapheneOS/PdfViewer/releases)

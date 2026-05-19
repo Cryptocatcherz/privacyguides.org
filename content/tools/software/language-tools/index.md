@@ -22,12 +22,16 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 
 ### LanguageTool
 
+{{< title-card >}}
+
 **LanguageTool** is a multilingual grammar, style, and spell checker that supports more than 20 languages. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
 
 {{< cards >}}
   {{< card link="https://languagetool.org" title="Homepage" icon="home" >}}
   {{< card link="https://languagetool.org/legal/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="macOS" color="indigo" >}}](https://languagetool.org/mac-desktop)
 [{{< badge content="Windows" color="red" >}}](https://languagetool.org/windows-desktop)
@@ -42,12 +46,16 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 
 ### LibreTranslate
 
+{{< title-card >}}
+
 **LibreTranslate** is a free and open-source machine translation web interface and API server. It uses [Argos Translate](https://github.com/argosopentech/argos-translate) models on the backend for translations.
 
 {{< cards >}}
   {{< card link="https://libretranslate.com" title="Homepage" icon="home" >}}
   {{< card link="https://github.com/LibreTranslate/LibreTranslate#mirrors" title="Public Instances" icon="server" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 You can use LibreTranslate through a number of public instances, with some that offer a [Tor](../tor/index.md) onion service or an [I2P](../../advanced/alternative-networks/index.md#i2p-the-invisible-internet-project) eepsite. You can also host the software yourself for maximum control over the text submitted for translation.
 

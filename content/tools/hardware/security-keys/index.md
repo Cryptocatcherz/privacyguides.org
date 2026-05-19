@@ -21,12 +21,16 @@ A physical **security key** adds a very strong layer of protection to your onlin
 
 ## Yubico Security Key
 
+{{< title-card >}}
+
 The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification[^1]. It supports FIDO2/WebAuthn and FIDO Universal 2nd Factor (U2F), and works out of the box with most services that support a security key as a second factor, as well as many password managers.
 
 {{< cards >}}
   {{< card link="https://yubico.com/products/security-key" title="Homepage" icon="home" >}}
   {{< card link="https://yubico.com/support/terms-conditions/privacy-notice" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 These keys are available in both USB-C and USB-A variants, and both options support NFC for use with a mobile device as well.
 
@@ -44,12 +48,16 @@ If you need any of those features, you should consider their higher-end [YubiKey
 
 ## YubiKey
 
+{{< title-card >}}
+
 The **YubiKey** series from Yubico are among the most popular security keys with FIDO Level 2 Certification[^1]. The **YubiKey 5 Series** has a wide range of features such as FIDO2/WebAuthn and FIDO U2F, [TOTP and HOTP](https://developers.yubico.com/OATH) authentication, [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), and [OpenPGP](https://developers.yubico.com/PGP).
 
 {{< cards >}}
   {{< card link="https://yubico.com/products/yubikey-5-overview" title="Homepage" icon="home" >}}
   {{< card link="https://yubico.com/support/terms-conditions/privacy-notice" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 The [comparison table](https://yubico.com/store/compare) shows how the YubiKeys compare to each other and to Yubico's [Security Key](#yubico-security-key) series in terms of features and other specifications. One of the benefits of the YubiKey series is that one key can do almost everything you could expect from a hardware security key. We encourage you to take their [quiz](https://yubico.com/quiz) before purchasing in order to make sure you choose the right security key.
 
@@ -63,12 +71,16 @@ For models which [support HOTP and TOTP](https://support.yubico.com/hc/articles/
 
 ## Nitrokey
 
+{{< title-card >}}
+
 **Nitrokey** has a cost-effective security key capable of FIDO2/WebAuthn and FIDO U2F called the **Nitrokey Passkey**. For support for features such as PIV, OpenPGP, and TOTP and HOTP authentication, you need to purchase one of their other keys like the **Nitrokey 3**. Currently, only the **Nitrokey 3A Mini** has [FIDO Level 1 Certification](https://nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification).
 
 {{< cards >}}
   {{< card link="https://nitrokey.com" title="Homepage" icon="home" >}}
   {{< card link="https://nitrokey.com/data-privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 The [comparison table](https://nitrokey.com/products/nitrokeys#:~:text=The%20Nitrokey%20Family) shows how the different Nitrokey models compare to each other in terms of features and other specifications. Refer to Nitrokey's [documentation](https://docs.nitrokey.com/nitrokeys/features) for more details about the features available on your Nitrokey.
 

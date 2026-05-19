@@ -28,6 +28,8 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
 
 ### Drip
 
+{{< title-card >}}
+
 **Drip** is a gender-inclusive and open source menstrual cycle tracker available on all mobile platforms. It relies on the "sympto-thermal method" to predict ovulation. All user data is stored locally on your device and can be protected with a password.
 
 {{< cards >}}
@@ -35,11 +37,15 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
   {{< card link="https://bloodyhealth.gitlab.io/privacy-policy.html" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.drip)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/us/app/drip/id1584564949)
 [{{< badge content="Android" >}}](https://bloodyhealth.gitlab.io)
 
 ### Euki
+
+{{< title-card >}}
 
 **Euki** is a nonprofit-backed menstrual cycle tracker that also doubles as a medication tracker and sexual wellness knowledge base. It allows you to schedule the automatic deletion of your personal data in the app. All user data is stored locally on your device and can be protected with a password.
 
@@ -48,17 +54,23 @@ Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets
   {{< card link="https://eukiapp.org/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.kollectivemobile.euki)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/euki/id1469213846)
 
 ### Apple Health
 
-Apple Health is one of the default apps installed on iOS devices. It includes many health and wellness features (see [Health Records](#apple-health-records)), including menstrual cycle tracking. It also uses gender-neutral language. Apple Health always uses end-to-end encryption when syncing across multiple devices.
+{{< title-card >}}
+
+**Apple Health** is one of the default apps installed on iOS devices. It includes many health and wellness features (see [Health Records](#apple-health-records)), including menstrual cycle tracking. It also uses gender-neutral language. Apple Health always uses end-to-end encryption when syncing across multiple devices.
 
 {{< cards >}}
   {{< card link="https://apple.com/health" title="Homepage" icon="home" >}}
   {{< card link="https://apple.com/legal/privacy/consumer-health-personal-data/en-ww" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/apple-health/id1242545199)
 
@@ -68,6 +80,8 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 ### Apple Fitness
 
+{{< title-card >}}
+
 **Apple Fitness** is the default fitness app for iOS. Apple Fitness always uses end-to-end encryption when syncing across multiple devices. Additionally, almost all measured data is processed on your device.
 
 {{< cards >}}
@@ -75,9 +89,13 @@ These general purpose apps can do everything from counting steps and tracking sl
   {{< card link="https://apple.com/legal/privacy/consumer-health-personal-data/en-ww" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1208224953)
 
 ### Gadgetbridge
+
+{{< title-card >}}
 
 **Gadgetbridge** is an open-source Android application which allows you to pair and manage your Bluetooth device without relying on the vendor’s application. When paired with a compatible smartwatch, it can mimic the health and wellness functionality of these watches without third-party data collection.
 
@@ -85,6 +103,8 @@ These general purpose apps can do everything from counting steps and tracking sl
   {{< card link="https://gadgetbridge.org" title="Homepage" icon="home" >}}
   {{< card link="https://gadgetbridge.org/basics" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="F-Droid" >}}](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge)
 
@@ -98,6 +118,8 @@ These apps help you collect and manage personal health data and share it with he
 
 ### Apple Health Records
 
+{{< title-card >}}
+
 **Apple Health Records** is a built-in feature within [Apple Health](#apple-health) that allows you to view, store, and share your health records.
 
 {{< cards >}}
@@ -105,9 +127,13 @@ These apps help you collect and manage personal health data and share it with he
   {{< card link="https://apple.com/legal/privacy/consumer-health-personal-data/en-ww" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/apple-health/id1242545199)
 
 ### CommonHealth
+
+{{< title-card >}}
 
 **CommonHealth** is a privacy-respecting Android app that allows people to access their electronic health records and securely share it to providers. All health data is stored on your device and can be protected with a passcode or biometric authentication.
 
@@ -115,6 +141,8 @@ These apps help you collect and manage personal health data and share it with he
   {{< card link="https://commonhealth.org" title="Homepage" icon="home" >}}
   {{< card link="https://commonhealth.org/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=org.thecommonsproject.android.phr)
 

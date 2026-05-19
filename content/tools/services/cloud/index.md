@@ -26,6 +26,8 @@ If these alternatives do not fit your needs, we suggest you look into using encr
 
 ## Proton Drive
 
+{{< title-card >}}
+
 **Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](../email/index.md#proton-mail).
 
 The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
@@ -34,6 +36,8 @@ The initial free storage is limited to 2 GB, but with the completion of [certai
   {{< card link="https://proton.me/drive" title="Homepage" icon="home" >}}
   {{< card link="https://proton.me/drive/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="macOS" color="indigo" >}}](https://proton.me/drive/download)
 [{{< badge content="Windows" color="red" >}}](https://proton.me/drive/download)
@@ -44,12 +48,16 @@ The Proton Drive web application has been independently audited by Securitum in 
 
 ## Tresorit
 
+{{< title-card >}}
+
 **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
 
 {{< cards >}}
   {{< card link="https://tresorit.com" title="Homepage" icon="home" >}}
   {{< card link="https://tresorit.com/legal/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://tresorit.com/download)
 [{{< badge content="macOS" color="indigo" >}}](https://tresorit.com/download)
@@ -74,6 +82,8 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 ## Peergos
 
+{{< title-card >}}
+
 **Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc.
 
 Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private. It is also [self-hostable](https://book.peergos.org/features/self).
@@ -82,6 +92,8 @@ Peergos secures your files with quantum-resistant E2EE and ensures all data abou
   {{< card link="https://peergos.org" title="Homepage" icon="home" >}}
   {{< card link="https://peergos.net/privacy.html" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://peergos.org/download#linux)
 [{{< badge content="macOS" color="indigo" >}}](https://peergos.org/download#macos)

@@ -47,6 +47,8 @@ Consider using a [VPN](../vpn/index.md) or [Tor](../../software/tor/index.md) if
 
 ### Brave Search
 
+{{< title-card >}}
+
 **Brave Search** is a search engine developed by Brave. It includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
 
 Brave Search is the default search engine for the [Brave Browser](../../software/desktop-browsers/index.md#brave).
@@ -56,9 +58,13 @@ Brave Search is the default search engine for the [Brave Browser](../../software
   {{< card link="https://search.brave.com/help/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
 
 ### DuckDuckGo
+
+{{< title-card >}}
 
 **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and a variety of [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
 
@@ -69,9 +75,13 @@ DuckDuckGo is the default search engine for the [Tor Browser](../../software/tor
   {{< card link="https://duckduckgo.com/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their Tor hidden address by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
 
 ### Startpage
+
+{{< title-card >}}
 
 **Startpage** is a private search engine. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](../../software/tor/index.md#tor-browser) instead.
 
@@ -79,6 +89,8 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
   {{< card link="https://startpage.com" title="Homepage" icon="home" >}}
   {{< card link="https://startpage.com/en/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have a distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
 
@@ -90,12 +102,16 @@ A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregate
 
 ### SearXNG
 
+{{< title-card >}}
+
 **SearXNG** is an open-source, self-hostable, metasearch engine. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
 
 {{< cards >}}
   {{< card link="https://searxng.org" title="Homepage" icon="home" >}}
   {{< card link="https://docs.searxng.org/user/about.html" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 A directory of public instances is available at [searx.space](https://searx.space), and the source code is on [GitHub](https://github.com/searxng/searxng).
 

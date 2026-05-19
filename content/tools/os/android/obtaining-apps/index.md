@@ -18,12 +18,16 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 ## Obtainium
 
+{{< title-card >}}
+
 **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
 
 {{< cards >}}
   {{< card link="https://github.com/ImranR98/Obtainium#readme" title="Repository" icon="code" >}}
   {{< card link="https://github.com/ImranR98/Obtainium/wiki" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="GitHub" >}}](https://github.com/ImranR98/Obtainium/releases)
 
@@ -37,12 +41,16 @@ GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Ap
 
 The Google Play Store requires a Google account to log in, which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
 
+{{< title-card >}}
+
 **Aurora Store** is a Google Play Store client which does not require a Google account, Google Play Services, or microG to download apps.
 
 {{< cards >}}
   {{< card link="https://auroraoss.com" title="Homepage" icon="home" >}}
   {{< card link="https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="GitLab" >}}](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 

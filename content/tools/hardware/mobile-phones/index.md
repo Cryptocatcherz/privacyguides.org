@@ -47,6 +47,8 @@ A few more tips regarding Android devices and operating system compatibility:
 
 Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
 
+{{< title-card >}}
+
 **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
 
 Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
@@ -55,6 +57,8 @@ Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of
   {{< card link="https://store.google.com/category/phones" title="Store" icon="shopping-bag" >}}
   {{< card link="https://support.google.com/pixelphone" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 ### Hardware Security
 

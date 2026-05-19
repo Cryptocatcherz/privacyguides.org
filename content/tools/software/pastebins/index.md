@@ -19,6 +19,8 @@ aliases:
 
 ## PrivateBin
 
+{{< title-card >}}
+
 **PrivateBin** is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin.
 
 {{< cards >}}
@@ -26,7 +28,11 @@ aliases:
   {{< card link="https://privatebin.info/directory" title="Public Instances" icon="server" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 ## Paaster
+
+{{< title-card >}}
 
 **Paaster** is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible.
 
@@ -34,6 +40,8 @@ aliases:
   {{< card link="https://paaster.io" title="Homepage" icon="home" >}}
   {{< card link="https://paaster.io/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 ## Criteria
 

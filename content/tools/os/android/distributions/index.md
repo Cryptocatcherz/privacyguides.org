@@ -25,6 +25,8 @@ We recommend installing GrapheneOS if you have a Google Pixel as it provides imp
 
 ## GrapheneOS
 
+{{< title-card >}}
+
 **GrapheneOS** is the best choice when it comes to privacy and security.
 
 GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
@@ -33,6 +35,8 @@ GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wik
   {{< card link="https://grapheneos.org" title="Homepage" icon="home" >}}
   {{< card link="https://grapheneos.org/faq#privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 GrapheneOS supports [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs Google Play Services fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as push notifications, while giving you full control over their permissions and access, and while containing them to a specific [work profile](../_index.md#work-profile) or [user profile](../_index.md#user-profiles) of your choice.
 

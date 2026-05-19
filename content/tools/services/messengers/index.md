@@ -26,12 +26,16 @@ These recommendations for encrypted **real-time communication** are great for se
 
 ## Signal
 
+{{< title-card >}}
+
 **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
 {{< cards >}}
   {{< card link="https://signal.org" title="Homepage" icon="home" >}}
   {{< card link="https://signal.org/legal/#privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://signal.org/download/linux)
 [{{< badge content="macOS" color="indigo" >}}](https://signal.org/download/macos)
@@ -65,12 +69,16 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 If you use Android and your threat model requires protecting against [Targeted Attacks](../../../wiki/basics/common-threats/index.md#attacks-against-specific-individuals){ .pg-red } you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
 
+{{< title-card >}}
+
 **Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
 
 {{< cards >}}
   {{< card link="https://molly.im" title="Homepage" icon="home" >}}
   {{< card link="https://signal.org/legal/#privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Accrescent" >}}](https://accrescent.app/app/im.molly.app)
 [{{< badge content="F-Droid" >}}](https://molly.im/fdroid)
@@ -86,12 +94,16 @@ Both versions of Molly provide the same security improvements and support [repro
 
 ## SimpleX Chat
 
+{{< title-card >}}
+
 **SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [Censorship](../../../wiki/basics/common-threats/index.md#avoiding-censorship){ .pg-blue-gray }.
 
 {{< cards >}}
   {{< card link="https://simplex.chat" title="Homepage" icon="home" >}}
   {{< card link="https://simplex.chat/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://simplex.chat/downloads/#desktop-app)
 [{{< badge content="macOS" color="indigo" >}}](https://simplex.chat/downloads/#desktop-app)
@@ -111,12 +123,16 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 ## Briar
 
+{{< title-card >}}
+
 **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](../../advanced/alternative-networks/index.md#tor), making it an effective tool at circumventing [Censorship](../../../wiki/basics/common-threats/index.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
 {{< cards >}}
   {{< card link="https://briarproject.org" title="Homepage" icon="home" >}}
   {{< card link="https://briarproject.org/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://briarproject.org/download-briar-desktop)
 [{{< badge content="Windows" color="red" >}}](https://briarproject.org/download-briar-desktop)

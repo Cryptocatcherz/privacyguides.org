@@ -39,12 +39,16 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 ### Thunderbird
 
+{{< title-card >}}
+
 **Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
 {{< cards >}}
   {{< card link="https://thunderbird.net" title="Homepage" icon="home" >}}
   {{< card link="https://mozilla.org/privacy/thunderbird" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://thunderbird.net)
 [{{< badge content="macOS" color="indigo" >}}](https://thunderbird.net)
@@ -85,6 +89,8 @@ These options can be found in the menu → **Settings** → **Privacy & Security
 
 ### Apple Mail (macOS)
 
+{{< title-card >}}
+
 **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](../encryption/index.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 {{< cards >}}
@@ -92,9 +98,13 @@ These options can be found in the menu → **Settings** → **Privacy & Security
   {{< card link="https://apple.com/legal/privacy/en-ww" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### FairEmail (Android)
+
+{{< title-card >}}
 
 **FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
@@ -103,10 +113,14 @@ Apple Mail has the ability to load remote content in the background or block it 
   {{< card link="https://github.com/M66B/FairEmail/blob/master/PRIVACY.md" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=eu.faircode.email)
 [{{< badge content="GitHub" >}}](https://github.com/M66B/FairEmail/releases)
 
 ### GNOME Evolution (GNOME)
+
+{{< title-card >}}
 
 **Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. Evolution has extensive [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) to help you get started.
 
@@ -115,9 +129,13 @@ Apple Mail has the ability to load remote content in the background or block it 
   {{< card link="https://gitlab.gnome.org/GNOME/evolution/-/wikis/Privacy-Policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Flathub" >}}](https://flathub.org/apps/details/org.gnome.Evolution)
 
 ### Kontact (KDE)
+
+{{< title-card >}}
 
 **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
 
@@ -126,10 +144,14 @@ Apple Mail has the ability to load remote content in the background or block it 
   {{< card link="https://kde.org/privacypolicy-apps" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Linux" color="yellow" >}}](https://kontact.kde.org/download)
 [{{< badge content="Flathub" >}}](https://flathub.org/apps/details/org.kde.kontact)
 
 ### Mailvelope (Browser)
+
+{{< title-card >}}
 
 **Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
@@ -138,11 +160,15 @@ Apple Mail has the ability to load remote content in the background or block it 
   {{< card link="https://mailvelope.com/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Firefox" >}}](https://addons.mozilla.org/firefox/addon/mailvelope)
 [{{< badge content="Chrome" >}}](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
 [{{< badge content="Edge" >}}](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
 
 ### NeoMutt (CLI)
+
+{{< title-card >}}
 
 **NeoMutt** is an open-source command line email reader for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
 
@@ -152,6 +178,8 @@ NeoMutt is a text-based client that has a steep learning curve. It is, however, 
   {{< card link="https://neomutt.org" title="Homepage" icon="home" >}}
   {{< card link="https://neomutt.org/guide" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://neomutt.org/distro)
 [{{< badge content="macOS" color="indigo" >}}](https://neomutt.org/distro)

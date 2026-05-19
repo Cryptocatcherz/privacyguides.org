@@ -31,6 +31,8 @@ There are a number of services which provide "virtual debit cards" which you can
 
 ### Privacy.com (US)
 
+{{< title-card >}}
+
 **Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. Their paid plans provide higher limits on the number of cards that can be created each month.
 
 {{< cards >}}
@@ -38,9 +40,13 @@ There are a number of services which provide "virtual debit cards" which you can
   {{< card link="https://privacy.com/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 Privacy.com gives information about the merchants you purchase from to your bank by [default](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy). Their "[private spend mode](https://support.privacy.com/hc/en-us/articles/26732314558487-What-is-Private-Spend-Mode)" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
 
 ### MySudo (US, Paid)
+
+{{< title-card >}}
 
 **MySudo** provides up to 9 virtual cards depending on the plan you purchase. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](../email-aliasing/index.md) for extensive email aliasing use.
 
@@ -48,6 +54,8 @@ Privacy.com gives information about the merchants you purchase from to your bank
   {{< card link="https://mysudo.com" title="Homepage" icon="home" >}}
   {{< card link="https://anonyome.com/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 MySudo's virtual cards are currently only available via their iOS app.
 
@@ -73,12 +81,16 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 ### Coincards
 
+{{< title-card >}}
+
 **Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 
 {{< cards >}}
   {{< card link="https://coincards.com" title="Homepage" icon="home" >}}
   {{< card link="https://coincards.com/privacy-policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 ### Criteria
 

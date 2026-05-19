@@ -21,6 +21,8 @@ aliases:
 
 ## Pi-hole
 
+{{< title-card >}}
+
 **Pi-hole** is an open-source DNS sinkhole which features a friendly web interface to view insights and manage blocked content. Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware.
 
 {{< cards >}}
@@ -28,7 +30,11 @@ aliases:
   {{< card link="https://pi-hole.net/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 ## AdGuard Home
+
+{{< title-card >}}
 
 **AdGuard Home** is an open-source DNS sinkhole which features a polished web interface to view insights and manage blocked content.
 
@@ -36,3 +42,5 @@ aliases:
   {{< card link="https://adguard.com/adguard-home/overview.html" title="Homepage" icon="home" >}}
   {{< card link="https://adguard.com/privacy/home.html" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}

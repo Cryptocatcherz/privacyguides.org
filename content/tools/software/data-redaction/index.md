@@ -23,6 +23,8 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ## MAT2
 
+{{< title-card >}}
+
 **MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
 {{< cards >}}
@@ -30,12 +32,16 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
   {{< card link="https://github.com/jvoisin/mat2#how-to-use-mat2" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 [{{< badge content="Linux" color="yellow" >}}](https://pypi.org/project/mat2)
 [{{< badge content="macOS" color="indigo" >}}](https://github.com/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 [{{< badge content="Windows" color="red" >}}](https://pypi.org/project/mat2)
 [{{< badge content="Web" >}}](https://github.com/jvoisin/mat2#web-interface)
 
 ## ExifEraser (Android)
+
+{{< title-card >}}
 
 **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
@@ -45,6 +51,8 @@ It currently supports JPEG, PNG, and WebP files.
   {{< card link="https://github.com/Tommy-Geenexus/exif-eraser#readme" title="Repository" icon="code" >}}
   {{< card link="https://github.com/Tommy-Geenexus/exif-eraser#description" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
 [{{< badge content="Accrescent" >}}](https://accrescent.app/app/com.none.tom.exiferaser)
@@ -79,6 +87,8 @@ This shortcut removes metadata such as location, device model, lens model, and o
 
 ## ExifTool (CLI)
 
+{{< title-card >}}
+
 **ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
 It is often a component of other Exif removal applications and in most Linux distribution repositories.
@@ -87,6 +97,8 @@ It is often a component of other Exif removal applications and in most Linux dis
   {{< card link="https://exiftool.org" title="Homepage" icon="home" >}}
   {{< card link="https://exiftool.org/faq.html" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://exiftool.org)
 [{{< badge content="macOS" color="indigo" >}}](https://exiftool.org)

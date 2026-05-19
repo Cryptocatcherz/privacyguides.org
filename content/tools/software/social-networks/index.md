@@ -48,12 +48,16 @@ If you are greatly concerned about an existing server censoring your content, th
 
 ## Mastodon
 
+{{< title-card >}}
+
 **Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
 
 {{< cards >}}
   {{< card link="https://joinmastodon.org" title="Homepage" icon="home" >}}
   {{< card link="https://docs.joinmastodon.org" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 There are many software platforms which use ActivityPub as their backend social networking protocol, meaning they can talk to servers even when they are running different software. For example, PeerTube is a video publishing software that uses ActivityPub, meaning you can follow channels on PeerTube either with another PeerTube account, *or* with a Mastodon account because Mastodon also uses ActivityPub.
 
@@ -116,12 +120,16 @@ If you used our recommended configuration settings above, you should be posting 
 
 ## Element
 
+{{< title-card >}}
+
 **Element** is the flagship client for the **[Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
 
 {{< cards >}}
   {{< card link="https://element.io" title="Homepage" icon="home" >}}
   {{< card link="https://element.io/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://element.io/download)
 [{{< badge content="macOS" color="indigo" >}}](https://element.io/download)

@@ -24,12 +24,16 @@ If you already use [Proton Drive](../../services/cloud/index.md#proton-drive)[^1
 
 ### Send
 
+{{< title-card >}}
+
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee). You can use other public instances, or you can host Send yourself.
 
 {{< cards >}}
   {{< card link="https://send.vis.ee" title="Homepage" icon="home" >}}
   {{< card link="https://github.com/timvisee/send-instances" title="Public Instances" icon="server" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
 
@@ -39,12 +43,16 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ### OnionShare
 
+{{< title-card >}}
+
 **OnionShare** is an open-source tool that lets you securely and [anonymously](../../../wiki/basics/common-threats/index.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
 
 {{< cards >}}
   {{< card link="https://onionshare.org" title="Homepage" icon="home" >}}
   {{< card link="http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion" title="Onion Service" icon="link" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://onionshare.org/#download)
 [{{< badge content="macOS" color="indigo" >}}](https://onionshare.org/#download)
@@ -65,12 +73,16 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 ### Syncthing (P2P)
 
+{{< title-card >}}
+
 **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
 
 {{< cards >}}
   {{< card link="https://syncthing.net" title="Homepage" icon="home" >}}
   {{< card link="https://docs.syncthing.net" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Linux" color="yellow" >}}](https://syncthing.net/downloads)
 [{{< badge content="macOS" color="indigo" >}}](https://syncthing.net/downloads)

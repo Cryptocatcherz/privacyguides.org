@@ -22,6 +22,8 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 ### PhotoPrism
 
+{{< title-card >}}
+
 **PhotoPrism** is a platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
 {{< cards >}}
@@ -29,9 +31,13 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
   {{< card link="https://photoprism.app/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 ## File Sharing and Sync
 
 ### FreedomBox
+
+{{< title-card >}}
 
 **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications for use cases like sharing files.
 
@@ -40,7 +46,11 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
   {{< card link="https://wiki.debian.org/FreedomBox/Manual" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 ### Nextcloud
+
+{{< title-card >}}
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
@@ -48,6 +58,8 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
   {{< card link="https://nextcloud.com" title="Homepage" icon="home" >}}
   {{< card link="https://nextcloud.com/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [{{< badge content="Google Play" color="green" >}}](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 [{{< badge content="App Store" color="blue" >}}](https://apps.apple.com/app/id1125420102)

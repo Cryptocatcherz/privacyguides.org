@@ -31,6 +31,8 @@ Linux distributions are commonly recommended for privacy protection and software
 
 ### Fedora Linux
 
+{{< title-card >}}
+
 **Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. These new technologies often come with improvements in security, privacy, and usability in general.
 
 {{< cards >}}
@@ -38,11 +40,15 @@ Linux distributions are commonly recommended for privacy protection and software
   {{< card link="https://docs.fedoraproject.org/en-US/docs" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 Fedora comes in two primary desktop editions, [Fedora Workstation](https://fedoraproject.org/workstation), which uses the GNOME desktop environment, and [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), which uses KDE. Historically, Fedora Workstation has been more popular and widely recommended, but KDE has been gaining in popularity and provides an experience more similar to Windows, which may make transitioning to Linux easier for some. The security and privacy benefits of both editions are very similar, so it mostly comes down to personal preference.
 
 Fedora has a semi-rolling release cycle. While some packages like the desktop environment are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
 
 ### openSUSE Tumbleweed
+
+{{< title-card >}}
 
 **openSUSE Tumbleweed** is a stable rolling release distribution.
 
@@ -53,11 +59,15 @@ openSUSE Tumbleweed uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapp
   {{< card link="https://doc.opensuse.org" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding desktop environments that support only the legacy X11 window system (for example, Xfce). Currently, KDE Plasma defaults to X11, but Wayland is supported.
 
 Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When you upgrade your system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by [openQA](https://openqa.opensuse.org) to ensure its quality.
 
 ### Arch Linux
+
+{{< title-card >}}
 
 **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
@@ -65,6 +75,8 @@ Tumbleweed follows a rolling release model where each update is released as a sn
   {{< card link="https://archlinux.org" title="Homepage" icon="home" >}}
   {{< card link="https://wiki.archlinux.org" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
@@ -78,12 +90,16 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
 
 ### Fedora Atomic Desktops
 
+{{< title-card >}}
+
 **Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
 {{< cards >}}
   {{< card link="https://fedoraproject.org/atomic-desktops" title="Homepage" icon="home" >}}
   {{< card link="https://docs.fedoraproject.org/en-US/emerging" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer. As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding flavors that support only the legacy X11 window system.
 
@@ -97,12 +113,16 @@ As an alternative to Flatpaks, there is the option of [Toolbx](https://docs.fedo
 
 ### NixOS
 
+{{< title-card >}}
+
 **NixOS** is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
 
 {{< cards >}}
   {{< card link="https://nixos.org" title="Homepage" icon="home" >}}
   {{< card link="https://nixos.org/learn.html" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 
@@ -118,12 +138,16 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 ### Whonix
 
+{{< title-card >}}
+
 **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and [anonymity](../../../wiki/basics/common-threats/index.md#anonymity-vs-privacy) on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
 
 {{< cards >}}
   {{< card link="https://whonix.org" title="Homepage" icon="home" >}}
   {{< card link="https://whonix.org/wiki/Documentation" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
 
@@ -133,12 +157,16 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 
 ### Tails
 
+{{< title-card >}}
+
 **Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](../../software/tor/index.md) to preserve privacy and [anonymity](../../../wiki/basics/common-threats/index.md#anonymity-vs-privacy) while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
 
 {{< cards >}}
   {{< card link="https://tails.net" title="Homepage" icon="home" >}}
   {{< card link="https://tails.net/doc/index.en.html" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 > [!WARNING]
 > Tails [doesn't erase](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) the [video memory](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) when shutting down. When you restart your computer after using Tails, it might briefly display the last screen that was displayed in Tails. If you shut down your computer instead of restarting it, the video memory will erase itself automatically after being unpowered for some time.
@@ -156,6 +184,8 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 ### Qubes OS
 
+{{< title-card >}}
+
 **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
 
 {{< cards >}}
@@ -163,11 +193,15 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
   {{< card link="https://qubes-os.org/privacy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
 
+{{< /title-card >}}
+
 Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised via an exploit in a [targeted attack](../../../wiki/basics/common-threats/index.md#attacks-against-specific-individuals), the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
 For further information about how Qubes works, read our full [Qubes OS overview](../../../wiki/os/qubes/index.md) page.
 
 ### Secureblue
+
+{{< title-card >}}
 
 **Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
 
@@ -175,6 +209,8 @@ For further information about how Qubes works, read our full [Qubes OS overview]
   {{< card link="https://secureblue.dev" title="Homepage" icon="home" >}}
   {{< card link="https://secureblue.dev/install" title="Documentation" icon="document-text" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 **Trivalent** is Secureblue's hardened Chromium for desktop Linux inspired by [GrapheneOS](../android/distributions/index.md#grapheneos)'s Vanadium browser.
 
@@ -184,12 +220,16 @@ Secureblue also provides GrapheneOS's [hardened memory allocator](https://github
 
 While we [recommend against](../../../wiki/os/linux/index.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
 
+{{< title-card >}}
+
 **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. It also serves as the base OS for [Whonix](#whonix).
 
 {{< cards >}}
   {{< card link="https://kicksecure.com" title="Homepage" icon="home" >}}
   {{< card link="https://kicksecure.com/wiki/Privacy_Policy" title="Privacy Policy" icon="eye" >}}
 {{< /cards >}}
+
+{{< /title-card >}}
 
 ## Criteria
 
