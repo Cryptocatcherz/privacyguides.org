@@ -241,8 +241,10 @@
 /self-hosting/email-servers/  https://en.privacyguides.org/tools/self-hosting/email-servers/  301
 /en/self-hosting/file-management/  https://en.privacyguides.org/tools/self-hosting/file-management/  301
 /self-hosting/file-management/  https://en.privacyguides.org/tools/self-hosting/file-management/  301
-/en/social-networks/  https://en.privacyguides.org/tools/software/social-networks/  301
-/social-networks/  https://en.privacyguides.org/tools/software/social-networks/  301
+/en/social-networks/  https://en.privacyguides.org/tools/self-hosting/social-networks/  301
+/social-networks/  https://en.privacyguides.org/tools/self-hosting/social-networks/  301
+/en/tools/software/social-networks/  https://en.privacyguides.org/tools/self-hosting/social-networks/  301
+/tools/software/social-networks/  https://en.privacyguides.org/tools/self-hosting/social-networks/  301
 /en/tools/  https://en.privacyguides.org/tools/  301
 /tools/  https://en.privacyguides.org/tools/  301
 /en/tor/  https://en.privacyguides.org/tools/software/tor/  301

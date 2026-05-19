@@ -62,7 +62,6 @@ For more details about each project, why they were chosen, and additional tips o
   {{< card link="software/office-suites/" title="Office Suites" icon="document" >}}
   {{< card link="software/passwords/" title="Password Managers" icon="key" >}}
   {{< card link="software/pastebins/" title="Pastebins" icon="clipboard" >}}
-  {{< card link="software/social-networks/" title="Social Networks" icon="globe-alt" >}}
 {{< /cards >}}
 
 ## Hardware
@@ -78,6 +77,19 @@ For more details about each project, why they were chosen, and additional tips o
   {{< card link="os/android/" title="Android ROM" icon="device-mobile" >}}
   {{< card link="os/desktop/" title="Desktop OS" icon="desktop-computer" >}}
   {{< card link="os/router-firmware/" title="Router Firmware" icon="wifi" >}}
+{{< /cards >}}
+
+## Self-Hosting
+
+> [!TIP]
+> These tools are intended for more technical readers who want to run services on infrastructure they control. Self-hosting provides additional privacy assurances, but requires more setup and ongoing maintenance than hosted alternatives.
+
+{{< cards >}}
+  {{< card link="self-hosting/dns-filtering/" title="DNS Filtering" icon="globe" >}}
+  {{< card link="self-hosting/email-servers/" title="Email Servers" icon="inbox" >}}
+  {{< card link="self-hosting/file-management/" title="File Management" icon="cloud" >}}
+  {{< card link="self-hosting/passwords/" title="Password Sync" icon="key" >}}
+  {{< card link="self-hosting/social-networks/" title="Social Networks" icon="globe-alt" >}}
 {{< /cards >}}
 
 ## Advanced Tools

@@ -2,8 +2,12 @@
 title: Social Networks
 description: Find a new social network that doesn’t pry into your data or monetize your profile.
 aliases:
+- /self-hosting/social-networks
+- /en/self-hosting/social-networks
 - /social-networks
 - /en/social-networks
+- /tools/software/social-networks
+- /en/tools/software/social-networks
 ---
 <small>Protects against the following threat(s):</small>
 [{{< badge content="Censorship" >}}](../../../wiki/basics/common-threats/index.md#avoiding-censorship)
@@ -194,8 +198,8 @@ With this setting enabled, unverified users (i.e., those who have not used the *
 - Must be free and open-source software.
 - Must use a federated protocol to communicate with other instances of the social networking software.
 - Must not have non-technical restrictions on who can be federated with.
-- Must be usable within a standard [web browser](../desktop-browsers/index.md).
+- Must be usable within a standard [web browser](../../software/desktop-browsers/index.md).
 - Must make public content accessible to visitors without an account.
 - Must allow you to limit who can follow your profile.
 - Must allow you to post content visible only to your followers.
-- Must support modern web application security standards/features (including [multifactor authentication](../multi-factor-authentication/index.md)).
+- Must support modern web application security standards/features (including [multifactor authentication](../../software/multi-factor-authentication/index.md)).

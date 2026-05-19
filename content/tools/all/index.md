@@ -313,13 +313,6 @@ We [**recommend**](../services/dns/index.md#recommended-providers) a number of e
   {{< card link="../software/pastebins/#paaster" title="Paaster" image="../software/pastebins/paaster.svg" subtitle="Paaster is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible." >}}
 {{< /cards >}}
 
-### Social Networks
-
-{{< cards >}}
-  {{< card link="../software/social-networks/#mastodon" title="Mastodon" image="../software/social-networks/mastodon.svg" subtitle="Mastodon is a social network based on open web protocols and free, open-source software. It uses the ActivityPub protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other." >}}
-  {{< card link="../software/social-networks/#element" title="Element" image="../software/social-networks/element.svg" subtitle="Element is the flagship client for the Matrix protocol, an open standard that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other." >}}
-{{< /cards >}}
-
 ### Tor Browser
 
 {{< cards >}}
@@ -440,4 +433,11 @@ We [**recommend**](../services/dns/index.md#recommended-providers) a number of e
 
 {{< cards >}}
   {{< card link="../self-hosting/passwords/#vaultwarden" title="Vaultwarden" image="../self-hosting/passwords/vaultwarden.svg" subtitle="Vaultwarden is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, official service might not be ideal." >}}
+{{< /cards >}}
+
+### Social Networks
+
+{{< cards >}}
+  {{< card link="../self-hosting/social-networks/#mastodon" title="Mastodon" image="../self-hosting/social-networks/mastodon.svg" subtitle="Mastodon is a social network based on open web protocols and free, open-source software. It uses the ActivityPub protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other." >}}
+  {{< card link="../self-hosting/social-networks/#element" title="Element" image="../self-hosting/social-networks/element.svg" subtitle="Element is the flagship client for the Matrix protocol, an open standard that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other." >}}
 {{< /cards >}}

@@ -108,7 +108,7 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 - **Availability:** Make sure you or your organization is reachable outside the Big Tech ecosystem. If your organization only has a Facebook page, then people without a Facebook account cannot reach out to you. The same is true for other commercial social media. Instead, try to rely on a website you control yourself, or a social network page you can host yourself.
 
-- **[Social media](../../../tools/software/social-networks/index.md):** Move away from commercial social media platforms. Mainstream platforms are almost all abusing their users' data. By keeping an account there, you are indirectly encouraging your followers to stay there as well, perpetuating the platform's abuse.
+- **[Social media](../../../tools/self-hosting/social-networks/index.md):** Move away from commercial social media platforms. Mainstream platforms are almost all abusing their users' data. By keeping an account there, you are indirectly encouraging your followers to stay there as well, perpetuating the platform's abuse.
 
   While you may want to keep a minimal presence to advertise that you have now moved your activity to a more privacy-respectful platform, you should keep your engagement there to a minimum.
 
