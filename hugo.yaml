@@ -43,30 +43,30 @@ markup:
 
 menu:
   main:
+    - name: Search
+      weight: 10
+      params:
+        type: search
     - name: Tools
       pageRef: /tools
-      weight: 1
+      weight: 20
     - name: Wiki
       pageRef: /wiki
-      weight: 2
+      weight: 30
     - name: Activism
       pageRef: /activism
-      weight: 3
+      weight: 40
     - name: Updates
-      weight: 4
+      weight: 50
       pageRef: /news
     - name: Forum
       url: "https://discuss.privacyguides.net"
-      weight: 5
+      weight: 60
     - name: About
       pageRef: /about
-      weight: 6
-    - name: Search
-      weight: 7
-      params:
-        type: search
+      weight: 70
     - name: Donate
-      weight: 8
+      weight: 80
       pageRef: donate
 
 params:
