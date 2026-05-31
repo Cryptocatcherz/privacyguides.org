@@ -17,7 +17,6 @@ When you are using an instance run by someone else, make sure to read the privac
 <div class="pg-card-logos">
 {{< cards >}}
   {{< card link="#redlib" title="Redlib" image="./redlib.svg" subtitle="Redlib is an open-source frontend to the Reddit website that is also self-hostable. You can access Redlib through a number of public instances." >}}
-  {{< card link="#proxitok" title="ProxiTok" image="./proxitok.svg" subtitle="ProxiTok is an open-source frontend to the TikTok website that is also self-hostable." >}}
   {{< card link="#invidious" title="Invidious" image="./invidious.svg" subtitle="Invidious is a free and open-source frontend for YouTube that is also self-hostable." >}}
   {{< card link="#piped" title="Piped" image="./piped.svg" subtitle="Piped is a free and open-source frontend for YouTube that is also self-hostable." >}}
   {{< card link="#freetube" title="FreeTube" image="./freetube.svg" subtitle="FreeTube is a free and open-source desktop application for YouTube. FreeTube extracts data from YouTube using its built-in API based on YouTube.js or the Invidious API." >}}
@@ -47,28 +46,6 @@ When you are using an instance run by someone else, make sure to read the privac
 
 > [!TIP]
 > Redlib is useful if you want to disable JavaScript in your browser, such as [Tor Browser](../tor/index.md#tor-browser) on the Safest security level.
-
-
-## TikTok
-
-### ProxiTok
-
-{{< title-card logo="./proxitok.svg" >}}
-
-**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
-
-There are a number of public instances, with some that offer a [Tor](../tor/index.md) onion service or an [I2P](../../advanced/alternative-networks/index.md#i2p-the-invisible-internet-project) eepsite.
-
-{{< cards >}}
-  {{< card link="https://github.com/pablouser1/ProxiTok#readme" title="Repository" icon="code" >}}
-  {{< card link="https://github.com/pablouser1/ProxiTok/wiki/Public-instances" title="Public Instances" icon="server" >}}
-{{< /cards >}}
-
-{{< /title-card >}}
-
-> [!TIP]
-> ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](../tor/index.md#tor-browser) on the Safest security level.
-
 
 ## YouTube
 

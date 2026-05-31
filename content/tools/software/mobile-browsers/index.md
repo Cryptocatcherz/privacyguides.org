@@ -11,7 +11,6 @@ aliases:
 <div class="pg-card-logos">
 {{< cards >}}
   {{< card link="#brave" title="Brave" image="./brave.svg" subtitle="Brave Browser includes a built-in content blocker and privacy features, many of which are enabled by default. Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues." >}}
-  {{< card link="#cromite-android" title="Cromite" image="./cromite.svg" subtitle="Cromite is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other privacy and security enhancements. It is a fork of the discontinued Bromite browser." >}}
   {{< card link="#safari-ios" title="Safari (iOS)" image="./safari.svg" subtitle="On iOS, any app that can browse the web is restricted to using an Apple-provided WebKit framework, so a browser like Brave does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems. Safari is the default browser in iOS." >}}
 {{< /cards >}}
     </div>
@@ -48,7 +47,7 @@ These options can be found in the menu → **Settings** → **Brave Shields & pr
 
 === "iOS"
 
-These options can be found in the menu → **Settings** → **Shields & Privacy**.
+These options can be found in the menu → **All Settings** → **Shields & Privacy**.
 
 #### Brave shields global defaults
 
@@ -76,7 +75,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     </div>
 
@@ -105,24 +104,16 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
-##### Clear browsing data (Android only)
-
-- [x] Select **Clear data on exit**
-
-##### Social Media Blocking (Android only)
-
-- [ ] Uncheck all social media components
-
 #### Other privacy settings
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [x] (Optional) Select **No protection** under *Safe Browsing* (1)
+    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
     - [ ] Uncheck **Automatically send diagnostic reports**
@@ -137,23 +128,35 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
-#### Leo
+#### Leo AI
 
-These options can be found in the menu → **Settings** → **Leo**.
+These options can be found in the menu → **Settings** → **Leo AI**.
 
     <div class="annotate" markdown>
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
     </div>
 
-1. This option is not present in Brave's iOS app.
+=== "iOS"
+
+    These options can be found in the menu → **All Settings** → **Leo AI**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Search engines
 
-These options can be found in the menu → **Settings** → **Search engines**.
+=== "Android"
 
-- [ ] Uncheck **Show search suggestions**
+    These options can be found in the menu → **Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show search suggestions**
+
+=== "iOS"
+
+    These options can be found in the menu → **All Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Brave Sync
 

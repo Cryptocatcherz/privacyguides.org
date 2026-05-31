@@ -39,6 +39,22 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 [{{< badge content="Windows" color="red" >}}](https://pypi.org/project/mat2)
 [{{< badge content="Web" >}}](https://github.com/jvoisin/mat2#web-interface)
 
+## Metadata Cleaner
+
+{{< title-card logo="./metadatacleaner.svg" >}}
+
+**Metadata Cleaner** is a graphical metadata removal tool for Linux powered by [MAT2](https://github.com/jvoisin/mat2).
+
+{{< cards >}}
+  {{< card link="https://metadatacleaner.gitlab.io/metadatacleaner/" title="Homepage" icon="home" >}}
+  {{< card link="https://gitlab.com/metadatacleaner/metadatacleaner/" title="Source Code" icon="code" >}}
+  {{< card link="https://gitlab.com/metadatacleaner/metadatacleaner/-/blob/main/CONTRIBUTING.md" title="Contribute" icon="heart" >}}
+{{< /cards >}}
+
+{{< /title-card >}}
+
+[{{< badge content="Flathub" >}}](https://flathub.org/en/apps/io.gitlab.metadatacleaner.metadatacleaner)
+
 ## ExifEraser (Android)
 
 {{< title-card logo="./exiferaser.svg" >}}

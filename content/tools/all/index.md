@@ -152,6 +152,7 @@ We [**recommend**](../services/dns/index.md#recommended-providers) a number of e
 
 {{< cards >}}
   {{< card link="../software/data-redaction/#mat2" title="MAT2" image="../software/data-redaction/mat2.svg" subtitle="MAT2 is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for Dolphin, the default file manager of KDE." >}}
+  {{< card link="../software/data-redaction/#metadata-cleaner" title="Metadata Cleaner" image="../software/data-redaction/metadatacleaner.svg" subtitle="Metadata Cleaner is a graphical metadata removal tool for Linux powered by MAT2." >}}
   {{< card link="../software/data-redaction/#exiferaser-android" title="ExifEraser" image="../software/data-redaction/exiferaser.svg" subtitle="ExifEraser is a modern, permissionless image metadata erasing application for Android." >}}
   {{< card link="../software/data-redaction/#exiftool-cli" title="ExifTool" image="../software/data-redaction/exiftool.png" subtitle="ExifTool is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more)." >}}
 {{< /cards >}}
@@ -217,7 +218,6 @@ We [**recommend**](../services/dns/index.md#recommended-providers) a number of e
 
 {{< cards >}}
   {{< card link="../software/frontends/#redlib" title="Redlib" image="../software/frontends/redlib.svg" subtitle="Redlib is an open-source frontend to the Reddit website that is also self-hostable. You can access Redlib through a number of public instances." >}}
-  {{< card link="../software/frontends/#proxitok" title="ProxiTok" image="../software/frontends/proxitok.svg" subtitle="ProxiTok is an open-source frontend to the TikTok website that is also self-hostable." >}}
   {{< card link="../software/frontends/#invidious" title="Invidious" image="../software/frontends/invidious.svg" subtitle="Invidious is a free and open-source frontend for YouTube that is also self-hostable." >}}
   {{< card link="../software/frontends/#piped" title="Piped" image="../software/frontends/piped.svg" subtitle="Piped is a free and open-source frontend for YouTube that is also self-hostable." >}}
   {{< card link="../software/frontends/#freetube" title="FreeTube" image="../software/frontends/freetube.svg" subtitle="FreeTube is a free and open-source desktop application for YouTube. FreeTube extracts data from YouTube using its built-in API based on YouTube.js or the Invidious API." >}}
@@ -265,7 +265,6 @@ We [**recommend**](../services/dns/index.md#recommended-providers) a number of e
 
 {{< cards >}}
   {{< card link="../software/mobile-browsers/#brave" title="Brave" image="../software/mobile-browsers/brave.svg" subtitle="Brave Browser includes a built-in content blocker and privacy features, many of which are enabled by default. Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues." >}}
-  {{< card link="../software/mobile-browsers/#cromite-android" title="Cromite" image="../software/mobile-browsers/cromite.svg" subtitle="Cromite is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other privacy and security enhancements. It is a fork of the discontinued Bromite browser." >}}
   {{< card link="../software/mobile-browsers/#safari-ios" title="Safari (iOS)" image="../software/mobile-browsers/safari.svg" subtitle="On iOS, any app that can browse the web is restricted to using an Apple-provided WebKit framework, so a browser like Brave does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems. Safari is the default browser in iOS." >}}
 {{< /cards >}}
 

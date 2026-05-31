@@ -75,7 +75,7 @@ When organizing events and meetups in person, it's essential to keep in mind phy
 
 - Research if your venue has access to parking and accessible parking spots. Publish this information with your invitation.
 
-- Verify the venue you select is accessible to people with visual or auditory impairments.  For example, check if elevators are marked with Braille or raised letters, and make sure that hosts are informed on how to communicate with guests who are deaf or hard of hearing.
+- Verify the venue you select is accessible to people with visual or auditory impairments. For example, check if elevators are marked with Braille or raised letters, and make sure that hosts are informed on how to communicate with guests who are deaf or hard of hearing.
 
 ### Health accessibility
 
