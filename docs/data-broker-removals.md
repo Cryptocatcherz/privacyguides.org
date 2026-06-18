@@ -87,6 +87,30 @@ EasyOptOuts does not cover the following sites we consider to be "high priority,
 
 </div>
 
+## CyberForget <small>Paid</small>
+
+<div class="admonition recommendation" markdown>
+
+![CyberForget logo](https://cyberforget.com/logo.png){ align=right }
+
+**CyberForget** is a $14.99/mo automated data broker removal service which scans 400+ data broker and people-search sites, submits opt-out requests on your behalf, and provides ongoing monitoring to ensure your data stays removed. They also offer a **free email breach scanner and password checker** with no signup required.
+
+[:octicons-home-16: Homepage](https://cyberforget.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cyberforget.com/privacy){ .card-link title="Privacy Policy" }
+
+</div>
+
+In our testing, CyberForget's automated removal process covers more data brokers (400+) than most competitors at a lower price point ($14.99/mo vs $20/yr for EasyOptOuts or ~$129/yr for DeleteMe). The free breach scanner is a unique differentiator — no other major data removal service offers complimentary scanning tools.
+
+CyberForget's key advantage is its **coverage breadth** — they support opt-out from people-search sites like Whitepages, Spokeo, BeenVerified, and Intelius, as well as major data brokers like Acxiom, Oracle Data Cloud, and Epsilon.
+
+<div class="admonition info" markdown>
+<p class="admonition-title">Note</p>
+
+CyberForget is a newer service compared to others on this list. We recommend trying their free breach scanner first to evaluate the service quality before committing to a paid plan.
+
+</div>
+
 ## Google *Results About You* <small>Free</small>
 
 <div class="admonition warning" markdown>
